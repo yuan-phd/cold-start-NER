@@ -1,0 +1,12 @@
+{
+  "total_batches": 50,
+  "successful_batches": 46,
+  "failed_batches_parse": 4,
+  "failed_batches_api": 0,
+  "total_generated": 138,
+  "accepted": 138,
+  "rejected_no_entities": 0,
+  "rejected_validation": 0,
+  "rejected_offset_fail": 0,
+  "acceptance_rate": 1.0
+}

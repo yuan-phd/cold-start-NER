@@ -1,0 +1,1875 @@
+{
+  "stats": {
+    "total": 54,
+    "valid_direct": 11,
+    "auto_fixed": 43,
+    "failed": 0,
+    "errors": 0,
+    "total_latency_ms": 107183.16391389817,
+    "avg_latency_ms": 1984.9
+  },
+  "results": {
+    "overall": {
+      "strict": {
+        "mode": "strict",
+        "iou_threshold": null,
+        "overall": {
+          "precision": 0.9444,
+          "recall": 0.8673,
+          "f1": 0.9043,
+          "tp": 85,
+          "fp": 5,
+          "fn": 13,
+          "support": 98
+        },
+        "per_entity_type": {
+          "CONTRACT_ID": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 19,
+            "fp": 0,
+            "fn": 0,
+            "support": 19
+          },
+          "EMAIL": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 16,
+            "fp": 0,
+            "fn": 0,
+            "support": 16
+          },
+          "ISSUE_DATE": {
+            "precision": 0.8125,
+            "recall": 0.65,
+            "f1": 0.7222,
+            "tp": 13,
+            "fp": 3,
+            "fn": 7,
+            "support": 20
+          },
+          "NAME": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 21,
+            "fp": 0,
+            "fn": 0,
+            "support": 21
+          },
+          "PRODUCT": {
+            "precision": 0.8889,
+            "recall": 0.7273,
+            "f1": 0.8,
+            "tp": 16,
+            "fp": 2,
+            "fn": 6,
+            "support": 22
+          }
+        }
+      },
+      "partial": {
+        "mode": "partial",
+        "iou_threshold": 0.5,
+        "overall": {
+          "precision": 1.0,
+          "recall": 0.9184,
+          "f1": 0.9574,
+          "tp": 90,
+          "fp": 0,
+          "fn": 8,
+          "support": 98
+        },
+        "per_entity_type": {
+          "CONTRACT_ID": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 19,
+            "fp": 0,
+            "fn": 0,
+            "support": 19
+          },
+          "EMAIL": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 16,
+            "fp": 0,
+            "fn": 0,
+            "support": 16
+          },
+          "ISSUE_DATE": {
+            "precision": 1.0,
+            "recall": 0.8,
+            "f1": 0.8889,
+            "tp": 16,
+            "fp": 0,
+            "fn": 4,
+            "support": 20
+          },
+          "NAME": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 21,
+            "fp": 0,
+            "fn": 0,
+            "support": 21
+          },
+          "PRODUCT": {
+            "precision": 1.0,
+            "recall": 0.8182,
+            "f1": 0.9,
+            "tp": 18,
+            "fp": 0,
+            "fn": 4,
+            "support": 22
+          }
+        }
+      }
+    },
+    "clean": {
+      "strict": {
+        "mode": "strict",
+        "iou_threshold": null,
+        "overall": {
+          "precision": 0.942,
+          "recall": 0.8553,
+          "f1": 0.8966,
+          "tp": 65,
+          "fp": 4,
+          "fn": 11,
+          "support": 76
+        },
+        "per_entity_type": {
+          "CONTRACT_ID": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 15,
+            "fp": 0,
+            "fn": 0,
+            "support": 15
+          },
+          "EMAIL": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 11,
+            "fp": 0,
+            "fn": 0,
+            "support": 11
+          },
+          "ISSUE_DATE": {
+            "precision": 0.7692,
+            "recall": 0.625,
+            "f1": 0.6897,
+            "tp": 10,
+            "fp": 3,
+            "fn": 6,
+            "support": 16
+          },
+          "NAME": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 16,
+            "fp": 0,
+            "fn": 0,
+            "support": 16
+          },
+          "PRODUCT": {
+            "precision": 0.9286,
+            "recall": 0.7222,
+            "f1": 0.8125,
+            "tp": 13,
+            "fp": 1,
+            "fn": 5,
+            "support": 18
+          }
+        }
+      },
+      "partial": {
+        "mode": "partial",
+        "iou_threshold": 0.5,
+        "overall": {
+          "precision": 1.0,
+          "recall": 0.9079,
+          "f1": 0.9517,
+          "tp": 69,
+          "fp": 0,
+          "fn": 7,
+          "support": 76
+        },
+        "per_entity_type": {
+          "CONTRACT_ID": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 15,
+            "fp": 0,
+            "fn": 0,
+            "support": 15
+          },
+          "EMAIL": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 11,
+            "fp": 0,
+            "fn": 0,
+            "support": 11
+          },
+          "ISSUE_DATE": {
+            "precision": 1.0,
+            "recall": 0.8125,
+            "f1": 0.8966,
+            "tp": 13,
+            "fp": 0,
+            "fn": 3,
+            "support": 16
+          },
+          "NAME": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 16,
+            "fp": 0,
+            "fn": 0,
+            "support": 16
+          },
+          "PRODUCT": {
+            "precision": 1.0,
+            "recall": 0.7778,
+            "f1": 0.875,
+            "tp": 14,
+            "fp": 0,
+            "fn": 4,
+            "support": 18
+          }
+        }
+      }
+    },
+    "noisy": {
+      "strict": {
+        "mode": "strict",
+        "iou_threshold": null,
+        "overall": {
+          "precision": 0.9524,
+          "recall": 0.9091,
+          "f1": 0.9302,
+          "tp": 20,
+          "fp": 1,
+          "fn": 2,
+          "support": 22
+        },
+        "per_entity_type": {
+          "CONTRACT_ID": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 4,
+            "fp": 0,
+            "fn": 0,
+            "support": 4
+          },
+          "EMAIL": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 5,
+            "fp": 0,
+            "fn": 0,
+            "support": 5
+          },
+          "ISSUE_DATE": {
+            "precision": 1.0,
+            "recall": 0.75,
+            "f1": 0.8571,
+            "tp": 3,
+            "fp": 0,
+            "fn": 1,
+            "support": 4
+          },
+          "NAME": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 5,
+            "fp": 0,
+            "fn": 0,
+            "support": 5
+          },
+          "PRODUCT": {
+            "precision": 0.75,
+            "recall": 0.75,
+            "f1": 0.75,
+            "tp": 3,
+            "fp": 1,
+            "fn": 1,
+            "support": 4
+          }
+        }
+      },
+      "partial": {
+        "mode": "partial",
+        "iou_threshold": 0.5,
+        "overall": {
+          "precision": 1.0,
+          "recall": 0.9545,
+          "f1": 0.9767,
+          "tp": 21,
+          "fp": 0,
+          "fn": 1,
+          "support": 22
+        },
+        "per_entity_type": {
+          "CONTRACT_ID": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 4,
+            "fp": 0,
+            "fn": 0,
+            "support": 4
+          },
+          "EMAIL": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 5,
+            "fp": 0,
+            "fn": 0,
+            "support": 5
+          },
+          "ISSUE_DATE": {
+            "precision": 1.0,
+            "recall": 0.75,
+            "f1": 0.8571,
+            "tp": 3,
+            "fp": 0,
+            "fn": 1,
+            "support": 4
+          },
+          "NAME": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 5,
+            "fp": 0,
+            "fn": 0,
+            "support": 5
+          },
+          "PRODUCT": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 4,
+            "fp": 0,
+            "fn": 0,
+            "support": 4
+          }
+        }
+      }
+    }
+  },
+  "predictions": [
+    {
+      "text": "yeah hi uh my name is bob martinez and i got this order number CT-55123 but the thing arrived broken",
+      "predicted": [
+        {
+          "text": "bob martinez",
+          "label": "NAME",
+          "start": 22,
+          "end": 34
+        },
+        {
+          "text": "CT-55123",
+          "label": "CONTRACT_ID",
+          "start": 63,
+          "end": 71
+        }
+      ],
+      "gold": [
+        {
+          "text": "bob martinez",
+          "label": "NAME",
+          "start": 22,
+          "end": 34
+        },
+        {
+          "text": "CT-55123",
+          "label": "CONTRACT_ID",
+          "start": 63,
+          "end": 71
+        }
+      ]
+    },
+    {
+      "text": "um so i bought the Samsung Galaxy S24 like three days ago and its already not working",
+      "predicted": [
+        {
+          "text": "Samsung Galaxy S24",
+          "label": "PRODUCT",
+          "start": 19,
+          "end": 37
+        },
+        {
+          "text": "three days ago",
+          "label": "ISSUE_DATE",
+          "start": 43,
+          "end": 57
+        }
+      ],
+      "gold": [
+        {
+          "text": "Samsung Galaxy S24",
+          "label": "PRODUCT",
+          "start": 19,
+          "end": 37
+        },
+        {
+          "text": "three days ago",
+          "label": "ISSUE_DATE",
+          "start": 43,
+          "end": 57
+        }
+      ]
+    },
+    {
+      "text": "hi this is sarah johnson calling about my account my email is sarah dot j at yahoo dot com",
+      "predicted": [
+        {
+          "text": "sarah johnson",
+          "label": "NAME",
+          "start": 11,
+          "end": 24
+        },
+        {
+          "text": "sarah dot j at yahoo dot com",
+          "label": "EMAIL",
+          "start": 62,
+          "end": 90
+        }
+      ],
+      "gold": [
+        {
+          "text": "sarah johnson",
+          "label": "NAME",
+          "start": 11,
+          "end": 24
+        },
+        {
+          "text": "sarah dot j at yahoo dot com",
+          "label": "EMAIL",
+          "start": 62,
+          "end": 90
+        }
+      ]
+    },
+    {
+      "text": "can you transfer me to someone else please i've been waiting for twenty minutes",
+      "predicted": [],
+      "gold": []
+    },
+    {
+      "text": "ok so the order is ORD-2024-8891 and i need to return the Dyson V15 vacuum it was delivered on February 3rd",
+      "predicted": [
+        {
+          "text": "ORD-2024-8891",
+          "label": "CONTRACT_ID",
+          "start": 19,
+          "end": 32
+        },
+        {
+          "text": "Dyson V15",
+          "label": "PRODUCT",
+          "start": 58,
+          "end": 67
+        },
+        {
+          "text": "February 3rd",
+          "label": "ISSUE_DATE",
+          "start": 95,
+          "end": 107
+        }
+      ],
+      "gold": [
+        {
+          "text": "ORD-2024-8891",
+          "label": "CONTRACT_ID",
+          "start": 19,
+          "end": 32
+        },
+        {
+          "text": "Dyson V15 vacuum",
+          "label": "PRODUCT",
+          "start": 58,
+          "end": 74
+        },
+        {
+          "text": "February 3rd",
+          "label": "ISSUE_DATE",
+          "start": 95,
+          "end": 107
+        }
+      ]
+    },
+    {
+      "text": "my name is uh david no wait daniel allen and my contract id is HD-2025-03312",
+      "predicted": [
+        {
+          "text": "daniel allen",
+          "label": "NAME",
+          "start": 28,
+          "end": 40
+        },
+        {
+          "text": "HD-2025-03312",
+          "label": "CONTRACT_ID",
+          "start": 63,
+          "end": 76
+        }
+      ],
+      "gold": [
+        {
+          "text": "daniel allen",
+          "label": "NAME",
+          "start": 28,
+          "end": 40
+        },
+        {
+          "text": "HD-2025-03312",
+          "label": "CONTRACT_ID",
+          "start": 63,
+          "end": 76
+        }
+      ]
+    },
+    {
+      "text": "i ordered a playstation 5 last tuesday and it still hasnt shipped yet my reference number is REF-44821",
+      "predicted": [
+        {
+          "text": "REF-44821",
+          "label": "CONTRACT_ID",
+          "start": 93,
+          "end": 102
+        },
+        {
+          "text": "last tuesday",
+          "label": "ISSUE_DATE",
+          "start": 26,
+          "end": 38
+        },
+        {
+          "text": "playstation 5",
+          "label": "PRODUCT",
+          "start": 12,
+          "end": 25
+        }
+      ],
+      "gold": [
+        {
+          "text": "playstation 5",
+          "label": "PRODUCT",
+          "start": 12,
+          "end": 25
+        },
+        {
+          "text": "last tuesday",
+          "label": "ISSUE_DATE",
+          "start": 26,
+          "end": 38
+        },
+        {
+          "text": "REF-44821",
+          "label": "CONTRACT_ID",
+          "start": 93,
+          "end": 102
+        }
+      ]
+    },
+    {
+      "text": "yeah its priya patel p r i y a patel and you can reach me at priya.patel@outlook.com",
+      "predicted": [
+        {
+          "text": "priya patel",
+          "label": "NAME",
+          "start": 9,
+          "end": 20
+        },
+        {
+          "text": "priya.patel@outlook.com",
+          "label": "EMAIL",
+          "start": 61,
+          "end": 84
+        }
+      ],
+      "gold": [
+        {
+          "text": "priya patel",
+          "label": "NAME",
+          "start": 9,
+          "end": 20
+        },
+        {
+          "text": "priya.patel@outlook.com",
+          "label": "EMAIL",
+          "start": 61,
+          "end": 84
+        }
+      ]
+    },
+    {
+      "text": "hold on let me find it um the the number is uh A1B2C3 i think thats right",
+      "predicted": [
+        {
+          "text": "A1B2C3",
+          "label": "CONTRACT_ID",
+          "start": 47,
+          "end": 53
+        }
+      ],
+      "gold": [
+        {
+          "text": "A1B2C3",
+          "label": "CONTRACT_ID",
+          "start": 47,
+          "end": 53
+        }
+      ]
+    },
+    {
+      "text": "we bought the premium subscription plan about a week ago and want to cancel",
+      "predicted": [
+        {
+          "text": "premium subscription plan",
+          "label": "PRODUCT",
+          "start": 14,
+          "end": 39
+        },
+        {
+          "text": "a week ago",
+          "label": "ISSUE_DATE",
+          "start": 46,
+          "end": 56
+        }
+      ],
+      "gold": [
+        {
+          "text": "premium subscription plan",
+          "label": "PRODUCT",
+          "start": 14,
+          "end": 39
+        },
+        {
+          "text": "about a week ago",
+          "label": "ISSUE_DATE",
+          "start": 40,
+          "end": 56
+        }
+      ]
+    },
+    {
+      "text": "im calling because my iphone 15 pro screen cracked the day before yesterday",
+      "predicted": [
+        {
+          "text": "iphone 15 pro",
+          "label": "PRODUCT",
+          "start": 22,
+          "end": 35
+        },
+        {
+          "text": "the day before yesterday",
+          "label": "ISSUE_DATE",
+          "start": 51,
+          "end": 75
+        }
+      ],
+      "gold": [
+        {
+          "text": "iphone 15 pro",
+          "label": "PRODUCT",
+          "start": 22,
+          "end": 35
+        },
+        {
+          "text": "the day before yesterday",
+          "label": "ISSUE_DATE",
+          "start": 51,
+          "end": 75
+        }
+      ]
+    },
+    {
+      "text": "no i dont have the order number but my name is mohammed al rashid and my email is m.alrashid at gmail dot com",
+      "predicted": [
+        {
+          "text": "mohammed al rashid",
+          "label": "NAME",
+          "start": 47,
+          "end": 65
+        },
+        {
+          "text": "m.alrashid at gmail dot com",
+          "label": "EMAIL",
+          "start": 82,
+          "end": 109
+        }
+      ],
+      "gold": [
+        {
+          "text": "mohammed al rashid",
+          "label": "NAME",
+          "start": 47,
+          "end": 65
+        },
+        {
+          "text": "m.alrashid at gmail dot com",
+          "label": "EMAIL",
+          "start": 82,
+          "end": 109
+        }
+      ]
+    },
+    {
+      "text": "yeah thank you for holding i appreciate your patience",
+      "predicted": [],
+      "gold": []
+    },
+    {
+      "text": "the fiber optic 500 mbps plan has been having issues since end of last month and my account is SUB-33018",
+      "predicted": [
+        {
+          "text": "SUB-33018",
+          "label": "CONTRACT_ID",
+          "start": 95,
+          "end": 104
+        }
+      ],
+      "gold": [
+        {
+          "text": "fiber optic 500 mbps plan",
+          "label": "PRODUCT",
+          "start": 4,
+          "end": 29
+        },
+        {
+          "text": "end of last month",
+          "label": "ISSUE_DATE",
+          "start": 59,
+          "end": 76
+        },
+        {
+          "text": "SUB-33018",
+          "label": "CONTRACT_ID",
+          "start": 95,
+          "end": 104
+        }
+      ]
+    },
+    {
+      "text": "hi um im liam obrien thats l i a m obrien and i need help with order TKT-90274 for the ring doorbell i got on 2024-09-15",
+      "predicted": [
+        {
+          "text": "liam obrien",
+          "label": "NAME",
+          "start": 9,
+          "end": 20
+        },
+        {
+          "text": "TKT-90274",
+          "label": "CONTRACT_ID",
+          "start": 69,
+          "end": 78
+        },
+        {
+          "text": "ring doorbell",
+          "label": "PRODUCT",
+          "start": 87,
+          "end": 100
+        },
+        {
+          "text": "2024-09-15",
+          "label": "ISSUE_DATE",
+          "start": 110,
+          "end": 120
+        }
+      ],
+      "gold": [
+        {
+          "text": "liam obrien",
+          "label": "NAME",
+          "start": 9,
+          "end": 20
+        },
+        {
+          "text": "TKT-90274",
+          "label": "CONTRACT_ID",
+          "start": 69,
+          "end": 78
+        },
+        {
+          "text": "ring doorbell",
+          "label": "PRODUCT",
+          "start": 87,
+          "end": 100
+        },
+        {
+          "text": "2024-09-15",
+          "label": "ISSUE_DATE",
+          "start": 110,
+          "end": 120
+        }
+      ]
+    },
+    {
+      "text": "its for the extended warranty package the one i got earlier this week",
+      "predicted": [],
+      "gold": [
+        {
+          "text": "extended warranty package",
+          "label": "PRODUCT",
+          "start": 12,
+          "end": 37
+        },
+        {
+          "text": "earlier this week",
+          "label": "ISSUE_DATE",
+          "start": 52,
+          "end": 69
+        }
+      ]
+    },
+    {
+      "text": "you can email me at carlos dot rivera at protonmail dot com my name is carlos rivera",
+      "predicted": [
+        {
+          "text": "carlos dot rivera at protonmail dot com",
+          "label": "EMAIL",
+          "start": 20,
+          "end": 59
+        },
+        {
+          "text": "carlos rivera",
+          "label": "NAME",
+          "start": 71,
+          "end": 84
+        }
+      ],
+      "gold": [
+        {
+          "text": "carlos dot rivera at protonmail dot com",
+          "label": "EMAIL",
+          "start": 20,
+          "end": 59
+        },
+        {
+          "text": "carlos rivera",
+          "label": "NAME",
+          "start": 71,
+          "end": 84
+        }
+      ]
+    },
+    {
+      "text": "i dont remember exactly when maybe sometime last week but the macbook air m3 just stopped turning on",
+      "predicted": [
+        {
+          "text": "last week",
+          "label": "ISSUE_DATE",
+          "start": 44,
+          "end": 53
+        },
+        {
+          "text": "macbook air m3",
+          "label": "PRODUCT",
+          "start": 62,
+          "end": 76
+        }
+      ],
+      "gold": [
+        {
+          "text": "sometime last week",
+          "label": "ISSUE_DATE",
+          "start": 35,
+          "end": 53
+        },
+        {
+          "text": "macbook air m3",
+          "label": "PRODUCT",
+          "start": 62,
+          "end": 76
+        }
+      ]
+    },
+    {
+      "text": "please just transfer me already this is the third time ive called",
+      "predicted": [],
+      "gold": []
+    },
+    {
+      "text": "my wifes name is ananya sharma and she placed the order its under her email ananya.sharma at gmail dot com for the nespresso vertuo on january 15th with order id CUS-88710",
+      "predicted": [
+        {
+          "text": "ananya sharma",
+          "label": "NAME",
+          "start": 17,
+          "end": 30
+        },
+        {
+          "text": "ananya.sharma at gmail dot com",
+          "label": "EMAIL",
+          "start": 76,
+          "end": 106
+        },
+        {
+          "text": "nespresso vertuo",
+          "label": "PRODUCT",
+          "start": 115,
+          "end": 131
+        },
+        {
+          "text": "january 15th",
+          "label": "ISSUE_DATE",
+          "start": 135,
+          "end": 147
+        },
+        {
+          "text": "CUS-88710",
+          "label": "CONTRACT_ID",
+          "start": 162,
+          "end": 171
+        }
+      ],
+      "gold": [
+        {
+          "text": "ananya sharma",
+          "label": "NAME",
+          "start": 17,
+          "end": 30
+        },
+        {
+          "text": "ananya.sharma at gmail dot com",
+          "label": "EMAIL",
+          "start": 76,
+          "end": 106
+        },
+        {
+          "text": "nespresso vertuo",
+          "label": "PRODUCT",
+          "start": 115,
+          "end": 131
+        },
+        {
+          "text": "january 15th",
+          "label": "ISSUE_DATE",
+          "start": 135,
+          "end": 147
+        },
+        {
+          "text": "CUS-88710",
+          "label": "CONTRACT_ID",
+          "start": 162,
+          "end": 171
+        }
+      ]
+    },
+    {
+      "text": "john smith here i need help with my order",
+      "predicted": [
+        {
+          "text": "john smith",
+          "label": "NAME",
+          "start": 0,
+          "end": 10
+        }
+      ],
+      "gold": [
+        {
+          "text": "john smith",
+          "label": "NAME",
+          "start": 0,
+          "end": 10
+        }
+      ]
+    },
+    {
+      "text": "ORD-2024-7721 thats my order number and i want to know the status",
+      "predicted": [
+        {
+          "text": "ORD-2024-7721",
+          "label": "CONTRACT_ID",
+          "start": 0,
+          "end": 13
+        }
+      ],
+      "gold": [
+        {
+          "text": "ORD-2024-7721",
+          "label": "CONTRACT_ID",
+          "start": 0,
+          "end": 13
+        }
+      ]
+    },
+    {
+      "text": "samsung galaxy s24 thats what i ordered and it hasnt arrived",
+      "predicted": [
+        {
+          "text": "samsung galaxy s24",
+          "label": "PRODUCT",
+          "start": 0,
+          "end": 18
+        }
+      ],
+      "gold": [
+        {
+          "text": "samsung galaxy s24",
+          "label": "PRODUCT",
+          "start": 0,
+          "end": 18
+        }
+      ]
+    },
+    {
+      "text": "can you look up the account the name on it is maria garcia",
+      "predicted": [
+        {
+          "text": "maria garcia",
+          "label": "NAME",
+          "start": 46,
+          "end": 58
+        }
+      ],
+      "gold": [
+        {
+          "text": "maria garcia",
+          "label": "NAME",
+          "start": 46,
+          "end": 58
+        }
+      ]
+    },
+    {
+      "text": "the order was placed by my husband his name is william jackson",
+      "predicted": [
+        {
+          "text": "william jackson",
+          "label": "NAME",
+          "start": 47,
+          "end": 62
+        }
+      ],
+      "gold": [
+        {
+          "text": "william jackson",
+          "label": "NAME",
+          "start": 47,
+          "end": 62
+        }
+      ]
+    },
+    {
+      "text": "TKT-90274 is the ticket number i was given when i called last time about the ipad air",
+      "predicted": [
+        {
+          "text": "TKT-90274",
+          "label": "CONTRACT_ID",
+          "start": 0,
+          "end": 9
+        },
+        {
+          "text": "ipad air",
+          "label": "PRODUCT",
+          "start": 77,
+          "end": 85
+        }
+      ],
+      "gold": [
+        {
+          "text": "TKT-90274",
+          "label": "CONTRACT_ID",
+          "start": 0,
+          "end": 9
+        },
+        {
+          "text": "ipad air",
+          "label": "PRODUCT",
+          "start": 77,
+          "end": 85
+        }
+      ]
+    },
+    {
+      "text": "hi yeah its alice chen calling about my subscription",
+      "predicted": [
+        {
+          "text": "alice chen",
+          "label": "NAME",
+          "start": 12,
+          "end": 22
+        }
+      ],
+      "gold": [
+        {
+          "text": "alice chen",
+          "label": "NAME",
+          "start": 12,
+          "end": 22
+        }
+      ]
+    },
+    {
+      "text": "this is carlos rivera and i need to update my email to carlos dot rivera at protonmail dot com",
+      "predicted": [
+        {
+          "text": "carlos rivera",
+          "label": "NAME",
+          "start": 8,
+          "end": 21
+        },
+        {
+          "text": "carlos dot rivera at protonmail dot com",
+          "label": "EMAIL",
+          "start": 55,
+          "end": 94
+        }
+      ],
+      "gold": [
+        {
+          "text": "carlos rivera",
+          "label": "NAME",
+          "start": 8,
+          "end": 21
+        },
+        {
+          "text": "carlos dot rivera at protonmail dot com",
+          "label": "EMAIL",
+          "start": 55,
+          "end": 94
+        }
+      ]
+    },
+    {
+      "text": "my name is linda white email linda.w@yahoo.com about order WO-67893",
+      "predicted": [
+        {
+          "text": "linda white",
+          "label": "NAME",
+          "start": 11,
+          "end": 22
+        },
+        {
+          "text": "linda.w@yahoo.com",
+          "label": "EMAIL",
+          "start": 29,
+          "end": 46
+        },
+        {
+          "text": "WO-67893",
+          "label": "CONTRACT_ID",
+          "start": 59,
+          "end": 67
+        }
+      ],
+      "gold": [
+        {
+          "text": "linda white",
+          "label": "NAME",
+          "start": 11,
+          "end": 22
+        },
+        {
+          "text": "linda.w@yahoo.com",
+          "label": "EMAIL",
+          "start": 29,
+          "end": 46
+        },
+        {
+          "text": "WO-67893",
+          "label": "CONTRACT_ID",
+          "start": 59,
+          "end": 67
+        }
+      ]
+    },
+    {
+      "text": "the fitbit charge 6 order REF-44821 from last friday",
+      "predicted": [
+        {
+          "text": "REF-44821",
+          "label": "CONTRACT_ID",
+          "start": 26,
+          "end": 35
+        },
+        {
+          "text": "last friday",
+          "label": "ISSUE_DATE",
+          "start": 41,
+          "end": 52
+        }
+      ],
+      "gold": [
+        {
+          "text": "fitbit charge 6",
+          "label": "PRODUCT",
+          "start": 4,
+          "end": 19
+        },
+        {
+          "text": "REF-44821",
+          "label": "CONTRACT_ID",
+          "start": 26,
+          "end": 35
+        },
+        {
+          "text": "last friday",
+          "label": "ISSUE_DATE",
+          "start": 41,
+          "end": 52
+        }
+      ]
+    },
+    {
+      "text": "ok so let me explain what happened i bought the dell xps 15 laptop about three weeks ago and it was working fine at first but then last monday morning the screen started flickering and now it wont turn on at all and i really need it for work so i need to either get a replacement or a refund my order number is PRJ-10284",
+      "predicted": [
+        {
+          "text": "dell xps 15",
+          "label": "PRODUCT",
+          "start": 48,
+          "end": 59
+        },
+        {
+          "text": "last monday",
+          "label": "ISSUE_DATE",
+          "start": 131,
+          "end": 142
+        },
+        {
+          "text": "PRJ-10284",
+          "label": "CONTRACT_ID",
+          "start": 311,
+          "end": 320
+        }
+      ],
+      "gold": [
+        {
+          "text": "dell xps 15",
+          "label": "PRODUCT",
+          "start": 48,
+          "end": 59
+        },
+        {
+          "text": "about three weeks ago",
+          "label": "ISSUE_DATE",
+          "start": 67,
+          "end": 88
+        },
+        {
+          "text": "last monday morning",
+          "label": "ISSUE_DATE",
+          "start": 131,
+          "end": 150
+        },
+        {
+          "text": "PRJ-10284",
+          "label": "CONTRACT_ID",
+          "start": 311,
+          "end": 320
+        }
+      ]
+    },
+    {
+      "text": "i signed up for the cloud storage 2tb plan on february 3rd and my account number is LIC-55901",
+      "predicted": [
+        {
+          "text": "february 3rd",
+          "label": "ISSUE_DATE",
+          "start": 46,
+          "end": 58
+        },
+        {
+          "text": "LIC-55901",
+          "label": "CONTRACT_ID",
+          "start": 84,
+          "end": 93
+        }
+      ],
+      "gold": [
+        {
+          "text": "cloud storage 2tb plan",
+          "label": "PRODUCT",
+          "start": 20,
+          "end": 42
+        },
+        {
+          "text": "february 3rd",
+          "label": "ISSUE_DATE",
+          "start": 46,
+          "end": 58
+        },
+        {
+          "text": "LIC-55901",
+          "label": "CONTRACT_ID",
+          "start": 84,
+          "end": 93
+        }
+      ]
+    },
+    {
+      "text": "yeah my email is d.allen@email.com and i want to cancel the annual maintenance contract",
+      "predicted": [
+        {
+          "text": "d.allen@email.com",
+          "label": "EMAIL",
+          "start": 17,
+          "end": 34
+        },
+        {
+          "text": "annual maintenance contract",
+          "label": "PRODUCT",
+          "start": 60,
+          "end": 87
+        }
+      ],
+      "gold": [
+        {
+          "text": "d.allen@email.com",
+          "label": "EMAIL",
+          "start": 17,
+          "end": 34
+        },
+        {
+          "text": "annual maintenance contract",
+          "label": "PRODUCT",
+          "start": 60,
+          "end": 87
+        }
+      ]
+    },
+    {
+      "text": "i placed an order two weeks ago for a nintendo switch oled under the name fatima osei",
+      "predicted": [
+        {
+          "text": "fatima osei",
+          "label": "NAME",
+          "start": 74,
+          "end": 85
+        },
+        {
+          "text": "nintendo switch oled",
+          "label": "PRODUCT",
+          "start": 38,
+          "end": 58
+        },
+        {
+          "text": "two weeks ago",
+          "label": "ISSUE_DATE",
+          "start": 18,
+          "end": 31
+        }
+      ],
+      "gold": [
+        {
+          "text": "two weeks ago",
+          "label": "ISSUE_DATE",
+          "start": 18,
+          "end": 31
+        },
+        {
+          "text": "nintendo switch oled",
+          "label": "PRODUCT",
+          "start": 38,
+          "end": 58
+        },
+        {
+          "text": "fatima osei",
+          "label": "NAME",
+          "start": 74,
+          "end": 85
+        }
+      ]
+    },
+    {
+      "text": "yeah im still here just waiting can you check again please",
+      "predicted": [],
+      "gold": []
+    },
+    {
+      "text": "ok thanks for letting me know is there anything else i should do",
+      "predicted": [],
+      "gold": []
+    },
+    {
+      "text": "the product is called ring doorbell and my name is also ring wei can you believe that",
+      "predicted": [
+        {
+          "text": "ring doorbell",
+          "label": "PRODUCT",
+          "start": 22,
+          "end": 35
+        },
+        {
+          "text": "ring wei",
+          "label": "NAME",
+          "start": 56,
+          "end": 64
+        }
+      ],
+      "gold": [
+        {
+          "text": "ring doorbell",
+          "label": "PRODUCT",
+          "start": 22,
+          "end": 35
+        },
+        {
+          "text": "ring wei",
+          "label": "NAME",
+          "start": 56,
+          "end": 64
+        }
+      ]
+    },
+    {
+      "text": "i got it on the fifteenth no wait the sixteenth of march",
+      "predicted": [
+        {
+          "text": "the sixteenth of march",
+          "label": "ISSUE_DATE",
+          "start": 34,
+          "end": 56
+        }
+      ],
+      "gold": [
+        {
+          "text": "the sixteenth of march",
+          "label": "ISSUE_DATE",
+          "start": 34,
+          "end": 56
+        }
+      ]
+    },
+    {
+      "text": "you can reach me at karen.robinson@gmail.com if there are any updates on the delivery",
+      "predicted": [
+        {
+          "text": "karen.robinson@gmail.com",
+          "label": "EMAIL",
+          "start": 20,
+          "end": 44
+        }
+      ],
+      "gold": [
+        {
+          "text": "karen.robinson@gmail.com",
+          "label": "EMAIL",
+          "start": 20,
+          "end": 44
+        }
+      ]
+    },
+    {
+      "text": "my email address is richard dot harris at protonmail dot com and the order is INV-2023-887",
+      "predicted": [
+        {
+          "text": "richard dot harris at protonmail dot com",
+          "label": "EMAIL",
+          "start": 20,
+          "end": 60
+        },
+        {
+          "text": "INV-2023-887",
+          "label": "CONTRACT_ID",
+          "start": 78,
+          "end": 90
+        }
+      ],
+      "gold": [
+        {
+          "text": "richard dot harris at protonmail dot com",
+          "label": "EMAIL",
+          "start": 20,
+          "end": 60
+        },
+        {
+          "text": "INV-2023-887",
+          "label": "CONTRACT_ID",
+          "start": 78,
+          "end": 90
+        }
+      ]
+    },
+    {
+      "text": "w.jackson@email.com thats my email can someone get back to me about my refund",
+      "predicted": [
+        {
+          "text": "w.jackson@email.com",
+          "label": "EMAIL",
+          "start": 0,
+          "end": 19
+        }
+      ],
+      "gold": [
+        {
+          "text": "w.jackson@email.com",
+          "label": "EMAIL",
+          "start": 0,
+          "end": 19
+        }
+      ]
+    },
+    {
+      "text": "um yeah so my emale is like jess dot m at gmial dot com i always mess it up",
+      "predicted": [
+        {
+          "text": "jess dot m at gmial dot com",
+          "label": "EMAIL",
+          "start": 28,
+          "end": 55
+        }
+      ],
+      "gold": [
+        {
+          "text": "jess dot m at gmial dot com",
+          "label": "EMAIL",
+          "start": 28,
+          "end": 55
+        }
+      ]
+    },
+    {
+      "text": "send the confirmation to to nhall at companey dot org thats n h a l l",
+      "predicted": [
+        {
+          "text": "nhall at companey dot org",
+          "label": "EMAIL",
+          "start": 28,
+          "end": 53
+        }
+      ],
+      "gold": [
+        {
+          "text": "nhall at companey dot org",
+          "label": "EMAIL",
+          "start": 28,
+          "end": 53
+        }
+      ]
+    },
+    {
+      "text": "hi my naem is jennifer taylr and i need help with my ordr",
+      "predicted": [
+        {
+          "text": "jennifer taylr",
+          "label": "NAME",
+          "start": 14,
+          "end": 28
+        }
+      ],
+      "gold": [
+        {
+          "text": "jennifer taylr",
+          "label": "NAME",
+          "start": 14,
+          "end": 28
+        }
+      ]
+    },
+    {
+      "text": "the ordor numbr is O R D dash 2024 dash 5591 i thnk",
+      "predicted": [
+        {
+          "text": "O R D dash 2024 dash 5591",
+          "label": "CONTRACT_ID",
+          "start": 19,
+          "end": 44
+        }
+      ],
+      "gold": [
+        {
+          "text": "O R D dash 2024 dash 5591",
+          "label": "CONTRACT_ID",
+          "start": 19,
+          "end": 44
+        }
+      ]
+    },
+    {
+      "text": "my emial is sarahj at yaho dot com",
+      "predicted": [
+        {
+          "text": "sarahj at yaho dot com",
+          "label": "EMAIL",
+          "start": 12,
+          "end": 34
+        }
+      ],
+      "gold": [
+        {
+          "text": "sarahj at yaho dot com",
+          "label": "EMAIL",
+          "start": 12,
+          "end": 34
+        }
+      ]
+    },
+    {
+      "text": "um yeah so like my name is uh robert wilson and um i bought the uh sony wh one thousand xm five headphones",
+      "predicted": [
+        {
+          "text": "robert wilson",
+          "label": "NAME",
+          "start": 30,
+          "end": 43
+        },
+        {
+          "text": "sony wh one thousand xm five",
+          "label": "PRODUCT",
+          "start": 67,
+          "end": 95
+        }
+      ],
+      "gold": [
+        {
+          "text": "robert wilson",
+          "label": "NAME",
+          "start": 30,
+          "end": 43
+        },
+        {
+          "text": "sony wh one thousand xm five headphones",
+          "label": "PRODUCT",
+          "start": 67,
+          "end": 106
+        }
+      ]
+    },
+    {
+      "text": "so basically i think it was uh like about a week ago maybe uh ten days ago i dont really remember",
+      "predicted": [],
+      "gold": [
+        {
+          "text": "about a week ago",
+          "label": "ISSUE_DATE",
+          "start": 36,
+          "end": 52
+        }
+      ]
+    },
+    {
+      "text": "myname is is david anderson and myemail is david dot a at company dot com",
+      "predicted": [
+        {
+          "text": "david anderson",
+          "label": "NAME",
+          "start": 13,
+          "end": 27
+        },
+        {
+          "text": "david dot a at company dot com",
+          "label": "EMAIL",
+          "start": 43,
+          "end": 73
+        }
+      ],
+      "gold": [
+        {
+          "text": "david anderson",
+          "label": "NAME",
+          "start": 13,
+          "end": 27
+        },
+        {
+          "text": "david dot a at company dot com",
+          "label": "EMAIL",
+          "start": 43,
+          "end": 73
+        }
+      ]
+    },
+    {
+      "text": "the the contract number is is SUB dash three three zero one eight",
+      "predicted": [
+        {
+          "text": "SUB dash three three zero one eight",
+          "label": "CONTRACT_ID",
+          "start": 30,
+          "end": 65
+        }
+      ],
+      "gold": [
+        {
+          "text": "SUB dash three three zero one eight",
+          "label": "CONTRACT_ID",
+          "start": 30,
+          "end": 65
+        }
+      ]
+    },
+    {
+      "text": "hi um its uh prya patel thats p r i y a and i orderd the the kindle paperwite like um three days ago",
+      "predicted": [
+        {
+          "text": "prya patel",
+          "label": "NAME",
+          "start": 13,
+          "end": 23
+        },
+        {
+          "text": "kindle paperwite",
+          "label": "PRODUCT",
+          "start": 61,
+          "end": 77
+        },
+        {
+          "text": "three days ago",
+          "label": "ISSUE_DATE",
+          "start": 86,
+          "end": 100
+        }
+      ],
+      "gold": [
+        {
+          "text": "prya patel",
+          "label": "NAME",
+          "start": 13,
+          "end": 23
+        },
+        {
+          "text": "kindle paperwite",
+          "label": "PRODUCT",
+          "start": 61,
+          "end": 77
+        },
+        {
+          "text": "three days ago",
+          "label": "ISSUE_DATE",
+          "start": 86,
+          "end": 100
+        }
+      ]
+    },
+    {
+      "text": "yeah so my email is um mbrown fourty two at outlok dot com and the refrence number is ref dash four four eight two one",
+      "predicted": [
+        {
+          "text": "mbrown fourty two at outlok dot com",
+          "label": "EMAIL",
+          "start": 23,
+          "end": 58
+        },
+        {
+          "text": "ref dash four four eight two one",
+          "label": "CONTRACT_ID",
+          "start": 86,
+          "end": 118
+        }
+      ],
+      "gold": [
+        {
+          "text": "mbrown fourty two at outlok dot com",
+          "label": "EMAIL",
+          "start": 23,
+          "end": 58
+        },
+        {
+          "text": "ref dash four four eight two one",
+          "label": "CONTRACT_ID",
+          "start": 86,
+          "end": 118
+        }
+      ]
+    },
+    {
+      "text": "i wanna return the the lg oled tv sixtyfive inch i got it on on uh novmber thirtieth",
+      "predicted": [
+        {
+          "text": "lg oled tv sixtyfive inch",
+          "label": "PRODUCT",
+          "start": 23,
+          "end": 48
+        },
+        {
+          "text": "novmber thirtieth",
+          "label": "ISSUE_DATE",
+          "start": 67,
+          "end": 84
+        }
+      ],
+      "gold": [
+        {
+          "text": "lg oled tv sixtyfive inch",
+          "label": "PRODUCT",
+          "start": 23,
+          "end": 48
+        },
+        {
+          "text": "novmber thirtieth",
+          "label": "ISSUE_DATE",
+          "start": 67,
+          "end": 84
+        }
+      ]
+    },
+    {
+      "text": "yeah so um this is betty young and i neeed to return the uh airpods pro i got them on like jan fifteenth my order is ACC-00192",
+      "predicted": [
+        {
+          "text": "betty young",
+          "label": "NAME",
+          "start": 19,
+          "end": 30
+        },
+        {
+          "text": "airpods pro",
+          "label": "PRODUCT",
+          "start": 60,
+          "end": 71
+        },
+        {
+          "text": "jan fifteenth",
+          "label": "ISSUE_DATE",
+          "start": 91,
+          "end": 104
+        },
+        {
+          "text": "ACC-00192",
+          "label": "CONTRACT_ID",
+          "start": 117,
+          "end": 126
+        }
+      ],
+      "gold": [
+        {
+          "text": "betty young",
+          "label": "NAME",
+          "start": 19,
+          "end": 30
+        },
+        {
+          "text": "airpods pro",
+          "label": "PRODUCT",
+          "start": 60,
+          "end": 71
+        },
+        {
+          "text": "jan fifteenth",
+          "label": "ISSUE_DATE",
+          "start": 91,
+          "end": 104
+        },
+        {
+          "text": "ACC-00192",
+          "label": "CONTRACT_ID",
+          "start": 117,
+          "end": 126
+        }
+      ]
+    }
+  ]
+}

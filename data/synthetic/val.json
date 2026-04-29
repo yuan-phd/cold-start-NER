@@ -1,0 +1,3344 @@
+[
+  {
+    "text": "Um, hi, I\u2019m, uh, Jennifer Taylor and I'm having some trouble with my, um, Kindle Paperwhite. I think I need help with, uh, my contract, uh, REF-44821, but I'm not really sure what the issue is.",
+    "entities": [
+      {
+        "text": "Jennifer Taylor",
+        "label": "NAME",
+        "start": 17,
+        "end": 32
+      },
+      {
+        "text": "Kindle Paperwhite",
+        "label": "PRODUCT",
+        "start": 74,
+        "end": 91
+      },
+      {
+        "text": "REF-44821",
+        "label": "CONTRACT_ID",
+        "start": 140,
+        "end": 149
+      }
+    ],
+    "metadata": {
+      "scenario": "technical_support",
+      "style": "confused",
+      "industry": "insurance"
+    }
+  },
+  {
+    "text": "Look, I don't understand why I'm being charged this amount! My name is Susan Clark and, uh, this is regarding my order with the contract ID ORD-2024-5591 from, uh, January 15th. I was promised a different price! Can you even help me with this? My email is jen.taylor@icloud.com if you need to reach me.",
+    "entities": [
+      {
+        "text": "Susan Clark",
+        "label": "NAME",
+        "start": 71,
+        "end": 82
+      },
+      {
+        "text": "ORD-2024-5591",
+        "label": "CONTRACT_ID",
+        "start": 140,
+        "end": 153
+      },
+      {
+        "text": "January 15th",
+        "label": "ISSUE_DATE",
+        "start": 164,
+        "end": 176
+      },
+      {
+        "text": "jen.taylor@icloud.com",
+        "label": "EMAIL",
+        "start": 256,
+        "end": 277
+      }
+    ],
+    "metadata": {
+      "scenario": "billing_dispute",
+      "style": "angry",
+      "industry": "home appliances"
+    }
+  },
+  {
+    "text": "Hi, um, this is Susan Clark, and I'm, uh, calling to check the status of my order, SUB-33018. I, um, placed it a while ago and, uh, just wanted to confirm it's on its way to jthomas99@gmail.com.",
+    "entities": [
+      {
+        "text": "Susan Clark",
+        "label": "NAME",
+        "start": 16,
+        "end": 27
+      },
+      {
+        "text": "SUB-33018",
+        "label": "CONTRACT_ID",
+        "start": 83,
+        "end": 92
+      },
+      {
+        "text": "jthomas99@gmail.com",
+        "label": "EMAIL",
+        "start": 174,
+        "end": 193
+      }
+    ],
+    "metadata": {
+      "scenario": "order_status_inquiry",
+      "style": "polite",
+      "industry": "electronics"
+    }
+  },
+  {
+    "text": "Uh, hi there! My name is William Jackson, and I'm, um, checking on the status of my order for the Nintendo Switch OLED. The contract ID is CLM-77659, and, uh, my email is w.jackson@email.com.",
+    "entities": [
+      {
+        "text": "William Jackson",
+        "label": "NAME",
+        "start": 25,
+        "end": 40
+      },
+      {
+        "text": "CLM-77659",
+        "label": "CONTRACT_ID",
+        "start": 139,
+        "end": 148
+      },
+      {
+        "text": "w.jackson@email.com",
+        "label": "EMAIL",
+        "start": 171,
+        "end": 190
+      },
+      {
+        "text": "Nintendo Switch OLED",
+        "label": "PRODUCT",
+        "start": 98,
+        "end": 118
+      }
+    ],
+    "metadata": {
+      "scenario": "order_status_inquiry",
+      "style": "polite",
+      "industry": "subscription services"
+    }
+  },
+  {
+    "text": "Um, hi, this is, uh, James Thomas, and I'm calling about my order, uh, ORD-2024-5591. I really need to know, like, where it is because it's been way too long.",
+    "entities": [
+      {
+        "text": "James Thomas",
+        "label": "NAME",
+        "start": 21,
+        "end": 33
+      },
+      {
+        "text": "ORD-2024-5591",
+        "label": "CONTRACT_ID",
+        "start": 71,
+        "end": 84
+      }
+    ],
+    "metadata": {
+      "scenario": "order_status_inquiry",
+      "style": "impatient",
+      "industry": "home appliances"
+    }
+  },
+  {
+    "text": "Hey there, um, my name is Nancy Hall and I was wondering if you guys have any sales coming up soon? Oh, and can you confirm my email address? It's b.young@hotmail.com.",
+    "entities": [
+      {
+        "text": "Nancy Hall",
+        "label": "NAME",
+        "start": 26,
+        "end": 36
+      },
+      {
+        "text": "b.young@hotmail.com",
+        "label": "EMAIL",
+        "start": 147,
+        "end": 166
+      }
+    ],
+    "metadata": {
+      "scenario": "general_inquiry",
+      "style": "casual",
+      "industry": "retail"
+    }
+  },
+  {
+    "text": "Um, hi there! I\u2019m Sarah Johnson, and I\u2019d like to return my Kindle Paperwhite. I bought it, um, last Monday morning, and, uh, I have the contract ID here, it\u2019s ACC-00192.",
+    "entities": [
+      {
+        "text": "Sarah Johnson",
+        "label": "NAME",
+        "start": 18,
+        "end": 31
+      },
+      {
+        "text": "Kindle Paperwhite",
+        "label": "PRODUCT",
+        "start": 59,
+        "end": 76
+      },
+      {
+        "text": "last Monday morning",
+        "label": "ISSUE_DATE",
+        "start": 95,
+        "end": 114
+      },
+      {
+        "text": "ACC-00192",
+        "label": "CONTRACT_ID",
+        "start": 159,
+        "end": 168
+      }
+    ],
+    "metadata": {
+      "scenario": "return_request",
+      "style": "polite",
+      "industry": "retail"
+    }
+  },
+  {
+    "text": "Um, hi, I\u2019m trying to figure out this charge on my account. It says it\u2019s from, uh, November 30th, but I, um, don\u2019t remember anything happening then. My name is, uh, Joseph Lewis, and I have the contract ID X9Y8Z7. Can you, um, help me with that?",
+    "entities": [
+      {
+        "text": "Joseph Lewis",
+        "label": "NAME",
+        "start": 165,
+        "end": 177
+      },
+      {
+        "text": "X9Y8Z7",
+        "label": "CONTRACT_ID",
+        "start": 206,
+        "end": 212
+      },
+      {
+        "text": "November 30th",
+        "label": "ISSUE_DATE",
+        "start": 83,
+        "end": 96
+      }
+    ],
+    "metadata": {
+      "scenario": "billing_dispute",
+      "style": "confused",
+      "industry": "insurance"
+    }
+  },
+  {
+    "text": "Um, hi, this is Betty Young. I, uh, wanted to reschedule my appointment from last Friday. Can you help me with that? My email is jen.taylor@icloud.com and my contract ID is 2024-ABX-001.",
+    "entities": [
+      {
+        "text": "Betty Young",
+        "label": "NAME",
+        "start": 16,
+        "end": 27
+      },
+      {
+        "text": "last Friday",
+        "label": "ISSUE_DATE",
+        "start": 77,
+        "end": 88
+      },
+      {
+        "text": "jen.taylor@icloud.com",
+        "label": "EMAIL",
+        "start": 129,
+        "end": 150
+      },
+      {
+        "text": "2024-ABX-001",
+        "label": "CONTRACT_ID",
+        "start": 173,
+        "end": 185
+      }
+    ],
+    "metadata": {
+      "scenario": "appointment_scheduling",
+      "style": "neutral",
+      "industry": "retail"
+    }
+  },
+  {
+    "text": "Um, hi there, my name is Jennifer Taylor, and I'm really, uh, frustrated with my Ring doorbell. It just, like, keeps disconnecting from Wi-Fi, and it's super annoying.",
+    "entities": [
+      {
+        "text": "Jennifer Taylor",
+        "label": "NAME",
+        "start": 25,
+        "end": 40
+      },
+      {
+        "text": "Ring doorbell",
+        "label": "PRODUCT",
+        "start": 81,
+        "end": 94
+      }
+    ],
+    "metadata": {
+      "scenario": "product_complaint",
+      "style": "calm",
+      "industry": "electronics"
+    }
+  },
+  {
+    "text": "Um, hi, this is Richard Harris, and I, uh, have a problem with my Dyson V15 vacuum. It, like, keeps shutting off unexpectedly, and I\u2019m really frustrated because I paid good money for it! My contract ID is PRJ-10284, so can you, uh, help me with this?",
+    "entities": [
+      {
+        "text": "Richard Harris",
+        "label": "NAME",
+        "start": 16,
+        "end": 30
+      },
+      {
+        "text": "Dyson V15 vacuum",
+        "label": "PRODUCT",
+        "start": 66,
+        "end": 82
+      },
+      {
+        "text": "PRJ-10284",
+        "label": "CONTRACT_ID",
+        "start": 205,
+        "end": 214
+      }
+    ],
+    "metadata": {
+      "scenario": "product_complaint",
+      "style": "frustrated",
+      "industry": "healthcare"
+    }
+  },
+  {
+    "text": "Um, hi, this is Richard Harris. I, uh, wanted to return my LG OLED TV 65 inch because, well, it hasn't been working right since, uh, July 22 2024. My contract ID is SUB-33018.",
+    "entities": [
+      {
+        "text": "Richard Harris",
+        "label": "NAME",
+        "start": 16,
+        "end": 30
+      },
+      {
+        "text": "LG OLED TV 65 inch",
+        "label": "PRODUCT",
+        "start": 59,
+        "end": 77
+      },
+      {
+        "text": "July 22 2024",
+        "label": "ISSUE_DATE",
+        "start": 133,
+        "end": 145
+      },
+      {
+        "text": "SUB-33018",
+        "label": "CONTRACT_ID",
+        "start": 165,
+        "end": 174
+      }
+    ],
+    "metadata": {
+      "scenario": "return_request",
+      "style": "neutral",
+      "industry": "utilities"
+    }
+  },
+  {
+    "text": "Uh, hi, this is Susan Clark. I need to update my email to d.allen@email.com, and my contract ID is SUB-33018, um, can you help me with that?",
+    "entities": [
+      {
+        "text": "Susan Clark",
+        "label": "NAME",
+        "start": 16,
+        "end": 27
+      },
+      {
+        "text": "d.allen@email.com",
+        "label": "EMAIL",
+        "start": 58,
+        "end": 75
+      },
+      {
+        "text": "SUB-33018",
+        "label": "CONTRACT_ID",
+        "start": 99,
+        "end": 108
+      }
+    ],
+    "metadata": {
+      "scenario": "account_update",
+      "style": "rushed",
+      "industry": "home appliances"
+    }
+  },
+  {
+    "text": "Hi, uh, this is Karen Robinson. I was wondering if you could help me with some information about your latest products? You can reach me at, um, sarah.j@yahoo.com.",
+    "entities": [
+      {
+        "text": "Karen Robinson",
+        "label": "NAME",
+        "start": 16,
+        "end": 30
+      },
+      {
+        "text": "sarah.j@yahoo.com",
+        "label": "EMAIL",
+        "start": 144,
+        "end": 161
+      }
+    ],
+    "metadata": {
+      "scenario": "general_inquiry",
+      "style": "polite",
+      "industry": "electronics"
+    }
+  },
+  {
+    "text": "Um, hi, this is Betty Young, and I\u2019m really frustrated with my, uh, MacBook Air M3. I mean, it\u2019s just not working right, and I, uh, need help with my contract, it\u2019s LIC-55901.",
+    "entities": [
+      {
+        "text": "Betty Young",
+        "label": "NAME",
+        "start": 16,
+        "end": 27
+      },
+      {
+        "text": "MacBook Air M3",
+        "label": "PRODUCT",
+        "start": 68,
+        "end": 82
+      },
+      {
+        "text": "LIC-55901",
+        "label": "CONTRACT_ID",
+        "start": 165,
+        "end": 174
+      }
+    ],
+    "metadata": {
+      "scenario": "product_complaint",
+      "style": "frustrated",
+      "industry": "subscription services"
+    }
+  },
+  {
+    "text": "Uh, yeah, I need to update my email and uh, my name is Bob Patterson. So, my new email is emily.davis@hotmail.com.",
+    "entities": [
+      {
+        "text": "Bob Patterson",
+        "label": "NAME",
+        "start": 55,
+        "end": 68
+      },
+      {
+        "text": "emily.davis@hotmail.com",
+        "label": "EMAIL",
+        "start": 90,
+        "end": 113
+      }
+    ],
+    "metadata": {
+      "scenario": "account_update",
+      "style": "rushed",
+      "industry": "telecommunications"
+    }
+  },
+  {
+    "text": "Um, hi there, my name is, uh, Emily Davis. I need to update my email to, um, maria.garcia@outlook.com and, uh, my contract ID is HD-2025-03312.",
+    "entities": [
+      {
+        "text": "Emily Davis",
+        "label": "NAME",
+        "start": 30,
+        "end": 41
+      },
+      {
+        "text": "maria.garcia@outlook.com",
+        "label": "EMAIL",
+        "start": 77,
+        "end": 101
+      },
+      {
+        "text": "HD-2025-03312",
+        "label": "CONTRACT_ID",
+        "start": 129,
+        "end": 142
+      }
+    ],
+    "metadata": {
+      "scenario": "account_update",
+      "style": "polite",
+      "industry": "healthcare"
+    }
+  },
+  {
+    "text": "Um, hi, this is Charles Walker. I'm calling to check on the status of my order, uh, for the Nespresso Vertuo, the contract ID is POL-55123.",
+    "entities": [
+      {
+        "text": "Charles Walker",
+        "label": "NAME",
+        "start": 16,
+        "end": 30
+      },
+      {
+        "text": "POL-55123",
+        "label": "CONTRACT_ID",
+        "start": 129,
+        "end": 138
+      },
+      {
+        "text": "Nespresso Vertuo",
+        "label": "PRODUCT",
+        "start": 92,
+        "end": 108
+      }
+    ],
+    "metadata": {
+      "scenario": "order_status_inquiry",
+      "style": "neutral",
+      "industry": "insurance"
+    }
+  },
+  {
+    "text": "Look, uh, my name is David Anderson, and I've got a serious issue with a charge on my account. It's related to contract INV-2023-887, which, um, I noticed on my statement from May 17. I don\u2019t understand why I\u2019m being billed for this.",
+    "entities": [
+      {
+        "text": "David Anderson",
+        "label": "NAME",
+        "start": 21,
+        "end": 35
+      },
+      {
+        "text": "INV-2023-887",
+        "label": "CONTRACT_ID",
+        "start": 120,
+        "end": 132
+      },
+      {
+        "text": "May 17",
+        "label": "ISSUE_DATE",
+        "start": 176,
+        "end": 182
+      }
+    ],
+    "metadata": {
+      "scenario": "billing_dispute",
+      "style": "assertive",
+      "industry": "home appliances"
+    }
+  },
+  {
+    "text": "Uh, hi, this is Betty Young and I\u2019m calling about a charge on my bill from, um, yesterday. I really don\u2019t understand why I was charged. My contract ID is A1B2C3, and, uh, I need this sorted out. Can you help me with this?",
+    "entities": [
+      {
+        "text": "Betty Young",
+        "label": "NAME",
+        "start": 16,
+        "end": 27
+      },
+      {
+        "text": "A1B2C3",
+        "label": "CONTRACT_ID",
+        "start": 154,
+        "end": 160
+      },
+      {
+        "text": "yesterday",
+        "label": "ISSUE_DATE",
+        "start": 80,
+        "end": 89
+      }
+    ],
+    "metadata": {
+      "scenario": "billing_dispute",
+      "style": "assertive",
+      "industry": "telecommunications"
+    }
+  },
+  {
+    "text": "Um, hi, I\u2019m, uh, Sarah Johnson, and I\u2019m really confused about this charge on my account for, like, the Premium subscription plan, you know? I, um, noticed it a few days back, and I think it\u2019s for CONTRACT_ID: SUB-33018, but I\u2019m not sure why I'm being charged.",
+    "entities": [
+      {
+        "text": "Sarah Johnson",
+        "label": "NAME",
+        "start": 17,
+        "end": 30
+      },
+      {
+        "text": "SUB-33018",
+        "label": "CONTRACT_ID",
+        "start": 209,
+        "end": 218
+      },
+      {
+        "text": "a few days back",
+        "label": "ISSUE_DATE",
+        "start": 158,
+        "end": 173
+      },
+      {
+        "text": "Premium subscription plan",
+        "label": "PRODUCT",
+        "start": 103,
+        "end": 128
+      }
+    ],
+    "metadata": {
+      "scenario": "billing_dispute",
+      "style": "confused",
+      "industry": "banking"
+    }
+  },
+  {
+    "text": "Uh, hi, this is Robert Wilson, and I\u2019m calling about a charge on my account from, um, last month. I didn\u2019t authorize that, so I\u2019d like to dispute it. My email is c.walker@protonmail.com, and the contract ID is CUS-88710.",
+    "entities": [
+      {
+        "text": "Robert Wilson",
+        "label": "NAME",
+        "start": 16,
+        "end": 29
+      },
+      {
+        "text": "CUS-88710",
+        "label": "CONTRACT_ID",
+        "start": 210,
+        "end": 219
+      },
+      {
+        "text": "last month",
+        "label": "ISSUE_DATE",
+        "start": 86,
+        "end": 96
+      },
+      {
+        "text": "c.walker@protonmail.com",
+        "label": "EMAIL",
+        "start": 162,
+        "end": 185
+      }
+    ],
+    "metadata": {
+      "scenario": "billing_dispute",
+      "style": "assertive",
+      "industry": "e-commerce"
+    }
+  },
+  {
+    "text": "Hi, uh, this is Priya Patel, and I'm calling to, um, return my iPad Air that I bought, uh, sometime last week. My contract ID is X9Y8Z7, and I, uh, also wanted to confirm my email is c.walker@protonmail.com.",
+    "entities": [
+      {
+        "text": "Priya Patel",
+        "label": "NAME",
+        "start": 16,
+        "end": 27
+      },
+      {
+        "text": "iPad Air",
+        "label": "PRODUCT",
+        "start": 63,
+        "end": 71
+      },
+      {
+        "text": "sometime last week",
+        "label": "ISSUE_DATE",
+        "start": 91,
+        "end": 109
+      },
+      {
+        "text": "X9Y8Z7",
+        "label": "CONTRACT_ID",
+        "start": 129,
+        "end": 135
+      },
+      {
+        "text": "c.walker@protonmail.com",
+        "label": "EMAIL",
+        "start": 183,
+        "end": 206
+      }
+    ],
+    "metadata": {
+      "scenario": "return_request",
+      "style": "polite",
+      "industry": "electronics"
+    }
+  },
+  {
+    "text": "Uh, hi, this is Michael Brown, and I, um, need to update my email to w.jackson@email.com and, uh, my contract ID is WO-67893.",
+    "entities": [
+      {
+        "text": "Michael Brown",
+        "label": "NAME",
+        "start": 16,
+        "end": 29
+      },
+      {
+        "text": "w.jackson@email.com",
+        "label": "EMAIL",
+        "start": 69,
+        "end": 88
+      },
+      {
+        "text": "WO-67893",
+        "label": "CONTRACT_ID",
+        "start": 116,
+        "end": 124
+      }
+    ],
+    "metadata": {
+      "scenario": "account_update",
+      "style": "neutral",
+      "industry": "banking"
+    }
+  },
+  {
+    "text": "Uh, hi, I\u2019m, um, Michael Brown, and I'm really frustrated with my, uh, Samsung Galaxy S24. It keeps, like, freezing and it\u2019s been, um, just a nightmare since I got it, you know? My contract ID is ORD-2024-5591, and I just need this fixed.",
+    "entities": [
+      {
+        "text": "Michael Brown",
+        "label": "NAME",
+        "start": 17,
+        "end": 30
+      },
+      {
+        "text": "Samsung Galaxy S24",
+        "label": "PRODUCT",
+        "start": 71,
+        "end": 89
+      },
+      {
+        "text": "ORD-2024-5591",
+        "label": "CONTRACT_ID",
+        "start": 196,
+        "end": 209
+      }
+    ],
+    "metadata": {
+      "scenario": "product_complaint",
+      "style": "frustrated",
+      "industry": "telecommunications"
+    }
+  },
+  {
+    "text": "Uh, hi, this is Bob Patterson. I'm calling to check the status of my order, um, for the contract ID CUS-88710? You know, I just want to make sure everything's okay. Also, my email is rwilson@protonmail.com if you need to reach me.",
+    "entities": [
+      {
+        "text": "Bob Patterson",
+        "label": "NAME",
+        "start": 16,
+        "end": 29
+      },
+      {
+        "text": "CUS-88710",
+        "label": "CONTRACT_ID",
+        "start": 100,
+        "end": 109
+      },
+      {
+        "text": "rwilson@protonmail.com",
+        "label": "EMAIL",
+        "start": 183,
+        "end": 205
+      }
+    ],
+    "metadata": {
+      "scenario": "order_status_inquiry",
+      "style": "polite",
+      "industry": "insurance"
+    }
+  },
+  {
+    "text": "Uh, hi, this is Jennifer Taylor, and I'm calling about a charge on my account, uh, related to contract CUS-88710. I noticed it, um, a couple of weeks back and, uh, I think it\u2019s for a PlayStation 5 that I didn\u2019t order. My email is emily.davis@hotmail.com if you need that.",
+    "entities": [
+      {
+        "text": "Jennifer Taylor",
+        "label": "NAME",
+        "start": 16,
+        "end": 31
+      },
+      {
+        "text": "CUS-88710",
+        "label": "CONTRACT_ID",
+        "start": 103,
+        "end": 112
+      },
+      {
+        "text": "a couple of weeks back",
+        "label": "ISSUE_DATE",
+        "start": 132,
+        "end": 154
+      },
+      {
+        "text": "emily.davis@hotmail.com",
+        "label": "EMAIL",
+        "start": 230,
+        "end": 253
+      },
+      {
+        "text": "PlayStation 5",
+        "label": "PRODUCT",
+        "start": 183,
+        "end": 196
+      }
+    ],
+    "metadata": {
+      "scenario": "billing_dispute",
+      "style": "assertive",
+      "industry": "utilities"
+    }
+  },
+  {
+    "text": "Um, hi, my name is Fatima Osei and I, uh, I want to return my Samsung Galaxy S24. I got it, um, earlier this week, and it's just not working like I expected it to.",
+    "entities": [
+      {
+        "text": "Fatima Osei",
+        "label": "NAME",
+        "start": 19,
+        "end": 30
+      },
+      {
+        "text": "Samsung Galaxy S24",
+        "label": "PRODUCT",
+        "start": 62,
+        "end": 80
+      },
+      {
+        "text": "earlier this week",
+        "label": "ISSUE_DATE",
+        "start": 96,
+        "end": 113
+      }
+    ],
+    "metadata": {
+      "scenario": "return_request",
+      "style": "disappointed",
+      "industry": "utilities"
+    }
+  },
+  {
+    "text": "Um, hi, this is Yuki Tanaka. I was, uh, calling to check on the status of my order with the reference number REF-44821, um, could you help me with that? Also, my email is david.a@company.com.",
+    "entities": [
+      {
+        "text": "Yuki Tanaka",
+        "label": "NAME",
+        "start": 16,
+        "end": 27
+      },
+      {
+        "text": "REF-44821",
+        "label": "CONTRACT_ID",
+        "start": 109,
+        "end": 118
+      },
+      {
+        "text": "david.a@company.com",
+        "label": "EMAIL",
+        "start": 171,
+        "end": 190
+      }
+    ],
+    "metadata": {
+      "scenario": "order_status_inquiry",
+      "style": "neutral",
+      "industry": "healthcare"
+    }
+  },
+  {
+    "text": "Hello, um, hi! My name is Joseph Lewis and I\u2019m just checking on the status of my order, uh, for the Cloud storage 2TB plan, with the contract ID SUB-33018.",
+    "entities": [
+      {
+        "text": "Joseph Lewis",
+        "label": "NAME",
+        "start": 26,
+        "end": 38
+      },
+      {
+        "text": "SUB-33018",
+        "label": "CONTRACT_ID",
+        "start": 145,
+        "end": 154
+      },
+      {
+        "text": "Cloud storage 2TB plan",
+        "label": "PRODUCT",
+        "start": 100,
+        "end": 122
+      }
+    ],
+    "metadata": {
+      "scenario": "order_status_inquiry",
+      "style": "polite",
+      "industry": "insurance"
+    }
+  },
+  {
+    "text": "Um, hi, this is Carlos Rivera, and I was just, uh, checking on the status of my order, you know, CT-78432. I, um, placed it a couple of weeks ago.",
+    "entities": [
+      {
+        "text": "Carlos Rivera",
+        "label": "NAME",
+        "start": 16,
+        "end": 29
+      },
+      {
+        "text": "CT-78432",
+        "label": "CONTRACT_ID",
+        "start": 97,
+        "end": 105
+      }
+    ],
+    "metadata": {
+      "scenario": "order_status_inquiry",
+      "style": "neutral",
+      "industry": "electronics"
+    }
+  },
+  {
+    "text": "I can't believe you guys charged me again! My name is Karen Robinson and I canceled my subscription. I mean, look at my CONTRACT_ID, it's CUS-88710! This charge is from the ISSUE_DATE of 2024-09-15, and I want my money back!",
+    "entities": [
+      {
+        "text": "Karen Robinson",
+        "label": "NAME",
+        "start": 54,
+        "end": 68
+      },
+      {
+        "text": "CUS-88710",
+        "label": "CONTRACT_ID",
+        "start": 138,
+        "end": 147
+      },
+      {
+        "text": "2024-09-15",
+        "label": "ISSUE_DATE",
+        "start": 187,
+        "end": 197
+      }
+    ],
+    "metadata": {
+      "scenario": "billing_dispute",
+      "style": "angry",
+      "industry": "subscription services"
+    }
+  },
+  {
+    "text": "Uh, hi, this is James Thomas and I\u2019m really frustrated with my LG OLED TV 65 inch. It, um, keeps shutting off randomly, and I just don\u2019t know what to do about it. My contract ID is WO-67893, and I expected better from you guys.",
+    "entities": [
+      {
+        "text": "James Thomas",
+        "label": "NAME",
+        "start": 16,
+        "end": 28
+      },
+      {
+        "text": "LG OLED TV 65 inch",
+        "label": "PRODUCT",
+        "start": 63,
+        "end": 81
+      },
+      {
+        "text": "WO-67893",
+        "label": "CONTRACT_ID",
+        "start": 181,
+        "end": 189
+      }
+    ],
+    "metadata": {
+      "scenario": "product_complaint",
+      "style": "frustrated",
+      "industry": "subscription services"
+    }
+  },
+  {
+    "text": "Um, hi, this is David Anderson. I\u2019d like to update my email to, uh, sarah.j@yahoo.com, please.",
+    "entities": [
+      {
+        "text": "David Anderson",
+        "label": "NAME",
+        "start": 16,
+        "end": 30
+      },
+      {
+        "text": "sarah.j@yahoo.com",
+        "label": "EMAIL",
+        "start": 68,
+        "end": 85
+      }
+    ],
+    "metadata": {
+      "scenario": "account_update",
+      "style": "neutral",
+      "industry": "insurance"
+    }
+  },
+  {
+    "text": "Uh, hi! I need to update my account info. My name is, uh, Sarah Johnson and my email is, um, sarah.j@yahoo.com.",
+    "entities": [
+      {
+        "text": "Sarah Johnson",
+        "label": "NAME",
+        "start": 58,
+        "end": 71
+      },
+      {
+        "text": "sarah.j@yahoo.com",
+        "label": "EMAIL",
+        "start": 93,
+        "end": 110
+      }
+    ],
+    "metadata": {
+      "scenario": "account_update",
+      "style": "rushed",
+      "industry": "healthcare"
+    }
+  },
+  {
+    "text": "Uh, hi, I\u2019m trying to update my email and, um, my name is Sarah Johnson. So, it\u2019s c.walker@protonmail.com, and the contract ID is POL-55123. Can you help with that?",
+    "entities": [
+      {
+        "text": "Sarah Johnson",
+        "label": "NAME",
+        "start": 58,
+        "end": 71
+      },
+      {
+        "text": "c.walker@protonmail.com",
+        "label": "EMAIL",
+        "start": 82,
+        "end": 105
+      },
+      {
+        "text": "POL-55123",
+        "label": "CONTRACT_ID",
+        "start": 130,
+        "end": 139
+      }
+    ],
+    "metadata": {
+      "scenario": "account_update",
+      "style": "rushed",
+      "industry": "e-commerce"
+    }
+  },
+  {
+    "text": "Um, hi there, my name is Richard Harris, and I was calling to check the status of my order, you know, with the contract ID REF-44821.",
+    "entities": [
+      {
+        "text": "Richard Harris",
+        "label": "NAME",
+        "start": 25,
+        "end": 39
+      },
+      {
+        "text": "REF-44821",
+        "label": "CONTRACT_ID",
+        "start": 123,
+        "end": 132
+      }
+    ],
+    "metadata": {
+      "scenario": "order_status_inquiry",
+      "style": "polite",
+      "industry": "banking"
+    }
+  },
+  {
+    "text": "Um, hi, uh, my name is Michael Brown and I, I\u2019m having some issues with my PlayStation 5. So, it just won\u2019t, like, turn on sometimes and, um, it\u2019s really frustrating.",
+    "entities": [
+      {
+        "text": "Michael Brown",
+        "label": "NAME",
+        "start": 23,
+        "end": 36
+      },
+      {
+        "text": "PlayStation 5",
+        "label": "PRODUCT",
+        "start": 75,
+        "end": 88
+      }
+    ],
+    "metadata": {
+      "scenario": "technical_support",
+      "style": "confused",
+      "industry": "home appliances"
+    }
+  },
+  {
+    "text": "Um, hi, this is Bob Patterson. I\u2019m, uh, calling about a return for my Ring doorbell. I bought it on August 8th, and, um, I just really don\u2019t think it\u2019s working right. My contract ID is INV-2023-887.",
+    "entities": [
+      {
+        "text": "Bob Patterson",
+        "label": "NAME",
+        "start": 16,
+        "end": 29
+      },
+      {
+        "text": "Ring doorbell",
+        "label": "PRODUCT",
+        "start": 70,
+        "end": 83
+      },
+      {
+        "text": "August 8th",
+        "label": "ISSUE_DATE",
+        "start": 100,
+        "end": 110
+      },
+      {
+        "text": "INV-2023-887",
+        "label": "CONTRACT_ID",
+        "start": 185,
+        "end": 197
+      }
+    ],
+    "metadata": {
+      "scenario": "return_request",
+      "style": "disappointed",
+      "industry": "banking"
+    }
+  },
+  {
+    "text": "Uh, listen, my name is John Smith, and I bought this, um, LG OLED TV 65 inch, and it's, like, not working properly. I mean, I expected better from you guys!",
+    "entities": [
+      {
+        "text": "John Smith",
+        "label": "NAME",
+        "start": 23,
+        "end": 33
+      },
+      {
+        "text": "LG OLED TV 65 inch",
+        "label": "PRODUCT",
+        "start": 58,
+        "end": 76
+      }
+    ],
+    "metadata": {
+      "scenario": "product_complaint",
+      "style": "angry",
+      "industry": "retail"
+    }
+  },
+  {
+    "text": "Uh, hi, this is Charles Walker. I'm calling to check the status of my order, um, with the contract ID CLM-77659. You have my email, right? It's linda.w@yahoo.com.",
+    "entities": [
+      {
+        "text": "Charles Walker",
+        "label": "NAME",
+        "start": 16,
+        "end": 30
+      },
+      {
+        "text": "CLM-77659",
+        "label": "CONTRACT_ID",
+        "start": 102,
+        "end": 111
+      },
+      {
+        "text": "linda.w@yahoo.com",
+        "label": "EMAIL",
+        "start": 144,
+        "end": 161
+      }
+    ],
+    "metadata": {
+      "scenario": "order_status_inquiry",
+      "style": "neutral",
+      "industry": "banking"
+    }
+  },
+  {
+    "text": "Um, hi, I\u2019m, uh, Jessica Martinez, and I\u2019m calling about a charge on my, um, bill for the Fiber optic 500 Mbps plan. It, like, shows a payment due from the, uh, end of last month, but I don\u2019t, I don\u2019t understand why, uh, I have this charge. My contract ID is HD-2025-03312.",
+    "entities": [
+      {
+        "text": "Jessica Martinez",
+        "label": "NAME",
+        "start": 17,
+        "end": 33
+      },
+      {
+        "text": "HD-2025-03312",
+        "label": "CONTRACT_ID",
+        "start": 259,
+        "end": 272
+      },
+      {
+        "text": "end of last month",
+        "label": "ISSUE_DATE",
+        "start": 161,
+        "end": 178
+      },
+      {
+        "text": "Fiber optic 500 Mbps plan",
+        "label": "PRODUCT",
+        "start": 90,
+        "end": 115
+      }
+    ],
+    "metadata": {
+      "scenario": "billing_dispute",
+      "style": "confused",
+      "industry": "insurance"
+    }
+  },
+  {
+    "text": "Um, hi, my name is Ananya Sharma and I was just checking the status of my order, uh, for the Dell XPS 15, with the contract ID REF-44821.",
+    "entities": [
+      {
+        "text": "Ananya Sharma",
+        "label": "NAME",
+        "start": 19,
+        "end": 32
+      },
+      {
+        "text": "REF-44821",
+        "label": "CONTRACT_ID",
+        "start": 127,
+        "end": 136
+      },
+      {
+        "text": "Dell XPS 15",
+        "label": "PRODUCT",
+        "start": 93,
+        "end": 104
+      }
+    ],
+    "metadata": {
+      "scenario": "order_status_inquiry",
+      "style": "neutral",
+      "industry": "insurance"
+    }
+  },
+  {
+    "text": "Um, hi, this is Robert Wilson, and I'm calling about a charge on my account related to CONTRACT_ID CLM-77659. I noticed it on the statement dated ISSUE_DATE June 12, and I, uh, really need to get this sorted out.",
+    "entities": [
+      {
+        "text": "Robert Wilson",
+        "label": "NAME",
+        "start": 16,
+        "end": 29
+      },
+      {
+        "text": "CLM-77659",
+        "label": "CONTRACT_ID",
+        "start": 99,
+        "end": 108
+      },
+      {
+        "text": "June 12",
+        "label": "ISSUE_DATE",
+        "start": 157,
+        "end": 164
+      }
+    ],
+    "metadata": {
+      "scenario": "billing_dispute",
+      "style": "assertive",
+      "industry": "electronics"
+    }
+  },
+  {
+    "text": "Uh, hi, my name is Charles Walker, and I, um, I\u2019m having an issue with my Premium subscription plan. I noticed the problem, like, three days ago, and my contract ID is ORD-2024-5591.",
+    "entities": [
+      {
+        "text": "Charles Walker",
+        "label": "NAME",
+        "start": 19,
+        "end": 33
+      },
+      {
+        "text": "Premium subscription plan",
+        "label": "PRODUCT",
+        "start": 74,
+        "end": 99
+      },
+      {
+        "text": "ORD-2024-5591",
+        "label": "CONTRACT_ID",
+        "start": 168,
+        "end": 181
+      },
+      {
+        "text": "three days ago",
+        "label": "ISSUE_DATE",
+        "start": 130,
+        "end": 144
+      }
+    ],
+    "metadata": {
+      "scenario": "product_complaint",
+      "style": "calm",
+      "industry": "insurance"
+    }
+  },
+  {
+    "text": "I can't believe this! I was charged for the, um, LG OLED TV 65 inch that I, uh, returned last Friday. My name is William Jackson, and this is about contract INV-2023-887. How is this even possible?",
+    "entities": [
+      {
+        "text": "William Jackson",
+        "label": "NAME",
+        "start": 113,
+        "end": 128
+      },
+      {
+        "text": "INV-2023-887",
+        "label": "CONTRACT_ID",
+        "start": 157,
+        "end": 169
+      },
+      {
+        "text": "last Friday",
+        "label": "ISSUE_DATE",
+        "start": 89,
+        "end": 100
+      },
+      {
+        "text": "LG OLED TV 65 inch",
+        "label": "PRODUCT",
+        "start": 49,
+        "end": 67
+      }
+    ],
+    "metadata": {
+      "scenario": "billing_dispute",
+      "style": "angry",
+      "industry": "telecommunications"
+    }
+  },
+  {
+    "text": "Um, hi, this is John Smith. I'm really frustrated with my Dell XPS 15, it just won\u2019t turn on and I need help, like, right now. My contract ID is INV-2023-887, so can you please help me?",
+    "entities": [
+      {
+        "text": "John Smith",
+        "label": "NAME",
+        "start": 16,
+        "end": 26
+      },
+      {
+        "text": "Dell XPS 15",
+        "label": "PRODUCT",
+        "start": 58,
+        "end": 69
+      },
+      {
+        "text": "INV-2023-887",
+        "label": "CONTRACT_ID",
+        "start": 145,
+        "end": 157
+      }
+    ],
+    "metadata": {
+      "scenario": "technical_support",
+      "style": "frustrated",
+      "industry": "electronics"
+    }
+  },
+  {
+    "text": "Uh, hi, I\u2019m calling about a charge that, um, I really need to dispute. My name is, uh, Robert Wilson, and the issue started on, um, July 22 2024. I have the contract ID NB-449921, and my email is linda.w@yahoo.com.",
+    "entities": [
+      {
+        "text": "Robert Wilson",
+        "label": "NAME",
+        "start": 87,
+        "end": 100
+      },
+      {
+        "text": "NB-449921",
+        "label": "CONTRACT_ID",
+        "start": 169,
+        "end": 178
+      },
+      {
+        "text": "July 22 2024",
+        "label": "ISSUE_DATE",
+        "start": 132,
+        "end": 144
+      },
+      {
+        "text": "linda.w@yahoo.com",
+        "label": "EMAIL",
+        "start": 196,
+        "end": 213
+      }
+    ],
+    "metadata": {
+      "scenario": "billing_dispute",
+      "style": "assertive",
+      "industry": "electronics"
+    }
+  },
+  {
+    "text": "Listen, I need to talk about this charge on my account. It's for the, uh, visit I had earlier this week! It doesn't make sense, and I don't even know how you guys, um, expect me to pay this. My name is David Anderson, and my email is nhall@company.org, so can you just, like, fix this? My CONTRACT_ID is SUB-33018.",
+    "entities": [
+      {
+        "text": "David Anderson",
+        "label": "NAME",
+        "start": 202,
+        "end": 216
+      },
+      {
+        "text": "SUB-33018",
+        "label": "CONTRACT_ID",
+        "start": 304,
+        "end": 313
+      },
+      {
+        "text": "earlier this week",
+        "label": "ISSUE_DATE",
+        "start": 86,
+        "end": 103
+      },
+      {
+        "text": "nhall@company.org",
+        "label": "EMAIL",
+        "start": 234,
+        "end": 251
+      }
+    ],
+    "metadata": {
+      "scenario": "billing_dispute",
+      "style": "angry",
+      "industry": "healthcare"
+    }
+  },
+  {
+    "text": "Um, hi, my name is Ananya Sharma, and I\u2019m calling about a return for my Kindle Paperwhite. I, uh, received it on November 30th, and, well, it\u2019s not really what I expected.",
+    "entities": [
+      {
+        "text": "Ananya Sharma",
+        "label": "NAME",
+        "start": 19,
+        "end": 32
+      },
+      {
+        "text": "Kindle Paperwhite",
+        "label": "PRODUCT",
+        "start": 72,
+        "end": 89
+      },
+      {
+        "text": "November 30th",
+        "label": "ISSUE_DATE",
+        "start": 113,
+        "end": 126
+      }
+    ],
+    "metadata": {
+      "scenario": "return_request",
+      "style": "neutral",
+      "industry": "e-commerce"
+    }
+  },
+  {
+    "text": "I can't believe this! I was charged for something I didn't even order, um, it was like a couple of weeks back, and I need this fixed now. My name is, uh, Mohammed Al-Rashid, and my contract ID is A1B2C3.",
+    "entities": [
+      {
+        "text": "Mohammed Al-Rashid",
+        "label": "NAME",
+        "start": 154,
+        "end": 172
+      },
+      {
+        "text": "A1B2C3",
+        "label": "CONTRACT_ID",
+        "start": 196,
+        "end": 202
+      },
+      {
+        "text": "a couple of weeks back",
+        "label": "ISSUE_DATE",
+        "start": 87,
+        "end": 109
+      }
+    ],
+    "metadata": {
+      "scenario": "billing_dispute",
+      "style": "angry",
+      "industry": "e-commerce"
+    }
+  },
+  {
+    "text": "I can\u2019t believe this! I\u2019m really upset about the charge you guys put on my account for, um, my policy that wasn\u2019t even due. My name is Jessica Martinez, and this started on, uh, last Tuesday with the charge linked to my contract REF-44821.",
+    "entities": [
+      {
+        "text": "Jessica Martinez",
+        "label": "NAME",
+        "start": 135,
+        "end": 151
+      },
+      {
+        "text": "REF-44821",
+        "label": "CONTRACT_ID",
+        "start": 229,
+        "end": 238
+      },
+      {
+        "text": "last Tuesday",
+        "label": "ISSUE_DATE",
+        "start": 178,
+        "end": 190
+      }
+    ],
+    "metadata": {
+      "scenario": "billing_dispute",
+      "style": "angry",
+      "industry": "insurance"
+    }
+  },
+  {
+    "text": "I can't believe this! My Kindle Paperwhite has, um, stopped working completely since, uh, April 5th 2025! I'm really frustrated with this, and my contract ID is TKT-90274, just so you know, Maria Garcia here.",
+    "entities": [
+      {
+        "text": "Maria Garcia",
+        "label": "NAME",
+        "start": 190,
+        "end": 202
+      },
+      {
+        "text": "Kindle Paperwhite",
+        "label": "PRODUCT",
+        "start": 25,
+        "end": 42
+      },
+      {
+        "text": "TKT-90274",
+        "label": "CONTRACT_ID",
+        "start": 161,
+        "end": 170
+      },
+      {
+        "text": "April 5th 2025",
+        "label": "ISSUE_DATE",
+        "start": 90,
+        "end": 104
+      }
+    ],
+    "metadata": {
+      "scenario": "product_complaint",
+      "style": "angry",
+      "industry": "healthcare"
+    }
+  },
+  {
+    "text": "Um, hi, I\u2019m, uh, Hank Mueller, and I\u2019m calling about a charge that, um, appeared on my bill for, like, last Tuesday? The contract ID is RET-22045, but I\u2019m just really confused about what this is for.",
+    "entities": [
+      {
+        "text": "Hank Mueller",
+        "label": "NAME",
+        "start": 17,
+        "end": 29
+      },
+      {
+        "text": "RET-22045",
+        "label": "CONTRACT_ID",
+        "start": 136,
+        "end": 145
+      },
+      {
+        "text": "last Tuesday",
+        "label": "ISSUE_DATE",
+        "start": 103,
+        "end": 115
+      }
+    ],
+    "metadata": {
+      "scenario": "billing_dispute",
+      "style": "confused",
+      "industry": "healthcare"
+    }
+  },
+  {
+    "text": "Hi, uh, my name is Liam O'Brien, and I want to, um, return my Dyson V15 vacuum. I bought it on November 30th, but, like, it just doesn't work as expected.",
+    "entities": [
+      {
+        "text": "Liam O'Brien",
+        "label": "NAME",
+        "start": 19,
+        "end": 31
+      },
+      {
+        "text": "Dyson V15 vacuum",
+        "label": "PRODUCT",
+        "start": 62,
+        "end": 78
+      },
+      {
+        "text": "November 30th",
+        "label": "ISSUE_DATE",
+        "start": 95,
+        "end": 108
+      }
+    ],
+    "metadata": {
+      "scenario": "return_request",
+      "style": "polite",
+      "industry": "retail"
+    }
+  },
+  {
+    "text": "Um, hi, my name is Linda White and I'm calling to check the status of my order for the Annual maintenance contract. Uh, my contract ID is A1B2C3, and you can reach me at c.walker@protonmail.com.",
+    "entities": [
+      {
+        "text": "Linda White",
+        "label": "NAME",
+        "start": 19,
+        "end": 30
+      },
+      {
+        "text": "A1B2C3",
+        "label": "CONTRACT_ID",
+        "start": 138,
+        "end": 144
+      },
+      {
+        "text": "c.walker@protonmail.com",
+        "label": "EMAIL",
+        "start": 170,
+        "end": 193
+      },
+      {
+        "text": "Annual maintenance contract",
+        "label": "PRODUCT",
+        "start": 87,
+        "end": 114
+      }
+    ],
+    "metadata": {
+      "scenario": "order_status_inquiry",
+      "style": "neutral",
+      "industry": "subscription services"
+    }
+  },
+  {
+    "text": "Um, hi, this is John Smith. I, uh, just wanted to complain about the Fiber optic 500 Mbps plan, 'cause it's been, like, super slow lately and, um, it's really frustrating.",
+    "entities": [
+      {
+        "text": "John Smith",
+        "label": "NAME",
+        "start": 16,
+        "end": 26
+      },
+      {
+        "text": "Fiber optic 500 Mbps plan",
+        "label": "PRODUCT",
+        "start": 69,
+        "end": 94
+      }
+    ],
+    "metadata": {
+      "scenario": "product_complaint",
+      "style": "frustrated",
+      "industry": "subscription services"
+    }
+  },
+  {
+    "text": "Um, hi, this is Linda White, and I wanted to, uh, reschedule my appointment that I booked, like, three days ago. Can you help me with that? My email is w.jackson@email.com if you need it.",
+    "entities": [
+      {
+        "text": "Linda White",
+        "label": "NAME",
+        "start": 16,
+        "end": 27
+      },
+      {
+        "text": "three days ago",
+        "label": "ISSUE_DATE",
+        "start": 97,
+        "end": 111
+      },
+      {
+        "text": "w.jackson@email.com",
+        "label": "EMAIL",
+        "start": 152,
+        "end": 171
+      }
+    ],
+    "metadata": {
+      "scenario": "appointment_scheduling",
+      "style": "neutral",
+      "industry": "banking"
+    }
+  },
+  {
+    "text": "Uh, hi there! This is Charles Walker, and I, um, wanted to reschedule my appointment for, uh, June 12? My contract ID is SRV-11042.",
+    "entities": [
+      {
+        "text": "Charles Walker",
+        "label": "NAME",
+        "start": 22,
+        "end": 36
+      },
+      {
+        "text": "June 12",
+        "label": "ISSUE_DATE",
+        "start": 94,
+        "end": 101
+      },
+      {
+        "text": "SRV-11042",
+        "label": "CONTRACT_ID",
+        "start": 121,
+        "end": 130
+      }
+    ],
+    "metadata": {
+      "scenario": "appointment_scheduling",
+      "style": "polite",
+      "industry": "insurance"
+    }
+  },
+  {
+    "text": "Um, hi, I just, uh, I\u2019m having some issues with my, like, Nintendo Switch OLED, and, um, I don\u2019t really know what to do, so I thought I\u2019d call. My name is Bob Patterson, by the way.",
+    "entities": [
+      {
+        "text": "Bob Patterson",
+        "label": "NAME",
+        "start": 155,
+        "end": 168
+      },
+      {
+        "text": "Nintendo Switch OLED",
+        "label": "PRODUCT",
+        "start": 58,
+        "end": 78
+      }
+    ],
+    "metadata": {
+      "scenario": "technical_support",
+      "style": "confused",
+      "industry": "subscription services"
+    }
+  },
+  {
+    "text": "Um, hi, this is Nancy Hall, and I\u2019ve been trying to get my, uh, iPhone 15 Pro to work since, like, a few days back. My CONTRACT_ID is TKT-90274, and I just can\u2019t figure out what\u2019s wrong with it.",
+    "entities": [
+      {
+        "text": "Nancy Hall",
+        "label": "NAME",
+        "start": 16,
+        "end": 26
+      },
+      {
+        "text": "iPhone 15 Pro",
+        "label": "PRODUCT",
+        "start": 64,
+        "end": 77
+      },
+      {
+        "text": "TKT-90274",
+        "label": "CONTRACT_ID",
+        "start": 134,
+        "end": 143
+      },
+      {
+        "text": "a few days back",
+        "label": "ISSUE_DATE",
+        "start": 99,
+        "end": 114
+      }
+    ],
+    "metadata": {
+      "scenario": "technical_support",
+      "style": "frustrated",
+      "industry": "subscription services"
+    }
+  },
+  {
+    "text": "Uh, hi, my name is Joseph Lewis and, um, I'm having issues with my LG OLED TV 65 inch. It keeps, like, disconnecting from the internet, and it's super frustrating!",
+    "entities": [
+      {
+        "text": "Joseph Lewis",
+        "label": "NAME",
+        "start": 19,
+        "end": 31
+      },
+      {
+        "text": "LG OLED TV 65 inch",
+        "label": "PRODUCT",
+        "start": 67,
+        "end": 85
+      }
+    ],
+    "metadata": {
+      "scenario": "technical_support",
+      "style": "frustrated",
+      "industry": "utilities"
+    }
+  },
+  {
+    "text": "Um, hi, I\u2019m Bob Patterson, and I really need to discuss a charge on my account. I noticed it was for, uh, my last order, and the issue date was June 12. My contract ID is ACC-00192, and I'm not sure why, you know, I was charged this amount.",
+    "entities": [
+      {
+        "text": "Bob Patterson",
+        "label": "NAME",
+        "start": 12,
+        "end": 25
+      },
+      {
+        "text": "ACC-00192",
+        "label": "CONTRACT_ID",
+        "start": 171,
+        "end": 180
+      },
+      {
+        "text": "June 12",
+        "label": "ISSUE_DATE",
+        "start": 144,
+        "end": 151
+      }
+    ],
+    "metadata": {
+      "scenario": "billing_dispute",
+      "style": "assertive",
+      "industry": "e-commerce"
+    }
+  },
+  {
+    "text": "Um, hi, this is Jennifer Taylor. I\u2019d like to return my iPad Air that I purchased on July 22 2024, uh, under contract SUB-33018.",
+    "entities": [
+      {
+        "text": "Jennifer Taylor",
+        "label": "NAME",
+        "start": 16,
+        "end": 31
+      },
+      {
+        "text": "iPad Air",
+        "label": "PRODUCT",
+        "start": 55,
+        "end": 63
+      },
+      {
+        "text": "July 22 2024",
+        "label": "ISSUE_DATE",
+        "start": 84,
+        "end": 96
+      },
+      {
+        "text": "SUB-33018",
+        "label": "CONTRACT_ID",
+        "start": 117,
+        "end": 126
+      }
+    ],
+    "metadata": {
+      "scenario": "return_request",
+      "style": "polite",
+      "industry": "insurance"
+    }
+  },
+  {
+    "text": "Uh, hi, um, my name is Susan Clark and I have a, uh, question about my Annual maintenance contract, uh, the one with CONTRACT_ID 2024-ABX-001, I think it started on, um, August 8th?",
+    "entities": [
+      {
+        "text": "Susan Clark",
+        "label": "NAME",
+        "start": 23,
+        "end": 34
+      },
+      {
+        "text": "Annual maintenance contract",
+        "label": "PRODUCT",
+        "start": 71,
+        "end": 98
+      },
+      {
+        "text": "2024-ABX-001",
+        "label": "CONTRACT_ID",
+        "start": 129,
+        "end": 141
+      },
+      {
+        "text": "August 8th",
+        "label": "ISSUE_DATE",
+        "start": 170,
+        "end": 180
+      }
+    ],
+    "metadata": {
+      "scenario": "technical_support",
+      "style": "confused",
+      "industry": "utilities"
+    }
+  },
+  {
+    "text": "Um, hi there! My name is Liam O'Brien and, uh, I'm calling to check the status of my order for the Fiber optic 500 Mbps plan, you know, with the contract ID REF-44821?",
+    "entities": [
+      {
+        "text": "Liam O'Brien",
+        "label": "NAME",
+        "start": 25,
+        "end": 37
+      },
+      {
+        "text": "REF-44821",
+        "label": "CONTRACT_ID",
+        "start": 157,
+        "end": 166
+      },
+      {
+        "text": "Fiber optic 500 Mbps plan",
+        "label": "PRODUCT",
+        "start": 99,
+        "end": 124
+      }
+    ],
+    "metadata": {
+      "scenario": "order_status_inquiry",
+      "style": "neutral",
+      "industry": "telecommunications"
+    }
+  },
+  {
+    "text": "Uh, hi, I need to update my account info. It\u2019s Ananya Sharma, and, um, my email is emily.davis@hotmail.com. Also, I, uh, have a contract ID of HD-2025-03312.",
+    "entities": [
+      {
+        "text": "Ananya Sharma",
+        "label": "NAME",
+        "start": 47,
+        "end": 60
+      },
+      {
+        "text": "emily.davis@hotmail.com",
+        "label": "EMAIL",
+        "start": 83,
+        "end": 106
+      },
+      {
+        "text": "HD-2025-03312",
+        "label": "CONTRACT_ID",
+        "start": 143,
+        "end": 156
+      }
+    ],
+    "metadata": {
+      "scenario": "account_update",
+      "style": "rushed",
+      "industry": "banking"
+    }
+  },
+  {
+    "text": "Hi, um, this is Carlos Rivera. I was, uh, hoping to reschedule my appointment from, uh, last month. You have my email, right? It's jess.m@gmail.com.",
+    "entities": [
+      {
+        "text": "Carlos Rivera",
+        "label": "NAME",
+        "start": 16,
+        "end": 29
+      },
+      {
+        "text": "last month",
+        "label": "ISSUE_DATE",
+        "start": 88,
+        "end": 98
+      },
+      {
+        "text": "jess.m@gmail.com",
+        "label": "EMAIL",
+        "start": 131,
+        "end": 147
+      }
+    ],
+    "metadata": {
+      "scenario": "appointment_scheduling",
+      "style": "neutral",
+      "industry": "subscription services"
+    }
+  },
+  {
+    "text": "Um, hi, uh, my name is Carlos Rivera and I\u2019d like to update my account email to jthomas99@gmail.com, please.",
+    "entities": [
+      {
+        "text": "Carlos Rivera",
+        "label": "NAME",
+        "start": 23,
+        "end": 36
+      },
+      {
+        "text": "jthomas99@gmail.com",
+        "label": "EMAIL",
+        "start": 80,
+        "end": 99
+      }
+    ],
+    "metadata": {
+      "scenario": "account_update",
+      "style": "polite",
+      "industry": "banking"
+    }
+  },
+  {
+    "text": "Um, hi, I need to update my account. Uh, it's James Thomas. Also, my email is joe.lewis@outlook.com, and my contract ID is SRV-11042.",
+    "entities": [
+      {
+        "text": "James Thomas",
+        "label": "NAME",
+        "start": 46,
+        "end": 58
+      },
+      {
+        "text": "joe.lewis@outlook.com",
+        "label": "EMAIL",
+        "start": 78,
+        "end": 99
+      },
+      {
+        "text": "SRV-11042",
+        "label": "CONTRACT_ID",
+        "start": 123,
+        "end": 132
+      }
+    ],
+    "metadata": {
+      "scenario": "account_update",
+      "style": "rushed",
+      "industry": "banking"
+    }
+  },
+  {
+    "text": "I can't believe this! I just subscribed to the uh, Cloud storage 2TB plan, and it\u2019s been nothing but problems! I mean, seriously, I expected better from you guys, Nancy Hall here, and my files keep disappearing!",
+    "entities": [
+      {
+        "text": "Nancy Hall",
+        "label": "NAME",
+        "start": 163,
+        "end": 173
+      },
+      {
+        "text": "Cloud storage 2TB plan",
+        "label": "PRODUCT",
+        "start": 51,
+        "end": 73
+      }
+    ],
+    "metadata": {
+      "scenario": "product_complaint",
+      "style": "angry",
+      "industry": "subscription services"
+    }
+  },
+  {
+    "text": "Um, hi! This is Karen Robinson, and I want to update my email to john.smith@gmail.com, um, regarding my contract ID, it's 2024-ABX-001.",
+    "entities": [
+      {
+        "text": "Karen Robinson",
+        "label": "NAME",
+        "start": 16,
+        "end": 30
+      },
+      {
+        "text": "john.smith@gmail.com",
+        "label": "EMAIL",
+        "start": 65,
+        "end": 85
+      },
+      {
+        "text": "2024-ABX-001",
+        "label": "CONTRACT_ID",
+        "start": 122,
+        "end": 134
+      }
+    ],
+    "metadata": {
+      "scenario": "account_update",
+      "style": "polite",
+      "industry": "subscription services"
+    }
+  },
+  {
+    "text": "Hi, uh, this is Robert Wilson. I, um, wanted to reschedule my appointment that I booked about a week ago. My email is jthomas99@gmail.com, and the contract ID is TKT-90274.",
+    "entities": [
+      {
+        "text": "Robert Wilson",
+        "label": "NAME",
+        "start": 16,
+        "end": 29
+      },
+      {
+        "text": "about a week ago",
+        "label": "ISSUE_DATE",
+        "start": 88,
+        "end": 104
+      },
+      {
+        "text": "jthomas99@gmail.com",
+        "label": "EMAIL",
+        "start": 118,
+        "end": 137
+      },
+      {
+        "text": "TKT-90274",
+        "label": "CONTRACT_ID",
+        "start": 162,
+        "end": 171
+      }
+    ],
+    "metadata": {
+      "scenario": "appointment_scheduling",
+      "style": "polite",
+      "industry": "subscription services"
+    }
+  },
+  {
+    "text": "Hi, um, my name is James Thomas, and I need to update my email. It's sclark@fastmail.com, uh, and my contract ID is ACC-00192.",
+    "entities": [
+      {
+        "text": "James Thomas",
+        "label": "NAME",
+        "start": 19,
+        "end": 31
+      },
+      {
+        "text": "sclark@fastmail.com",
+        "label": "EMAIL",
+        "start": 69,
+        "end": 88
+      },
+      {
+        "text": "ACC-00192",
+        "label": "CONTRACT_ID",
+        "start": 116,
+        "end": 125
+      }
+    ],
+    "metadata": {
+      "scenario": "account_update",
+      "style": "polite",
+      "industry": "subscription services"
+    }
+  },
+  {
+    "text": "Um, hi, this is Sarah Johnson. I need to update my, uh, email to linda.w@yahoo.com for account ACC-00192, like, right now.",
+    "entities": [
+      {
+        "text": "Sarah Johnson",
+        "label": "NAME",
+        "start": 16,
+        "end": 29
+      },
+      {
+        "text": "linda.w@yahoo.com",
+        "label": "EMAIL",
+        "start": 65,
+        "end": 82
+      },
+      {
+        "text": "ACC-00192",
+        "label": "CONTRACT_ID",
+        "start": 95,
+        "end": 104
+      }
+    ],
+    "metadata": {
+      "scenario": "account_update",
+      "style": "rushed",
+      "industry": "electronics"
+    }
+  },
+  {
+    "text": "Look, I really need to talk about this charge on my bill. It was dated August 8th, and it doesn\u2019t match my usual plan. My name is Priya Patel, and I just, um, need this sorted out. Can you help me with my contract CT-78432? Also, you can reach me at john.smith@gmail.com if you need to send anything.",
+    "entities": [
+      {
+        "text": "Priya Patel",
+        "label": "NAME",
+        "start": 130,
+        "end": 141
+      },
+      {
+        "text": "CT-78432",
+        "label": "CONTRACT_ID",
+        "start": 214,
+        "end": 222
+      },
+      {
+        "text": "August 8th",
+        "label": "ISSUE_DATE",
+        "start": 71,
+        "end": 81
+      },
+      {
+        "text": "john.smith@gmail.com",
+        "label": "EMAIL",
+        "start": 250,
+        "end": 270
+      }
+    ],
+    "metadata": {
+      "scenario": "billing_dispute",
+      "style": "assertive",
+      "industry": "telecommunications"
+    }
+  },
+  {
+    "text": "I can\u2019t believe this! I bought an iPad Air, uh, like two weeks ago and it\u2019s already, um, not working properly! This is ridiculous, Daniel Allen, I want something done about my order CLM-77659!",
+    "entities": [
+      {
+        "text": "Daniel Allen",
+        "label": "NAME",
+        "start": 131,
+        "end": 143
+      },
+      {
+        "text": "iPad Air",
+        "label": "PRODUCT",
+        "start": 34,
+        "end": 42
+      },
+      {
+        "text": "CLM-77659",
+        "label": "CONTRACT_ID",
+        "start": 182,
+        "end": 191
+      }
+    ],
+    "metadata": {
+      "scenario": "product_complaint",
+      "style": "angry",
+      "industry": "retail"
+    }
+  },
+  {
+    "text": "Um, hi, my name is Priya Patel, and I\u2019m really frustrated with my AirPods Pro. I, uh, bought them on January 15th, and they, um, they're just not working right.",
+    "entities": [
+      {
+        "text": "Priya Patel",
+        "label": "NAME",
+        "start": 19,
+        "end": 30
+      },
+      {
+        "text": "AirPods Pro",
+        "label": "PRODUCT",
+        "start": 66,
+        "end": 77
+      },
+      {
+        "text": "January 15th",
+        "label": "ISSUE_DATE",
+        "start": 101,
+        "end": 113
+      }
+    ],
+    "metadata": {
+      "scenario": "product_complaint",
+      "style": "calm",
+      "industry": "retail"
+    }
+  },
+  {
+    "text": "Um, hi, this is Richard Harris. I'm, uh, calling to inquire about the Annual maintenance contract. Could you, like, provide me some details on that?",
+    "entities": [
+      {
+        "text": "Richard Harris",
+        "label": "NAME",
+        "start": 16,
+        "end": 30
+      },
+      {
+        "text": "Annual maintenance contract",
+        "label": "PRODUCT",
+        "start": 70,
+        "end": 97
+      }
+    ],
+    "metadata": {
+      "scenario": "general_inquiry",
+      "style": "neutral",
+      "industry": "subscription services"
+    }
+  },
+  {
+    "text": "Hi, uh, this is Emily Davis. I, um, wanted to reschedule my appointment that I, uh, set for sometime last week.",
+    "entities": [
+      {
+        "text": "Emily Davis",
+        "label": "NAME",
+        "start": 16,
+        "end": 27
+      },
+      {
+        "text": "sometime last week",
+        "label": "ISSUE_DATE",
+        "start": 92,
+        "end": 110
+      }
+    ],
+    "metadata": {
+      "scenario": "appointment_scheduling",
+      "style": "neutral",
+      "industry": "banking"
+    }
+  },
+  {
+    "text": "Um, hi, this is Yuki Tanaka, and I'm, uh, having some trouble with my, um, Samsung Galaxy S24. I, uh, think it's related to, like, the settings or something. My contract ID is NB-449921, so, um, can you help me?",
+    "entities": [
+      {
+        "text": "Yuki Tanaka",
+        "label": "NAME",
+        "start": 16,
+        "end": 27
+      },
+      {
+        "text": "Samsung Galaxy S24",
+        "label": "PRODUCT",
+        "start": 75,
+        "end": 93
+      },
+      {
+        "text": "NB-449921",
+        "label": "CONTRACT_ID",
+        "start": 176,
+        "end": 185
+      }
+    ],
+    "metadata": {
+      "scenario": "technical_support",
+      "style": "confused",
+      "industry": "home appliances"
+    }
+  },
+  {
+    "text": "Uh, hi there, I\u2019m just checking the status of my order for the Fitbit Charge 6, uh, it should be under the contract ID NB-449921. My name is John Smith.",
+    "entities": [
+      {
+        "text": "John Smith",
+        "label": "NAME",
+        "start": 141,
+        "end": 151
+      },
+      {
+        "text": "NB-449921",
+        "label": "CONTRACT_ID",
+        "start": 119,
+        "end": 128
+      },
+      {
+        "text": "Fitbit Charge 6",
+        "label": "PRODUCT",
+        "start": 63,
+        "end": 78
+      }
+    ],
+    "metadata": {
+      "scenario": "order_status_inquiry",
+      "style": "neutral",
+      "industry": "healthcare"
+    }
+  },
+  {
+    "text": "Um, hi, this is Susan Clark, and I\u2019m really frustrated with my AirPods Pro. They just, like, keep disconnecting, you know? I\u2019ve tried everything, and it\u2019s, um, super annoying.",
+    "entities": [
+      {
+        "text": "Susan Clark",
+        "label": "NAME",
+        "start": 16,
+        "end": 27
+      },
+      {
+        "text": "AirPods Pro",
+        "label": "PRODUCT",
+        "start": 63,
+        "end": 74
+      }
+    ],
+    "metadata": {
+      "scenario": "technical_support",
+      "style": "frustrated",
+      "industry": "e-commerce"
+    }
+  },
+  {
+    "text": "Uh, hi, my name is Joseph Lewis, and I, um, I\u2019m having some issues with my PlayStation 5. It keeps, like, crashing randomly, and it\u2019s really frustrating.",
+    "entities": [
+      {
+        "text": "Joseph Lewis",
+        "label": "NAME",
+        "start": 19,
+        "end": 31
+      },
+      {
+        "text": "PlayStation 5",
+        "label": "PRODUCT",
+        "start": 75,
+        "end": 88
+      }
+    ],
+    "metadata": {
+      "scenario": "product_complaint",
+      "style": "calm",
+      "industry": "utilities"
+    }
+  },
+  {
+    "text": "Um, hi, this is James Thomas. I, uh, wanted to return my LG OLED TV 65 inch that I bought, um, on August 8th.",
+    "entities": [
+      {
+        "text": "James Thomas",
+        "label": "NAME",
+        "start": 16,
+        "end": 28
+      },
+      {
+        "text": "LG OLED TV 65 inch",
+        "label": "PRODUCT",
+        "start": 57,
+        "end": 75
+      },
+      {
+        "text": "August 8th",
+        "label": "ISSUE_DATE",
+        "start": 98,
+        "end": 108
+      }
+    ],
+    "metadata": {
+      "scenario": "return_request",
+      "style": "polite",
+      "industry": "retail"
+    }
+  },
+  {
+    "text": "Um, hi, this is Karen Robinson. I need to, uh, reschedule my appointment for, um, October 21st 2024? My email is david.a@company.com and, uh, my contract ID is CLM-77659.",
+    "entities": [
+      {
+        "text": "Karen Robinson",
+        "label": "NAME",
+        "start": 16,
+        "end": 30
+      },
+      {
+        "text": "October 21st 2024",
+        "label": "ISSUE_DATE",
+        "start": 82,
+        "end": 99
+      },
+      {
+        "text": "david.a@company.com",
+        "label": "EMAIL",
+        "start": 113,
+        "end": 132
+      },
+      {
+        "text": "CLM-77659",
+        "label": "CONTRACT_ID",
+        "start": 160,
+        "end": 169
+      }
+    ],
+    "metadata": {
+      "scenario": "appointment_scheduling",
+      "style": "rushed",
+      "industry": "telecommunications"
+    }
+  },
+  {
+    "text": "Um, hi, this is Nancy Hall. I, uh, bought an iPhone 15 Pro about, um, two weeks ago, and I, uh, want to return it. Can you help me with that? My email is sclark@fastmail.com.",
+    "entities": [
+      {
+        "text": "Nancy Hall",
+        "label": "NAME",
+        "start": 16,
+        "end": 26
+      },
+      {
+        "text": "iPhone 15 Pro",
+        "label": "PRODUCT",
+        "start": 45,
+        "end": 58
+      },
+      {
+        "text": "two weeks ago",
+        "label": "ISSUE_DATE",
+        "start": 70,
+        "end": 83
+      },
+      {
+        "text": "sclark@fastmail.com",
+        "label": "EMAIL",
+        "start": 154,
+        "end": 173
+      }
+    ],
+    "metadata": {
+      "scenario": "return_request",
+      "style": "neutral",
+      "industry": "insurance"
+    }
+  },
+  {
+    "text": "Um, hi, this is Hank Mueller. I wanted to, uh, update my email to krobinson@gmail.com and, um, the contract ID is CT-78432.",
+    "entities": [
+      {
+        "text": "Hank Mueller",
+        "label": "NAME",
+        "start": 16,
+        "end": 28
+      },
+      {
+        "text": "krobinson@gmail.com",
+        "label": "EMAIL",
+        "start": 66,
+        "end": 85
+      },
+      {
+        "text": "CT-78432",
+        "label": "CONTRACT_ID",
+        "start": 114,
+        "end": 122
+      }
+    ],
+    "metadata": {
+      "scenario": "account_update",
+      "style": "neutral",
+      "industry": "utilities"
+    }
+  },
+  {
+    "text": "Hi, um, this is Alice Chen. I'm calling to check the status of my order for the Cloud storage 2TB plan? My contract ID is SUB-33018, and, uh, my email is d.allen@email.com.",
+    "entities": [
+      {
+        "text": "Alice Chen",
+        "label": "NAME",
+        "start": 16,
+        "end": 26
+      },
+      {
+        "text": "SUB-33018",
+        "label": "CONTRACT_ID",
+        "start": 122,
+        "end": 131
+      },
+      {
+        "text": "d.allen@email.com",
+        "label": "EMAIL",
+        "start": 154,
+        "end": 171
+      },
+      {
+        "text": "Cloud storage 2TB plan",
+        "label": "PRODUCT",
+        "start": 80,
+        "end": 102
+      }
+    ],
+    "metadata": {
+      "scenario": "order_status_inquiry",
+      "style": "polite",
+      "industry": "subscription services"
+    }
+  },
+  {
+    "text": "Um, hi, my name is William Jackson and I, uh, need to update my email to linda.w@yahoo.com. So, can you help me with that?",
+    "entities": [
+      {
+        "text": "William Jackson",
+        "label": "NAME",
+        "start": 19,
+        "end": 34
+      },
+      {
+        "text": "linda.w@yahoo.com",
+        "label": "EMAIL",
+        "start": 73,
+        "end": 90
+      }
+    ],
+    "metadata": {
+      "scenario": "account_update",
+      "style": "polite",
+      "industry": "electronics"
+    }
+  },
+  {
+    "text": "I can't believe this! I bought an uh, an iPad Air and it doesn't work. My name is Emily Davis and my contract ID is WO-67893. This is just unacceptable!",
+    "entities": [
+      {
+        "text": "Emily Davis",
+        "label": "NAME",
+        "start": 82,
+        "end": 93
+      },
+      {
+        "text": "iPad Air",
+        "label": "PRODUCT",
+        "start": 41,
+        "end": 49
+      },
+      {
+        "text": "WO-67893",
+        "label": "CONTRACT_ID",
+        "start": 116,
+        "end": 124
+      }
+    ],
+    "metadata": {
+      "scenario": "product_complaint",
+      "style": "angry",
+      "industry": "banking"
+    }
+  },
+  {
+    "text": "Hi, uh, this is Mohammed Al-Rashid. I, um, wanted to reschedule my appointment that I, uh, scheduled yesterday. Can you, um, send the confirmation to d.allen@email.com?",
+    "entities": [
+      {
+        "text": "Mohammed Al-Rashid",
+        "label": "NAME",
+        "start": 16,
+        "end": 34
+      },
+      {
+        "text": "yesterday",
+        "label": "ISSUE_DATE",
+        "start": 101,
+        "end": 110
+      },
+      {
+        "text": "d.allen@email.com",
+        "label": "EMAIL",
+        "start": 150,
+        "end": 167
+      }
+    ],
+    "metadata": {
+      "scenario": "appointment_scheduling",
+      "style": "polite",
+      "industry": "banking"
+    }
+  },
+  {
+    "text": "Um, hi there! This is Carlos Rivera, and I need to update my email to david.a@company.com for my account. Uh, my contract ID is X9Y8Z7, just to make sure you have everything you need.",
+    "entities": [
+      {
+        "text": "Carlos Rivera",
+        "label": "NAME",
+        "start": 22,
+        "end": 35
+      },
+      {
+        "text": "david.a@company.com",
+        "label": "EMAIL",
+        "start": 70,
+        "end": 89
+      },
+      {
+        "text": "X9Y8Z7",
+        "label": "CONTRACT_ID",
+        "start": 128,
+        "end": 134
+      }
+    ],
+    "metadata": {
+      "scenario": "account_update",
+      "style": "polite",
+      "industry": "retail"
+    }
+  },
+  {
+    "text": "Um, hi, my name is Robert Wilson, and I\u2019m really frustrated with my Dyson V15 vacuum. It just, uh, keeps losing suction and I don\u2019t know, I just, it\u2019s not what I expected for the price! My contract ID is ORD-2024-5591 if you need it.",
+    "entities": [
+      {
+        "text": "Robert Wilson",
+        "label": "NAME",
+        "start": 19,
+        "end": 32
+      },
+      {
+        "text": "Dyson V15 vacuum",
+        "label": "PRODUCT",
+        "start": 68,
+        "end": 84
+      },
+      {
+        "text": "ORD-2024-5591",
+        "label": "CONTRACT_ID",
+        "start": 204,
+        "end": 217
+      }
+    ],
+    "metadata": {
+      "scenario": "product_complaint",
+      "style": "frustrated",
+      "industry": "electronics"
+    }
+  },
+  {
+    "text": "Hi, um, this is Emily Davis, and I, uh, need to reschedule my appointment from January 15th. My contract ID is HD-2025-03312, so I was hoping to find a new date.",
+    "entities": [
+      {
+        "text": "Emily Davis",
+        "label": "NAME",
+        "start": 16,
+        "end": 27
+      },
+      {
+        "text": "January 15th",
+        "label": "ISSUE_DATE",
+        "start": 79,
+        "end": 91
+      },
+      {
+        "text": "HD-2025-03312",
+        "label": "CONTRACT_ID",
+        "start": 111,
+        "end": 124
+      }
+    ],
+    "metadata": {
+      "scenario": "appointment_scheduling",
+      "style": "polite",
+      "industry": "utilities"
+    }
+  },
+  {
+    "text": "Um, hi, this is Fatima Osei. I, uh, wanted to, like, return my Premium subscription plan that I got on December 1st. Can you help me with that? My email is mbrown42@outlook.com.",
+    "entities": [
+      {
+        "text": "Fatima Osei",
+        "label": "NAME",
+        "start": 16,
+        "end": 27
+      },
+      {
+        "text": "Premium subscription plan",
+        "label": "PRODUCT",
+        "start": 63,
+        "end": 88
+      },
+      {
+        "text": "December 1st",
+        "label": "ISSUE_DATE",
+        "start": 103,
+        "end": 115
+      },
+      {
+        "text": "mbrown42@outlook.com",
+        "label": "EMAIL",
+        "start": 156,
+        "end": 176
+      }
+    ],
+    "metadata": {
+      "scenario": "return_request",
+      "style": "polite",
+      "industry": "insurance"
+    }
+  },
+  {
+    "text": "Uh, hi there! This is Robert Wilson, and I'm having some trouble with my, um, Sony WH-1000XM5 headphones. They, like, keep disconnecting from my phone, and it's really frustrating.",
+    "entities": [
+      {
+        "text": "Robert Wilson",
+        "label": "NAME",
+        "start": 22,
+        "end": 35
+      },
+      {
+        "text": "Sony WH-1000XM5 headphones",
+        "label": "PRODUCT",
+        "start": 78,
+        "end": 104
+      }
+    ],
+    "metadata": {
+      "scenario": "technical_support",
+      "style": "patient",
+      "industry": "telecommunications"
+    }
+  },
+  {
+    "text": "Um, hi, this is Nancy Hall. I'm calling to check the status of my order, uh, with the contract ID NB-449921.",
+    "entities": [
+      {
+        "text": "Nancy Hall",
+        "label": "NAME",
+        "start": 16,
+        "end": 26
+      },
+      {
+        "text": "NB-449921",
+        "label": "CONTRACT_ID",
+        "start": 98,
+        "end": 107
+      }
+    ],
+    "metadata": {
+      "scenario": "order_status_inquiry",
+      "style": "polite",
+      "industry": "retail"
+    }
+  },
+  {
+    "text": "Hi, uh, my name is Joseph Lewis, and I'm calling about an issue with my LG OLED TV 65 inch. It's, um, not turning on, and my contract ID is PRJ-10284.",
+    "entities": [
+      {
+        "text": "Joseph Lewis",
+        "label": "NAME",
+        "start": 19,
+        "end": 31
+      },
+      {
+        "text": "LG OLED TV 65 inch",
+        "label": "PRODUCT",
+        "start": 72,
+        "end": 90
+      },
+      {
+        "text": "PRJ-10284",
+        "label": "CONTRACT_ID",
+        "start": 140,
+        "end": 149
+      }
+    ],
+    "metadata": {
+      "scenario": "product_complaint",
+      "style": "calm",
+      "industry": "subscription services"
+    }
+  },
+  {
+    "text": "Hi, uh, my name is Betty Young and I\u2019d like to return my Dell XPS 15. I received it, um, last Monday morning, and I have my contract ID here, it's TKT-90274. Can you help me with that?",
+    "entities": [
+      {
+        "text": "Betty Young",
+        "label": "NAME",
+        "start": 19,
+        "end": 30
+      },
+      {
+        "text": "Dell XPS 15",
+        "label": "PRODUCT",
+        "start": 57,
+        "end": 68
+      },
+      {
+        "text": "last Monday morning",
+        "label": "ISSUE_DATE",
+        "start": 89,
+        "end": 108
+      },
+      {
+        "text": "TKT-90274",
+        "label": "CONTRACT_ID",
+        "start": 147,
+        "end": 156
+      }
+    ],
+    "metadata": {
+      "scenario": "return_request",
+      "style": "neutral",
+      "industry": "telecommunications"
+    }
+  },
+  {
+    "text": "Ugh, this is really frustrating. I bought the um, AirPods Pro, and they just stopped working. My name is Michael Brown, and my contract ID is HD-2025-03312. I just want a solution!",
+    "entities": [
+      {
+        "text": "Michael Brown",
+        "label": "NAME",
+        "start": 105,
+        "end": 118
+      },
+      {
+        "text": "AirPods Pro",
+        "label": "PRODUCT",
+        "start": 50,
+        "end": 61
+      },
+      {
+        "text": "HD-2025-03312",
+        "label": "CONTRACT_ID",
+        "start": 142,
+        "end": 155
+      }
+    ],
+    "metadata": {
+      "scenario": "product_complaint",
+      "style": "frustrated",
+      "industry": "electronics"
+    }
+  },
+  {
+    "text": "Hi, uh, this is Maria Garcia, and I need to update my email address, um, it's currently maria.garcia@outlook.com.",
+    "entities": [
+      {
+        "text": "Maria Garcia",
+        "label": "NAME",
+        "start": 16,
+        "end": 28
+      },
+      {
+        "text": "maria.garcia@outlook.com",
+        "label": "EMAIL",
+        "start": 88,
+        "end": 112
+      }
+    ],
+    "metadata": {
+      "scenario": "account_update",
+      "style": "neutral",
+      "industry": "banking"
+    }
+  },
+  {
+    "text": "Uh, hi, I need to update my account info. My name is, um, Ananya Sharma. And, uh, can you also change my email to jthomas99@gmail.com? That would be great.",
+    "entities": [
+      {
+        "text": "Ananya Sharma",
+        "label": "NAME",
+        "start": 58,
+        "end": 71
+      },
+      {
+        "text": "jthomas99@gmail.com",
+        "label": "EMAIL",
+        "start": 114,
+        "end": 133
+      }
+    ],
+    "metadata": {
+      "scenario": "account_update",
+      "style": "rushed",
+      "industry": "banking"
+    }
+  },
+  {
+    "text": "Um, hi, this is Susan Clark, and I'm having some trouble with my Dell XPS 15, like, it keeps freezing up sometimes. So, I just wanted to see if there\u2019s anything you can do to help me with that?",
+    "entities": [
+      {
+        "text": "Susan Clark",
+        "label": "NAME",
+        "start": 16,
+        "end": 27
+      },
+      {
+        "text": "Dell XPS 15",
+        "label": "PRODUCT",
+        "start": 65,
+        "end": 76
+      }
+    ],
+    "metadata": {
+      "scenario": "technical_support",
+      "style": "patient",
+      "industry": "banking"
+    }
+  },
+  {
+    "text": "Um, hi there! My name is Sarah Johnson and I'm just calling to, uh, inquire about a recent order. Can you, um, send me the confirmation to my email, which is maria.garcia@outlook.com?",
+    "entities": [
+      {
+        "text": "Sarah Johnson",
+        "label": "NAME",
+        "start": 25,
+        "end": 38
+      },
+      {
+        "text": "maria.garcia@outlook.com",
+        "label": "EMAIL",
+        "start": 158,
+        "end": 182
+      }
+    ],
+    "metadata": {
+      "scenario": "general_inquiry",
+      "style": "polite",
+      "industry": "retail"
+    }
+  },
+  {
+    "text": "Um, hi, this is Emily Davis, and I, uh, I just noticed a charge on my bill from, um, sometime last week that I don\u2019t understand. My contract ID is HD-2025-03312, and, like, I really need help with this. Can you, uh, check my email too? It\u2019s r.harris@gmail.com.",
+    "entities": [
+      {
+        "text": "Emily Davis",
+        "label": "NAME",
+        "start": 16,
+        "end": 27
+      },
+      {
+        "text": "HD-2025-03312",
+        "label": "CONTRACT_ID",
+        "start": 147,
+        "end": 160
+      },
+      {
+        "text": "sometime last week",
+        "label": "ISSUE_DATE",
+        "start": 85,
+        "end": 103
+      },
+      {
+        "text": "r.harris@gmail.com",
+        "label": "EMAIL",
+        "start": 241,
+        "end": 259
+      }
+    ],
+    "metadata": {
+      "scenario": "billing_dispute",
+      "style": "confused",
+      "industry": "utilities"
+    }
+  },
+  {
+    "text": "Uh, hi there! My name is Michael Brown, and I\u2019d like to update my email to b.young@hotmail.com, um, for my account with contract ID NB-449921.",
+    "entities": [
+      {
+        "text": "Michael Brown",
+        "label": "NAME",
+        "start": 25,
+        "end": 38
+      },
+      {
+        "text": "b.young@hotmail.com",
+        "label": "EMAIL",
+        "start": 75,
+        "end": 94
+      },
+      {
+        "text": "NB-449921",
+        "label": "CONTRACT_ID",
+        "start": 132,
+        "end": 141
+      }
+    ],
+    "metadata": {
+      "scenario": "account_update",
+      "style": "polite",
+      "industry": "utilities"
+    }
+  },
+  {
+    "text": "Um, hi there! This is John Smith. I wanted to, uh, reschedule my appointment for the, um, service on 02/28/2025. Can you help me with that?",
+    "entities": [
+      {
+        "text": "John Smith",
+        "label": "NAME",
+        "start": 22,
+        "end": 32
+      },
+      {
+        "text": "02/28/2025",
+        "label": "ISSUE_DATE",
+        "start": 101,
+        "end": 111
+      }
+    ],
+    "metadata": {
+      "scenario": "appointment_scheduling",
+      "style": "neutral",
+      "industry": "insurance"
+    }
+  },
+  {
+    "text": "Uh, hi there, um, my name is Daniel Allen and I'm calling to check the status of, uh, my order, which is, um, CONTRACT_ID ORD-2024-5591 for the Fiber optic 500 Mbps plan.",
+    "entities": [
+      {
+        "text": "Daniel Allen",
+        "label": "NAME",
+        "start": 29,
+        "end": 41
+      },
+      {
+        "text": "ORD-2024-5591",
+        "label": "CONTRACT_ID",
+        "start": 122,
+        "end": 135
+      },
+      {
+        "text": "Fiber optic 500 Mbps plan",
+        "label": "PRODUCT",
+        "start": 144,
+        "end": 169
+      }
+    ],
+    "metadata": {
+      "scenario": "order_status_inquiry",
+      "style": "neutral",
+      "industry": "insurance"
+    }
+  },
+  {
+    "text": "Um, hi there! This is William Jackson, and I, uh, wanted to update my email to emily.davis@hotmail.com. So, can you help me with that?",
+    "entities": [
+      {
+        "text": "William Jackson",
+        "label": "NAME",
+        "start": 22,
+        "end": 37
+      },
+      {
+        "text": "emily.davis@hotmail.com",
+        "label": "EMAIL",
+        "start": 79,
+        "end": 102
+      }
+    ],
+    "metadata": {
+      "scenario": "account_update",
+      "style": "polite",
+      "industry": "healthcare"
+    }
+  },
+  {
+    "text": "Uh, hi! My name is, um, Maria Garcia, and I'm calling to, uh, request a return for my, um, Nintendo Switch OLED. I bought it, uh, at the end of last month and, um, I think I need to exchange it for a different one. You can reach me at, um, mbrown42@outlook.com.",
+    "entities": [
+      {
+        "text": "Maria Garcia",
+        "label": "NAME",
+        "start": 24,
+        "end": 36
+      },
+      {
+        "text": "Nintendo Switch OLED",
+        "label": "PRODUCT",
+        "start": 91,
+        "end": 111
+      },
+      {
+        "text": "end of last month",
+        "label": "ISSUE_DATE",
+        "start": 137,
+        "end": 154
+      },
+      {
+        "text": "mbrown42@outlook.com",
+        "label": "EMAIL",
+        "start": 240,
+        "end": 260
+      }
+    ],
+    "metadata": {
+      "scenario": "return_request",
+      "style": "neutral",
+      "industry": "utilities"
+    }
+  },
+  {
+    "text": "Um, hi, this is Priya Patel. I, uh, bought a Nintendo Switch OLED about, like, two weeks ago, and I really need to return it. Can you help me with that? I also emailed you guys at nhall@company.org, but, uh, I haven't heard back yet.",
+    "entities": [
+      {
+        "text": "Priya Patel",
+        "label": "NAME",
+        "start": 16,
+        "end": 27
+      },
+      {
+        "text": "Nintendo Switch OLED",
+        "label": "PRODUCT",
+        "start": 45,
+        "end": 65
+      },
+      {
+        "text": "two weeks ago",
+        "label": "ISSUE_DATE",
+        "start": 79,
+        "end": 92
+      },
+      {
+        "text": "nhall@company.org",
+        "label": "EMAIL",
+        "start": 180,
+        "end": 197
+      }
+    ],
+    "metadata": {
+      "scenario": "return_request",
+      "style": "disappointed",
+      "industry": "retail"
+    }
+  },
+  {
+    "text": "Um, hi, this is Charles Walker. I wanted to update my email to linda.w@yahoo.com. Is that, uh, possible?",
+    "entities": [
+      {
+        "text": "Charles Walker",
+        "label": "NAME",
+        "start": 16,
+        "end": 30
+      },
+      {
+        "text": "linda.w@yahoo.com",
+        "label": "EMAIL",
+        "start": 63,
+        "end": 80
+      }
+    ],
+    "metadata": {
+      "scenario": "account_update",
+      "style": "neutral",
+      "industry": "banking"
+    }
+  },
+  {
+    "text": "Um, hi, this is David Anderson and I need to update my email to jthomas99@gmail.com, please. Uh, I think that's all I need to change.",
+    "entities": [
+      {
+        "text": "David Anderson",
+        "label": "NAME",
+        "start": 16,
+        "end": 30
+      },
+      {
+        "text": "jthomas99@gmail.com",
+        "label": "EMAIL",
+        "start": 64,
+        "end": 83
+      }
+    ],
+    "metadata": {
+      "scenario": "account_update",
+      "style": "polite",
+      "industry": "telecommunications"
+    }
+  },
+  {
+    "text": "Hey there! Um, my name is Emily Davis and I was just wondering, like, if you could help me with my account? I mean, I think I need to update my email to b.young@hotmail.com.",
+    "entities": [
+      {
+        "text": "Emily Davis",
+        "label": "NAME",
+        "start": 26,
+        "end": 37
+      },
+      {
+        "text": "b.young@hotmail.com",
+        "label": "EMAIL",
+        "start": 153,
+        "end": 172
+      }
+    ],
+    "metadata": {
+      "scenario": "general_inquiry",
+      "style": "casual",
+      "industry": "utilities"
+    }
+  },
+  {
+    "text": "Uh, hi! I need to, um, reschedule my service appointment. My name is John Smith and it was, uh, supposed to be last month. Can you, um, send me a confirmation to jen.taylor@icloud.com?",
+    "entities": [
+      {
+        "text": "John Smith",
+        "label": "NAME",
+        "start": 69,
+        "end": 79
+      },
+      {
+        "text": "last month",
+        "label": "ISSUE_DATE",
+        "start": 111,
+        "end": 121
+      },
+      {
+        "text": "jen.taylor@icloud.com",
+        "label": "EMAIL",
+        "start": 162,
+        "end": 183
+      }
+    ],
+    "metadata": {
+      "scenario": "appointment_scheduling",
+      "style": "rushed",
+      "industry": "electronics"
+    }
+  },
+  {
+    "text": "Hey there! Uh, my name is Hank Mueller, and I'm just curious about the Nespresso Vertuo, like, does it come with a warranty or something?",
+    "entities": [
+      {
+        "text": "Hank Mueller",
+        "label": "NAME",
+        "start": 26,
+        "end": 38
+      },
+      {
+        "text": "Nespresso Vertuo",
+        "label": "PRODUCT",
+        "start": 71,
+        "end": 87
+      }
+    ],
+    "metadata": {
+      "scenario": "general_inquiry",
+      "style": "casual",
+      "industry": "retail"
+    }
+  },
+  {
+    "text": "Um, hi, my name is Carlos Rivera, and I'd like to update my email to krobinson@gmail.com, please.",
+    "entities": [
+      {
+        "text": "Carlos Rivera",
+        "label": "NAME",
+        "start": 19,
+        "end": 32
+      },
+      {
+        "text": "krobinson@gmail.com",
+        "label": "EMAIL",
+        "start": 69,
+        "end": 88
+      }
+    ],
+    "metadata": {
+      "scenario": "account_update",
+      "style": "polite",
+      "industry": "subscription services"
+    }
+  },
+  {
+    "text": "Um, hi, my name is Richard Harris and I, uh, I\u2019m calling about an issue with my iPad Air. It, uh, it keeps freezing, and it's really frustrating.",
+    "entities": [
+      {
+        "text": "Richard Harris",
+        "label": "NAME",
+        "start": 19,
+        "end": 33
+      },
+      {
+        "text": "iPad Air",
+        "label": "PRODUCT",
+        "start": 80,
+        "end": 88
+      }
+    ],
+    "metadata": {
+      "scenario": "product_complaint",
+      "style": "calm",
+      "industry": "e-commerce"
+    }
+  },
+  {
+    "text": "I can't believe this! I was charged for something I didn\u2019t even authorize, um, my name is Priya Patel and I'm looking at the statement for CONTRACT_ID NB-449921, and the ISSUE_DATE is October 21st 2024, so how do you explain this?",
+    "entities": [
+      {
+        "text": "Priya Patel",
+        "label": "NAME",
+        "start": 90,
+        "end": 101
+      },
+      {
+        "text": "NB-449921",
+        "label": "CONTRACT_ID",
+        "start": 151,
+        "end": 160
+      },
+      {
+        "text": "October 21st 2024",
+        "label": "ISSUE_DATE",
+        "start": 184,
+        "end": 201
+      }
+    ],
+    "metadata": {
+      "scenario": "billing_dispute",
+      "style": "angry",
+      "industry": "insurance"
+    }
+  }
+]

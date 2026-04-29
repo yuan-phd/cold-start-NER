@@ -1,0 +1,91 @@
+{
+  "dataset": "diabolocom/talkbank_4_stt (en, segment split)",
+  "total_transcripts": 32092,
+  "fillers": {
+    "total_words": 406591,
+    "total_fillers": 30642,
+    "filler_rate": 0.07536,
+    "single_word_fillers": {
+      "like": 4319,
+      "so": 4314,
+      "hhh": 3806,
+      "uh": 2849,
+      "well": 2744,
+      "um": 2430,
+      "mhm": 1690,
+      "right": 1650,
+      "huh": 390,
+      "hm": 344,
+      "eh": 247,
+      "hmm": 93,
+      "uhh": 21,
+      "uhm": 19,
+      "er": 19,
+      "mmhm": 18,
+      "uhhh": 13,
+      "umm": 11,
+      "hha": 6,
+      "hmmm": 4,
+      "ummm": 4
+    },
+    "multi_word_fillers": {
+      "you know": 3671,
+      "i mean": 1204,
+      "kind of": 542,
+      "sort of": 156,
+      "uh huh": 78
+    }
+  },
+  "disfluencies": {
+    "total_transcripts": 32092,
+    "stutters": 2594,
+    "stutter_rate_per_transcript": 0.0808,
+    "overlaps": 2089,
+    "overlap_rate_per_transcript": 0.0651,
+    "lengthenings": 1089,
+    "lengthening_rate_per_transcript": 0.0339
+  },
+  "transcript_structure": {
+    "char_length": {
+      "min": 3,
+      "p25": 11,
+      "median": 31,
+      "p75": 73,
+      "max": 1491,
+      "mean": 60.1
+    },
+    "word_count": {
+      "min": 1,
+      "p25": 3,
+      "median": 7,
+      "p75": 15,
+      "max": 336,
+      "mean": 12.7
+    }
+  },
+  "noise_calibration": {
+    "observed_filler_rate": 0.07536,
+    "current_heuristic_params": {
+      "mild_filler_prob": 0.1,
+      "moderate_filler_prob": 0.2,
+      "severe_filler_prob": 0.3
+    },
+    "recommended_params": {
+      "mild_filler_prob": 0.0754,
+      "moderate_filler_prob": 0.1507,
+      "severe_filler_prob": 0.2261,
+      "filler_words_weighted": [
+        "like",
+        "so",
+        "hhh",
+        "uh",
+        "well",
+        "um",
+        "mhm",
+        "right",
+        "huh",
+        "hm"
+      ]
+    }
+  }
+}

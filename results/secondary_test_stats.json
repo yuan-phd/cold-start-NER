@@ -1,0 +1,11 @@
+{
+  "attempts": 106,
+  "generated": 100,
+  "auto_fixed": 100,
+  "rejected": 5,
+  "errors": 1,
+  "negative_samples": 10,
+  "fix_rate_pct": 100.0,
+  "accept_rate_pct": 94.3,
+  "total_samples": 110
+}

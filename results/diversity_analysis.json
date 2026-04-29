@@ -1,0 +1,531 @@
+{
+  "total_samples": 898,
+  "2gram": {
+    "n": 2,
+    "total_ngrams": 35513,
+    "unique_ngrams": 10520,
+    "unique_ratio": 0.2962,
+    "repeated_ngrams": 3710,
+    "repeated_ratio": 0.3527,
+    "repeated_instance_ratio": 0.8082,
+    "top_20": [
+      {
+        "ngram": "this is",
+        "count": 375
+      },
+      {
+        "ngram": "contract id",
+        "count": 276
+      },
+      {
+        "ngram": "my name",
+        "count": 273
+      },
+      {
+        "ngram": "um, hi,",
+        "count": 243
+      },
+      {
+        "ngram": "and i",
+        "count": 233
+      },
+      {
+        "ngram": "name is",
+        "count": 212
+      },
+      {
+        "ngram": "id is",
+        "count": 210
+      },
+      {
+        "ngram": "can you",
+        "count": 194
+      },
+      {
+        "ngram": "need to",
+        "count": 190
+      },
+      {
+        "ngram": "hi, this",
+        "count": 180
+      },
+      {
+        "ngram": "i need",
+        "count": 180
+      },
+      {
+        "ngram": "my email",
+        "count": 175
+      },
+      {
+        "ngram": "my contract",
+        "count": 163
+      },
+      {
+        "ngram": "i, uh,",
+        "count": 144
+      },
+      {
+        "ngram": "help me",
+        "count": 139
+      },
+      {
+        "ngram": "me with",
+        "count": 130
+      },
+      {
+        "ngram": "uh, hi,",
+        "count": 124
+      },
+      {
+        "ngram": "you help",
+        "count": 121
+      },
+      {
+        "ngram": "to update",
+        "count": 106
+      },
+      {
+        "ngram": "with that?",
+        "count": 101
+      }
+    ]
+  },
+  "3gram": {
+    "n": 3,
+    "total_ngrams": 34615,
+    "unique_ngrams": 17991,
+    "unique_ratio": 0.5197,
+    "repeated_ngrams": 4130,
+    "repeated_ratio": 0.2296,
+    "repeated_instance_ratio": 0.5996,
+    "top_20": [
+      {
+        "ngram": "contract id is",
+        "count": 208
+      },
+      {
+        "ngram": "my name is",
+        "count": 207
+      },
+      {
+        "ngram": "hi, this is",
+        "count": 172
+      },
+      {
+        "ngram": "my contract id",
+        "count": 157
+      },
+      {
+        "ngram": "um, hi, this",
+        "count": 138
+      },
+      {
+        "ngram": "i need to",
+        "count": 131
+      },
+      {
+        "ngram": "help me with",
+        "count": 120
+      },
+      {
+        "ngram": "you help me",
+        "count": 109
+      },
+      {
+        "ngram": "can you help",
+        "count": 101
+      },
+      {
+        "ngram": "to update my",
+        "count": 96
+      },
+      {
+        "ngram": "me with that?",
+        "count": 94
+      },
+      {
+        "ngram": "my email is",
+        "count": 94
+      },
+      {
+        "ngram": "the contract id",
+        "count": 86
+      },
+      {
+        "ngram": "thank you for",
+        "count": 81
+      },
+      {
+        "ngram": "you for calling",
+        "count": 77
+      },
+      {
+        "ngram": "the status of",
+        "count": 70
+      },
+      {
+        "ngram": "need to update",
+        "count": 70
+      },
+      {
+        "ngram": "status of my",
+        "count": 69
+      },
+      {
+        "ngram": "my name is,",
+        "count": 65
+      },
+      {
+        "ngram": "for calling customer",
+        "count": 62
+      }
+    ]
+  },
+  "4gram": {
+    "n": 4,
+    "total_ngrams": 33717,
+    "unique_ngrams": 22989,
+    "unique_ratio": 0.6818,
+    "repeated_ngrams": 3502,
+    "repeated_ratio": 0.1523,
+    "repeated_instance_ratio": 0.422,
+    "top_20": [
+      {
+        "ngram": "my contract id is",
+        "count": 150
+      },
+      {
+        "ngram": "um, hi, this is",
+        "count": 130
+      },
+      {
+        "ngram": "you help me with",
+        "count": 97
+      },
+      {
+        "ngram": "help me with that?",
+        "count": 93
+      },
+      {
+        "ngram": "can you help me",
+        "count": 90
+      },
+      {
+        "ngram": "thank you for calling",
+        "count": 77
+      },
+      {
+        "ngram": "the status of my",
+        "count": 69
+      },
+      {
+        "ngram": "need to update my",
+        "count": 64
+      },
+      {
+        "ngram": "you for calling customer",
+        "count": 62
+      },
+      {
+        "ngram": "i need to update",
+        "count": 60
+      },
+      {
+        "ngram": "hi, my name is",
+        "count": 50
+      },
+      {
+        "ngram": "the contract id is",
+        "count": 50
+      },
+      {
+        "ngram": "to update my email",
+        "count": 50
+      },
+      {
+        "ngram": "to check the status",
+        "count": 48
+      },
+      {
+        "ngram": "check the status of",
+        "count": 48
+      },
+      {
+        "ngram": "for calling customer service.",
+        "count": 48
+      },
+      {
+        "ngram": "and my contract id",
+        "count": 42
+      },
+      {
+        "ngram": "uh, hi, this is",
+        "count": 40
+      },
+      {
+        "ngram": "hi, um, this is",
+        "count": 39
+      },
+      {
+        "ngram": "calling to check the",
+        "count": 38
+      }
+    ]
+  },
+  "openings": {
+    "total_samples": 898,
+    "unique_openings": 225,
+    "unique_ratio": 0.2506,
+    "top_20": [
+      {
+        "opening": "um, hi, this",
+        "count": 138
+      },
+      {
+        "opening": "thank you for",
+        "count": 79
+      },
+      {
+        "opening": "uh, hi, this",
+        "count": 40
+      },
+      {
+        "opening": "um, hi there!",
+        "count": 34
+      },
+      {
+        "opening": "hi, um, this",
+        "count": 33
+      },
+      {
+        "opening": "i can't believe",
+        "count": 32
+      },
+      {
+        "opening": "um, hi, my",
+        "count": 32
+      },
+      {
+        "opening": "uh, hi, my",
+        "count": 26
+      },
+      {
+        "opening": "um, hi, i\u2019m,",
+        "count": 22
+      },
+      {
+        "opening": "um, hi, i\u2019m",
+        "count": 21
+      },
+      {
+        "opening": "hi, uh, this",
+        "count": 21
+      },
+      {
+        "opening": "uh, hi, i\u2019m",
+        "count": 16
+      },
+      {
+        "opening": "uh, hi, i",
+        "count": 14
+      },
+      {
+        "opening": "uh, hi there!",
+        "count": 14
+      },
+      {
+        "opening": "um, hi there,",
+        "count": 14
+      },
+      {
+        "opening": "uh, hi, um,",
+        "count": 13
+      },
+      {
+        "opening": "um, hi, uh,",
+        "count": 11
+      },
+      {
+        "opening": "um, hi, i",
+        "count": 10
+      },
+      {
+        "opening": "hi, uh, my",
+        "count": 9
+      },
+      {
+        "opening": "uh, hi! this",
+        "count": 9
+      }
+    ]
+  },
+  "entity_context": {
+    "unique_context_patterns": 731,
+    "top_20_contexts": [
+      {
+        "pattern": "NAME: ...this is [ENTITY]",
+        "count": 294
+      },
+      {
+        "pattern": "CONTRACT_ID: ...id is [ENTITY]",
+        "count": 208
+      },
+      {
+        "pattern": "NAME: ...name is [ENTITY]",
+        "count": 199
+      },
+      {
+        "pattern": "EMAIL: ...email is [ENTITY]",
+        "count": 95
+      },
+      {
+        "pattern": "PRODUCT: ...with my [ENTITY]",
+        "count": 67
+      },
+      {
+        "pattern": "PRODUCT: ...for the [ENTITY]",
+        "count": 55
+      },
+      {
+        "pattern": "EMAIL: ...email to [ENTITY]",
+        "count": 49
+      },
+      {
+        "pattern": "PRODUCT: ...return my [ENTITY]",
+        "count": 47
+      },
+      {
+        "pattern": "CONTRACT_ID: ...contract id [ENTITY]",
+        "count": 46
+      },
+      {
+        "pattern": "NAME: ...is, uh, [ENTITY]",
+        "count": 44
+      },
+      {
+        "pattern": "EMAIL: ...me at [ENTITY]",
+        "count": 34
+      },
+      {
+        "pattern": "NAME: ...is, um, [ENTITY]",
+        "count": 29
+      },
+      {
+        "pattern": "PRODUCT: ...the new [ENTITY]",
+        "count": 24
+      },
+      {
+        "pattern": "PRODUCT: ...my, uh, [ENTITY]",
+        "count": 23
+      },
+      {
+        "pattern": "PRODUCT: ...my, um, [ENTITY]",
+        "count": 21
+      },
+      {
+        "pattern": "NAME: ...i\u2019m, uh, [ENTITY]",
+        "count": 21
+      },
+      {
+        "pattern": "PRODUCT: ...return the [ENTITY]",
+        "count": 21
+      },
+      {
+        "pattern": "ISSUE_DATE: ...on, uh, [ENTITY]",
+        "count": 21
+      },
+      {
+        "pattern": "CONTRACT_ID: ...contract_id is [ENTITY]",
+        "count": 19
+      },
+      {
+        "pattern": "ISSUE_DATE: ...it on [ENTITY]",
+        "count": 16
+      }
+    ],
+    "unique_triggers": 255,
+    "top_20_triggers": [
+      {
+        "trigger": "NAME: is",
+        "count": 496
+      },
+      {
+        "trigger": "CONTRACT_ID: is",
+        "count": 250
+      },
+      {
+        "trigger": "PRODUCT: my",
+        "count": 155
+      },
+      {
+        "trigger": "PRODUCT: the",
+        "count": 148
+      },
+      {
+        "trigger": "EMAIL: is",
+        "count": 112
+      },
+      {
+        "trigger": "NAME: uh,",
+        "count": 85
+      },
+      {
+        "trigger": "ISSUE_DATE: uh,",
+        "count": 78
+      },
+      {
+        "trigger": "ISSUE_DATE: on",
+        "count": 78
+      },
+      {
+        "trigger": "EMAIL: to",
+        "count": 76
+      },
+      {
+        "trigger": "CONTRACT_ID: id",
+        "count": 52
+      },
+      {
+        "trigger": "NAME: um,",
+        "count": 49
+      },
+      {
+        "trigger": "ISSUE_DATE: um,",
+        "count": 46
+      },
+      {
+        "trigger": "PRODUCT: uh,",
+        "count": 46
+      },
+      {
+        "trigger": "PRODUCT: new",
+        "count": 44
+      },
+      {
+        "trigger": "PRODUCT: um,",
+        "count": 43
+      },
+      {
+        "trigger": "ISSUE_DATE: like,",
+        "count": 43
+      },
+      {
+        "trigger": "EMAIL: at",
+        "count": 41
+      },
+      {
+        "trigger": "CONTRACT_ID: contract",
+        "count": 29
+      },
+      {
+        "trigger": "ISSUE_DATE: from",
+        "count": 26
+      },
+      {
+        "trigger": "EMAIL: uh,",
+        "count": 22
+      }
+    ]
+  }
+}

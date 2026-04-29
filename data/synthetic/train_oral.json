@@ -1,0 +1,2854 @@
+[
+  {
+    "text": "Hi, um, yes, I need to update my account information. I, uh, just can't believe how difficult this process is. My name is, uh, Priya Patel, that's P-R-I-Y-A P-A-T-E-L. I have a contract ID, it's CT dash five five one two three. I, um, tried to do this online, but it wasn't working, and now I'm just really frustrated. Can you help me with this?",
+    "entities": [
+      {
+        "text": "Priya Patel",
+        "label": "NAME",
+        "start": 127,
+        "end": 138
+      },
+      {
+        "text": "CT dash five five one two three",
+        "label": "CONTRACT_ID",
+        "start": 195,
+        "end": 226
+      }
+    ],
+    "metadata": {
+      "scenario": "account_update",
+      "style": "frustrated",
+      "industry": "banking",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Uh, hi, um, I\u2019m really frustrated with the, uh, the new blood pressure monitor I bought from you guys, um, last month. It\u2019s just, uh, not working right. Like, it keeps giving me, uh, really high readings and, you know, I\u2019m worried it\u2019s not accurate. I tried calling before, but, um, I couldn\u2019t get through. This is just really, really annoying. I, um, really need this fixed, like, soon. My, uh, contract ID is CT dash three four five six seven, can you help me with this? I don\u2019t know what to do. I just want to, um, get a replacement or something. Can you, uh, please, like, email me at michelle at example dot com if you need more info?",
+    "entities": [
+      {
+        "text": "michelle at example dot com",
+        "label": "EMAIL",
+        "start": 589,
+        "end": 616
+      },
+      {
+        "text": "CT dash three four five six seven",
+        "label": "CONTRACT_ID",
+        "start": 411,
+        "end": 444
+      }
+    ],
+    "metadata": {
+      "scenario": "product_complaint",
+      "style": "frustrated",
+      "industry": "healthcare",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Hi, um, I\u2019d like to discuss a bill I received. My name is, uh, Priya Patel, that\u2019s P R I Y A P A T E L. I got a statement dated, um, February twenty eighth, and I think there\u2019s a mistake in the charges for my subscription service. It says I owe twenty five dollars for the new samsung galaxy, but I thought I had already paid for that. Can you help me with this?",
+    "entities": [
+      {
+        "text": "Priya Patel",
+        "label": "NAME",
+        "start": 63,
+        "end": 74
+      },
+      {
+        "text": "February twenty eighth",
+        "label": "ISSUE_DATE",
+        "start": 133,
+        "end": 155
+      },
+      {
+        "text": "the new samsung galaxy",
+        "label": "PRODUCT",
+        "start": 269,
+        "end": 291
+      }
+    ],
+    "metadata": {
+      "scenario": "billing_dispute",
+      "style": "polite",
+      "industry": "subscription services",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Um, hi, I need to report a problem with a product I bought. It's really frustrating. I got the new samsung galaxy, um, on february twenty eighth, and, like, it just stopped working.",
+    "entities": [
+      {
+        "text": "samsung galaxy",
+        "label": "PRODUCT",
+        "start": 99,
+        "end": 113
+      },
+      {
+        "text": "february twenty eighth",
+        "label": "ISSUE_DATE",
+        "start": 122,
+        "end": 144
+      }
+    ],
+    "metadata": {
+      "scenario": "product_complaint",
+      "style": "frustrated",
+      "industry": "retail",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Uh, hi. I, um, I wanna update my account info. I think my email is, uh, it's jessica dot brown at yahoo dot com. Can you uh, help me with that? My contract ID, um, is CT dash 12345, that's C T dash one two three four five. I just, like, I want to make sure everything is correct, you know? And, uh, my name is Jessica, that's J E S S I C A, Brown. I just got, like, really confused about all this stuff.",
+    "entities": [
+      {
+        "text": "jessica dot brown at yahoo dot com",
+        "label": "EMAIL",
+        "start": 77,
+        "end": 111
+      },
+      {
+        "text": "CT dash 12345",
+        "label": "CONTRACT_ID",
+        "start": 167,
+        "end": 180
+      },
+      {
+        "text": "Jessica",
+        "label": "NAME",
+        "start": 310,
+        "end": 317
+      },
+      {
+        "text": "Brown",
+        "label": "NAME",
+        "start": 341,
+        "end": 346
+      }
+    ],
+    "metadata": {
+      "scenario": "account_update",
+      "style": "confused",
+      "industry": "telecommunications",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Uh, hello? I I\u2019m really frustrated right now. I I\u2019ve been trying to get help with my, um, insurance claim for, like, a week now and nobody seems to be able to help me. My contract ID is CT dash seven eight two one four, and I need to know what's going on! I mean, I sent everything you asked for, and I haven't heard back. My email is sarah dot johnson at yahoo dot com. Can you please check on that for me?",
+    "entities": [
+      {
+        "text": "sarah dot johnson at yahoo dot com",
+        "label": "EMAIL",
+        "start": 335,
+        "end": 369
+      },
+      {
+        "text": "CT dash seven eight two one four",
+        "label": "CONTRACT_ID",
+        "start": 186,
+        "end": 218
+      }
+    ],
+    "metadata": {
+      "scenario": "technical_support",
+      "style": "frustrated",
+      "industry": "insurance",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Thank you for calling healthcare services. How can I assist you today?  \nHi, uh, yes, I\u2019d like to update my account information. My name is, um, Lisa that\u2019s L-I-S-A last name is, uh, Thompson, T-H-O-M-P-S-O-N.  \nAlright, Lisa, I can help you with that. What information would you like to update?  \nI need to change my email address. It\u2019s currently, um, lisa dot thompson at example dot com, and I want it to be, uh, lisa dot thompson zero one at gmail dot com.  \nGot it. Just to confirm, that\u2019s, uh, lisa dot thompson zero one at gmail dot com, right?  \nYes, exactly. Also, I have a contract ID that I need to update. It\u2019s CT dash two zero three four five.  \nCT dash two zero three four five. Perfect. Is there anything else you need help with today?",
+    "entities": [
+      {
+        "text": "Lisa",
+        "label": "NAME",
+        "start": 145,
+        "end": 149
+      },
+      {
+        "text": "lisa dot thompson at example dot com",
+        "label": "EMAIL",
+        "start": 353,
+        "end": 389
+      },
+      {
+        "text": "lisa dot thompson zero one at gmail dot com",
+        "label": "EMAIL",
+        "start": 416,
+        "end": 459
+      },
+      {
+        "text": "CT dash two zero three four five",
+        "label": "CONTRACT_ID",
+        "start": 623,
+        "end": 655
+      }
+    ],
+    "metadata": {
+      "scenario": "account_update",
+      "style": "polite",
+      "industry": "healthcare",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Uh, hi, I\u2019m really frustrated right now. I\u2019ve been trying to update my account info for like, um, days now. I just want to, you know, change my email and my address. Uh, can you help me with that? My email is, um, sarah dot johnson at gmail dot com. And, uh, my contract ID is CT dash four two three one. I just don\u2019t understand why this is so complicated!",
+    "entities": [
+      {
+        "text": "sarah dot johnson at gmail dot com",
+        "label": "EMAIL",
+        "start": 214,
+        "end": 248
+      },
+      {
+        "text": "CT dash four two three one",
+        "label": "CONTRACT_ID",
+        "start": 277,
+        "end": 303
+      }
+    ],
+    "metadata": {
+      "scenario": "account_update",
+      "style": "frustrated",
+      "industry": "insurance",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Hi um, this is Alex, that's A L E X. I, uh, I wanna return that new samsung galaxy, you know, the one I bought last month? I think it was like, um, on September fifteenth? Uh, do you need my email for that or something?",
+    "entities": [
+      {
+        "text": "Alex",
+        "label": "NAME",
+        "start": 15,
+        "end": 19
+      },
+      {
+        "text": "new samsung galaxy",
+        "label": "PRODUCT",
+        "start": 64,
+        "end": 82
+      },
+      {
+        "text": "September fifteenth",
+        "label": "ISSUE_DATE",
+        "start": 151,
+        "end": 170
+      }
+    ],
+    "metadata": {
+      "scenario": "return_request",
+      "style": "casual",
+      "industry": "banking",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Uh, hi, uh, I\u2019m calling because I got this bill and, um, I\u2019m really confused. I thought my plan was, like, supposed to be fifty dollars a month, but this says I owe a hundred and twenty. I don\u2019t, um, I don\u2019t get it. My name is, uh, Sarah Johnson, that\u2019s S A R A H J O H N S O N. And, um, my contract ID is CT dash five four three two one. I mean, could you help me figure this out? I also, uh, sent an email to support at telecom help dot com, like, a few days ago about this, but I haven\u2019t heard back yet.",
+    "entities": [
+      {
+        "text": "Sarah Johnson",
+        "label": "NAME",
+        "start": 232,
+        "end": 245
+      },
+      {
+        "text": "support at telecom help dot com",
+        "label": "EMAIL",
+        "start": 411,
+        "end": 442
+      },
+      {
+        "text": "CT dash five four three two one",
+        "label": "CONTRACT_ID",
+        "start": 306,
+        "end": 337
+      }
+    ],
+    "metadata": {
+      "scenario": "billing_dispute",
+      "style": "confused",
+      "industry": "telecommunications",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Customer Service, this is Jenna, how can I help you?  \n\nUh, hi Jenna, um, I bought this, like, uh, vacuum cleaner, um, the super clean model, I think it was, uh, two weeks ago, and it\u2019s not working properly.  \n\nI\u2019m really sorry to hear that! Can you tell me what\u2019s going wrong with it?  \n\nSo, um, like, it\u2019s just not picking up anything. I\u2019ve tried everything. It\u2019s, like, super frustrating.  \n\nI understand, that sounds really annoying. Can I get your name please?  \n\nYeah, it\u2019s Priya, that\u2019s P R I Y A, Patel.  \n\nThanks, Priya. Uh, can I have your email address just to pull up your order?  \n\nSure, it\u2019s priya.patel at email dot com.  \n\nPerfect. And do you happen to have the contract ID for your purchase?  \n\nUm, let me see, it\u2019s CT dash five five six seven eight.  \n\nGot it, thanks! Let\u2019s see what we can do to fix this for you.",
+    "entities": [
+      {
+        "text": "Priya, that\u2019s P R I Y A, Patel",
+        "label": "NAME",
+        "start": 480,
+        "end": 510
+      },
+      {
+        "text": "priya.patel at email dot com",
+        "label": "EMAIL",
+        "start": 606,
+        "end": 634
+      },
+      {
+        "text": "CT dash five five six seven eight",
+        "label": "CONTRACT_ID",
+        "start": 733,
+        "end": 766
+      },
+      {
+        "text": "the super clean model",
+        "label": "PRODUCT",
+        "start": 119,
+        "end": 140
+      }
+    ],
+    "metadata": {
+      "scenario": "product_complaint",
+      "style": "casual",
+      "industry": "retail",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "uh, I don't understand why I'm being charged for this, I mean, I bought a pair of shoes and not a subscription to your service! This is ridiculous! My name is, uh, jessica and that's j e s s i c a. I want you to fix this bill right now, it's showing like I've been charged for something I never signed up for. I mean, the shoes were supposed to be, um, fifty dollars, but this bill is over one hundred! This is on, uh, january fifteenth, when I bought them. Can you tell me why there's an extra charge?",
+    "entities": [
+      {
+        "text": "jessica",
+        "label": "NAME",
+        "start": 164,
+        "end": 171
+      },
+      {
+        "text": "fifty dollars",
+        "label": "PRODUCT",
+        "start": 353,
+        "end": 366
+      },
+      {
+        "text": "one hundred",
+        "label": "PRODUCT",
+        "start": 390,
+        "end": 401
+      },
+      {
+        "text": "january fifteenth",
+        "label": "ISSUE_DATE",
+        "start": 419,
+        "end": 436
+      }
+    ],
+    "metadata": {
+      "scenario": "billing_dispute",
+      "style": "angry",
+      "industry": "retail",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Thank you for calling health care support, this is Lisa. How can I help you today? \n\nHi Lisa, um, my name is Priya Patel, that's P R I Y A P A T E L. I, uh, I want to request a return for a product I purchased. \n\nOf course, Priya. Can you tell me the, um, issue date of the product? \n\nSure, it was, um, November fifteenth. \n\nAlright. And what product are you looking to return? \n\nIt's the new sleep monitor, I think I might have a defect with it. \n\nI\u2019m sorry to hear that. Could you provide me with your email address to get everything set up? \n\nYes, it's priya dot patel at gmail dot com. \n\nThank you, Priya. I'll start the return process right away.",
+    "entities": [
+      {
+        "text": "Priya Patel",
+        "label": "NAME",
+        "start": 109,
+        "end": 120
+      },
+      {
+        "text": "November fifteenth",
+        "label": "ISSUE_DATE",
+        "start": 303,
+        "end": 321
+      },
+      {
+        "text": "the new sleep monitor",
+        "label": "PRODUCT",
+        "start": 385,
+        "end": 406
+      },
+      {
+        "text": "priya dot patel at gmail dot com",
+        "label": "EMAIL",
+        "start": 556,
+        "end": 588
+      }
+    ],
+    "metadata": {
+      "scenario": "return_request",
+      "style": "polite",
+      "industry": "healthcare",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Uh, hi, um, I need help updating my account information. I thought I could do it online, but, like, it's not working. My name is, uh, Sam, that's S A M, and my email is sam dot smith at gmail dot com. Also, I have a contract that's, um, CT dash one two three four five, and I think it needs some updates, like, my address or something. Can you help me with that?",
+    "entities": [
+      {
+        "text": "Sam",
+        "label": "NAME",
+        "start": 134,
+        "end": 137
+      },
+      {
+        "text": "sam dot smith at gmail dot com",
+        "label": "EMAIL",
+        "start": 169,
+        "end": 199
+      },
+      {
+        "text": "CT dash one two three four five",
+        "label": "CONTRACT_ID",
+        "start": 237,
+        "end": 268
+      }
+    ],
+    "metadata": {
+      "scenario": "account_update",
+      "style": "confused",
+      "industry": "e-commerce",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "hi, i'm calling about my, um, my account. it's, uh, under the name, uh, like, jessica, that's j e s s i c a, and my last name is brown, b r o w n. I, uh, have a problem with my, um, my health app not syncing, you know? I really need it to work 'cause, um, i'm trying to keep track of my appointments. I think it started, uh, like, on january fifteenth. Could you help me with that? ",
+    "entities": [
+      {
+        "text": "jessica",
+        "label": "NAME",
+        "start": 78,
+        "end": 85
+      },
+      {
+        "text": "brown",
+        "label": "NAME",
+        "start": 129,
+        "end": 134
+      },
+      {
+        "text": "health app",
+        "label": "PRODUCT",
+        "start": 185,
+        "end": 195
+      },
+      {
+        "text": "january fifteenth",
+        "label": "ISSUE_DATE",
+        "start": 334,
+        "end": 351
+      }
+    ],
+    "metadata": {
+      "scenario": "technical_support",
+      "style": "casual",
+      "industry": "healthcare",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Uh, hi, um, I\u2019m trying to update my account info, but it\u2019s just not working. My name is Sarah, that\u2019s S A R A H, right? Um, I need to change my email and it just keeps saying there\u2019s an error. My email is sarah dot smith at gmail dot com. I mean, I\u2019ve tried this like three times already, and it\u2019s really frustrating. Can someone help me?",
+    "entities": [
+      {
+        "text": "Sarah",
+        "label": "NAME",
+        "start": 88,
+        "end": 93
+      },
+      {
+        "text": "sarah dot smith at gmail dot com",
+        "label": "EMAIL",
+        "start": 205,
+        "end": 237
+      }
+    ],
+    "metadata": {
+      "scenario": "account_update",
+      "style": "frustrated",
+      "industry": "retail",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Hi, uh, this is priya patel calling, um, about my bill. I noticed a charge that, you know, I don't really think is correct. My contract ID is CT dash five five one two three. Um, could you help me, like, figure this out? I just want to make sure I'm not being overcharged here.",
+    "entities": [
+      {
+        "text": "priya patel",
+        "label": "NAME",
+        "start": 16,
+        "end": 27
+      },
+      {
+        "text": "CT dash five five one two three",
+        "label": "CONTRACT_ID",
+        "start": 142,
+        "end": 173
+      }
+    ],
+    "metadata": {
+      "scenario": "billing_dispute",
+      "style": "casual",
+      "industry": "retail",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "You know, I'm really frustrated right now. Uh, I just got my bill and it\u2019s way higher than it should be. My name is, uh, Jessica that\u2019s J e s s i c a, uh, Thompson. I mean, I\u2019ve been a loyal customer for years and suddenly my bill is like, a hundred and twenty dollars, and it\u2019s never been that high before. I don\u2019t even have any extra services or anything! I mean, seriously, what\u2019s going on? I want it fixed immediately!",
+    "entities": [
+      {
+        "text": "Jessica",
+        "label": "NAME",
+        "start": 121,
+        "end": 128
+      },
+      {
+        "text": "Thompson",
+        "label": "NAME",
+        "start": 155,
+        "end": 163
+      }
+    ],
+    "metadata": {
+      "scenario": "billing_dispute",
+      "style": "angry",
+      "industry": "subscription services",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "CT dash five five one two three, um, hi, I\u2019d like to request a return for an order I placed. Uh, my name is Priya, that\u2019s P R I Y A Patel, and um, I was wondering about the steps I need to take. I received the package on February twenty eighth and, um, my email is priya dot patel at gmail dot com. Can you help me with that?",
+    "entities": [
+      {
+        "text": "CT dash five five one two three",
+        "label": "CONTRACT_ID",
+        "start": 0,
+        "end": 31
+      },
+      {
+        "text": "Priya",
+        "label": "NAME",
+        "start": 108,
+        "end": 113
+      },
+      {
+        "text": "P R I Y A Patel",
+        "label": "NAME",
+        "start": 122,
+        "end": 137
+      },
+      {
+        "text": "February twenty eighth",
+        "label": "ISSUE_DATE",
+        "start": 221,
+        "end": 243
+      },
+      {
+        "text": "priya dot patel at gmail dot com",
+        "label": "EMAIL",
+        "start": 265,
+        "end": 297
+      }
+    ],
+    "metadata": {
+      "scenario": "return_request",
+      "style": "neutral",
+      "industry": "healthcare",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Um, I want to talk about my policy, um, the one with the CONTRACT ID, uh, CT dash one two three four five. I, uh, purchased a, um, policy for my car and I'm really unhappy with how, you know, the claims process is going. It's been, like, way too long and I haven't heard back from anyone. Uh, do you have any updates on that?",
+    "entities": [
+      {
+        "text": "CT dash one two three four five",
+        "label": "CONTRACT_ID",
+        "start": 74,
+        "end": 105
+      }
+    ],
+    "metadata": {
+      "scenario": "product_complaint",
+      "style": "neutral",
+      "industry": "insurance",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Ugh, I can't believe this! I got my statement and there's a charge for like, um, fifty dollars that I never authorized! My name is, uh, Sarah that's S A R A H, and I need this resolved. Can you, you know, pull up my account or something? I think my email is sarah.thompson at gmail dot com. This is so frustrating! I just want to understand why I'm being charged this amount. It's not right!",
+    "entities": [
+      {
+        "text": "Sarah that's S A R A H",
+        "label": "NAME",
+        "start": 136,
+        "end": 158
+      },
+      {
+        "text": "sarah.thompson at gmail dot com",
+        "label": "EMAIL",
+        "start": 258,
+        "end": 289
+      },
+      {
+        "text": "fifty dollars",
+        "label": "ISSUE_DATE",
+        "start": 81,
+        "end": 94
+      }
+    ],
+    "metadata": {
+      "scenario": "billing_dispute",
+      "style": "angry",
+      "industry": "banking",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Hello, um, I\u2019d like to talk about my subscription, uh, it\u2019s not working right. I tried to access it on my tablet, and it keeps saying there's an error, you know? My name is, uh, Sarah Thompson, that's S A R A H T H O M P S O N. And, um, my contract ID is CT dash 67890. I\u2019ve been really frustrated because I, I need to use it for, uh, an important project. Can you help me figure this out?",
+    "entities": [
+      {
+        "text": "Sarah Thompson",
+        "label": "NAME",
+        "start": 178,
+        "end": 192
+      },
+      {
+        "text": "CT dash 67890",
+        "label": "CONTRACT_ID",
+        "start": 255,
+        "end": 268
+      }
+    ],
+    "metadata": {
+      "scenario": "product_complaint",
+      "style": "casual",
+      "industry": "subscription services",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "I am so fed up with this. Like, I can't believe I have to deal with this issue again. I was promised my money back weeks ago for that stupid service I didn't even use, and now you say it's too late? What do you mean it's too late? My contract ID is CT dash seven eight nine zero, and I sent you an email at jane dot smith at email dot com. I expect a solution right now, not another excuse.",
+    "entities": [
+      {
+        "text": "jane dot smith at email dot com",
+        "label": "EMAIL",
+        "start": 307,
+        "end": 338
+      },
+      {
+        "text": "CT dash seven eight nine zero",
+        "label": "CONTRACT_ID",
+        "start": 249,
+        "end": 278
+      }
+    ],
+    "metadata": {
+      "scenario": "product_complaint",
+      "style": "angry",
+      "industry": "banking",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Uh, hi, I, um, I need to talk to someone about my bill. I, like, don't understand why I was charged for the, um, the new smartwatch. It says here, uh, that I bought it on, um, oh, I think it was february fifteenth, but I, like, never received it. Can you check that for me? My name is, um, jessica smith, that's j e s s i c a s m i t h. It just doesn't make any sense.",
+    "entities": [
+      {
+        "text": "jessica smith",
+        "label": "NAME",
+        "start": 290,
+        "end": 303
+      },
+      {
+        "text": "february fifteenth",
+        "label": "ISSUE_DATE",
+        "start": 195,
+        "end": 213
+      },
+      {
+        "text": "the new smartwatch",
+        "label": "PRODUCT",
+        "start": 113,
+        "end": 131
+      }
+    ],
+    "metadata": {
+      "scenario": "billing_dispute",
+      "style": "rushed",
+      "industry": "retail",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Customer Service, this is Sarah speaking. How can I help you today?  \n\nUh, hi Sarah, um, this is, uh, Michael, that's M I C H A E L, and I, uh, wanted to talk about a problem with a product I bought.  \n\nOf course, Michael. What product are you referring to?  \n\nIt's the new Samsung Galaxy S twenty three.  \n\nI'm sorry to hear that you're having issues with the Samsung Galaxy S twenty three. Can you tell me what the problem is?  \n\nYeah, it, um, keeps freezing and, uh, I can't really use it properly. I bought it on, uh, October seventh, twenty twenty three.  \n\nSo, just to confirm, you said you purchased it on October seventh, twenty twenty three?  \n\nYeah, that's right, um, and I've tried restarting it, but it just doesn't help.  \n\nI understand, Michael. Let me help you with that. Have you had a chance to try any other troubleshooting steps?",
+    "entities": [
+      {
+        "text": "Michael",
+        "label": "NAME",
+        "start": 102,
+        "end": 109
+      },
+      {
+        "text": "M I C H A E L",
+        "label": "NAME",
+        "start": 118,
+        "end": 131
+      },
+      {
+        "text": "Samsung Galaxy S twenty three",
+        "label": "PRODUCT",
+        "start": 274,
+        "end": 303
+      },
+      {
+        "text": "October seventh, twenty twenty three",
+        "label": "ISSUE_DATE",
+        "start": 522,
+        "end": 558
+      }
+    ],
+    "metadata": {
+      "scenario": "product_complaint",
+      "style": "polite",
+      "industry": "retail",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Customer Service, how can I help you today?  \nUh, yeah, hi. My name is, um, Sarah, that's S A R A H, and I, like, need to return my new samsung galaxy.  \nAlright, Sarah, I'm here to help with that. Can you tell me what's the issue with the product?  \nYeah, um, it just, like, it's not working well for me, you know? I got it on, um, July fifteenth, uh, twenty twenty three.  \nGot it, let me just pull up your account. Can I have your contract ID, please?  \nOh, sure. It's CT dash seven eight four five six.  \nThank you, Sarah. I see your order here. Let's get that return started for you.",
+    "entities": [
+      {
+        "text": "Sarah",
+        "label": "NAME",
+        "start": 76,
+        "end": 81
+      },
+      {
+        "text": "samsung galaxy",
+        "label": "PRODUCT",
+        "start": 136,
+        "end": 150
+      },
+      {
+        "text": "July fifteenth",
+        "label": "ISSUE_DATE",
+        "start": 333,
+        "end": 347
+      },
+      {
+        "text": "twenty twenty three",
+        "label": "ISSUE_DATE",
+        "start": 353,
+        "end": 372
+      },
+      {
+        "text": "CT dash seven eight four five six",
+        "label": "CONTRACT_ID",
+        "start": 472,
+        "end": 505
+      }
+    ],
+    "metadata": {
+      "scenario": "return_request",
+      "style": "polite",
+      "industry": "telecommunications",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Hi, uh, my name is Alex, that's A L E X, um, Johnson. I'm calling to update my email address on my account. Right now, it's, um, alexjohnson at example dot com, and I want to change it to, uh, alex.johnson at newmail dot com. Um, also, my contract ID is CT dash one two three four five, if that helps. Can you assist me with that? ",
+    "entities": [
+      {
+        "text": "Alex",
+        "label": "NAME",
+        "start": 19,
+        "end": 23
+      },
+      {
+        "text": "alexjohnson at example dot com",
+        "label": "EMAIL",
+        "start": 129,
+        "end": 159
+      },
+      {
+        "text": "alex.johnson at newmail dot com",
+        "label": "EMAIL",
+        "start": 193,
+        "end": 224
+      },
+      {
+        "text": "CT dash one two three four five",
+        "label": "CONTRACT_ID",
+        "start": 254,
+        "end": 285
+      }
+    ],
+    "metadata": {
+      "scenario": "account_update",
+      "style": "neutral",
+      "industry": "healthcare",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Thank you for calling Omega Bank, how can I help you today?  \n\nHi, uh, my name is, um, Sarah, that's S A R A H, and I need to, like, request a return for a payment I made.  \n\nOf course, Sarah. Could you please provide me with the, uh, contract ID for that payment?  \n\nSure, it's CT dash 12345.  \n\nThank you. And, um, when did you make this payment?  \n\nIt was on, uh, March fifteenth.  \n\nAlright, let me check that for you, Sarah.  \n\nOkay, thank you.  \n\nNo problem!  \n\nUm, can you also confirm the email associated with your account?  \n\nOh, yeah, it's sarah dot smith at gmail dot com.  \n\nGreat, thank you for that.  \n\nYou're welcome!  \n\nLet me pull up your information.  \n\nOkay, thanks!",
+    "entities": [
+      {
+        "text": "Sarah",
+        "label": "NAME",
+        "start": 87,
+        "end": 92
+      },
+      {
+        "text": "sarah dot smith at gmail dot com",
+        "label": "EMAIL",
+        "start": 551,
+        "end": 583
+      },
+      {
+        "text": "CT dash 12345",
+        "label": "CONTRACT_ID",
+        "start": 279,
+        "end": 292
+      },
+      {
+        "text": "March fifteenth",
+        "label": "ISSUE_DATE",
+        "start": 367,
+        "end": 382
+      }
+    ],
+    "metadata": {
+      "scenario": "return_request",
+      "style": "polite",
+      "industry": "banking",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Hi, uh, I need to return a product I bought recently. Um, my name is, uh, Sarah Jenkins, that's S A R A H J E N K I N S. I bought the, uh, health monitor, you know, the one you guys have on sale, um, a couple of weeks ago. I think it was, uh, like, on, um, September twelfth. And, like, I\u2019m not really happy with it, so I\u2019d like to process a return, if possible?",
+    "entities": [
+      {
+        "text": "Sarah Jenkins",
+        "label": "NAME",
+        "start": 74,
+        "end": 87
+      },
+      {
+        "text": "September twelfth",
+        "label": "ISSUE_DATE",
+        "start": 257,
+        "end": 274
+      },
+      {
+        "text": "health monitor",
+        "label": "PRODUCT",
+        "start": 139,
+        "end": 153
+      }
+    ],
+    "metadata": {
+      "scenario": "return_request",
+      "style": "casual",
+      "industry": "healthcare",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Thank you for calling Bright Insurance. How can I help you today? \nUm, hi, uh, this is, uh, Mark, that's M A R K. I need to, um, update my email address. \nSure, I can help you with that. What's your current email? \nIt's mark dot johnson at gmail dot com. \nGot it. And what would you like to change it to? \nI want to update it to mark dot johnson two zero two three at yahoo dot com. \nOkay, let me just confirm your account. Can you please provide your contract ID? \nUh, yeah, it's CT dash five five two seven one. \nThank you, Mark. I'll process that update right away. Is there anything else I can help you with?",
+    "entities": [
+      {
+        "text": "Mark",
+        "label": "NAME",
+        "start": 92,
+        "end": 96
+      },
+      {
+        "text": "mark dot johnson at gmail dot com",
+        "label": "EMAIL",
+        "start": 220,
+        "end": 253
+      },
+      {
+        "text": "mark dot johnson two zero two three at yahoo dot com",
+        "label": "EMAIL",
+        "start": 329,
+        "end": 381
+      },
+      {
+        "text": "CT dash five five two seven one",
+        "label": "CONTRACT_ID",
+        "start": 481,
+        "end": 512
+      }
+    ],
+    "metadata": {
+      "scenario": "account_update",
+      "style": "polite",
+      "industry": "insurance",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Um, I ordered the new samsung galaxy like three weeks ago, and it still hasn't arrived. I mean, it was supposed to be here by february twenty eighth, but now it's, like, um, way past that. Can you tell me what's going on? This is really frustrating.",
+    "entities": [
+      {
+        "text": "february twenty eighth",
+        "label": "ISSUE_DATE",
+        "start": 126,
+        "end": 148
+      },
+      {
+        "text": "the new samsung galaxy",
+        "label": "PRODUCT",
+        "start": 14,
+        "end": 36
+      }
+    ],
+    "metadata": {
+      "scenario": "product_complaint",
+      "style": "frustrated",
+      "industry": "e-commerce",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Hi, um, this is Priya Patel, and I wanted to, uh, talk about returning my policy? I think I got it on, like, February twenty eighth, and it's, you know, for my car insurance. I just feel like I need to, um, switch to something else, you know? The contract ID is CT dash five five one two three. So, can you help me with that? ",
+    "entities": [
+      {
+        "text": "Priya Patel",
+        "label": "NAME",
+        "start": 16,
+        "end": 27
+      },
+      {
+        "text": "February twenty eighth",
+        "label": "ISSUE_DATE",
+        "start": 109,
+        "end": 131
+      },
+      {
+        "text": "CT dash five five one two three",
+        "label": "CONTRACT_ID",
+        "start": 262,
+        "end": 293
+      }
+    ],
+    "metadata": {
+      "scenario": "return_request",
+      "style": "casual",
+      "industry": "insurance",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Thank you for calling subscription services, how can I help you today?  \n\nHi, um, I wanted to discuss my bill for this month, um, it's higher than I expected.  \n\nI see, I'm sorry about that. Can I get your name, please?  \n\nSure, it's Alex Thompson, that's A-L-E-X T-H-O-M-P-S-O-N.  \n\nThank you, Alex. Uh, can you provide your contract ID for verification?  \n\nYeah, it's CT dash eight seven four two one.  \n\nGreat, let me pull up your account. Um, so can you tell me what specifically seems higher than expected?  \n\nWell, I was charged for some, um, additional services that I didn't sign up for, like the premium streaming package.  \n\nOkay, let me take a look at that. Um, can I confirm your email address to send you the details?  \n\nYes, it's alex.thompson at gmail dot com.  \n\nThank you for that. Uh, I'll check your account and, um, see what happened with those charges. One moment please.",
+    "entities": [
+      {
+        "text": "Alex Thompson",
+        "label": "NAME",
+        "start": 234,
+        "end": 247
+      },
+      {
+        "text": "alex.thompson at gmail dot com",
+        "label": "EMAIL",
+        "start": 744,
+        "end": 774
+      },
+      {
+        "text": "CT dash eight seven four two one",
+        "label": "CONTRACT_ID",
+        "start": 370,
+        "end": 402
+      }
+    ],
+    "metadata": {
+      "scenario": "billing_dispute",
+      "style": "neutral",
+      "industry": "subscription services",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Thank you for calling health care solutions, this is Mia, how can I help you today?  \nHi, um, yes, I need to update my account information.  \nOf course, can I have your name please?  \nIt's, um, Sarah Johnson, that's S A R A H, J O H N S O N.  \nThank you, Sarah. Um, what information would you like to update?  \nI need to change my email address to, uh, sarah.johnson at example dot com.  \nGot it, and is there anything else?  \nUh, yes, I also want to confirm my contract ID, it's CT dash 12345.  \nPerfect. Let me verify that for you.",
+    "entities": [
+      {
+        "text": "Sarah Johnson",
+        "label": "NAME",
+        "start": 194,
+        "end": 207
+      },
+      {
+        "text": "sarah.johnson at example dot com",
+        "label": "EMAIL",
+        "start": 353,
+        "end": 385
+      },
+      {
+        "text": "CT dash 12345",
+        "label": "CONTRACT_ID",
+        "start": 480,
+        "end": 493
+      }
+    ],
+    "metadata": {
+      "scenario": "account_update",
+      "style": "neutral",
+      "industry": "healthcare",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Customer Service, this is Mia, how can I help you today?  \nUh, hi Mia, um, my name is Priya, that's P R I Y A, Patel, and I'm calling about a return request.  \nSure, Priya, I can help you with that. Can you tell me which product you want to return?  \nIt's for the streaming service subscription, you know, the one with the original shows and movies.  \nGot it. Could you please provide me with your contract ID?  \nUh, yeah, it's CT dash five five one two three.  \nThank you. And could you confirm the issue date for that subscription?  \nUm, I believe it was, like, February twenty eighth of this year.",
+    "entities": [
+      {
+        "text": "Priya, that's P R I Y A, Patel",
+        "label": "NAME",
+        "start": 86,
+        "end": 116
+      },
+      {
+        "text": "CT dash five five one two three",
+        "label": "CONTRACT_ID",
+        "start": 428,
+        "end": 459
+      },
+      {
+        "text": "February twenty eighth",
+        "label": "ISSUE_DATE",
+        "start": 564,
+        "end": 586
+      },
+      {
+        "text": "streaming service subscription",
+        "label": "PRODUCT",
+        "start": 264,
+        "end": 294
+      }
+    ],
+    "metadata": {
+      "scenario": "return_request",
+      "style": "polite",
+      "industry": "subscription services",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Hi, um, my name is Sarah, that's S A R A H, and I want to, like, request a return on my subscription, um, I think it\u2019s for the monthly streaming service, you know? I, uh, signed up on, like, march fifteenth and I\u2019m just not really using it as much, um, can you help me with that? ",
+    "entities": [
+      {
+        "text": "Sarah",
+        "label": "NAME",
+        "start": 19,
+        "end": 24
+      },
+      {
+        "text": "march fifteenth",
+        "label": "ISSUE_DATE",
+        "start": 191,
+        "end": 206
+      }
+    ],
+    "metadata": {
+      "scenario": "return_request",
+      "style": "casual",
+      "industry": "subscription services",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Uh, hi, I need help with my, um, policy or whatever. I, uh, have a big issue with my claim. It's just been, like, so frustrating. I mean, I filed it on, um, February twenty first, and now I'm getting all these, like, weird messages. My contract ID is CT dash five four three twenty one. Can you just, like, tell me what's going on? I don't understand why it's taking so long.",
+    "entities": [
+      {
+        "text": "February twenty first",
+        "label": "ISSUE_DATE",
+        "start": 157,
+        "end": 178
+      },
+      {
+        "text": "CT dash five four three twenty one",
+        "label": "CONTRACT_ID",
+        "start": 251,
+        "end": 285
+      }
+    ],
+    "metadata": {
+      "scenario": "technical_support",
+      "style": "frustrated",
+      "industry": "insurance",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Uh, I want to talk about my bill from, um, last month. My name is, uh, Jessica, that's J e s s i c a, uh, Thompson. You guys charged me, like, thirty dollars more than I expected. I mean, this is just ridiculous. I don't understand what this extra charge is for. Can you please help me with this? Uh, I got the bill on, um, October fifteenth, and there was just like an extra fee that, um, I didn't, I didn't agree to. It's just really frustrating.",
+    "entities": [
+      {
+        "text": "Jessica",
+        "label": "NAME",
+        "start": 71,
+        "end": 78
+      },
+      {
+        "text": "Thompson",
+        "label": "NAME",
+        "start": 106,
+        "end": 114
+      },
+      {
+        "text": "October fifteenth",
+        "label": "ISSUE_DATE",
+        "start": 324,
+        "end": 341
+      }
+    ],
+    "metadata": {
+      "scenario": "billing_dispute",
+      "style": "frustrated",
+      "industry": "retail",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Um, hi, I uh, I need some help with my, um, my healthcare product. I uh, I ordered, like, the wellness tracker a few weeks ago and, um, it hasn't arrived yet. I was expecting it by now, you know? My contract ID is CT dash five five one two three, and, uh, my email is john at gmail dot com. Can you, like, check on that for me? I'm really confused about where it is.",
+    "entities": [
+      {
+        "text": "john at gmail dot com",
+        "label": "EMAIL",
+        "start": 268,
+        "end": 289
+      },
+      {
+        "text": "CT dash five five one two three",
+        "label": "CONTRACT_ID",
+        "start": 214,
+        "end": 245
+      },
+      {
+        "text": "the wellness tracker",
+        "label": "PRODUCT",
+        "start": 90,
+        "end": 110
+      }
+    ],
+    "metadata": {
+      "scenario": "product_complaint",
+      "style": "confused",
+      "industry": "healthcare",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Uh, hi, I uh, need to update my account info. Uh, I think I have a contract or something? Um, it's CT dash five five one two three? And, um, my email is, uh, john at gmail dot com? I, like, don't really know what to do next? Can you help me with that?",
+    "entities": [
+      {
+        "text": "CT dash five five one two three",
+        "label": "CONTRACT_ID",
+        "start": 99,
+        "end": 130
+      },
+      {
+        "text": "john at gmail dot com",
+        "label": "EMAIL",
+        "start": 158,
+        "end": 179
+      }
+    ],
+    "metadata": {
+      "scenario": "account_update",
+      "style": "confused",
+      "industry": "healthcare",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Thank you for calling telecommunications support. This is Sarah, how can I help you today?  \n\nHi Sarah, um, I\u2019m just calling to check the status of my order, um, I placed it a couple of weeks ago. My name is Priya Patel, that\u2019s P R I Y A P A T E L.  \n\nSure, Priya. Can you please provide me with your contract ID so I can look that up for you?  \n\nYeah, it\u2019s CT dash five five one two three.  \n\nThank you! Let me pull that up...  \n\nOkay, I see your order here. It looks like, um, it\u2019s on track to be delivered by February twenty eighth.  \n\nOh, great! And, um, just to confirm, could you send me an email with the details? My email is john at gmail dot com.  \n\nAbsolutely, I\u2019ll send that over right away. Is there anything else I can help you with?",
+    "entities": [
+      {
+        "text": "Priya Patel",
+        "label": "NAME",
+        "start": 208,
+        "end": 219
+      },
+      {
+        "text": "john at gmail dot com",
+        "label": "EMAIL",
+        "start": 633,
+        "end": 654
+      },
+      {
+        "text": "CT dash five five one two three",
+        "label": "CONTRACT_ID",
+        "start": 358,
+        "end": 389
+      },
+      {
+        "text": "February twenty eighth",
+        "label": "ISSUE_DATE",
+        "start": 512,
+        "end": 534
+      }
+    ],
+    "metadata": {
+      "scenario": "order_status_inquiry",
+      "style": "polite",
+      "industry": "telecommunications",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Thank you for calling customer service, how can I help you today?  \nHi, I\u2019d like to return an item I purchased, um, last week.  \nOf course! Can I get your name, please?  \nSure, it\u2019s Priya Patel, that\u2019s P R I Y A P A T E L.  \nThanks, Priya! Can you tell me the product you want to return?  \nYes, it\u2019s the new Samsung Galaxy, um, I received it on February twenty eighth.  \nGot it. And is there a reason for the return?  \nYeah, um, it\u2019s just not what I expected.  \nI understand. Can I have your email address just to process this?  \nSure, it\u2019s priya.patel at gmail dot com.  \nThank you! Let me pull up your order details.",
+    "entities": [
+      {
+        "text": "Priya Patel",
+        "label": "NAME",
+        "start": 182,
+        "end": 193
+      },
+      {
+        "text": "priya.patel at gmail dot com",
+        "label": "EMAIL",
+        "start": 541,
+        "end": 569
+      },
+      {
+        "text": "the new Samsung Galaxy",
+        "label": "PRODUCT",
+        "start": 300,
+        "end": 322
+      },
+      {
+        "text": "February twenty eighth",
+        "label": "ISSUE_DATE",
+        "start": 345,
+        "end": 367
+      }
+    ],
+    "metadata": {
+      "scenario": "return_request",
+      "style": "polite",
+      "industry": "e-commerce",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Ugh, this is just ridiculous! I wanna return the subscription I signed up for last month. Um, I got it on, uh, issue date, uh, february twenty eighth and it just isn\u2019t working for me. I mean, uh, I was promised all these benefits and, like, none of them are actually happening. I wanna know how to send it back, like, right now! Can you help me with that?",
+    "entities": [
+      {
+        "text": "february twenty eighth",
+        "label": "ISSUE_DATE",
+        "start": 127,
+        "end": 149
+      }
+    ],
+    "metadata": {
+      "scenario": "return_request",
+      "style": "angry",
+      "industry": "subscription services",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Hi, uh, I need to update my account info. My name is, um, Alex Smith, that's A-L-E-X S-M-I-T-H. Yeah, I, I moved recently and, um, I want to change my address. Also, my phone number, it's, uh, six one two four three two one zero one. And, uh, my email is, um, alex.smith at example dot com. I also have my contract ID, it's CT dash six six seven eight nine. Can you help me with that?",
+    "entities": [
+      {
+        "text": "Alex Smith",
+        "label": "NAME",
+        "start": 58,
+        "end": 68
+      },
+      {
+        "text": "alex.smith at example dot com",
+        "label": "EMAIL",
+        "start": 260,
+        "end": 289
+      },
+      {
+        "text": "CT dash six six seven eight nine",
+        "label": "CONTRACT_ID",
+        "start": 324,
+        "end": 356
+      }
+    ],
+    "metadata": {
+      "scenario": "account_update",
+      "style": "casual",
+      "industry": "healthcare",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Thank you for calling Health Tech Solutions, this is Amy. How can I help you today?  \nHi, uh, yeah, I\u2019m, um, calling because I\u2019m having issues with my, like, patient management software. It seems like, uh, it's not syncing properly.  \nOh, I see. Can you tell me your name?  \nYeah, it's, um, Priya Patel, that\u2019s P R I Y A P A T E L.  \nGot it, Priya. And can I have your email address?  \nSure, it\u2019s, uh, priya.patel at healthtech dot com.  \nThanks, Priya. So, when did you first notice the issue?  \nI think it was, um, uh, on February twenty eighth.  \nOkay, let\u2019s see what we can do to help you with that!  \nGreat, thank you!  \nYou\u2019re welcome! Just a moment while I pull up your account.",
+    "entities": [
+      {
+        "text": "Priya Patel",
+        "label": "NAME",
+        "start": 291,
+        "end": 302
+      },
+      {
+        "text": "priya.patel at healthtech dot com",
+        "label": "EMAIL",
+        "start": 402,
+        "end": 435
+      },
+      {
+        "text": "February twenty eighth",
+        "label": "ISSUE_DATE",
+        "start": 524,
+        "end": 546
+      }
+    ],
+    "metadata": {
+      "scenario": "technical_support",
+      "style": "casual",
+      "industry": "healthcare",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Um, hi, uh, I\u2019m trying to update my account info but I uh, I\u2019m not sure how to do it? My name is, um, Alex, that\u2019s A L E X, um, Johnson, J O H N S O N. Uh, I think I also need to update like, my email address? It\u2019s, um, alex dot johnson at yahoo dot com. Uh, and, uh, I don\u2019t know if I need my contract ID for that? Wait, what is it again? Oh, right, it's CT dash one two three four five six. Um, can you help me with this?",
+    "entities": [
+      {
+        "text": "Alex",
+        "label": "NAME",
+        "start": 102,
+        "end": 106
+      },
+      {
+        "text": "Johnson",
+        "label": "NAME",
+        "start": 128,
+        "end": 135
+      },
+      {
+        "text": "alex dot johnson at yahoo dot com",
+        "label": "EMAIL",
+        "start": 220,
+        "end": 253
+      },
+      {
+        "text": "CT dash one two three four five six",
+        "label": "CONTRACT_ID",
+        "start": 356,
+        "end": 391
+      }
+    ],
+    "metadata": {
+      "scenario": "account_update",
+      "style": "confused",
+      "industry": "retail",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Ugh, I can't believe I have to call you guys again! I mean, I've already updated my information like three times. My name is, um, Priya that's P R I Y A Patel. Do you even have my new phone number? It's ridiculous that I have to chase this down. I need you to fix this right now, okay? I submitted everything on February twenty eighth, and my contract ID is CT dash five five one two three. This should not be this complicated! Can you confirm my email too? It's priya dot patel at gmail dot com, right? Just get it sorted out!",
+    "entities": [
+      {
+        "text": "Priya that's P R I Y A Patel",
+        "label": "NAME",
+        "start": 130,
+        "end": 158
+      },
+      {
+        "text": "February twenty eighth",
+        "label": "ISSUE_DATE",
+        "start": 312,
+        "end": 334
+      },
+      {
+        "text": "CT dash five five one two three",
+        "label": "CONTRACT_ID",
+        "start": 358,
+        "end": 389
+      },
+      {
+        "text": "priya dot patel at gmail dot com",
+        "label": "EMAIL",
+        "start": 463,
+        "end": 495
+      }
+    ],
+    "metadata": {
+      "scenario": "account_update",
+      "style": "angry",
+      "industry": "insurance",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Hi, um, this is priya, thats p r i y a patel. I, uh, I wanted to, like, return a product that I ordered recently. It's, um, a blood pressure monitor that I got, uh, last week, and I, like, realized I don't really need it anymore. So, um, I was hoping you could help me with the return process? My, uh, order number is CT dash five five one two three.",
+    "entities": [
+      {
+        "text": "priya, thats p r i y a patel",
+        "label": "NAME",
+        "start": 16,
+        "end": 44
+      },
+      {
+        "text": "CT dash five five one two three",
+        "label": "CONTRACT_ID",
+        "start": 318,
+        "end": 349
+      },
+      {
+        "text": "blood pressure monitor",
+        "label": "PRODUCT",
+        "start": 126,
+        "end": 148
+      },
+      {
+        "text": "last week",
+        "label": "ISSUE_DATE",
+        "start": 165,
+        "end": 174
+      }
+    ],
+    "metadata": {
+      "scenario": "return_request",
+      "style": "polite",
+      "industry": "healthcare",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Um, hi, my name is, uh, Sarah Taylor. That's S A R A H T A Y L O R. I'm really frustrated right now. I, um, bought a, like, washing machine from your store about, uh, two months ago, and it's already, like, breaking down. I mean, uh, I expected better quality honestly. I have a contract ID, um, it's CT dash seven two three four five. I can't believe this is happening. I, um, emailed support about this but I haven't heard back. My email is sarah dot taylor at gmail dot com. Can you, like, help me with this?",
+    "entities": [
+      {
+        "text": "Sarah Taylor",
+        "label": "NAME",
+        "start": 24,
+        "end": 36
+      },
+      {
+        "text": "sarah dot taylor at gmail dot com",
+        "label": "EMAIL",
+        "start": 443,
+        "end": 476
+      },
+      {
+        "text": "CT dash seven two three four five",
+        "label": "CONTRACT_ID",
+        "start": 301,
+        "end": 334
+      }
+    ],
+    "metadata": {
+      "scenario": "product_complaint",
+      "style": "frustrated",
+      "industry": "retail",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Um, hi, uh, I need to, like, complain about my account issues. I, uh, tried to transfer money, but it, like, didn't go through. My account number is, um, one two three four five six seven eight, and I really need this sorted out, like, right now. Can you help me with that? I mean, I have the email, it\u2019s, uh, john at gmail dot com, and this has been going on since, um, uh, oh, I think it was, um, february twenty eighth? It's really frustrating!",
+    "entities": [
+      {
+        "text": "john at gmail dot com",
+        "label": "EMAIL",
+        "start": 310,
+        "end": 331
+      },
+      {
+        "text": "one two three four five six seven eight",
+        "label": "CONTRACT_ID",
+        "start": 154,
+        "end": 193
+      },
+      {
+        "text": "february twenty eighth",
+        "label": "ISSUE_DATE",
+        "start": 399,
+        "end": 421
+      }
+    ],
+    "metadata": {
+      "scenario": "product_complaint",
+      "style": "rushed",
+      "industry": "banking",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Uh, I can't believe this! I, um, called last week to update my address, and it's still not done. I mean, what is the point of even having customer service if you can't get basic things right? My, uh, new address is one two three main street, and I gave it to you, like, three times. Can I just ask, why is this taking so long? You guys just, you know, keep saying it\u2019s in the system, but nothing changes! I also need you to confirm you have my email on file, it's jane dot doe at gmail dot com. My contract ID is CT dash seven eight nine zero, and I expect this to be fixed by the end of the day!",
+    "entities": [
+      {
+        "text": "jane dot doe at gmail dot com",
+        "label": "EMAIL",
+        "start": 464,
+        "end": 493
+      },
+      {
+        "text": "CT dash seven eight nine zero",
+        "label": "CONTRACT_ID",
+        "start": 513,
+        "end": 542
+      }
+    ],
+    "metadata": {
+      "scenario": "account_update",
+      "style": "angry",
+      "industry": "banking",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Um, hi, I need to update my account info like, right now. My name is, uh, Alex, that's A L E X, and my last name is Johnson, J O H N S O N. I wanna change the email to alex dot johnson at gmail dot com. Oh, and my contract ID is CT dash 12345. Can you help me with this?",
+    "entities": [
+      {
+        "text": "Alex",
+        "label": "NAME",
+        "start": 74,
+        "end": 78
+      },
+      {
+        "text": "A L E X",
+        "label": "NAME",
+        "start": 87,
+        "end": 94
+      },
+      {
+        "text": "Johnson",
+        "label": "NAME",
+        "start": 116,
+        "end": 123
+      },
+      {
+        "text": "J O H N S O N",
+        "label": "NAME",
+        "start": 125,
+        "end": 138
+      },
+      {
+        "text": "alex dot johnson at gmail dot com",
+        "label": "EMAIL",
+        "start": 168,
+        "end": 201
+      },
+      {
+        "text": "CT dash 12345",
+        "label": "CONTRACT_ID",
+        "start": 229,
+        "end": 242
+      }
+    ],
+    "metadata": {
+      "scenario": "account_update",
+      "style": "rushed",
+      "industry": "subscription services",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "uh, listen, I don't know what you guys are doing over there, but my subscription for the uh, the new samsung galaxy, it just stopped working. I mean, I expect better service, you know? I reported this issue on february twenty eighth, and I still haven't heard back from anyone. This is unacceptable! Can you tell me why I'm not getting the services I paid for?",
+    "entities": [
+      {
+        "text": "february twenty eighth",
+        "label": "ISSUE_DATE",
+        "start": 210,
+        "end": 232
+      },
+      {
+        "text": "the new samsung galaxy",
+        "label": "PRODUCT",
+        "start": 93,
+        "end": 115
+      }
+    ],
+    "metadata": {
+      "scenario": "product_complaint",
+      "style": "angry",
+      "industry": "subscription services",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Thank you for calling XYZ e-commerce. This is Sarah, how can I help you today? \n\nUh, hi Sarah. I'm, um, calling to check on the status of my order. I placed it, like, a week ago? \n\nOf course! Can I have your name, please? \n\nYeah, it's, um, Priya Patel, that's P R I Y A P A T E L. \n\nAlright, Priya. Let me pull up your order details. Can you also provide me with your email address? \n\nSure, it's priya.patel at gmail dot com. \n\nThank you! One moment please... Okay, I found your order, and it looks like it's scheduled to ship on, um, February twenty eighth. \n\nOh, okay, great! Thanks for your help, Sarah! \n\nYou\u2019re welcome! Is there anything else I can assist you with? \n\nNo, that\u2019s all! \n\nAlright, have a great day, Priya! \n\nYou too! Bye!",
+    "entities": [
+      {
+        "text": "Priya Patel",
+        "label": "NAME",
+        "start": 240,
+        "end": 251
+      },
+      {
+        "text": "priya.patel at gmail dot com",
+        "label": "EMAIL",
+        "start": 396,
+        "end": 424
+      },
+      {
+        "text": "February twenty eighth",
+        "label": "ISSUE_DATE",
+        "start": 535,
+        "end": 557
+      }
+    ],
+    "metadata": {
+      "scenario": "order_status_inquiry",
+      "style": "neutral",
+      "industry": "e-commerce",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Hello, uh, I need to speak to someone about my account. I'm really frustrated! My name is, um, Lisa and that's L I S A, right? And I have a problem with your system. My contract ID is, um, CT dash 66544. It's just not working, and I can't access my medical records. This is, like, really urgent. I called last week, and nothing has been fixed! I need to know what's going on, like, right now!",
+    "entities": [
+      {
+        "text": "Lisa",
+        "label": "NAME",
+        "start": 95,
+        "end": 99
+      },
+      {
+        "text": "CT dash 66544",
+        "label": "CONTRACT_ID",
+        "start": 189,
+        "end": 202
+      }
+    ],
+    "metadata": {
+      "scenario": "technical_support",
+      "style": "angry",
+      "industry": "healthcare",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Oh hi, um, this is Sarah, that's s a r a h, um, I need to update my account info. My contract ID is CT dash seven three one one two. Um, can you help me with that?",
+    "entities": [
+      {
+        "text": "Sarah",
+        "label": "NAME",
+        "start": 19,
+        "end": 24
+      },
+      {
+        "text": "CT dash seven three one one two",
+        "label": "CONTRACT_ID",
+        "start": 100,
+        "end": 131
+      }
+    ],
+    "metadata": {
+      "scenario": "account_update",
+      "style": "polite",
+      "industry": "subscription services",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Um, hi, I need to talk about my bill, like, I think there\u2019s a mistake. I was charged for two pairs of shoes but I only bought one. I mean, this is, uh, seriously frustrating. I bought the sneakers, you know, the ones that are like really popular right now, and I didn\u2019t get any other pair. It\u2019s on my account, um, you know, it shows that I was charged, uh, two hundred dollars, and I want to sort this out because I don't think I should be paying for something I didn\u2019t, like, get. Can you help me with this? My name is, uh, Sarah, that\u2019s S A R A H, and my contract ID is CT dash 88234. Can you look that up?",
+    "entities": [
+      {
+        "text": "Sarah",
+        "label": "NAME",
+        "start": 525,
+        "end": 530
+      },
+      {
+        "text": "CT dash 88234",
+        "label": "CONTRACT_ID",
+        "start": 572,
+        "end": 585
+      },
+      {
+        "text": "sneakers",
+        "label": "PRODUCT",
+        "start": 188,
+        "end": 196
+      }
+    ],
+    "metadata": {
+      "scenario": "billing_dispute",
+      "style": "rushed",
+      "industry": "retail",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Thank you for calling healthcare solutions, this is Lisa speaking, how can I assist you today?  \n\nUh, hi Lisa, my name is Anna, that's A N N A, um, I have a complaint about a product I received.  \n\nOf course, Anna, I\u2019m sorry to hear that. Can you tell me which product you\u2019re referring to?  \n\nIt's the diabetic monitor, um, the one I ordered on, uh, March seventeenth, but it keeps giving me inaccurate readings.  \n\nI see, so you're experiencing issues with the diabetic monitor, um, ordered on March seventeenth. Could you tell me if there is a specific reading that was off?  \n\nYeah, um, I tested it three times in a row and it showed, like, wildly different results. It's super frustrating.  \n\nThat sounds really concerning. I understand how that can be frustrating. Let me get some more details just to help you better, like do you have a contract ID for that order?  \n\nUm, yeah, it's CT dash seven four three one.  \n\nThank you, Anna. I\u2019m going to pull up your information now to assist you further.  \n\nOkay, thanks, Lisa.",
+    "entities": [
+      {
+        "text": "Anna",
+        "label": "NAME",
+        "start": 122,
+        "end": 126
+      },
+      {
+        "text": "CT dash seven four three one",
+        "label": "CONTRACT_ID",
+        "start": 889,
+        "end": 917
+      },
+      {
+        "text": "diabetic monitor",
+        "label": "PRODUCT",
+        "start": 302,
+        "end": 318
+      },
+      {
+        "text": "March seventeenth",
+        "label": "ISSUE_DATE",
+        "start": 350,
+        "end": 367
+      }
+    ],
+    "metadata": {
+      "scenario": "product_complaint",
+      "style": "polite",
+      "industry": "healthcare",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Customer: Hi, um, I\u2019m really not happy with my purchase. I got the new samsung galaxy last week, and it, like, keeps freezing on me.  \n\nAgent: I\u2019m sorry to hear that! What\u2019s your name, please?  \n\nCustomer: Sure, it\u2019s, uh, Jessica. That\u2019s J e s s i c a.  \n\nAgent: Thanks, Jessica. Can you tell me when you bought the new samsung galaxy?  \n\nCustomer: Yeah, I bought it on, um, October tenth.  \n\nAgent: Got it. And can you explain what happens when it freezes?  \n\nCustomer: Yeah, I, like, try to open an app and it just doesn\u2019t respond, you know?  \n\nAgent: I understand. Let\u2019s see what we can do about that. Do you have your order number handy?  \n\nCustomer: Uh, yeah, it\u2019s CT dash five five three two one.",
+    "entities": [
+      {
+        "text": "Jessica",
+        "label": "NAME",
+        "start": 222,
+        "end": 229
+      },
+      {
+        "text": "October tenth",
+        "label": "ISSUE_DATE",
+        "start": 375,
+        "end": 388
+      },
+      {
+        "text": "CT dash five five three two one",
+        "label": "CONTRACT_ID",
+        "start": 670,
+        "end": 701
+      }
+    ],
+    "metadata": {
+      "scenario": "product_complaint",
+      "style": "casual",
+      "industry": "retail",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Hi, uh, I\u2019m calling about my plan and, like, I\u2019m having some issues with streaming. My contract ID is CT dash six seven eight nine zero. Can you help me with that?",
+    "entities": [
+      {
+        "text": "CT dash six seven eight nine zero",
+        "label": "CONTRACT_ID",
+        "start": 102,
+        "end": 135
+      }
+    ],
+    "metadata": {
+      "scenario": "technical_support",
+      "style": "polite",
+      "industry": "subscription services",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Hi, uh, this is Sarah, that's S A R A H, and I'm really frustrated right now. I called about my, um, blood pressure monitor, you know, the one I got last month, and it's just not working properly. I mean, I bought it on, uh, August fifteenth, two thousand twenty three, and it keeps giving me inconsistent readings. Like, it says my blood pressure is one hundred eighty over one hundred twenty when I know it's not that high. I really need a reliable product for my health, and this isn't cutting it. Can you help me with this?",
+    "entities": [
+      {
+        "text": "Sarah",
+        "label": "NAME",
+        "start": 16,
+        "end": 21
+      },
+      {
+        "text": "August fifteenth, two thousand twenty three",
+        "label": "ISSUE_DATE",
+        "start": 225,
+        "end": 268
+      },
+      {
+        "text": "blood pressure monitor",
+        "label": "PRODUCT",
+        "start": 101,
+        "end": 123
+      }
+    ],
+    "metadata": {
+      "scenario": "product_complaint",
+      "style": "frustrated",
+      "industry": "healthcare",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Uh, hi, my name is Lisa, that's L I S A, uh Davis. I'm calling because I'm really frustrated about my bill. I got this statement that shows a charge for uh, uh, two hundred fifty dollars for um, a service that I, I didn't even use. My contract ID is uh, CT dash seven eight nine oh, and I need this resolved because, uh, I can't pay this kind of money for, like, nothing. Can you help me with this?",
+    "entities": [
+      {
+        "text": "Lisa",
+        "label": "NAME",
+        "start": 19,
+        "end": 23
+      },
+      {
+        "text": "Davis",
+        "label": "NAME",
+        "start": 44,
+        "end": 49
+      },
+      {
+        "text": "CT dash seven eight nine oh",
+        "label": "CONTRACT_ID",
+        "start": 254,
+        "end": 281
+      }
+    ],
+    "metadata": {
+      "scenario": "billing_dispute",
+      "style": "frustrated",
+      "industry": "insurance",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Um, hello? I can't believe how terrible your service is! I, uh, I ordered my new credit card like, two weeks ago, and I still haven't received it! This is just unacceptable! My name is, uh, Sarah Johnson, that's S A R A H J O H N S O N. And I even emailed you guys about this to sarah.johnson at email dot com. I mean, what am I supposed to do without a card?",
+    "entities": [
+      {
+        "text": "Sarah Johnson",
+        "label": "NAME",
+        "start": 190,
+        "end": 203
+      },
+      {
+        "text": "sarah.johnson at email dot com",
+        "label": "EMAIL",
+        "start": 279,
+        "end": 309
+      }
+    ],
+    "metadata": {
+      "scenario": "product_complaint",
+      "style": "angry",
+      "industry": "banking",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Uh, hi, um, I need help with my samsung galaxy. I bought it on, uh, february twenty eighth and it\u2019s just not working right. Like, every time I try to open an app, it just crashes. Um, I\u2019ve tried restarting it a couple of times and nothing's happening. I don\u2019t know what to do. Can you, like, help me with this? It\u2019s really frustrating.",
+    "entities": [
+      {
+        "text": "samsung galaxy",
+        "label": "PRODUCT",
+        "start": 32,
+        "end": 46
+      },
+      {
+        "text": "february twenty eighth",
+        "label": "ISSUE_DATE",
+        "start": 68,
+        "end": 90
+      }
+    ],
+    "metadata": {
+      "scenario": "technical_support",
+      "style": "frustrated",
+      "industry": "retail",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Customer Service, this is Alex, how can I help you today?  \n\nHi, um, I\u2019m having some issues with my subscription.  \n\nOh, I\u2019m sorry to hear that. Can I get your name, please?  \n\nYeah, it\u2019s Priya Patel, that\u2019s P R I Y A P A T E L.  \n\nThanks, Priya! What seems to be the issue?  \n\nWell, I got charged for my subscription on February twenty eighth and, like, I didn\u2019t expect it to be such a high amount.  \n\nI understand. What product are you subscribed to?  \n\nOh, it\u2019s the premium streaming service. I just thought it would be, um, less.  \n\nGot it, let me pull up your account. Can you provide your contract ID?  \n\nSure, it\u2019s CT dash five five one two three.  \n\nThank you, Priya! Let me check that for you.",
+    "entities": [
+      {
+        "text": "Priya Patel",
+        "label": "NAME",
+        "start": 188,
+        "end": 199
+      },
+      {
+        "text": "CT dash five five one two three",
+        "label": "CONTRACT_ID",
+        "start": 622,
+        "end": 653
+      },
+      {
+        "text": "premium streaming service",
+        "label": "PRODUCT",
+        "start": 469,
+        "end": 494
+      },
+      {
+        "text": "February twenty eighth",
+        "label": "ISSUE_DATE",
+        "start": 321,
+        "end": 343
+      }
+    ],
+    "metadata": {
+      "scenario": "product_complaint",
+      "style": "casual",
+      "industry": "subscription services",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "CT dash seven eight nine oh two zero, I uh, I had some issues with my account uh recently. It's like my funds weren't showing up properly, um, can you help me with that? I sent an email to sarah at example dot com, but uh I haven't heard back yet. Um, I really need to clear this up because I uh, I rely on my account for daily expenses.",
+    "entities": [
+      {
+        "text": "CT dash seven eight nine oh two zero",
+        "label": "CONTRACT_ID",
+        "start": 0,
+        "end": 36
+      },
+      {
+        "text": "sarah at example dot com",
+        "label": "EMAIL",
+        "start": 189,
+        "end": 213
+      }
+    ],
+    "metadata": {
+      "scenario": "product_complaint",
+      "style": "polite",
+      "industry": "banking",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Uh, hi, I need to return a, um, shirt that I bought and it's totally the wrong size. I mean, I ordered a large, but I got a small. This is ridiculous! I bought it on, uh, march first, and I just want my money back, you know? I'm really upset about this.",
+    "entities": [
+      {
+        "text": "march first",
+        "label": "ISSUE_DATE",
+        "start": 171,
+        "end": 182
+      },
+      {
+        "text": "shirt",
+        "label": "PRODUCT",
+        "start": 32,
+        "end": 37
+      }
+    ],
+    "metadata": {
+      "scenario": "return_request",
+      "style": "angry",
+      "industry": "retail",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "uh hi, I'm calling to check the status of my order, uh my contract id is CT dash five five one two three. I ordered, um, a new credit card or something like that. Can you help me with that? My email is jane dot doe at example dot com.",
+    "entities": [
+      {
+        "text": "CT dash five five one two three",
+        "label": "CONTRACT_ID",
+        "start": 73,
+        "end": 104
+      },
+      {
+        "text": "jane dot doe at example dot com",
+        "label": "EMAIL",
+        "start": 202,
+        "end": 233
+      }
+    ],
+    "metadata": {
+      "scenario": "order_status_inquiry",
+      "style": "neutral",
+      "industry": "banking",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Hi, uh, is this customer service? Um, my name is priya patel, that's p r i y a p a t e l. I need to update my, um, email address and I think my contract ID is CT dash five five one two three. My new email is priya at gmail dot com. Can you help me with that?",
+    "entities": [
+      {
+        "text": "priya patel",
+        "label": "NAME",
+        "start": 49,
+        "end": 60
+      },
+      {
+        "text": "priya at gmail dot com",
+        "label": "EMAIL",
+        "start": 208,
+        "end": 230
+      },
+      {
+        "text": "CT dash five five one two three",
+        "label": "CONTRACT_ID",
+        "start": 159,
+        "end": 190
+      }
+    ],
+    "metadata": {
+      "scenario": "account_update",
+      "style": "casual",
+      "industry": "telecommunications",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Uh, hi, um, I\u2019m calling about an order I, like, placed a while ago? I\u2019m not sure when it\u2019s supposed to arrive. It was, um, for a new smartwatch and I thought, you know, it would be here by now? I, uh, checked my account but I don\u2019t see any updates. Can you, um, help me figure out what\u2019s going on? My name is, um, Alex, that\u2019s A L E X, and my email is, uh, alex dot jones at gmail dot com.",
+    "entities": [
+      {
+        "text": "Alex",
+        "label": "NAME",
+        "start": 314,
+        "end": 318
+      },
+      {
+        "text": "alex dot jones at gmail dot com",
+        "label": "EMAIL",
+        "start": 357,
+        "end": 388
+      },
+      {
+        "text": "smartwatch",
+        "label": "PRODUCT",
+        "start": 133,
+        "end": 143
+      }
+    ],
+    "metadata": {
+      "scenario": "order_status_inquiry",
+      "style": "confused",
+      "industry": "subscription services",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Uh, I can't believe this, I wanna return my phone. It's just been like, a total nightmare. I bought the, um, the new samsung galaxy like, two months ago, and it's already acting up. The battery drains so fast, it's ridiculous! I have a contract ID, um, CT dash seven eight nine two one, and I want my money back. I can't deal with this anymore. And I tried emailing you guys, I sent a message to sarah at example dot com, but no one got back to me. This is just unacceptable!",
+    "entities": [
+      {
+        "text": "sarah at example dot com",
+        "label": "EMAIL",
+        "start": 396,
+        "end": 420
+      },
+      {
+        "text": "CT dash seven eight nine two one",
+        "label": "CONTRACT_ID",
+        "start": 253,
+        "end": 285
+      },
+      {
+        "text": "the new samsung galaxy",
+        "label": "PRODUCT",
+        "start": 109,
+        "end": 131
+      }
+    ],
+    "metadata": {
+      "scenario": "return_request",
+      "style": "angry",
+      "industry": "telecommunications",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "uh, so, um, my email is jessica dot smith at yahoo dot com and uh, I wanted to update my, like, account info. My contract ID is CT dash six seven eight nine zero. Can you help me with that? I need to change my address and, um, maybe get a new phone too.",
+    "entities": [
+      {
+        "text": "jessica dot smith at yahoo dot com",
+        "label": "EMAIL",
+        "start": 24,
+        "end": 58
+      },
+      {
+        "text": "CT dash six seven eight nine zero",
+        "label": "CONTRACT_ID",
+        "start": 128,
+        "end": 161
+      }
+    ],
+    "metadata": {
+      "scenario": "account_update",
+      "style": "casual",
+      "industry": "telecommunications",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Thank you for calling, this is Lisa. How can I help you today?  \n\nHey Lisa, um, I need to update my account info.  \n\nSure, I can help with that. Can I get your name, please?  \n\nYeah, it\u2019s Priya Patel, that\u2019s p r i y a p a t e l.  \n\nGot it, Priya. Um, what email do you want to use for your account?  \n\nI\u2019d like to change it to priya at gmail dot com.  \n\nOkay, and do you have the order number for your last purchase handy?  \n\nUh, yeah, it\u2019s CT dash five five one two three.  \n\nThanks! And what product are we updating today?  \n\nIt's that new samsung galaxy I got last month.  \n\nAlright, let me pull that up. Um, is there anything else you need?  \n\nNope, that\u2019s it for now.  \n\nGreat! I'll take care of that for you right away.  \n\nAwesome, thanks so much, Lisa!  \n\nYou're welcome, Priya!",
+    "entities": [
+      {
+        "text": "Priya Patel",
+        "label": "NAME",
+        "start": 188,
+        "end": 199
+      },
+      {
+        "text": "priya at gmail dot com",
+        "label": "EMAIL",
+        "start": 327,
+        "end": 349
+      },
+      {
+        "text": "CT dash five five one two three",
+        "label": "CONTRACT_ID",
+        "start": 441,
+        "end": 472
+      },
+      {
+        "text": "new samsung galaxy",
+        "label": "PRODUCT",
+        "start": 538,
+        "end": 556
+      }
+    ],
+    "metadata": {
+      "scenario": "account_update",
+      "style": "casual",
+      "industry": "retail",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Thank you for calling customer service, this is Michelle, how can I help you today?  \n\nHi Michelle, um, I need to update my account information.  \n\nSure, I can help with that. Can I have your name please?  \n\nYeah, it's Priya Patel, that's P R I Y A P A T E L.  \n\nThank you, Priya. Um, can you also provide me with your email address?  \n\nSure, it's priya dot patel at gmail dot com.  \n\nGreat, thank you. And could I have your contract ID as well?  \n\nYeah, it\u2019s CT dash five five one two three.  \n\nPerfect. Now, what information do you want to update on your account?  \n\nI want to change my address and I also, um, wanna make sure my billing date is still the same.  \n\nOf course, I can help with that. Just to confirm, can you tell me the issue date of your current contract?  \n\nOh, um, it's February twenty eighth, twenty twenty three.  \n\nThank you, Priya. Let me pull up your details and I'll assist you with that update.  \n\nOkay, sounds good!",
+    "entities": [
+      {
+        "text": "Priya Patel",
+        "label": "NAME",
+        "start": 219,
+        "end": 230
+      },
+      {
+        "text": "priya dot patel at gmail dot com",
+        "label": "EMAIL",
+        "start": 348,
+        "end": 380
+      },
+      {
+        "text": "CT dash five five one two three",
+        "label": "CONTRACT_ID",
+        "start": 460,
+        "end": 491
+      },
+      {
+        "text": "February twenty eighth, twenty twenty three",
+        "label": "ISSUE_DATE",
+        "start": 790,
+        "end": 833
+      }
+    ],
+    "metadata": {
+      "scenario": "account_update",
+      "style": "polite",
+      "industry": "telecommunications",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Thank you for calling customer service, this is Alex speaking, how can I help you today?  \n\nUm, hi, Alex, uh, yeah, I'm really confused about my last bill.  \n\nSure, I can help with that. Can I get your name, please?  \n\nUh, yeah, it's Jamie, that's J a m i e, um, Smith.  \n\nOkay, Jamie Smith, thank you. Can you tell me what seems to be the issue with your bill?  \n\nYeah, so, I, um, I was charged for two months but I only signed up for one service, you know?  \n\nI understand. Can you provide me with your contract ID to assist you better?  \n\nUm, it's CT dash seven six three four, I think, uh, but I'm not entirely sure if that\u2019s right.  \n\nThat's alright, let me pull that up. And can you also confirm your email for me?  \n\nUh, sure, it's jamie.smith at example dot com.  \n\nThank you, Jamie. Just a moment while I check your account.",
+    "entities": [
+      {
+        "text": "Jamie Smith",
+        "label": "NAME",
+        "start": 279,
+        "end": 290
+      },
+      {
+        "text": "jamie.smith at example dot com",
+        "label": "EMAIL",
+        "start": 739,
+        "end": 769
+      },
+      {
+        "text": "CT dash seven six three four",
+        "label": "CONTRACT_ID",
+        "start": 551,
+        "end": 579
+      }
+    ],
+    "metadata": {
+      "scenario": "billing_dispute",
+      "style": "confused",
+      "industry": "subscription services",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Um, hi, my name is, uh, Sarah, that's S A R A H, um, I, like, I need to return a, a, uh, product I ordered? Uh, it's this, um, oh gosh, what's it called? It's the, uh, the new samsung galaxy. I'm, like, confused about the return process. I thought I could just send it back but, like, I don't know if that's right or, um, if I need anything else? Can you help me with, uh, that? My order number is, um, CT dash six seven eight nine zero, I think?",
+    "entities": [
+      {
+        "text": "Sarah",
+        "label": "NAME",
+        "start": 24,
+        "end": 29
+      },
+      {
+        "text": "CT dash six seven eight nine zero",
+        "label": "CONTRACT_ID",
+        "start": 403,
+        "end": 436
+      },
+      {
+        "text": "the new samsung galaxy",
+        "label": "PRODUCT",
+        "start": 168,
+        "end": 190
+      }
+    ],
+    "metadata": {
+      "scenario": "return_request",
+      "style": "confused",
+      "industry": "e-commerce",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Sarah: Hi, I need to update my account info, um, it\u2019s really frustrating. I called last week, and, like, nothing changed yet. Can you help me with this? I mean, I need my email to be updated to sarah dot smith at gmail dot com, and, uh, my contract ID is CT dash eight seven six five three. I don't understand why, um, I have to keep calling back for this. It\u2019s been way too long since I first brought this up on, um, october fifteenth. Can you please make sure this gets done?",
+    "entities": [
+      {
+        "text": "Sarah",
+        "label": "NAME",
+        "start": 0,
+        "end": 5
+      },
+      {
+        "text": "sarah dot smith at gmail dot com",
+        "label": "EMAIL",
+        "start": 194,
+        "end": 226
+      },
+      {
+        "text": "CT dash eight seven six five three",
+        "label": "CONTRACT_ID",
+        "start": 255,
+        "end": 289
+      },
+      {
+        "text": "october fifteenth",
+        "label": "ISSUE_DATE",
+        "start": 418,
+        "end": 435
+      }
+    ],
+    "metadata": {
+      "scenario": "account_update",
+      "style": "frustrated",
+      "industry": "retail",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Thank you for calling healthcare support, this is Sarah. How can I assist you today?  \n\nUm, hi Sarah, my name is Priya, that's P R I Y A Patel. I've been having some issues with the new smart health monitor I purchased last month.  \n\nI see, Priya. Can you tell me what kind of issues you're experiencing?  \n\nWell, it keeps, um, disconnecting from the app on my phone, and it\u2019s really frustrating. I thought, you know, it would help me track my health better, but it\u2019s just not working as expected.  \n\nI\u2019m sorry to hear that. When exactly did you purchase the smart health monitor?  \n\nI got it on February twenty eighth, two thousand twenty three.  \n\nOkay, and can I have your contract ID so I can look up your details?  \n\nSure, it\u2019s CT dash five five one two three.  \n\nThank you, Priya. Let me check that for you.",
+    "entities": [
+      {
+        "text": "Priya",
+        "label": "NAME",
+        "start": 113,
+        "end": 118
+      },
+      {
+        "text": "P R I Y A Patel",
+        "label": "NAME",
+        "start": 127,
+        "end": 142
+      },
+      {
+        "text": "smart health monitor",
+        "label": "PRODUCT",
+        "start": 186,
+        "end": 206
+      },
+      {
+        "text": "February twenty eighth",
+        "label": "ISSUE_DATE",
+        "start": 596,
+        "end": 618
+      },
+      {
+        "text": "CT dash five five one two three",
+        "label": "CONTRACT_ID",
+        "start": 733,
+        "end": 764
+      }
+    ],
+    "metadata": {
+      "scenario": "product_complaint",
+      "style": "polite",
+      "industry": "healthcare",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Uh, hi, I, um, I\u2019m calling about my order status. I placed a contract for insurance, like, over a month ago and I still haven\u2019t received any updates. The contract ID is CT dash seven four two one eight. I just want to know what\u2019s going on. My email is emily dot johnson at gmail dot com. Can you, like, check that for me? I\u2019m really getting frustrated here.",
+    "entities": [
+      {
+        "text": "emily dot johnson at gmail dot com",
+        "label": "EMAIL",
+        "start": 252,
+        "end": 286
+      },
+      {
+        "text": "CT dash seven four two one eight",
+        "label": "CONTRACT_ID",
+        "start": 169,
+        "end": 201
+      }
+    ],
+    "metadata": {
+      "scenario": "order_status_inquiry",
+      "style": "frustrated",
+      "industry": "insurance",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Um, hi, I uh, I got a message about my order but I'm not really sure where it is. My name is uh, Sarah that's S A R A H, and I ordered, um, a new debit card like, uh, two weeks ago? Can you tell me if it's shipped yet? I mean, I thought it would be here by now and, uh, I just want to make sure everything's okay. My contract ID is CT dash five five one two three, can you look that up for me please?  ",
+    "entities": [
+      {
+        "text": "Sarah",
+        "label": "NAME",
+        "start": 97,
+        "end": 102
+      },
+      {
+        "text": "S A R A H",
+        "label": "NAME",
+        "start": 110,
+        "end": 119
+      },
+      {
+        "text": "CT dash five five one two three",
+        "label": "CONTRACT_ID",
+        "start": 332,
+        "end": 363
+      }
+    ],
+    "metadata": {
+      "scenario": "order_status_inquiry",
+      "style": "confused",
+      "industry": "banking",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Um, yeah, hi, I need help with my new smartwatch, um, it keeps disconnecting from my phone and I, like, can't even use it properly. I bought it on, um, february twenty eighth and, like, I really need this fixed. Can you help me with that? I, uh, tried resetting it and everything. It's really, um, frustrating.",
+    "entities": [
+      {
+        "text": "smartwatch",
+        "label": "PRODUCT",
+        "start": 38,
+        "end": 48
+      },
+      {
+        "text": "february twenty eighth",
+        "label": "ISSUE_DATE",
+        "start": 152,
+        "end": 174
+      }
+    ],
+    "metadata": {
+      "scenario": "technical_support",
+      "style": "frustrated",
+      "industry": "retail",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "uh, hi, I'm calling to check the status of my order. It's under the name, um, Jessica that's J e s s i c a Smith. And my email is jessica.smith at example dot com. Can you help me with that?",
+    "entities": [
+      {
+        "text": "Jessica that's J e s s i c a Smith",
+        "label": "NAME",
+        "start": 78,
+        "end": 112
+      },
+      {
+        "text": "jessica.smith at example dot com",
+        "label": "EMAIL",
+        "start": 130,
+        "end": 162
+      }
+    ],
+    "metadata": {
+      "scenario": "order_status_inquiry",
+      "style": "neutral",
+      "industry": "banking",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Uh, hi, um, I need help with my order. I ordered a pair of airpods like three weeks ago, and I still haven't received them. My name is, uh, Sarah, that's s a r a h, uh, Johnson. I got the confirmation email, but it, like, never showed up. Can you check it for me? My email is, um, sarah.johnson at gmail dot com. I really need these by, uh, like, this weekend, you know?",
+    "entities": [
+      {
+        "text": "sarah",
+        "label": "NAME",
+        "start": 281,
+        "end": 286
+      },
+      {
+        "text": "sarah.johnson at gmail dot com",
+        "label": "EMAIL",
+        "start": 281,
+        "end": 311
+      },
+      {
+        "text": "airpods",
+        "label": "PRODUCT",
+        "start": 59,
+        "end": 66
+      }
+    ],
+    "metadata": {
+      "scenario": "technical_support",
+      "style": "frustrated",
+      "industry": "e-commerce",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Uh, hi, uh, I need to talk about a problem with my account. I, uh, noticed a charge on, um, June fifteenth that I didn't authorize, and, like, I don't know why it's there. It's, um, really frustrating. I, uh, was trying to pay my bills, and this, like, extra fee just appeared. Can you, um, help me with this? It's, uh, CT dash seven three two one eight, my contract ID.",
+    "entities": [
+      {
+        "text": "June fifteenth",
+        "label": "ISSUE_DATE",
+        "start": 92,
+        "end": 106
+      },
+      {
+        "text": "CT dash seven three two one eight",
+        "label": "CONTRACT_ID",
+        "start": 320,
+        "end": 353
+      }
+    ],
+    "metadata": {
+      "scenario": "product_complaint",
+      "style": "rushed",
+      "industry": "banking",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Uh, hi, I\u2019m calling to check the status of my order. My name is, um, Lisa and that\u2019s L I S A. I ordered the new samsung galaxy and I just wanna know when it\u2019s gonna get here. I think I placed the order on, uh, March fifteenth. Can you help me with that?",
+    "entities": [
+      {
+        "text": "Lisa",
+        "label": "NAME",
+        "start": 69,
+        "end": 73
+      },
+      {
+        "text": "L I S A",
+        "label": "NAME",
+        "start": 85,
+        "end": 92
+      },
+      {
+        "text": "the new samsung galaxy",
+        "label": "PRODUCT",
+        "start": 104,
+        "end": 126
+      },
+      {
+        "text": "March fifteenth",
+        "label": "ISSUE_DATE",
+        "start": 210,
+        "end": 225
+      }
+    ],
+    "metadata": {
+      "scenario": "order_status_inquiry",
+      "style": "casual",
+      "industry": "telecommunications",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Thank you for calling Subscription Services, this is Alex. How can I help you today?  \nHi, um, I need to update my account information.  \nOf course! Can I have your name, please?  \nYeah, it's Priya Patel, that's P R I Y A P A T E L.  \nThank you, Priya. And can I get your contract ID?  \nSure, it's CT dash five five one two three.  \nGot it. And what email should I have on file for you?  \nIt's john at gmail dot com.  \nPerfect. Let me pull up your account.",
+    "entities": [
+      {
+        "text": "Priya Patel",
+        "label": "NAME",
+        "start": 192,
+        "end": 203
+      },
+      {
+        "text": "john at gmail dot com",
+        "label": "EMAIL",
+        "start": 394,
+        "end": 415
+      },
+      {
+        "text": "CT dash five five one two three",
+        "label": "CONTRACT_ID",
+        "start": 298,
+        "end": 329
+      }
+    ],
+    "metadata": {
+      "scenario": "account_update",
+      "style": "neutral",
+      "industry": "subscription services",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Thank you for calling, um, customer service. How can I help you today? \n\nHi, um, I would like to request a return for my, uh, recent transaction. \n\nSure, I can help you with that. Can I have your name, please? \n\nYes, it's, um, Priya Patel, that's P R I Y A, P A T E L. \n\nThank you, Priya. And could you please provide the contract ID for the transaction? \n\nUh, yes, it's CT dash five five one two three. \n\nGreat. And can you tell me the email address associated with this account? \n\nSure, it's priya.patel at gmail dot com. \n\nThank you, Priya. I\u2019ll just, um, pull up your account now. Can you also let me know the, uh, date of the transaction? \n\nOh, sure. It was, um, February twenty eighth, twenty twenty three. \n\nPerfect. Let me just check that for you. One moment, please.",
+    "entities": [
+      {
+        "text": "Priya Patel",
+        "label": "NAME",
+        "start": 227,
+        "end": 238
+      },
+      {
+        "text": "priya.patel at gmail dot com",
+        "label": "EMAIL",
+        "start": 494,
+        "end": 522
+      },
+      {
+        "text": "CT dash five five one two three",
+        "label": "CONTRACT_ID",
+        "start": 371,
+        "end": 402
+      },
+      {
+        "text": "February twenty eighth",
+        "label": "ISSUE_DATE",
+        "start": 668,
+        "end": 690
+      }
+    ],
+    "metadata": {
+      "scenario": "return_request",
+      "style": "polite",
+      "industry": "banking",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Thank you for calling Healthcare Solutions. This is Sarah. How can I help you today?  \n\nHi, Sarah. Um, I\u2019m really unhappy with the results from my last blood test. I, uh, got it done on february fifteenth, and, um, the results were just, like, not what I expected.  \n\nI\u2019m sorry to hear that. Can you please give me your name so I can pull up your records?  \n\nYeah, it\u2019s Alex Dawson. That\u2019s A L E X D A W S O N.  \n\nThank you, Alex. Let me check your file. Could you also provide me with your contract ID?  \n\nSure, it\u2019s CT dash six seven eight nine one two.  \n\nGot it. I see here that you\u2019re talking about the results from february fifteenth. Can you describe what was concerning you about them?  \n\nYeah, um, my doctor said my cholesterol levels were really high, but I, like, eat healthy and exercise. I just don\u2019t understand how it could be that high.",
+    "entities": [
+      {
+        "text": "Alex Dawson",
+        "label": "NAME",
+        "start": 370,
+        "end": 381
+      },
+      {
+        "text": "CT dash six seven eight nine one two",
+        "label": "CONTRACT_ID",
+        "start": 518,
+        "end": 554
+      },
+      {
+        "text": "february fifteenth",
+        "label": "ISSUE_DATE",
+        "start": 186,
+        "end": 204
+      }
+    ],
+    "metadata": {
+      "scenario": "product_complaint",
+      "style": "neutral",
+      "industry": "healthcare",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Uh, hi, my name is, uh, Michael, that's M I C H A E L, and I'm really frustrated right now. I, uh, bought the new heart monitor, like, a month ago, and it, um, keeps malfunctioning. I mean, this is a healthcare product, and, you know, it\u2019s supposed to be reliable. I don\u2019t understand why it keeps, um, showing incorrect readings. It's really, really concerning. I, uh, need to get this sorted out immediately, like, what's going on?",
+    "entities": [
+      {
+        "text": "Michael",
+        "label": "NAME",
+        "start": 24,
+        "end": 31
+      },
+      {
+        "text": "the new heart monitor",
+        "label": "PRODUCT",
+        "start": 106,
+        "end": 127
+      }
+    ],
+    "metadata": {
+      "scenario": "product_complaint",
+      "style": "frustrated",
+      "industry": "healthcare",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Thank you for calling Acme Insurance, how may I help you today? Uh, yeah, I received my bill and I think there's a mistake. Um, it says I owe, like, two hundred dollars more than what I was expecting. Can you help me with that? My name is, uh, Priya Patel, that's P R I Y A P A T E L. And my contract ID is CT dash five five one two three. Um, I also want to make sure you have my email, it's priya dot patel at gmail dot com. Can you look into this for me?",
+    "entities": [
+      {
+        "text": "Priya Patel",
+        "label": "NAME",
+        "start": 244,
+        "end": 255
+      },
+      {
+        "text": "priya dot patel at gmail dot com",
+        "label": "EMAIL",
+        "start": 393,
+        "end": 425
+      },
+      {
+        "text": "CT dash five five one two three",
+        "label": "CONTRACT_ID",
+        "start": 307,
+        "end": 338
+      }
+    ],
+    "metadata": {
+      "scenario": "billing_dispute",
+      "style": "neutral",
+      "industry": "insurance",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Uh, hi, I\u2019m calling about my bill for, um, contract ID, uh, CT dash one zero two three four. I received it on, like, uh, issue date, um, february fifteenth, you know, and it\u2019s way higher than what I expected. Can you explain that? I thought my plan was, like, the basic coverage? This doesn\u2019t make any sense.",
+    "entities": [
+      {
+        "text": "CT dash one zero two three four",
+        "label": "CONTRACT_ID",
+        "start": 60,
+        "end": 91
+      },
+      {
+        "text": "february fifteenth",
+        "label": "ISSUE_DATE",
+        "start": 137,
+        "end": 155
+      }
+    ],
+    "metadata": {
+      "scenario": "billing_dispute",
+      "style": "rushed",
+      "industry": "insurance",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "CT dash five five one two three, um, I called last week and uh, I was told my order was shipped but I still haven\u2019t received it. It\u2019s been over like, you know, a week now and I'm really frustrated. Can\u2019t you guys give me, like, a tracking number or something? I need my med\u2014my medication, like, urgently. What\u2019s going on?",
+    "entities": [
+      {
+        "text": "CT dash five five one two three",
+        "label": "CONTRACT_ID",
+        "start": 0,
+        "end": 31
+      }
+    ],
+    "metadata": {
+      "scenario": "order_status_inquiry",
+      "style": "frustrated",
+      "industry": "healthcare",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "I can't believe this! I was trying to use my subscription and it's just not working. I mean, I pay every month for this service! The last time I called, your rep told me to wait until february twenty eighth for the next update, and it's still broken! This is ridiculous! I need to speak to someone who can actually help me! My name is sam that's s a m taylor. I can\u2019t even access my account! I don't know what to do. Why is it so hard to get support?",
+    "entities": [
+      {
+        "text": "sam that's s a m taylor",
+        "label": "NAME",
+        "start": 335,
+        "end": 358
+      },
+      {
+        "text": "february twenty eighth",
+        "label": "ISSUE_DATE",
+        "start": 184,
+        "end": 206
+      }
+    ],
+    "metadata": {
+      "scenario": "technical_support",
+      "style": "angry",
+      "industry": "subscription services",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Customer Service, how can I help you?  \nHi, um, yes, I'm calling to check on the status of my order.  \nOf course! Can I get your name, please?  \nSure, it's Priya, that's P R I Y A Patel.  \nThank you, Priya. And can you provide me with your order number?  \nYeah, it's CT dash five five one two three.  \nGreat! Just a moment while I look that up.  \nOkay.  \nI see here that your order was placed on february twenty eighth. Looks like it's scheduled to ship out by the end of this week.  \nOh, that's good to know! Um, do you have the tracking number?  \nI can send that to your email if you give me your email address.",
+    "entities": [
+      {
+        "text": "Priya, that's P R I Y A Patel",
+        "label": "NAME",
+        "start": 156,
+        "end": 185
+      },
+      {
+        "text": "CT dash five five one two three",
+        "label": "CONTRACT_ID",
+        "start": 267,
+        "end": 298
+      },
+      {
+        "text": "february twenty eighth",
+        "label": "ISSUE_DATE",
+        "start": 396,
+        "end": 418
+      }
+    ],
+    "metadata": {
+      "scenario": "order_status_inquiry",
+      "style": "polite",
+      "industry": "healthcare",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Hi, uh, I just called to check on my order status. I ordered, um, a new checking account, and, like, I haven't received any updates. My name is, uh, Sarah Johnson, that's S A R A H J O H N S O N. I placed the order on, um, February tenth. Can you tell me what's going on?",
+    "entities": [
+      {
+        "text": "Sarah Johnson",
+        "label": "NAME",
+        "start": 149,
+        "end": 162
+      },
+      {
+        "text": "February tenth",
+        "label": "ISSUE_DATE",
+        "start": 223,
+        "end": 237
+      }
+    ],
+    "metadata": {
+      "scenario": "order_status_inquiry",
+      "style": "frustrated",
+      "industry": "banking",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "I can't believe this, um, I ordered the new samsung galaxy like three weeks ago and it, it still hasn't arrived! This is ridiculous! My name is, um, Kevin that's K E V I N, and I just want to know where my phone is! I like, I've been waiting forever! I'm really unhappy with this service, you know?",
+    "entities": [
+      {
+        "text": "Kevin",
+        "label": "NAME",
+        "start": 149,
+        "end": 154
+      },
+      {
+        "text": "K E V I N",
+        "label": "NAME",
+        "start": 162,
+        "end": 171
+      },
+      {
+        "text": "samsung galaxy",
+        "label": "PRODUCT",
+        "start": 44,
+        "end": 58
+      }
+    ],
+    "metadata": {
+      "scenario": "product_complaint",
+      "style": "angry",
+      "industry": "e-commerce",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Um, hi, my name is uh, Sarah that\u2019s S A R A H Johnson. I, uh, I\u2019m having like some issues with my service, um, I think it\u2019s about my, uh, contract ID, it\u2019s CT dash seven eight nine zero, um, and I\u2019m really confused about why, uh, my internet's been so slow. Like, uh, I tried to send an email to customer service but, um, I think I got the address wrong. It\u2019s, uh, support at telecom dot com, right? Anyway, um, can you help me figure this out?",
+    "entities": [
+      {
+        "text": "Sarah that\u2019s S A R A H Johnson",
+        "label": "NAME",
+        "start": 23,
+        "end": 53
+      },
+      {
+        "text": "support at telecom dot com",
+        "label": "EMAIL",
+        "start": 365,
+        "end": 391
+      },
+      {
+        "text": "CT dash seven eight nine zero",
+        "label": "CONTRACT_ID",
+        "start": 156,
+        "end": 185
+      }
+    ],
+    "metadata": {
+      "scenario": "technical_support",
+      "style": "confused",
+      "industry": "telecommunications",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Um, hi, uh, I need to update my account info. It's, uh, my name is Alex, that's A L E X, last name Smith, S M I T H. And, um, my email is alex dot smith at gmail dot com. I also need to, uh, change my contract ID, it's CT dash one two three four five. Um, yeah, can we do that real quick?",
+    "entities": [
+      {
+        "text": "Alex",
+        "label": "NAME",
+        "start": 67,
+        "end": 71
+      },
+      {
+        "text": "S M I T H",
+        "label": "NAME",
+        "start": 106,
+        "end": 115
+      },
+      {
+        "text": "alex dot smith at gmail dot com",
+        "label": "EMAIL",
+        "start": 138,
+        "end": 169
+      },
+      {
+        "text": "CT dash one two three four five",
+        "label": "CONTRACT_ID",
+        "start": 219,
+        "end": 250
+      }
+    ],
+    "metadata": {
+      "scenario": "account_update",
+      "style": "rushed",
+      "industry": "telecommunications",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "uh, hi, um, I need help with my account. It's, uh, I think the email is, um, sarah dot jones at gmail dot com. Uh, I wanted to update my address, but, like, I don\u2019t know how to do that. Can you help me? My, um, contract ID is CT dash twelve thirty four. But, like, I don't even know what my current address is on file, you know?",
+    "entities": [
+      {
+        "text": "sarah dot jones at gmail dot com",
+        "label": "EMAIL",
+        "start": 77,
+        "end": 109
+      },
+      {
+        "text": "CT dash twelve thirty four",
+        "label": "CONTRACT_ID",
+        "start": 226,
+        "end": 252
+      }
+    ],
+    "metadata": {
+      "scenario": "account_update",
+      "style": "confused",
+      "industry": "retail",
+      "data_type": "oral_format"
+    }
+  },
+  {
+    "text": "Um, hi, I need to talk to someone about my bill. I, uh, got a charge that I don\u2019t understand. It says I, uh, was billed for a warranty on my, um, phone, but I didn\u2019t authorize that. The ISSUE_DATE on the bill is, uh, february twenty eighth and my name is, uh, Alex that\u2019s A L E X Smith. Can you, like, help me with this?",
+    "entities": [
+      {
+        "text": "Alex",
+        "label": "NAME",
+        "start": 260,
+        "end": 264
+      },
+      {
+        "text": "Smith",
+        "label": "NAME",
+        "start": 280,
+        "end": 285
+      },
+      {
+        "text": "february twenty eighth",
+        "label": "ISSUE_DATE",
+        "start": 217,
+        "end": 239
+      }
+    ],
+    "metadata": {
+      "scenario": "billing_dispute",
+      "style": "frustrated",
+      "industry": "retail",
+      "data_type": "oral_format"
+    }
+  }
+]

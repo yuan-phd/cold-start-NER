@@ -1,0 +1,153 @@
+# Diabolocom NER Challenge — Centralized Configuration
+seed: 42
+
+# --- Data Generation ---
+data_generation:
+  api_model: "gpt-4o-mini"
+  train_samples: 600
+  val_samples: 120
+  temperature: 0.8
+  max_retries: 3
+  output_dir: "data/synthetic"
+  scenarios:
+    - type: "order_status_inquiry"
+      industries: ["retail", "ecommerce"]
+      weight: 0.15
+    - type: "product_complaint"
+      industries: ["telecom", "electronics"]
+      weight: 0.15
+    - type: "return_request"
+      industries: ["retail", "fashion"]
+      weight: 0.15
+    - type: "account_update"
+      industries: ["banking", "subscription"]
+      weight: 0.10
+    - type: "technical_support"
+      industries: ["telecom", "tech"]
+      weight: 0.10
+    - type: "appointment_scheduling"
+      industries: ["healthcare", "services"]
+      weight: 0.10
+    - type: "billing_dispute"
+      industries: ["insurance", "utilities"]
+      weight: 0.15
+    - type: "general_inquiry"
+      industries: ["any"]
+      weight: 0.10
+
+# Filler probabilities calibrated against Diabolocom TalkBank dataset
+# (diabolocom/talkbank_4_stt, English segment split, 32092 transcripts)
+# Observed real filler rate: 7.54%. Mild=1x, Moderate=2x, Severe=3x.
+
+# --- Noise Engine ---
+noise:
+  levels:
+    clean:
+      char_error_rate: 0.0
+      word_error_rate: 0.0
+      filler_prob: 0.0
+      case_corruption_prob: 0.0
+      punctuation_removal_prob: 0.0
+    mild:
+      char_error_rate: 0.03
+      word_error_rate: 0.07
+      filler_prob: 0.075
+      case_corruption_prob: 0.3
+      punctuation_removal_prob: 0.3
+    moderate:
+      char_error_rate: 0.07
+      word_error_rate: 0.15
+      filler_prob: 0.15
+      case_corruption_prob: 0.6
+      punctuation_removal_prob: 0.6
+    severe:
+      char_error_rate: 0.12
+      word_error_rate: 0.25
+      filler_prob: 0.225
+      case_corruption_prob: 0.9
+      punctuation_removal_prob: 0.9
+  output_dir: "data/noisy"
+
+# --- Model Training ---
+training:
+  bert_tiny:
+    model_name: "google/bert_uncased_L-2_H-128_A-2"
+    num_labels: 21
+    learning_rate: 5.0e-5
+    batch_size: 16
+    num_epochs: 20
+    max_seq_length: 256
+    warmup_ratio: 0.1
+    weight_decay: 0.01
+    save_dir: "results/models/bert_tiny"
+  bert_small:
+    model_name: "google/bert_uncased_L-4_H-256_A-4"
+    num_labels: 21
+    learning_rate: 5.0e-5
+    batch_size: 16
+    num_epochs: 20
+    max_seq_length: 256
+    warmup_ratio: 0.1
+    weight_decay: 0.01
+    save_dir: "results/models/bert_small"
+
+# --- GLiNER Baseline ---
+gliner:
+  model_name: "gliner-community/gliner_medium-v2.5"
+  threshold: 0.5
+  labels:
+    - "person name"
+    - "email address"
+    - "contract id"
+    - "product name"
+    - "date"
+  label_map:
+    "person name": "NAME"
+    "email address": "EMAIL"
+    "contract id": "CONTRACT_ID"
+    "product name": "PRODUCT"
+    "date": "ISSUE_DATE"
+
+# --- Evaluation ---
+evaluation:
+  partial_match_iou_threshold: 0.5
+  eval_data_dir: "data/eval"
+  results_dir: "results"
+  figures_dir: "results/figures"
+
+# --- API ---
+api:
+  host: "0.0.0.0"
+  port: 8765
+  default_model: "ensemble"
+
+# --- Label Schema ---
+labels:
+  entity_types:
+    - "NAME"
+    - "EMAIL"
+    - "CONTRACT_ID"
+    - "PRODUCT"
+    - "ISSUE_DATE"
+  bioes_tags:
+    - "O"
+    - "B-NAME"
+    - "I-NAME"
+    - "E-NAME"
+    - "S-NAME"
+    - "B-EMAIL"
+    - "I-EMAIL"
+    - "E-EMAIL"
+    - "S-EMAIL"
+    - "B-CONTRACT_ID"
+    - "I-CONTRACT_ID"
+    - "E-CONTRACT_ID"
+    - "S-CONTRACT_ID"
+    - "B-PRODUCT"
+    - "I-PRODUCT"
+    - "E-PRODUCT"
+    - "S-PRODUCT"
+    - "B-ISSUE_DATE"
+    - "I-ISSUE_DATE"
+    - "E-ISSUE_DATE"
+    - "S-ISSUE_DATE"

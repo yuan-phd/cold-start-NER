@@ -1,0 +1,17 @@
+{
+  "f1": {
+    "pytorch": 0.7389,
+    "onnx_fp32": 0.7389,
+    "onnx_int8": 0.7089
+  },
+  "speed_ms": {
+    "pytorch": 3.22,
+    "onnx_fp32": 1.57,
+    "onnx_int8": 1.12
+  },
+  "size_mb": {
+    "onnx_fp32": 0.6,
+    "onnx_int8": 11.1
+  },
+  "size_reduction_pct": -1912.4
+}

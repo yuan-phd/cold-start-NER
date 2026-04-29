@@ -1,0 +1,3950 @@
+[
+  {
+    "text": "Yeah, so I just wanted to, uh, see the status of an order. It's reference number SUB-78901 and it was for, um, the new Dyson V12 Detect Slim. I think I placed that order around last Tuesday, for my sister, Mia.",
+    "entities": [
+      {
+        "text": "SUB-78901",
+        "label": "CONTRACT_ID",
+        "start": 81,
+        "end": 90
+      },
+      {
+        "text": "Dyson V12 Detect Slim",
+        "label": "PRODUCT",
+        "start": 119,
+        "end": 140
+      },
+      {
+        "text": "last Tuesday",
+        "label": "ISSUE_DATE",
+        "start": 177,
+        "end": 189
+      },
+      {
+        "text": "Mia",
+        "label": "NAME",
+        "start": 206,
+        "end": 209
+      }
+    ]
+  },
+  {
+    "text": "So the, uh, gift for my nephew, Liam, it was the PlayStation 5, and I still haven't received confirmation. The order number is GFT-998877. Can you check that under my email, which is alex.chen@example.com? My name's Alex, by the way.",
+    "entities": [
+      {
+        "text": "PlayStation 5",
+        "label": "PRODUCT",
+        "start": 49,
+        "end": 62
+      },
+      {
+        "text": "GFT-998877",
+        "label": "CONTRACT_ID",
+        "start": 127,
+        "end": 137
+      },
+      {
+        "text": "alex.chen@example.com",
+        "label": "EMAIL",
+        "start": 183,
+        "end": 204
+      },
+      {
+        "text": "Alex",
+        "label": "NAME",
+        "start": 216,
+        "end": 220
+      }
+    ]
+  },
+  {
+    "text": "I'm calling about an order for my dad, for a new Samsung Galaxy S24 Ultra. I think I put the order in, like, three weeks ago, and the reference is ORD-2024-5591. Could you check on that for me? It's Sarah.",
+    "entities": [
+      {
+        "text": "Samsung Galaxy S24 Ultra",
+        "label": "PRODUCT",
+        "start": 49,
+        "end": 73
+      },
+      {
+        "text": "three weeks ago",
+        "label": "ISSUE_DATE",
+        "start": 109,
+        "end": 124
+      },
+      {
+        "text": "ORD-2024-5591",
+        "label": "CONTRACT_ID",
+        "start": 147,
+        "end": 160
+      },
+      {
+        "text": "Sarah",
+        "label": "NAME",
+        "start": 199,
+        "end": 204
+      }
+    ]
+  },
+  {
+    "text": "This is ridiculous, I've called three times already about my microwave oven not heating! I sent an email to support at my domain dot com with the details, and I spoke with a representative named Sarah last Tuesday regarding order number SUB-33018. Can you please check on that for me?",
+    "entities": [
+      {
+        "text": "microwave oven",
+        "label": "PRODUCT",
+        "start": 61,
+        "end": 75
+      },
+      {
+        "text": "support at my domain dot com",
+        "label": "EMAIL",
+        "start": 108,
+        "end": 136
+      },
+      {
+        "text": "Sarah",
+        "label": "NAME",
+        "start": 195,
+        "end": 200
+      },
+      {
+        "text": "last Tuesday",
+        "label": "ISSUE_DATE",
+        "start": 201,
+        "end": 213
+      },
+      {
+        "text": "SUB-33018",
+        "label": "CONTRACT_ID",
+        "start": 237,
+        "end": 246
+      }
+    ]
+  },
+  {
+    "text": "Seriously, my internet has been down for two days straight now after your technician supposedly fixed it on January 5th! I specifically asked for a follow-up, and you have my previous contact information under the name of Daniel Miller. The reference number for that is ORD-2024-5591.",
+    "entities": [
+      {
+        "text": "January 5th",
+        "label": "ISSUE_DATE",
+        "start": 108,
+        "end": 119
+      },
+      {
+        "text": "Daniel Miller",
+        "label": "NAME",
+        "start": 222,
+        "end": 235
+      },
+      {
+        "text": "ORD-2024-5591",
+        "label": "CONTRACT_ID",
+        "start": 270,
+        "end": 283
+      }
+    ]
+  },
+  {
+    "text": "I just need this resolved, it's been a nightmare since the delivery about two weeks ago. The original complaint was filed by Mr. Peterson regarding the missing parts for the new Dyson V12 vacuum cleaner. The case ID is COMP-77890.",
+    "entities": [
+      {
+        "text": "about two weeks ago",
+        "label": "ISSUE_DATE",
+        "start": 68,
+        "end": 87
+      },
+      {
+        "text": "Mr. Peterson",
+        "label": "NAME",
+        "start": 125,
+        "end": 137
+      },
+      {
+        "text": "Dyson V12 vacuum cleaner",
+        "label": "PRODUCT",
+        "start": 178,
+        "end": 202
+      },
+      {
+        "text": "COMP-77890",
+        "label": "CONTRACT_ID",
+        "start": 219,
+        "end": 229
+      }
+    ]
+  },
+  {
+    "text": "Could you help me change the delivery address for an order? My wife, Sarah Miller, placed it on, uh, July 22nd, for a new Dyson V12 vacuum cleaner. The contract ID is SUB-98765.",
+    "entities": [
+      {
+        "text": "Sarah Miller",
+        "label": "NAME",
+        "start": 69,
+        "end": 81
+      },
+      {
+        "text": "July 22nd",
+        "label": "ISSUE_DATE",
+        "start": 101,
+        "end": 110
+      },
+      {
+        "text": "Dyson V12 vacuum cleaner",
+        "label": "PRODUCT",
+        "start": 122,
+        "end": 146
+      },
+      {
+        "text": "SUB-98765",
+        "label": "CONTRACT_ID",
+        "start": 167,
+        "end": 176
+      }
+    ]
+  },
+  {
+    "text": "I need to modify a recent purchase. It's under the name of Michael Chen, and I believe the order number is ORD-2024-5591, placed about two weeks ago. We want to switch from the basic plan to the premium one.",
+    "entities": [
+      {
+        "text": "Michael Chen",
+        "label": "NAME",
+        "start": 59,
+        "end": 71
+      },
+      {
+        "text": "ORD-2024-5591",
+        "label": "CONTRACT_ID",
+        "start": 107,
+        "end": 120
+      },
+      {
+        "text": "about two weeks ago",
+        "label": "ISSUE_DATE",
+        "start": 129,
+        "end": 148
+      }
+    ]
+  },
+  {
+    "text": "Is there a way to update the quantity on an existing order? This is for John Smith, and he ordered the new Samsung Galaxy Watch 6. The reference number is REF-33018, and it was placed, like, yesterday.",
+    "entities": [
+      {
+        "text": "John Smith",
+        "label": "NAME",
+        "start": 72,
+        "end": 82
+      },
+      {
+        "text": "Samsung Galaxy Watch 6",
+        "label": "PRODUCT",
+        "start": 107,
+        "end": 129
+      },
+      {
+        "text": "REF-33018",
+        "label": "CONTRACT_ID",
+        "start": 155,
+        "end": 164
+      },
+      {
+        "text": "yesterday",
+        "label": "ISSUE_DATE",
+        "start": 191,
+        "end": 200
+      }
+    ]
+  },
+  {
+    "text": "Yes, it's uh, Robert Martinez. I definitely ordered the new Samsung Galaxy Watch 6, but I got some cheap knock-off instead. The order ID is ORD-2024-5591, and I got it delivered about three days ago. My email is robert.martinez@example.com, for any updates.",
+    "entities": [
+      {
+        "text": "Robert Martinez",
+        "label": "NAME",
+        "start": 14,
+        "end": 29
+      },
+      {
+        "text": "Samsung Galaxy Watch 6",
+        "label": "PRODUCT",
+        "start": 60,
+        "end": 82
+      },
+      {
+        "text": "ORD-2024-5591",
+        "label": "CONTRACT_ID",
+        "start": 140,
+        "end": 153
+      },
+      {
+        "text": "about three days ago",
+        "label": "ISSUE_DATE",
+        "start": 178,
+        "end": 198
+      },
+      {
+        "text": "robert.martinez@example.com",
+        "label": "EMAIL",
+        "start": 212,
+        "end": 239
+      }
+    ]
+  },
+  {
+    "text": "Uh huh, it's Ashley Chen. I was supposed to receive the Dyson V12 Detect Slim vacuum, but instead, they sent me a completely different model, the V8 Absolute. This happened around June 1st. My contact email, uh, for this issue, is ashley.chen@mail.com.",
+    "entities": [
+      {
+        "text": "Ashley Chen",
+        "label": "NAME",
+        "start": 13,
+        "end": 24
+      },
+      {
+        "text": "Dyson V12 Detect Slim vacuum",
+        "label": "PRODUCT",
+        "start": 56,
+        "end": 84
+      },
+      {
+        "text": "V8 Absolute",
+        "label": "PRODUCT",
+        "start": 146,
+        "end": 157
+      },
+      {
+        "text": "around June 1st",
+        "label": "ISSUE_DATE",
+        "start": 173,
+        "end": 188
+      },
+      {
+        "text": "ashley.chen@mail.com",
+        "label": "EMAIL",
+        "start": 231,
+        "end": 251
+      }
+    ]
+  },
+  {
+    "text": "Right, my name is Michael Scott, and I placed an order for the new iPhone 15 Pro on March 15th. What arrived was like, a cheap Android phone. The contract number is SUB-33018. Can you send all the follow-up info to michael.scott@dundermifflin.com please?",
+    "entities": [
+      {
+        "text": "Michael Scott",
+        "label": "NAME",
+        "start": 18,
+        "end": 31
+      },
+      {
+        "text": "iPhone 15 Pro",
+        "label": "PRODUCT",
+        "start": 67,
+        "end": 80
+      },
+      {
+        "text": "March 15th",
+        "label": "ISSUE_DATE",
+        "start": 84,
+        "end": 94
+      },
+      {
+        "text": "SUB-33018",
+        "label": "CONTRACT_ID",
+        "start": 165,
+        "end": 174
+      },
+      {
+        "text": "michael.scott@dundermifflin.com",
+        "label": "EMAIL",
+        "start": 215,
+        "end": 246
+      }
+    ]
+  },
+  {
+    "text": "Last Tuesday, I think, I bought this uh, I bought this Dyson V12 and now it's not charging. I need to know if the warranty covers it, my name's Sarah Johnson.",
+    "entities": [
+      {
+        "text": "Last Tuesday",
+        "label": "ISSUE_DATE",
+        "start": 0,
+        "end": 12
+      },
+      {
+        "text": "Dyson V12",
+        "label": "PRODUCT",
+        "start": 55,
+        "end": 64
+      },
+      {
+        "text": "Sarah Johnson",
+        "label": "NAME",
+        "start": 144,
+        "end": 157
+      }
+    ]
+  },
+  {
+    "text": "Like, about three weeks ago, I picked up the new Samsung Galaxy S24 Ultra and I'm having screen issues. Can you check my warranty status under David Lee's account?",
+    "entities": [
+      {
+        "text": "about three weeks ago",
+        "label": "ISSUE_DATE",
+        "start": 6,
+        "end": 27
+      },
+      {
+        "text": "Samsung Galaxy S24 Ultra",
+        "label": "PRODUCT",
+        "start": 49,
+        "end": 73
+      },
+      {
+        "text": "David Lee",
+        "label": "NAME",
+        "start": 143,
+        "end": 152
+      }
+    ]
+  },
+  {
+    "text": "So, back on March 5th, I got this Apple Watch Ultra 2 and the battery's just completely dead. Can you tell me if that's covered by the warranty, uh, my email is michael.chen@example.com.",
+    "entities": [
+      {
+        "text": "March 5th",
+        "label": "ISSUE_DATE",
+        "start": 12,
+        "end": 21
+      },
+      {
+        "text": "Apple Watch Ultra 2",
+        "label": "PRODUCT",
+        "start": 34,
+        "end": 53
+      },
+      {
+        "text": "michael.chen@example.com",
+        "label": "EMAIL",
+        "start": 161,
+        "end": 185
+      }
+    ]
+  },
+  {
+    "text": "Yeah, so I'm seeing a charge for the new Dyson V12 but I actually sent that back, um, about a week and a half ago, you know? My name is Sarah Miller and the tracking for ORD-2024-7890 said it arrived on March 15th, so I'm confused about this charge.",
+    "entities": [
+      {
+        "text": "Dyson V12",
+        "label": "PRODUCT",
+        "start": 41,
+        "end": 50
+      },
+      {
+        "text": "Sarah Miller",
+        "label": "NAME",
+        "start": 136,
+        "end": 148
+      },
+      {
+        "text": "ORD-2024-7890",
+        "label": "CONTRACT_ID",
+        "start": 170,
+        "end": 183
+      },
+      {
+        "text": "March 15th",
+        "label": "ISSUE_DATE",
+        "start": 203,
+        "end": 213
+      }
+    ]
+  },
+  {
+    "text": "I got an email about a subscription renewal for Prime Video that I definitely cancelled, uh, like two months ago. I just want to make sure that's not going to process, as my account holder is David Chen and he used the email david.chen@example.com for that.",
+    "entities": [
+      {
+        "text": "Prime Video",
+        "label": "PRODUCT",
+        "start": 48,
+        "end": 59
+      },
+      {
+        "text": "two months ago",
+        "label": "ISSUE_DATE",
+        "start": 98,
+        "end": 112
+      },
+      {
+        "text": "David Chen",
+        "label": "NAME",
+        "start": 192,
+        "end": 202
+      },
+      {
+        "text": "david.chen@example.com",
+        "label": "EMAIL",
+        "start": 225,
+        "end": 247
+      }
+    ]
+  },
+  {
+    "text": "So, I'm calling because I've been charged for the Xbox Series X again, but I returned that console after only a few days back on January 2nd. I spoke with someone, um, and they confirmed the return, so I'm a bit confused why Rebecca Jones is still showing an active rental fee on her account.",
+    "entities": [
+      {
+        "text": "Xbox Series X",
+        "label": "PRODUCT",
+        "start": 50,
+        "end": 63
+      },
+      {
+        "text": "January 2nd",
+        "label": "ISSUE_DATE",
+        "start": 129,
+        "end": 140
+      },
+      {
+        "text": "Rebecca Jones",
+        "label": "NAME",
+        "start": 225,
+        "end": 238
+      }
+    ]
+  },
+  {
+    "text": "So, I'm calling back about the incident from uh, last Tuesday, when my account was breached. Someone placed an order for a SmartLink Speaker using my details, and the reference number for that fraudulent transaction is ORD-2024-8876. I spoke with a representative, I think her name was Sarah Connor, about this.",
+    "entities": [
+      {
+        "text": "last Tuesday",
+        "label": "ISSUE_DATE",
+        "start": 49,
+        "end": 61
+      },
+      {
+        "text": "SmartLink Speaker",
+        "label": "PRODUCT",
+        "start": 123,
+        "end": 140
+      },
+      {
+        "text": "ORD-2024-8876",
+        "label": "CONTRACT_ID",
+        "start": 219,
+        "end": 232
+      },
+      {
+        "text": "Sarah Connor",
+        "label": "NAME",
+        "start": 286,
+        "end": 298
+      }
+    ]
+  },
+  {
+    "text": "Regarding my call from Friday morning, I'm still seeing suspicious activity. It looks like someone tried to change my contact email to randomperson at example dot com yesterday. Could you please confirm if this was blocked? My name is David Lee, by the way.",
+    "entities": [
+      {
+        "text": "Friday morning",
+        "label": "ISSUE_DATE",
+        "start": 23,
+        "end": 37
+      },
+      {
+        "text": "randomperson at example dot com",
+        "label": "EMAIL",
+        "start": 135,
+        "end": 166
+      },
+      {
+        "text": "yesterday",
+        "label": "ISSUE_DATE",
+        "start": 167,
+        "end": 176
+      },
+      {
+        "text": "David Lee",
+        "label": "NAME",
+        "start": 235,
+        "end": 244
+      }
+    ]
+  },
+  {
+    "text": "Yeah, I'm following up on that weird charge for the DynaSmart Tablet. It appeared on my account, like, three days ago, and I definitely didn't buy it. The support rep I spoke to last time mentioned a reference number, I think it was REF-9002-C. My full name is Maria Rodriguez, for your records.",
+    "entities": [
+      {
+        "text": "DynaSmart Tablet",
+        "label": "PRODUCT",
+        "start": 52,
+        "end": 68
+      },
+      {
+        "text": "three days ago",
+        "label": "ISSUE_DATE",
+        "start": 103,
+        "end": 117
+      },
+      {
+        "text": "REF-9002-C",
+        "label": "CONTRACT_ID",
+        "start": 233,
+        "end": 243
+      },
+      {
+        "text": "Maria Rodriguez",
+        "label": "NAME",
+        "start": 261,
+        "end": 276
+      }
+    ]
+  },
+  {
+    "text": "Yeah, I'm calling about that bulk order we placed, uh, last month, it was for like fifty of those new EcoFlow River 2 power stations, and I think the reference number was CONTRACT-98765, if I'm remembering right. My name is Alex Chen, just for verification.",
+    "entities": [
+      {
+        "text": "last month",
+        "label": "ISSUE_DATE",
+        "start": 55,
+        "end": 65
+      },
+      {
+        "text": "EcoFlow River 2",
+        "label": "PRODUCT",
+        "start": 102,
+        "end": 117
+      },
+      {
+        "text": "CONTRACT-98765",
+        "label": "CONTRACT_ID",
+        "start": 171,
+        "end": 185
+      },
+      {
+        "text": "Alex Chen",
+        "label": "NAME",
+        "start": 224,
+        "end": 233
+      }
+    ]
+  },
+  {
+    "text": "So, we never received the follow-up email confirming our last order for, uh, ten of your new 'Connect Pro' routers. I believe it was supposed to come to sales@techsolutions.com by, like, May 20th. This is David Miller, checking in on that.",
+    "entities": [
+      {
+        "text": "Connect Pro",
+        "label": "PRODUCT",
+        "start": 94,
+        "end": 105
+      },
+      {
+        "text": "sales@techsolutions.com",
+        "label": "EMAIL",
+        "start": 153,
+        "end": 176
+      },
+      {
+        "text": "May 20th",
+        "label": "ISSUE_DATE",
+        "start": 187,
+        "end": 195
+      },
+      {
+        "text": "David Miller",
+        "label": "NAME",
+        "start": 205,
+        "end": 217
+      }
+    ]
+  },
+  {
+    "text": "Hi, I need to amend an order, it was placed on, uh, like, February 1st, for three dozen of the 'SmartFlow Pro' irrigation sensors. The contract ID, I think, was SUB-112233, and it's for Mr. Robert Johnson's project.",
+    "entities": [
+      {
+        "text": "February 1st",
+        "label": "ISSUE_DATE",
+        "start": 58,
+        "end": 70
+      },
+      {
+        "text": "SmartFlow Pro",
+        "label": "PRODUCT",
+        "start": 96,
+        "end": 109
+      },
+      {
+        "text": "SUB-112233",
+        "label": "CONTRACT_ID",
+        "start": 161,
+        "end": 171
+      },
+      {
+        "text": "Robert Johnson",
+        "label": "NAME",
+        "start": 190,
+        "end": 204
+      }
+    ]
+  },
+  {
+    "text": "Yes, it's uh, M as in Mary, C-A-R-T-H-Y, McCarty. I'm calling about that recent billing inquiry. My reference number, that was, uh, SUB dash three three oh one eight.",
+    "entities": [
+      {
+        "text": "McCarty",
+        "label": "NAME",
+        "start": 41,
+        "end": 48
+      },
+      {
+        "text": "SUB dash three three oh one eight",
+        "label": "CONTRACT_ID",
+        "start": 132,
+        "end": 165
+      }
+    ]
+  },
+  {
+    "text": "The email address is uh, Dorothy, D-O-R-O-T-H-Y, at uh, vintage mail dot com. Not gmail. I'm having trouble with that little speaker, the new one I got. It's the, um, the Echo Dot, I believe.",
+    "entities": [
+      {
+        "text": "Dorothy, D-O-R-O-T-H-Y, at uh, vintage mail dot com",
+        "label": "EMAIL",
+        "start": 25,
+        "end": 76
+      },
+      {
+        "text": "Echo Dot",
+        "label": "PRODUCT",
+        "start": 171,
+        "end": 179
+      }
+    ]
+  },
+  {
+    "text": "Okay, the name on the account is, uh, B as in boy, E-T-T-Y, Betty. I bought this new vacuum about three weeks ago, maybe a month? It just stopped working, the, uh, the Dyson V12.",
+    "entities": [
+      {
+        "text": "Betty",
+        "label": "NAME",
+        "start": 60,
+        "end": 65
+      },
+      {
+        "text": "about three weeks ago",
+        "label": "ISSUE_DATE",
+        "start": 92,
+        "end": 113
+      },
+      {
+        "text": "Dyson V12",
+        "label": "PRODUCT",
+        "start": 168,
+        "end": 177
+      }
+    ]
+  },
+  {
+    "text": "Yeah, so I'm just trying to track that new iPhone 15 Pro I ordered for my niece, um, you know, the one I bought back on March 15th? The reference number was like, ORD-2024-5591... my account is under Sarah Johnson.",
+    "entities": [
+      {
+        "text": "iPhone 15 Pro",
+        "label": "PRODUCT",
+        "start": 43,
+        "end": 56
+      },
+      {
+        "text": "March 15th",
+        "label": "ISSUE_DATE",
+        "start": 120,
+        "end": 130
+      },
+      {
+        "text": "ORD-2024-5591",
+        "label": "CONTRACT_ID",
+        "start": 163,
+        "end": 176
+      },
+      {
+        "text": "Sarah Johnson",
+        "label": "NAME",
+        "start": 200,
+        "end": 213
+      }
+    ]
+  },
+  {
+    "text": "I need to know if the Dyson V12 that was supposed to arrive by last Tuesday has shipped yet, because my sister keeps asking. I think the confirmation went to jenna.m@example.com but I haven't seen an update. This is Jenna Miller.",
+    "entities": [
+      {
+        "text": "Dyson V12",
+        "label": "PRODUCT",
+        "start": 22,
+        "end": 31
+      },
+      {
+        "text": "last Tuesday",
+        "label": "ISSUE_DATE",
+        "start": 63,
+        "end": 75
+      },
+      {
+        "text": "jenna.m@example.com",
+        "label": "EMAIL",
+        "start": 158,
+        "end": 177
+      },
+      {
+        "text": "Jenna Miller",
+        "label": "NAME",
+        "start": 216,
+        "end": 228
+      }
+    ]
+  },
+  {
+    "text": "So the issue is with order SUB-33018. I bought the new Xbox Series X for my son's birthday, which was actually about two weeks ago, and it still hasn't arrived. Could you please look that up for me? It's David Lee.",
+    "entities": [
+      {
+        "text": "SUB-33018",
+        "label": "CONTRACT_ID",
+        "start": 27,
+        "end": 36
+      },
+      {
+        "text": "Xbox Series X",
+        "label": "PRODUCT",
+        "start": 55,
+        "end": 68
+      },
+      {
+        "text": "about two weeks ago",
+        "label": "ISSUE_DATE",
+        "start": 111,
+        "end": 130
+      },
+      {
+        "text": "David Lee",
+        "label": "NAME",
+        "start": 204,
+        "end": 213
+      }
+    ]
+  },
+  {
+    "text": "Look, this is ridiculous. My SmartWatch Ultra is still not working after I called about it on January 10th. I was told Ms. Henderson would follow up, referencing my case ID SRV-5541, and frankly, I'm getting quite frustrated.",
+    "entities": [
+      {
+        "text": "SmartWatch Ultra",
+        "label": "PRODUCT",
+        "start": 29,
+        "end": 45
+      },
+      {
+        "text": "January 10th",
+        "label": "ISSUE_DATE",
+        "start": 94,
+        "end": 106
+      },
+      {
+        "text": "Ms. Henderson",
+        "label": "NAME",
+        "start": 119,
+        "end": 132
+      },
+      {
+        "text": "SRV-5541",
+        "label": "CONTRACT_ID",
+        "start": 173,
+        "end": 181
+      }
+    ]
+  },
+  {
+    "text": "Yeah, hi, I need an update, like, now. I sent an email complaint about an incorrect charge to support at billing dot com about two weeks ago, and the person I spoke with, I think his name was David Miller, said he'd look into it under my account number ACC-98765. Still haven't heard back.",
+    "entities": [
+      {
+        "text": "support at billing dot com",
+        "label": "EMAIL",
+        "start": 94,
+        "end": 120
+      },
+      {
+        "text": "two weeks ago",
+        "label": "ISSUE_DATE",
+        "start": 127,
+        "end": 140
+      },
+      {
+        "text": "David Miller",
+        "label": "NAME",
+        "start": 192,
+        "end": 204
+      },
+      {
+        "text": "ACC-98765",
+        "label": "CONTRACT_ID",
+        "start": 253,
+        "end": 262
+      }
+    ]
+  },
+  {
+    "text": "This is just unacceptable. My Dyson V12 vacuum was supposed to be fixed by last Tuesday, but I haven't heard anything. I even tried emailing Mr. Chen at chen dot support at example dot com as suggested by the last person I spoke to, but there's been no response.",
+    "entities": [
+      {
+        "text": "Dyson V12 vacuum",
+        "label": "PRODUCT",
+        "start": 30,
+        "end": 46
+      },
+      {
+        "text": "last Tuesday",
+        "label": "ISSUE_DATE",
+        "start": 75,
+        "end": 87
+      },
+      {
+        "text": "Mr. Chen",
+        "label": "NAME",
+        "start": 141,
+        "end": 149
+      },
+      {
+        "text": "chen dot support at example dot com",
+        "label": "EMAIL",
+        "start": 153,
+        "end": 188
+      }
+    ]
+  },
+  {
+    "text": "Can I make a change to an order that my husband, Mark Thompson, placed last week? It's for a new SmartHome Hub, the model Z-Eight, and the contract ID is, uh, CON-789-Q. He wants to switch the color before it ships.",
+    "entities": [
+      {
+        "text": "Mark Thompson",
+        "label": "NAME",
+        "start": 49,
+        "end": 62
+      },
+      {
+        "text": "last week",
+        "label": "ISSUE_DATE",
+        "start": 71,
+        "end": 80
+      },
+      {
+        "text": "SmartHome Hub",
+        "label": "PRODUCT",
+        "start": 97,
+        "end": 110
+      },
+      {
+        "text": "Z-Eight",
+        "label": "PRODUCT",
+        "start": 122,
+        "end": 129
+      },
+      {
+        "text": "CON-789-Q",
+        "label": "CONTRACT_ID",
+        "start": 159,
+        "end": 168
+      }
+    ]
+  },
+  {
+    "text": "I need to update the shipping address for an order placed by Lisa Chen. It was for a new 'Echo Soundbar Max' and I think it was ordered, like, on April 22nd? The email on file for her is lisa.chen@example.com, but we need to change the delivery.",
+    "entities": [
+      {
+        "text": "Lisa Chen",
+        "label": "NAME",
+        "start": 61,
+        "end": 70
+      },
+      {
+        "text": "Echo Soundbar Max",
+        "label": "PRODUCT",
+        "start": 90,
+        "end": 107
+      },
+      {
+        "text": "April 22nd",
+        "label": "ISSUE_DATE",
+        "start": 146,
+        "end": 156
+      },
+      {
+        "text": "lisa.chen@example.com",
+        "label": "EMAIL",
+        "start": 187,
+        "end": 208
+      }
+    ]
+  },
+  {
+    "text": "Is it possible to add an accessory to my son David Miller's recent purchase? He ordered the 'Ultra-Thin Tablet Pro' under order number #ORD-2024-911-B, I think it was delivered just yesterday, and he forgot to add the stylus he wanted.",
+    "entities": [
+      {
+        "text": "David Miller",
+        "label": "NAME",
+        "start": 45,
+        "end": 57
+      },
+      {
+        "text": "Ultra-Thin Tablet Pro",
+        "label": "PRODUCT",
+        "start": 93,
+        "end": 114
+      },
+      {
+        "text": "#ORD-2024-911-B",
+        "label": "CONTRACT_ID",
+        "start": 135,
+        "end": 150
+      },
+      {
+        "text": "yesterday",
+        "label": "ISSUE_DATE",
+        "start": 182,
+        "end": 191
+      }
+    ]
+  },
+  {
+    "text": "ORD-77341-B, yeah so I'm calling about this order and I was kinda looking at the specifications for the new Pixel 8 Pro, but also wondering how it compares to the Samsung Galaxy S24 Ultra, especially regarding the camera on the Pixel for my wife, Sarah Chen.",
+    "entities": [
+      {
+        "text": "ORD-77341-B",
+        "label": "CONTRACT_ID",
+        "start": 0,
+        "end": 11
+      },
+      {
+        "text": "Pixel 8 Pro",
+        "label": "PRODUCT",
+        "start": 108,
+        "end": 119
+      },
+      {
+        "text": "Samsung Galaxy S24 Ultra",
+        "label": "PRODUCT",
+        "start": 163,
+        "end": 187
+      },
+      {
+        "text": "Sarah Chen",
+        "label": "NAME",
+        "start": 247,
+        "end": 257
+      }
+    ]
+  },
+  {
+    "text": "REF-90021-X, I'm trying to figure out the difference between the MacBook Air M3 and the MacBook Pro 14-inch for my design work, cause I saw an email from support at macsales dot com talking about a deal on the Air and I just, you know, want to make sure I'm picking the right one before June 30th.",
+    "entities": [
+      {
+        "text": "REF-90021-X",
+        "label": "CONTRACT_ID",
+        "start": 0,
+        "end": 11
+      },
+      {
+        "text": "MacBook Air M3",
+        "label": "PRODUCT",
+        "start": 65,
+        "end": 79
+      },
+      {
+        "text": "MacBook Pro 14-inch",
+        "label": "PRODUCT",
+        "start": 88,
+        "end": 107
+      },
+      {
+        "text": "support at macsales dot com",
+        "label": "EMAIL",
+        "start": 154,
+        "end": 181
+      },
+      {
+        "text": "June 30th",
+        "label": "ISSUE_DATE",
+        "start": 287,
+        "end": 296
+      }
+    ]
+  },
+  {
+    "text": "SUB-33018, hey, um, my name is Alex Peterson and I'm looking at two different washing machines, the LG WashTower and the Samsung Bespoke AI Laundry Hub, I think it's called? I just really wanna know if the LG is gonna be delivered by, like, November 1st, cause the other one says it can. I need to make sure I get it before my current lease ends.",
+    "entities": [
+      {
+        "text": "SUB-33018",
+        "label": "CONTRACT_ID",
+        "start": 0,
+        "end": 9
+      },
+      {
+        "text": "Alex Peterson",
+        "label": "NAME",
+        "start": 31,
+        "end": 44
+      },
+      {
+        "text": "LG WashTower",
+        "label": "PRODUCT",
+        "start": 100,
+        "end": 112
+      },
+      {
+        "text": "Samsung Bespoke AI Laundry Hub",
+        "label": "PRODUCT",
+        "start": 121,
+        "end": 151
+      },
+      {
+        "text": "November 1st",
+        "label": "ISSUE_DATE",
+        "start": 241,
+        "end": 253
+      }
+    ]
+  },
+  {
+    "text": "Yeah, so I ordered the new iPhone 15 Pro, right? But I got like, a completely different phone. My order number was ORD-2024-5591. Could you check that for me? My name is Mark Johnson, and you can reach me at mark.j@example.com if you need to follow up.",
+    "entities": [
+      {
+        "text": "iPhone 15 Pro",
+        "label": "PRODUCT",
+        "start": 27,
+        "end": 40
+      },
+      {
+        "text": "ORD-2024-5591",
+        "label": "CONTRACT_ID",
+        "start": 115,
+        "end": 128
+      },
+      {
+        "text": "Mark Johnson",
+        "label": "NAME",
+        "start": 170,
+        "end": 182
+      },
+      {
+        "text": "mark.j@example.com",
+        "label": "EMAIL",
+        "start": 208,
+        "end": 226
+      }
+    ]
+  },
+  {
+    "text": "Okay, so the issue is I ordered a Dyson V12 vacuum, but I got some, uh, cheaper model instead. This was supposed to be a gift for my wife, Sarah Miller, and it arrived just yesterday. My email is sarah.miller.orders@webmail.com if you need to send me an update.",
+    "entities": [
+      {
+        "text": "Dyson V12 vacuum",
+        "label": "PRODUCT",
+        "start": 34,
+        "end": 50
+      },
+      {
+        "text": "Sarah Miller",
+        "label": "NAME",
+        "start": 139,
+        "end": 151
+      },
+      {
+        "text": "yesterday",
+        "label": "ISSUE_DATE",
+        "start": 173,
+        "end": 182
+      },
+      {
+        "text": "sarah.miller.orders@webmail.com",
+        "label": "EMAIL",
+        "start": 196,
+        "end": 227
+      }
+    ]
+  },
+  {
+    "text": "Right, so, I was expecting the Samsung Galaxy Tab S8, but what I actually received was an older model. This was part of order number SUB-33018. My contact email for this is david.p@techsolutions.net, by the way. My name is David Peterson.",
+    "entities": [
+      {
+        "text": "Samsung Galaxy Tab S8",
+        "label": "PRODUCT",
+        "start": 31,
+        "end": 52
+      },
+      {
+        "text": "SUB-33018",
+        "label": "CONTRACT_ID",
+        "start": 133,
+        "end": 142
+      },
+      {
+        "text": "david.p@techsolutions.net",
+        "label": "EMAIL",
+        "start": 173,
+        "end": 198
+      },
+      {
+        "text": "David Peterson",
+        "label": "NAME",
+        "start": 223,
+        "end": 237
+      }
+    ]
+  },
+  {
+    "text": "So like, back on, uh, November 2nd, I bought this new Dyson V12 and it's already acting up, like the battery's just dead. My name's Sarah Jones, and I'm just trying to figure out the warranty on order number SUB-33018, you know?",
+    "entities": [
+      {
+        "text": "November 2nd",
+        "label": "ISSUE_DATE",
+        "start": 22,
+        "end": 34
+      },
+      {
+        "text": "Dyson V12",
+        "label": "PRODUCT",
+        "start": 54,
+        "end": 63
+      },
+      {
+        "text": "Sarah Jones",
+        "label": "NAME",
+        "start": 132,
+        "end": 143
+      },
+      {
+        "text": "SUB-33018",
+        "label": "CONTRACT_ID",
+        "start": 208,
+        "end": 217
+      }
+    ]
+  },
+  {
+    "text": "Alright, so I got this uh, new laptop, um, about three weeks ago, this like, MacBook Air M3, and it's got a cracked screen already, which is just insane. Can you check the warranty for me? It's under, I guess, my email, which is david.chen@example.com, for David Chen.",
+    "entities": [
+      {
+        "text": "about three weeks ago",
+        "label": "ISSUE_DATE",
+        "start": 43,
+        "end": 64
+      },
+      {
+        "text": "MacBook Air M3",
+        "label": "PRODUCT",
+        "start": 77,
+        "end": 91
+      },
+      {
+        "text": "david.chen@example.com",
+        "label": "EMAIL",
+        "start": 229,
+        "end": 251
+      },
+      {
+        "text": "David Chen",
+        "label": "NAME",
+        "start": 257,
+        "end": 267
+      }
+    ]
+  },
+  {
+    "text": "Hey there, I'm calling 'cause my, uh, smart fridge, the Samsung Family Hub, has been making weird noises since I got it, which was actually like, August 15th last year. I'm just wondering if it's still covered under warranty, my name's Emily White, and the original purchase order was ORD-2023-9987.",
+    "entities": [
+      {
+        "text": "August 15th last year",
+        "label": "ISSUE_DATE",
+        "start": 146,
+        "end": 167
+      },
+      {
+        "text": "Samsung Family Hub",
+        "label": "PRODUCT",
+        "start": 56,
+        "end": 74
+      },
+      {
+        "text": "Emily White",
+        "label": "NAME",
+        "start": 236,
+        "end": 247
+      },
+      {
+        "text": "ORD-2023-9987",
+        "label": "CONTRACT_ID",
+        "start": 285,
+        "end": 298
+      }
+    ]
+  },
+  {
+    "text": "Yeah I'm seeing a duplicate charge for the SmartFlow Water Filter I ordered, it looks like it went through twice on about March 12th. My name is Amanda Rodriguez and I just need that second charge reversed, my order number was ORD-77890.",
+    "entities": [
+      {
+        "text": "SmartFlow Water Filter",
+        "label": "PRODUCT",
+        "start": 43,
+        "end": 65
+      },
+      {
+        "text": "March 12th",
+        "label": "ISSUE_DATE",
+        "start": 122,
+        "end": 132
+      },
+      {
+        "text": "Amanda Rodriguez",
+        "label": "NAME",
+        "start": 145,
+        "end": 161
+      },
+      {
+        "text": "ORD-77890",
+        "label": "CONTRACT_ID",
+        "start": 227,
+        "end": 236
+      }
+    ]
+  },
+  {
+    "text": "So I was charged for the Premium-Protect antivirus software but I actually cancelled that service, I believe it was around two months ago. Could you check for me, my account is under the name Michael Davies, and my email is michael.davies@webmail.com.",
+    "entities": [
+      {
+        "text": "Premium-Protect antivirus software",
+        "label": "PRODUCT",
+        "start": 25,
+        "end": 59
+      },
+      {
+        "text": "around two months ago",
+        "label": "ISSUE_DATE",
+        "start": 116,
+        "end": 137
+      },
+      {
+        "text": "Michael Davies",
+        "label": "NAME",
+        "start": 192,
+        "end": 206
+      },
+      {
+        "text": "michael.davies@webmail.com",
+        "label": "EMAIL",
+        "start": 224,
+        "end": 250
+      }
+    ]
+  },
+  {
+    "text": "I'm calling about a charge for the StellarStream box, which I returned like a month ago, and it's still showing on my latest bill. This charge shows up as from June 5th, and I'm Sarah Chen, the contract ID is SS-99302.",
+    "entities": [
+      {
+        "text": "StellarStream box",
+        "label": "PRODUCT",
+        "start": 35,
+        "end": 52
+      },
+      {
+        "text": "a month ago",
+        "label": "ISSUE_DATE",
+        "start": 76,
+        "end": 87
+      },
+      {
+        "text": "June 5th",
+        "label": "ISSUE_DATE",
+        "start": 160,
+        "end": 168
+      },
+      {
+        "text": "Sarah Chen",
+        "label": "NAME",
+        "start": 178,
+        "end": 188
+      },
+      {
+        "text": "SS-99302",
+        "label": "CONTRACT_ID",
+        "start": 209,
+        "end": 217
+      }
+    ]
+  },
+  {
+    "text": "Okay, so I'm calling back about the issue we talked about last Thursday, um, someone, uh, purchased an iPhone 15 Pro Max using my account. My name is Alice Johnson and my primary email is alice.johnson@example.com, and I didn't authorize that.",
+    "entities": [
+      {
+        "text": "last Thursday",
+        "label": "ISSUE_DATE",
+        "start": 58,
+        "end": 71
+      },
+      {
+        "text": "iPhone 15 Pro Max",
+        "label": "PRODUCT",
+        "start": 103,
+        "end": 120
+      },
+      {
+        "text": "Alice Johnson",
+        "label": "NAME",
+        "start": 150,
+        "end": 163
+      },
+      {
+        "text": "alice.johnson@example.com",
+        "label": "EMAIL",
+        "start": 188,
+        "end": 213
+      }
+    ]
+  },
+  {
+    "text": "Yeah, so following up on that email I sent about two weeks ago, the unauthorized purchase under contract SUB-98765 is still showing up. My name is actually David Lee and I need this sorted from david.lee@email.net.",
+    "entities": [
+      {
+        "text": "two weeks ago",
+        "label": "ISSUE_DATE",
+        "start": 49,
+        "end": 62
+      },
+      {
+        "text": "SUB-98765",
+        "label": "CONTRACT_ID",
+        "start": 105,
+        "end": 114
+      },
+      {
+        "text": "David Lee",
+        "label": "NAME",
+        "start": 156,
+        "end": 165
+      },
+      {
+        "text": "david.lee@email.net",
+        "label": "EMAIL",
+        "start": 194,
+        "end": 213
+      }
+    ]
+  },
+  {
+    "text": "Okay, so like we discussed on the phone last Friday, someone, uh, changed my primary email to john.doe@badguy.com and tried to order a MacBook Air. This is still causing issues for me, it's Emily White.",
+    "entities": [
+      {
+        "text": "last Friday",
+        "label": "ISSUE_DATE",
+        "start": 40,
+        "end": 51
+      },
+      {
+        "text": "john.doe@badguy.com",
+        "label": "EMAIL",
+        "start": 94,
+        "end": 113
+      },
+      {
+        "text": "MacBook Air",
+        "label": "PRODUCT",
+        "start": 135,
+        "end": 146
+      },
+      {
+        "text": "Emily White",
+        "label": "NAME",
+        "start": 190,
+        "end": 201
+      }
+    ]
+  },
+  {
+    "text": "Yeah, I'm calling about the order we placed for, like, twenty of those new 'FlexiDesk Pro' standing desks; it was under my name, which is Maria Rodriguez, and I think the reference was something like BOS-4001.",
+    "entities": [
+      {
+        "text": "FlexiDesk Pro",
+        "label": "PRODUCT",
+        "start": 76,
+        "end": 89
+      },
+      {
+        "text": "Maria Rodriguez",
+        "label": "NAME",
+        "start": 138,
+        "end": 153
+      },
+      {
+        "text": "BOS-4001",
+        "label": "CONTRACT_ID",
+        "start": 200,
+        "end": 208
+      }
+    ]
+  },
+  {
+    "text": "So we need to adjust the quantity for the 'EcoPrint 5000' printers; could you make sure you confirm that to david.chen@corpmail.com by, uh, let's say tomorrow morning?",
+    "entities": [
+      {
+        "text": "EcoPrint 5000",
+        "label": "PRODUCT",
+        "start": 43,
+        "end": 56
+      },
+      {
+        "text": "david.chen@corpmail.com",
+        "label": "EMAIL",
+        "start": 108,
+        "end": 131
+      },
+      {
+        "text": "tomorrow morning",
+        "label": "ISSUE_DATE",
+        "start": 150,
+        "end": 166
+      }
+    ]
+  },
+  {
+    "text": "Uh, I'm just following up on an order from, uh, January 28th for a bulk shipment of 'Quantum Servers' under account CUST-9987-AX; my name is Sarah Miller, just making sure everything's on track.",
+    "entities": [
+      {
+        "text": "January 28th",
+        "label": "ISSUE_DATE",
+        "start": 48,
+        "end": 60
+      },
+      {
+        "text": "Quantum Servers",
+        "label": "PRODUCT",
+        "start": 85,
+        "end": 100
+      },
+      {
+        "text": "CUST-9987-AX",
+        "label": "CONTRACT_ID",
+        "start": 116,
+        "end": 128
+      },
+      {
+        "text": "Sarah Miller",
+        "label": "NAME",
+        "start": 141,
+        "end": 153
+      }
+    ]
+  },
+  {
+    "text": "Yes, that's B as in 'boy', O, W, E, N. Bowen. I was trying to check on my, um, order. It was for that new... what was it called? Oh yes, the SmartHome Assistant Pro, that's it. And the order number, I believe, was... let me see here... it was SUB-33018.",
+    "entities": [
+      {
+        "text": "Bowen",
+        "label": "NAME",
+        "start": 39,
+        "end": 44
+      },
+      {
+        "text": "SmartHome Assistant Pro",
+        "label": "PRODUCT",
+        "start": 141,
+        "end": 164
+      },
+      {
+        "text": "SUB-33018",
+        "label": "CONTRACT_ID",
+        "start": 243,
+        "end": 252
+      }
+    ]
+  },
+  {
+    "text": "No, no, not 'dot com', it's 'dot net'. So it's mary.smith at example dot net. I haven't gotten the confirmation for my appointment since... oh, I think it was... it was last Tuesday, you see. And I'm Mary Smith, by the way.",
+    "entities": [
+      {
+        "text": "mary.smith at example dot net",
+        "label": "EMAIL",
+        "start": 47,
+        "end": 76
+      },
+      {
+        "text": "last Tuesday",
+        "label": "ISSUE_DATE",
+        "start": 169,
+        "end": 181
+      },
+      {
+        "text": "Mary Smith",
+        "label": "NAME",
+        "start": 200,
+        "end": 210
+      }
+    ]
+  },
+  {
+    "text": "No, not G. It's 'J' as in 'John', O, H, N, S, O, N. Johnson. My last name is Johnson. I'm calling about that washing machine, the WashKing 5000. It broke down just, oh, a few days after I got it, around February 1st, I think. And the contract number, I misplaced it... oh, wait, it's ORD-2024-5591.",
+    "entities": [
+      {
+        "text": "Johnson",
+        "label": "NAME",
+        "start": 52,
+        "end": 59
+      },
+      {
+        "text": "WashKing 5000",
+        "label": "PRODUCT",
+        "start": 130,
+        "end": 143
+      },
+      {
+        "text": "February 1st",
+        "label": "ISSUE_DATE",
+        "start": 203,
+        "end": 215
+      },
+      {
+        "text": "ORD-2024-5591",
+        "label": "CONTRACT_ID",
+        "start": 284,
+        "end": 297
+      }
+    ]
+  },
+  {
+    "text": "Yeah, so I'm just trying to track that new coffee maker, the Breville Barista Express, I got for my sister's birthday, you know. I placed it um, I think it was back on June 10th, and the order number is SUB-44109. Just wanna make sure it arrives on time for Jane.",
+    "entities": [
+      {
+        "text": "Breville Barista Express",
+        "label": "PRODUCT",
+        "start": 61,
+        "end": 85
+      },
+      {
+        "text": "June 10th",
+        "label": "ISSUE_DATE",
+        "start": 168,
+        "end": 177
+      },
+      {
+        "text": "SUB-44109",
+        "label": "CONTRACT_ID",
+        "start": 203,
+        "end": 212
+      },
+      {
+        "text": "Jane",
+        "label": "NAME",
+        "start": 258,
+        "end": 262
+      }
+    ]
+  },
+  {
+    "text": "I'm calling about an order, um, it was a gift for my nephew, a new Nintendo Switch OLED. The tracking hasn't updated since, like, last Tuesday. I used my email, which is michael at email dot com, for the order SUB-90021. Could you check that for me, please? It's for Mark.",
+    "entities": [
+      {
+        "text": "Nintendo Switch OLED",
+        "label": "PRODUCT",
+        "start": 67,
+        "end": 87
+      },
+      {
+        "text": "last Tuesday",
+        "label": "ISSUE_DATE",
+        "start": 130,
+        "end": 142
+      },
+      {
+        "text": "michael at email dot com",
+        "label": "EMAIL",
+        "start": 170,
+        "end": 194
+      },
+      {
+        "text": "SUB-90021",
+        "label": "CONTRACT_ID",
+        "start": 210,
+        "end": 219
+      },
+      {
+        "text": "Mark",
+        "label": "NAME",
+        "start": 267,
+        "end": 271
+      }
+    ]
+  },
+  {
+    "text": "Hey, so I'm calling about an air fryer, the Ninja Foodi, that I ordered for my parents' anniversary. It was supposed to arrive by, uh, this past Friday, July 19th, and I haven't seen any updates. Can you look into that for me? My name's not on the shipping, it's for Clara.",
+    "entities": [
+      {
+        "text": "Ninja Foodi",
+        "label": "PRODUCT",
+        "start": 44,
+        "end": 55
+      },
+      {
+        "text": "this past Friday, July 19th",
+        "label": "ISSUE_DATE",
+        "start": 135,
+        "end": 162
+      },
+      {
+        "text": "Clara",
+        "label": "NAME",
+        "start": 267,
+        "end": 272
+      }
+    ]
+  },
+  {
+    "text": "Could you help me change the delivery address for an order? My wife Sarah ordered an Apple Watch Series 9 on, uh, March 22nd, and we need to update the shipping info before it goes out. The contract ID is SUB-77291. It's currently going to her old apartment.",
+    "entities": [
+      {
+        "text": "Sarah",
+        "label": "NAME",
+        "start": 68,
+        "end": 73
+      },
+      {
+        "text": "Apple Watch Series 9",
+        "label": "PRODUCT",
+        "start": 85,
+        "end": 105
+      },
+      {
+        "text": "March 22nd",
+        "label": "ISSUE_DATE",
+        "start": 114,
+        "end": 124
+      },
+      {
+        "text": "SUB-77291",
+        "label": "CONTRACT_ID",
+        "start": 205,
+        "end": 214
+      }
+    ]
+  },
+  {
+    "text": "I'm calling about an order placed by my son, David Miller. He got the new Samsung Galaxy S24, but he actually meant to order the Ultra version. The order number is ORD-2024-9102 and he placed it just yesterday, April 18th.",
+    "entities": [
+      {
+        "text": "David Miller",
+        "label": "NAME",
+        "start": 45,
+        "end": 57
+      },
+      {
+        "text": "Samsung Galaxy S24",
+        "label": "PRODUCT",
+        "start": 74,
+        "end": 92
+      },
+      {
+        "text": "ORD-2024-9102",
+        "label": "CONTRACT_ID",
+        "start": 164,
+        "end": 177
+      },
+      {
+        "text": "April 18th",
+        "label": "ISSUE_DATE",
+        "start": 211,
+        "end": 221
+      }
+    ]
+  },
+  {
+    "text": "Hey, can I change the color of a Smart Home Hub? It's for my friend, Maria Rodriguez. She ordered it about three days ago and the contract number is REF-5001-B. She just wants to switch it from white to black if that's still possible.",
+    "entities": [
+      {
+        "text": "Smart Home Hub",
+        "label": "PRODUCT",
+        "start": 33,
+        "end": 47
+      },
+      {
+        "text": "Maria Rodriguez",
+        "label": "NAME",
+        "start": 69,
+        "end": 84
+      },
+      {
+        "text": "about three days ago",
+        "label": "ISSUE_DATE",
+        "start": 101,
+        "end": 121
+      },
+      {
+        "text": "REF-5001-B",
+        "label": "CONTRACT_ID",
+        "start": 149,
+        "end": 159
+      }
+    ]
+  },
+  {
+    "text": "SUB-88712 I'm calling about an order I placed, uh, on May 20th for the new ProSound X headphones, but I was actually looking at the ProSound Z earlier, and I just wanted to confirm with Sarah if the discount still applies for the X model.",
+    "entities": [
+      {
+        "text": "SUB-88712",
+        "label": "CONTRACT_ID",
+        "start": 0,
+        "end": 9
+      },
+      {
+        "text": "May 20th",
+        "label": "ISSUE_DATE",
+        "start": 54,
+        "end": 62
+      },
+      {
+        "text": "ProSound X",
+        "label": "PRODUCT",
+        "start": 75,
+        "end": 85
+      },
+      {
+        "text": "ProSound Z",
+        "label": "PRODUCT",
+        "start": 132,
+        "end": 142
+      },
+      {
+        "text": "Sarah",
+        "label": "NAME",
+        "start": 186,
+        "end": 191
+      }
+    ]
+  },
+  {
+    "text": "REF-90013-B. So I got this email sent to my address, which is jake.patterson at example dot com, regarding a comparison between the EcoFlow Delta Max and the Delta Pro, but I think I actually wanted the Pro model. Can you confirm for Jake if that's what was ordered?",
+    "entities": [
+      {
+        "text": "REF-90013-B",
+        "label": "CONTRACT_ID",
+        "start": 0,
+        "end": 11
+      },
+      {
+        "text": "jake.patterson at example dot com",
+        "label": "EMAIL",
+        "start": 62,
+        "end": 95
+      },
+      {
+        "text": "EcoFlow Delta Max",
+        "label": "PRODUCT",
+        "start": 132,
+        "end": 149
+      },
+      {
+        "text": "Delta Pro",
+        "label": "PRODUCT",
+        "start": 158,
+        "end": 167
+      },
+      {
+        "text": "Pro model",
+        "label": "PRODUCT",
+        "start": 203,
+        "end": 212
+      },
+      {
+        "text": "Jake",
+        "label": "NAME",
+        "start": 234,
+        "end": 238
+      }
+    ]
+  },
+  {
+    "text": "ORD-2024-4456. Yeah, my name is Liam O'Connell, and I'm just trying to figure out if the Dell XPS 15 I ordered, uh, you know, back on July 3rd, is the one with the higher RAM. I was also considering the HP Spectre, but decided against it, and I want to make sure the correct Dell model was processed.",
+    "entities": [
+      {
+        "text": "ORD-2024-4456",
+        "label": "CONTRACT_ID",
+        "start": 0,
+        "end": 13
+      },
+      {
+        "text": "Liam O'Connell",
+        "label": "NAME",
+        "start": 32,
+        "end": 46
+      },
+      {
+        "text": "Dell XPS 15",
+        "label": "PRODUCT",
+        "start": 89,
+        "end": 100
+      },
+      {
+        "text": "July 3rd",
+        "label": "ISSUE_DATE",
+        "start": 134,
+        "end": 142
+      },
+      {
+        "text": "HP Spectre",
+        "label": "PRODUCT",
+        "start": 203,
+        "end": 213
+      },
+      {
+        "text": "Dell",
+        "label": "PRODUCT",
+        "start": 275,
+        "end": 279
+      }
+    ]
+  },
+  {
+    "text": "Yeah, so I ordered the new Dyson V12 but I got, like, a handheld model instead. My name is Alex Chen, and the order number for that was SUB-33018. I sent an email with photos to support at example dot com, you know, just a few days ago.",
+    "entities": [
+      {
+        "text": "Dyson V12",
+        "label": "PRODUCT",
+        "start": 27,
+        "end": 36
+      },
+      {
+        "text": "Alex Chen",
+        "label": "NAME",
+        "start": 91,
+        "end": 100
+      },
+      {
+        "text": "SUB-33018",
+        "label": "CONTRACT_ID",
+        "start": 136,
+        "end": 145
+      },
+      {
+        "text": "support at example dot com",
+        "label": "EMAIL",
+        "start": 178,
+        "end": 204
+      },
+      {
+        "text": "a few days ago",
+        "label": "ISSUE_DATE",
+        "start": 221,
+        "end": 235
+      }
+    ]
+  },
+  {
+    "text": "Right, so my purchase, the iPhone 15 Pro Max, arrived on, uh, March 15th, but it's not the color I picked. It was supposed to be blue, not black. You can find all the details under reference ID 9876-ALPHA, and I also updated my contact info to mary.smith@emailprovider.net just yesterday.",
+    "entities": [
+      {
+        "text": "iPhone 15 Pro Max",
+        "label": "PRODUCT",
+        "start": 27,
+        "end": 44
+      },
+      {
+        "text": "March 15th",
+        "label": "ISSUE_DATE",
+        "start": 62,
+        "end": 72
+      },
+      {
+        "text": "9876-ALPHA",
+        "label": "CONTRACT_ID",
+        "start": 194,
+        "end": 204
+      },
+      {
+        "text": "mary.smith@emailprovider.net",
+        "label": "EMAIL",
+        "start": 244,
+        "end": 272
+      },
+      {
+        "text": "yesterday",
+        "label": "ISSUE_DATE",
+        "start": 278,
+        "end": 287
+      }
+    ]
+  },
+  {
+    "text": "Uh-huh, that's right. The package that came, it was supposed to be the ergonomic keyboard, but I received a mouse instead. My name is David Lee, and the original transaction was, I think, around February 28th. Could you look up contract number ORD-2024-5591? I think I also mentioned this in an email to david.lee.cs@fakemail.org earlier this morning.",
+    "entities": [
+      {
+        "text": "ergonomic keyboard",
+        "label": "PRODUCT",
+        "start": 71,
+        "end": 89
+      },
+      {
+        "text": "David Lee",
+        "label": "NAME",
+        "start": 134,
+        "end": 143
+      },
+      {
+        "text": "February 28th",
+        "label": "ISSUE_DATE",
+        "start": 195,
+        "end": 208
+      },
+      {
+        "text": "ORD-2024-5591",
+        "label": "CONTRACT_ID",
+        "start": 244,
+        "end": 257
+      },
+      {
+        "text": "david.lee.cs@fakemail.org",
+        "label": "EMAIL",
+        "start": 304,
+        "end": 329
+      },
+      {
+        "text": "earlier this morning",
+        "label": "ISSUE_DATE",
+        "start": 330,
+        "end": 350
+      }
+    ]
+  },
+  {
+    "text": "Okay, so like, about three months ago, I picked up this Dyson V12 from your store, and it's totally busted. I'm Sarah Miller, and I'm just trying to figure out if it's still under warranty, you know? My contract ID is SUB-33018.",
+    "entities": [
+      {
+        "text": "about three months ago",
+        "label": "ISSUE_DATE",
+        "start": 15,
+        "end": 37
+      },
+      {
+        "text": "Dyson V12",
+        "label": "PRODUCT",
+        "start": 56,
+        "end": 65
+      },
+      {
+        "text": "Sarah Miller",
+        "label": "NAME",
+        "start": 112,
+        "end": 124
+      },
+      {
+        "text": "SUB-33018",
+        "label": "CONTRACT_ID",
+        "start": 218,
+        "end": 227
+      }
+    ]
+  },
+  {
+    "text": "Hey, um, so I bought this iPhone 15 Pro on October 25th, and it's already got issues. My name's Alex Smith, and I just need to confirm the warranty status. You can reach me at alex.smith@example.com.",
+    "entities": [
+      {
+        "text": "October 25th",
+        "label": "ISSUE_DATE",
+        "start": 43,
+        "end": 55
+      },
+      {
+        "text": "iPhone 15 Pro",
+        "label": "PRODUCT",
+        "start": 26,
+        "end": 39
+      },
+      {
+        "text": "Alex Smith",
+        "label": "NAME",
+        "start": 96,
+        "end": 106
+      },
+      {
+        "text": "alex.smith@example.com",
+        "label": "EMAIL",
+        "start": 176,
+        "end": 198
+      }
+    ]
+  },
+  {
+    "text": "Right, so, since, uh, February 1st, my Samsung S24 Ultra has been completely dead. This is John Doe, and I'm trying to see about the warranty coverage for order ORD-2024-5591. Is that something you can look up quickly?",
+    "entities": [
+      {
+        "text": "February 1st",
+        "label": "ISSUE_DATE",
+        "start": 22,
+        "end": 34
+      },
+      {
+        "text": "Samsung S24 Ultra",
+        "label": "PRODUCT",
+        "start": 39,
+        "end": 56
+      },
+      {
+        "text": "John Doe",
+        "label": "NAME",
+        "start": 91,
+        "end": 99
+      },
+      {
+        "text": "ORD-2024-5591",
+        "label": "CONTRACT_ID",
+        "start": 161,
+        "end": 174
+      }
+    ]
+  },
+  {
+    "text": "Yeah, I'm calling about a charge on my account for a Breeze Air Purifier that I definitely returned last month. The return confirmation number was REF-2023-9876. I'm Sarah Jenkins, and I just need that charge removed, please.",
+    "entities": [
+      {
+        "text": "Breeze Air Purifier",
+        "label": "PRODUCT",
+        "start": 53,
+        "end": 72
+      },
+      {
+        "text": "last month",
+        "label": "ISSUE_DATE",
+        "start": 100,
+        "end": 110
+      },
+      {
+        "text": "REF-2023-9876",
+        "label": "CONTRACT_ID",
+        "start": 147,
+        "end": 160
+      },
+      {
+        "text": "Sarah Jenkins",
+        "label": "NAME",
+        "start": 166,
+        "end": 179
+      }
+    ]
+  },
+  {
+    "text": "So, I was looking at my statement and saw a charge for the Premium Streaming Package even though I canceled that service back around November 1st. My email associated with the account is mike.chen@example.com, and this is Michael Chen. I want to dispute this charge.",
+    "entities": [
+      {
+        "text": "Premium Streaming Package",
+        "label": "PRODUCT",
+        "start": 59,
+        "end": 84
+      },
+      {
+        "text": "around November 1st",
+        "label": "ISSUE_DATE",
+        "start": 126,
+        "end": 145
+      },
+      {
+        "text": "mike.chen@example.com",
+        "label": "EMAIL",
+        "start": 187,
+        "end": 208
+      },
+      {
+        "text": "Michael Chen",
+        "label": "NAME",
+        "start": 222,
+        "end": 234
+      }
+    ]
+  },
+  {
+    "text": "Hi, uh, I'm trying to figure out why there's a charge for a Smart Home Hub Pro on my bill from December fifth. I never ordered one of those, and the order ID listed is ORD-998877. My name is David Lee, can you look into this for me?",
+    "entities": [
+      {
+        "text": "Smart Home Hub Pro",
+        "label": "PRODUCT",
+        "start": 60,
+        "end": 78
+      },
+      {
+        "text": "December fifth",
+        "label": "ISSUE_DATE",
+        "start": 95,
+        "end": 109
+      },
+      {
+        "text": "ORD-998877",
+        "label": "CONTRACT_ID",
+        "start": 168,
+        "end": 178
+      },
+      {
+        "text": "David Lee",
+        "label": "NAME",
+        "start": 191,
+        "end": 200
+      }
+    ]
+  },
+  {
+    "text": "Yeah, so I called like, uh, two days ago about this issue. Someone got into my account and ordered an iPhone 15 Pro under my name, which is completely wild. My name is Sarah Jenkins, by the way, S-A-R-A-H Jenkins.",
+    "entities": [
+      {
+        "text": "two days ago",
+        "label": "ISSUE_DATE",
+        "start": 28,
+        "end": 40
+      },
+      {
+        "text": "iPhone 15 Pro",
+        "label": "PRODUCT",
+        "start": 102,
+        "end": 115
+      },
+      {
+        "text": "Sarah Jenkins",
+        "label": "NAME",
+        "start": 168,
+        "end": 181
+      }
+    ]
+  },
+  {
+    "text": "I'm following up on that email I sent you, uh, last Tuesday, you know, the one where I mentioned someone accessed my account? They tried to change my contact email to like, josh.smith.123 at example dot com, and I have a reference number, SUB-98765, for that previous call with a rep named Michael.",
+    "entities": [
+      {
+        "text": "last Tuesday",
+        "label": "ISSUE_DATE",
+        "start": 47,
+        "end": 59
+      },
+      {
+        "text": "josh.smith.123 at example dot com",
+        "label": "EMAIL",
+        "start": 173,
+        "end": 206
+      },
+      {
+        "text": "SUB-98765",
+        "label": "CONTRACT_ID",
+        "start": 239,
+        "end": 248
+      },
+      {
+        "text": "Michael",
+        "label": "NAME",
+        "start": 290,
+        "end": 297
+      }
+    ]
+  },
+  {
+    "text": "I spoke to someone last week about this, but I'm still seeing unauthorized activity. They actually managed to purchase a new Dyson V12 vacuum cleaner on my card. My account was definitely compromised, and the person I spoke with was a lady named Jessica, and she gave me an ID, it was like ORD-2024-1122.",
+    "entities": [
+      {
+        "text": "last week",
+        "label": "ISSUE_DATE",
+        "start": 19,
+        "end": 28
+      },
+      {
+        "text": "Dyson V12",
+        "label": "PRODUCT",
+        "start": 125,
+        "end": 134
+      },
+      {
+        "text": "Jessica",
+        "label": "NAME",
+        "start": 246,
+        "end": 253
+      },
+      {
+        "text": "ORD-2024-1122",
+        "label": "CONTRACT_ID",
+        "start": 290,
+        "end": 303
+      }
+    ]
+  },
+  {
+    "text": "Yeah, I'm trying to figure out why the Brother HL-L2350DW printer we ordered, the one that was part of that huge invoice, um, ID INV-2024-B101, isn't connecting to the network. My name is Alex Schmidt, by the way.",
+    "entities": [
+      {
+        "text": "Brother HL-L2350DW",
+        "label": "PRODUCT",
+        "start": 39,
+        "end": 57
+      },
+      {
+        "text": "INV-2024-B101",
+        "label": "CONTRACT_ID",
+        "start": 129,
+        "end": 142
+      },
+      {
+        "text": "Alex Schmidt",
+        "label": "NAME",
+        "start": 188,
+        "end": 200
+      }
+    ]
+  },
+  {
+    "text": "Hello, so we're looking to place another order for the Microsoft Surface Pro 9 tablets, and I just need the updated pricing sent to uh, sales@techcorp.biz. My contact there is Maria Rodriguez.",
+    "entities": [
+      {
+        "text": "Microsoft Surface Pro 9",
+        "label": "PRODUCT",
+        "start": 55,
+        "end": 78
+      },
+      {
+        "text": "sales@techcorp.biz",
+        "label": "EMAIL",
+        "start": 136,
+        "end": 154
+      },
+      {
+        "text": "Maria Rodriguez",
+        "label": "NAME",
+        "start": 176,
+        "end": 191
+      }
+    ]
+  },
+  {
+    "text": "Uh, I'm calling to check on an order for a new batch of Dell UltraSharp U2723QE monitors, which I think was placed under reference number SUB-40019 by our purchasing agent, Thomas Lee, about two weeks ago.",
+    "entities": [
+      {
+        "text": "Dell UltraSharp U2723QE",
+        "label": "PRODUCT",
+        "start": 56,
+        "end": 79
+      },
+      {
+        "text": "SUB-40019",
+        "label": "CONTRACT_ID",
+        "start": 138,
+        "end": 147
+      },
+      {
+        "text": "Thomas Lee",
+        "label": "NAME",
+        "start": 173,
+        "end": 183
+      },
+      {
+        "text": "two weeks ago",
+        "label": "ISSUE_DATE",
+        "start": 191,
+        "end": 204
+      }
+    ]
+  },
+  {
+    "text": "Okay, so the account number you're asking for, it's C-U-S... uh, two-zero-two-three, then four-four-one-two. That's, um, my old account. The current one is, uh, REF-2024-5591, and this is for a Mr. Arthur Jenkins.",
+    "entities": [
+      {
+        "text": "REF-2024-5591",
+        "label": "CONTRACT_ID",
+        "start": 161,
+        "end": 174
+      },
+      {
+        "text": "Arthur Jenkins",
+        "label": "NAME",
+        "start": 198,
+        "end": 212
+      }
+    ]
+  },
+  {
+    "text": "Yes, the, um, the item I'm calling about is the, uh, new vacuum cleaner. It's the, uh, CleanSweep Max, not the 'Light' version. I purchased it, I think, just last month, around July 10th.",
+    "entities": [
+      {
+        "text": "CleanSweep Max",
+        "label": "PRODUCT",
+        "start": 87,
+        "end": 101
+      },
+      {
+        "text": "July 10th",
+        "label": "ISSUE_DATE",
+        "start": 177,
+        "end": 186
+      }
+    ]
+  },
+  {
+    "text": "My subscription number, you see, it starts with S-U-B, and then it's, um, zero-three-three-zero-one-eight. Wait, no, that's not quite right. It's actually SUB-33018-A. And the name on the account... that's Brenda Miller.",
+    "entities": [
+      {
+        "text": "SUB-33018-A",
+        "label": "CONTRACT_ID",
+        "start": 155,
+        "end": 166
+      },
+      {
+        "text": "Brenda Miller",
+        "label": "NAME",
+        "start": 206,
+        "end": 219
+      }
+    ]
+  },
+  {
+    "text": "Yeah, so I ordered the new Dyson V15 Detect for my sister's birthday, and the tracking hasn't updated since April 10th. The order number is SUB-77890. Just wondering if you could look into it for me, this is Sarah.",
+    "entities": [
+      {
+        "text": "Dyson V15 Detect",
+        "label": "PRODUCT",
+        "start": 27,
+        "end": 43
+      },
+      {
+        "text": "April 10th",
+        "label": "ISSUE_DATE",
+        "start": 108,
+        "end": 118
+      },
+      {
+        "text": "SUB-77890",
+        "label": "CONTRACT_ID",
+        "start": 140,
+        "end": 149
+      },
+      {
+        "text": "Sarah",
+        "label": "NAME",
+        "start": 208,
+        "end": 213
+      }
+    ]
+  },
+  {
+    "text": "And uh, the gift was supposed to be the iPhone 15 Pro, the one in blue, delivered by, like, two weeks ago today, I think. I used my email, which is michael.brown@email.com for the purchase, but it's for my nephew, this is for Mark.",
+    "entities": [
+      {
+        "text": "iPhone 15 Pro",
+        "label": "PRODUCT",
+        "start": 40,
+        "end": 53
+      },
+      {
+        "text": "two weeks ago today",
+        "label": "ISSUE_DATE",
+        "start": 92,
+        "end": 111
+      },
+      {
+        "text": "michael.brown@email.com",
+        "label": "EMAIL",
+        "start": 148,
+        "end": 171
+      },
+      {
+        "text": "Mark",
+        "label": "NAME",
+        "start": 226,
+        "end": 230
+      }
+    ]
+  },
+  {
+    "text": "So the reference number, I think it was ORD-2023-1123, and it was for a Sonos Beam soundbar. It was supposed to arrive last Friday, but uh, it's still showing pending. Can you check on that for me? This is Daniel.",
+    "entities": [
+      {
+        "text": "ORD-2023-1123",
+        "label": "CONTRACT_ID",
+        "start": 40,
+        "end": 53
+      },
+      {
+        "text": "Sonos Beam",
+        "label": "PRODUCT",
+        "start": 72,
+        "end": 82
+      },
+      {
+        "text": "last Friday",
+        "label": "ISSUE_DATE",
+        "start": 119,
+        "end": 130
+      },
+      {
+        "text": "Daniel",
+        "label": "NAME",
+        "start": 206,
+        "end": 212
+      }
+    ]
+  },
+  {
+    "text": "This is absolutely ridiculous, I'm still waiting for an update regarding the faulty dishwasher, the DW-5000. I spoke with a representative named Sarah last week, um, I think it was around July 10th, and she said she'd escalate my case, ref number SUB-87654.",
+    "entities": [
+      {
+        "text": "DW-5000",
+        "label": "PRODUCT",
+        "start": 100,
+        "end": 107
+      },
+      {
+        "text": "Sarah",
+        "label": "NAME",
+        "start": 145,
+        "end": 150
+      },
+      {
+        "text": "July 10th",
+        "label": "ISSUE_DATE",
+        "start": 188,
+        "end": 197
+      },
+      {
+        "text": "SUB-87654",
+        "label": "CONTRACT_ID",
+        "start": 247,
+        "end": 256
+      }
+    ]
+  },
+  {
+    "text": "I cannot believe this hasn't been resolved yet! My internet service has been out since, like, August 1st, and my contract ID is SVC-998877. I was assured by Daniel that someone would call me back at my email, mike.t@example.com, but I've heard nothing.",
+    "entities": [
+      {
+        "text": "August 1st",
+        "label": "ISSUE_DATE",
+        "start": 94,
+        "end": 104
+      },
+      {
+        "text": "SVC-998877",
+        "label": "CONTRACT_ID",
+        "start": 128,
+        "end": 138
+      },
+      {
+        "text": "Daniel",
+        "label": "NAME",
+        "start": 157,
+        "end": 163
+      },
+      {
+        "text": "mike.t@example.com",
+        "label": "EMAIL",
+        "start": 209,
+        "end": 227
+      }
+    ]
+  },
+  {
+    "text": "Seriously, this is the third time I'm calling about this. My order, um, ORD-2023-1122, arrived incorrectly on November 5th. I specifically told Mr. Johnson that I ordered the ProBook X5, not the standard model, and he said he'd send a replacement immediately.",
+    "entities": [
+      {
+        "text": "ORD-2023-1122",
+        "label": "CONTRACT_ID",
+        "start": 72,
+        "end": 85
+      },
+      {
+        "text": "November 5th",
+        "label": "ISSUE_DATE",
+        "start": 110,
+        "end": 122
+      },
+      {
+        "text": "Mr. Johnson",
+        "label": "NAME",
+        "start": 144,
+        "end": 155
+      },
+      {
+        "text": "ProBook X5",
+        "label": "PRODUCT",
+        "start": 175,
+        "end": 185
+      }
+    ]
+  },
+  {
+    "text": "Can I um, modify an order placed by my daughter, let's see, her name is Chloe Davis? It was for the new SuperFlow X3 robot vacuum, placed, oh, about three days ago I think. The contract ID is like, SFX-7890-B.",
+    "entities": [
+      {
+        "text": "Chloe Davis",
+        "label": "NAME",
+        "start": 72,
+        "end": 83
+      },
+      {
+        "text": "SuperFlow X3 robot vacuum",
+        "label": "PRODUCT",
+        "start": 104,
+        "end": 129
+      },
+      {
+        "text": "three days ago",
+        "label": "ISSUE_DATE",
+        "start": 149,
+        "end": 163
+      },
+      {
+        "text": "SFX-7890-B",
+        "label": "CONTRACT_ID",
+        "start": 198,
+        "end": 208
+      }
+    ]
+  },
+  {
+    "text": "Hi, I'm calling about an order, um, for my husband Mark Thompson. He bought one of those PowerCharge 5000 portable chargers on, I believe it was February 20th. We just need to change the shipping address before it goes out, the reference number is PC5K-98765.",
+    "entities": [
+      {
+        "text": "Mark Thompson",
+        "label": "NAME",
+        "start": 51,
+        "end": 64
+      },
+      {
+        "text": "PowerCharge 5000 portable chargers",
+        "label": "PRODUCT",
+        "start": 89,
+        "end": 123
+      },
+      {
+        "text": "February 20th",
+        "label": "ISSUE_DATE",
+        "start": 145,
+        "end": 158
+      },
+      {
+        "text": "PC5K-98765",
+        "label": "CONTRACT_ID",
+        "start": 248,
+        "end": 258
+      }
+    ]
+  },
+  {
+    "text": "Could you help me change the color choice for an item ordered by my friend, Sarah Lee? It's for the EcoBoost Smart Thermostat. The order number is EBT-112233, and she purchased it sometime last week, maybe March 12th or so.",
+    "entities": [
+      {
+        "text": "Sarah Lee",
+        "label": "NAME",
+        "start": 76,
+        "end": 85
+      },
+      {
+        "text": "EcoBoost Smart Thermostat",
+        "label": "PRODUCT",
+        "start": 100,
+        "end": 125
+      },
+      {
+        "text": "EBT-112233",
+        "label": "CONTRACT_ID",
+        "start": 147,
+        "end": 157
+      },
+      {
+        "text": "last week, maybe March 12th",
+        "label": "ISSUE_DATE",
+        "start": 189,
+        "end": 216
+      }
+    ]
+  },
+  {
+    "text": "ORD-2024-5591, yeah, I'm calling about an order I placed for the new Samsung Galaxy S24 Ultra. I was trying to compare it to the Google Pixel 8 Pro on your site, but I just want to confirm something for Mrs. Peterson.",
+    "entities": [
+      {
+        "text": "ORD-2024-5591",
+        "label": "CONTRACT_ID",
+        "start": 0,
+        "end": 13
+      },
+      {
+        "text": "Samsung Galaxy S24 Ultra",
+        "label": "PRODUCT",
+        "start": 69,
+        "end": 93
+      },
+      {
+        "text": "Google Pixel 8 Pro",
+        "label": "PRODUCT",
+        "start": 129,
+        "end": 147
+      },
+      {
+        "text": "Mrs. Peterson",
+        "label": "NAME",
+        "start": 203,
+        "end": 216
+      }
+    ]
+  },
+  {
+    "text": "SUB-33018, my name is David Chen and I'm looking at your new SmartHome Hub, the one that just came out, uh, the Model X. I was wondering how it stacks up against the older SmartHub Y, and could you email details to david.chen@example.com?",
+    "entities": [
+      {
+        "text": "SUB-33018",
+        "label": "CONTRACT_ID",
+        "start": 0,
+        "end": 9
+      },
+      {
+        "text": "David Chen",
+        "label": "NAME",
+        "start": 22,
+        "end": 32
+      },
+      {
+        "text": "SmartHome Hub",
+        "label": "PRODUCT",
+        "start": 61,
+        "end": 74
+      },
+      {
+        "text": "Model X",
+        "label": "PRODUCT",
+        "start": 112,
+        "end": 119
+      },
+      {
+        "text": "SmartHub Y",
+        "label": "PRODUCT",
+        "start": 172,
+        "end": 182
+      },
+      {
+        "text": "david.chen@example.com",
+        "label": "EMAIL",
+        "start": 215,
+        "end": 237
+      }
+    ]
+  },
+  {
+    "text": "REF-9876-ALPHA, so, I saw a promotion for the new 'EcoClean 5000' vacuum cleaner back in, uh, late September, early October, and I'm trying to decide between that and the 'PowerSweep Pro'. Can you confirm if that special pricing is still available for Mr. Jenkins?",
+    "entities": [
+      {
+        "text": "REF-9876-ALPHA",
+        "label": "CONTRACT_ID",
+        "start": 0,
+        "end": 14
+      },
+      {
+        "text": "EcoClean 5000",
+        "label": "PRODUCT",
+        "start": 51,
+        "end": 64
+      },
+      {
+        "text": "late September, early October",
+        "label": "ISSUE_DATE",
+        "start": 94,
+        "end": 123
+      },
+      {
+        "text": "PowerSweep Pro",
+        "label": "PRODUCT",
+        "start": 172,
+        "end": 186
+      },
+      {
+        "text": "Mr. Jenkins",
+        "label": "NAME",
+        "start": 252,
+        "end": 263
+      }
+    ]
+  },
+  {
+    "text": "Hey there, so back on March 15th, I got that new gaming console, the XtremePlay 5, from you guys. My name's Alex Rodriguez, and I'm just wondering what the warranty situation is on it; it's acting a bit funny already. The order number was like, ORD-2024-5591, I think.",
+    "entities": [
+      {
+        "text": "March 15th",
+        "label": "ISSUE_DATE",
+        "start": 22,
+        "end": 32
+      },
+      {
+        "text": "XtremePlay 5",
+        "label": "PRODUCT",
+        "start": 69,
+        "end": 81
+      },
+      {
+        "text": "Alex Rodriguez",
+        "label": "NAME",
+        "start": 108,
+        "end": 122
+      },
+      {
+        "text": "ORD-2024-5591",
+        "label": "CONTRACT_ID",
+        "start": 245,
+        "end": 258
+      }
+    ]
+  },
+  {
+    "text": "Uh, listen, I bought this like, about two weeks ago, this SmartHome Hub Pro, and the voice commands just stopped working out of nowhere. My name's Sarah Chen, and I used my email sarah.chen@example.com for the purchase. Is that covered under warranty?",
+    "entities": [
+      {
+        "text": "about two weeks ago",
+        "label": "ISSUE_DATE",
+        "start": 32,
+        "end": 51
+      },
+      {
+        "text": "SmartHome Hub Pro",
+        "label": "PRODUCT",
+        "start": 58,
+        "end": 75
+      },
+      {
+        "text": "Sarah Chen",
+        "label": "NAME",
+        "start": 147,
+        "end": 157
+      },
+      {
+        "text": "sarah.chen@example.com",
+        "label": "EMAIL",
+        "start": 179,
+        "end": 201
+      }
+    ]
+  },
+  {
+    "text": "Quick question, regarding the purchase from last Friday, which was for a new SuperFlow coffee maker. My husband, David Miller, was asking about the warranty, since it's leaking a bit, and the reference number is COF-710-882. Can you help with that?",
+    "entities": [
+      {
+        "text": "last Friday",
+        "label": "ISSUE_DATE",
+        "start": 44,
+        "end": 55
+      },
+      {
+        "text": "SuperFlow coffee maker",
+        "label": "PRODUCT",
+        "start": 77,
+        "end": 99
+      },
+      {
+        "text": "David Miller",
+        "label": "NAME",
+        "start": 113,
+        "end": 125
+      },
+      {
+        "text": "COF-710-882",
+        "label": "CONTRACT_ID",
+        "start": 212,
+        "end": 223
+      }
+    ]
+  },
+  {
+    "text": "I'm looking at my statement and there's a charge for the TurboClean Power Washer that I definitely did not authorize. I actually returned that product about two weeks ago. My name is David Miller, and I have the return confirmation.",
+    "entities": [
+      {
+        "text": "TurboClean Power Washer",
+        "label": "PRODUCT",
+        "start": 57,
+        "end": 80
+      },
+      {
+        "text": "about two weeks ago",
+        "label": "ISSUE_DATE",
+        "start": 151,
+        "end": 170
+      },
+      {
+        "text": "David Miller",
+        "label": "NAME",
+        "start": 183,
+        "end": 195
+      }
+    ]
+  },
+  {
+    "text": "Uh, yeah, I'm calling because I see a charge on my account for the 'Pro Tech Support Package' that I cancelled, I think, sometime around November 15th last year. Can you look up order number ORD-2023-9876 for me? My name is Fatima Khan.",
+    "entities": [
+      {
+        "text": "Pro Tech Support Package",
+        "label": "PRODUCT",
+        "start": 68,
+        "end": 92
+      },
+      {
+        "text": "November 15th last year",
+        "label": "ISSUE_DATE",
+        "start": 137,
+        "end": 160
+      },
+      {
+        "text": "ORD-2023-9876",
+        "label": "CONTRACT_ID",
+        "start": 191,
+        "end": 204
+      },
+      {
+        "text": "Fatima Khan",
+        "label": "NAME",
+        "start": 224,
+        "end": 235
+      }
+    ]
+  },
+  {
+    "text": "There's an unexpected charge on my bill for the 'MegaStream Entertainment plan' and I'm pretty sure I downgraded that service, uh, maybe a month and a half ago. Could you check that for me please? The account is under Sarah Johnson.",
+    "entities": [
+      {
+        "text": "MegaStream Entertainment plan",
+        "label": "PRODUCT",
+        "start": 49,
+        "end": 78
+      },
+      {
+        "text": "a month and a half ago",
+        "label": "ISSUE_DATE",
+        "start": 137,
+        "end": 159
+      },
+      {
+        "text": "Sarah Johnson",
+        "label": "NAME",
+        "start": 218,
+        "end": 231
+      }
+    ]
+  },
+  {
+    "text": "Yeah, I'm calling back about the incident from last Friday. My account was definitely accessed, and that new iPhone 15 Pro Max order under the name 'Sarah Jenkins' with the order ID ORD-2024-5591? That wasn't me, like I said.",
+    "entities": [
+      {
+        "text": "last Friday",
+        "label": "ISSUE_DATE",
+        "start": 47,
+        "end": 58
+      },
+      {
+        "text": "iPhone 15 Pro Max",
+        "label": "PRODUCT",
+        "start": 109,
+        "end": 126
+      },
+      {
+        "text": "Sarah Jenkins",
+        "label": "NAME",
+        "start": 149,
+        "end": 162
+      },
+      {
+        "text": "ORD-2024-5591",
+        "label": "CONTRACT_ID",
+        "start": 182,
+        "end": 195
+      }
+    ]
+  },
+  {
+    "text": "So, following up on that security alert I got yesterday morning, uh, apparently someone tried to change my primary email to 'darklord47 at xmail dot com'. My name is still John Smith and I absolutely did not try to purchase a new Microsoft Surface Pro.",
+    "entities": [
+      {
+        "text": "yesterday morning",
+        "label": "ISSUE_DATE",
+        "start": 46,
+        "end": 63
+      },
+      {
+        "text": "darklord47 at xmail dot com",
+        "label": "EMAIL",
+        "start": 125,
+        "end": 152
+      },
+      {
+        "text": "John Smith",
+        "label": "NAME",
+        "start": 172,
+        "end": 182
+      },
+      {
+        "text": "Microsoft Surface Pro",
+        "label": "PRODUCT",
+        "start": 230,
+        "end": 251
+      }
+    ]
+  },
+  {
+    "text": "Regarding the suspicious activity reported on August 1st, I received an email about a service upgrade for contract SUB-33018. It mentioned a 'Michael Chen' as the account holder, and a new contact email 'michael.chen at webmail dot co'. My email is not that, and I'm not Michael Chen.",
+    "entities": [
+      {
+        "text": "August 1st",
+        "label": "ISSUE_DATE",
+        "start": 46,
+        "end": 56
+      },
+      {
+        "text": "SUB-33018",
+        "label": "CONTRACT_ID",
+        "start": 115,
+        "end": 124
+      },
+      {
+        "text": "Michael Chen",
+        "label": "NAME",
+        "start": 142,
+        "end": 154
+      },
+      {
+        "text": "michael.chen at webmail dot co",
+        "label": "EMAIL",
+        "start": 204,
+        "end": 234
+      }
+    ]
+  },
+  {
+    "text": "Yeah, I'm calling about that bulk order of the new Dell XPS 15 laptops we put in last month; I believe the original delivery date for that was set for March 22nd. My name is Sarah Johnson, and I need to update the shipping address for contract number SUB-33018.",
+    "entities": [
+      {
+        "text": "Dell XPS 15",
+        "label": "PRODUCT",
+        "start": 51,
+        "end": 62
+      },
+      {
+        "text": "March 22nd",
+        "label": "ISSUE_DATE",
+        "start": 151,
+        "end": 161
+      },
+      {
+        "text": "Sarah Johnson",
+        "label": "NAME",
+        "start": 174,
+        "end": 187
+      },
+      {
+        "text": "SUB-33018",
+        "label": "CONTRACT_ID",
+        "start": 251,
+        "end": 260
+      }
+    ]
+  },
+  {
+    "text": "Uh, hey, I need to make a change to an order we placed, specifically for those twelve Dyson V12 Detect Slim vacuums. The order confirmation that came through, I think, on February 10th, mentioned the contact was a Mr. David Chen, and his email is david.chen@bizco.com.",
+    "entities": [
+      {
+        "text": "Dyson V12 Detect Slim",
+        "label": "PRODUCT",
+        "start": 86,
+        "end": 107
+      },
+      {
+        "text": "February 10th",
+        "label": "ISSUE_DATE",
+        "start": 171,
+        "end": 184
+      },
+      {
+        "text": "David Chen",
+        "label": "NAME",
+        "start": 218,
+        "end": 228
+      },
+      {
+        "text": "david.chen@bizco.com",
+        "label": "EMAIL",
+        "start": 247,
+        "end": 267
+      }
+    ]
+  },
+  {
+    "text": "Yeah, so we're trying to finalize an order for about twenty Microsoft Surface Pro 9 tablets, and I'm calling to check the status on reference number ORD-2024-5591, which I believe was set up by Angela Martinez a few days ago, like on April 1st.",
+    "entities": [
+      {
+        "text": "Microsoft Surface Pro 9",
+        "label": "PRODUCT",
+        "start": 60,
+        "end": 83
+      },
+      {
+        "text": "ORD-2024-5591",
+        "label": "CONTRACT_ID",
+        "start": 149,
+        "end": 162
+      },
+      {
+        "text": "Angela Martinez",
+        "label": "NAME",
+        "start": 194,
+        "end": 209
+      },
+      {
+        "text": "April 1st",
+        "label": "ISSUE_DATE",
+        "start": 234,
+        "end": 243
+      }
+    ]
+  },
+  {
+    "text": "Okay, so the email I used, uhm, is B as in boy, E A T R I C E, period, W I L L I A M S, at, you know, my old, old email, yahoo dot com. I'm calling about that washing machine delivery, the one from, uhm, order number SUB-44012, yes, that's right, for Beatrice Williams.",
+    "entities": [
+      {
+        "text": "B as in boy, E A T R I C E, period, W I L L I A M S, at, you know, my old, old email, yahoo dot com",
+        "label": "EMAIL",
+        "start": 35,
+        "end": 134
+      },
+      {
+        "text": "SUB-44012",
+        "label": "CONTRACT_ID",
+        "start": 217,
+        "end": 226
+      },
+      {
+        "text": "Beatrice Williams",
+        "label": "NAME",
+        "start": 251,
+        "end": 268
+      }
+    ]
+  },
+  {
+    "text": "It's the, uhm, the new vacuum cleaner, not the V10, no, it's the Dyson V12 Detect Slim, that's the correct model. I purchased it, oh dear, about three weeks ago, and I need help with something. My name, well, it's Arthur Jenkins.",
+    "entities": [
+      {
+        "text": "Dyson V12 Detect Slim",
+        "label": "PRODUCT",
+        "start": 65,
+        "end": 86
+      },
+      {
+        "text": "about three weeks ago",
+        "label": "ISSUE_DATE",
+        "start": 139,
+        "end": 160
+      },
+      {
+        "text": "Arthur Jenkins",
+        "label": "NAME",
+        "start": 214,
+        "end": 228
+      }
+    ]
+  },
+  {
+    "text": "My last name is, uhm, K as in kite, E N N E D Y. I'm calling about that issue with my internet service, the one from, oh, let me see, it was about three weeks ago, definitely after February 1st. I think the reference number was like, uh, ORD-2024-5591, yes, that's the number they gave me.",
+    "entities": [
+      {
+        "text": "K as in kite, E N N E D Y",
+        "label": "NAME",
+        "start": 22,
+        "end": 47
+      },
+      {
+        "text": "about three weeks ago",
+        "label": "ISSUE_DATE",
+        "start": 141,
+        "end": 162
+      },
+      {
+        "text": "February 1st",
+        "label": "ISSUE_DATE",
+        "start": 181,
+        "end": 193
+      },
+      {
+        "text": "ORD-2024-5591",
+        "label": "CONTRACT_ID",
+        "start": 238,
+        "end": 251
+      }
+    ]
+  },
+  {
+    "text": "Yeah, I'm just trying to confirm the delivery for that, uh, new iPhone 15 Pro I ordered for my mom. The order number is SUB-33018, and I think I placed it around March 20th. I just wanna make sure it gets to Margaret.",
+    "entities": [
+      {
+        "text": "iPhone 15 Pro",
+        "label": "PRODUCT",
+        "start": 64,
+        "end": 77
+      },
+      {
+        "text": "SUB-33018",
+        "label": "CONTRACT_ID",
+        "start": 120,
+        "end": 129
+      },
+      {
+        "text": "March 20th",
+        "label": "ISSUE_DATE",
+        "start": 162,
+        "end": 172
+      },
+      {
+        "text": "Margaret",
+        "label": "NAME",
+        "start": 208,
+        "end": 216
+      }
+    ]
+  },
+  {
+    "text": "So I need to check the status on a gift order. It's for my friend, um, her birthday is coming up. It's the new Samsung Galaxy Watch. The reference number is ORD-2024-5591, and I think I set it up for delivery sometime last week. Her name's Emily.",
+    "entities": [
+      {
+        "text": "Samsung Galaxy Watch",
+        "label": "PRODUCT",
+        "start": 111,
+        "end": 131
+      },
+      {
+        "text": "ORD-2024-5591",
+        "label": "CONTRACT_ID",
+        "start": 157,
+        "end": 170
+      },
+      {
+        "text": "last week",
+        "label": "ISSUE_DATE",
+        "start": 218,
+        "end": 227
+      },
+      {
+        "text": "Emily",
+        "label": "NAME",
+        "start": 240,
+        "end": 245
+      }
+    ]
+  },
+  {
+    "text": "Okay, I'm calling about a laptop I got for my nephew. It was the Dell XPS 13, and the confirmation email was sent to ryan.kelly@email.com. I placed the order on, like, November 10th. Just double checking for Ryan.",
+    "entities": [
+      {
+        "text": "Dell XPS 13",
+        "label": "PRODUCT",
+        "start": 65,
+        "end": 76
+      },
+      {
+        "text": "ryan.kelly@email.com",
+        "label": "EMAIL",
+        "start": 117,
+        "end": 137
+      },
+      {
+        "text": "November 10th",
+        "label": "ISSUE_DATE",
+        "start": 168,
+        "end": 181
+      },
+      {
+        "text": "Ryan",
+        "label": "NAME",
+        "start": 208,
+        "end": 212
+      }
+    ]
+  },
+  {
+    "text": "This is absolutely ridiculous, I was told by your colleague that my refund for contract number ORD-2024-5591 would be processed by last Friday, but it still hasn't shown up. I specifically spoke with a Mr. Thompson and he even confirmed it via email to anna at example dot com.",
+    "entities": [
+      {
+        "text": "ORD-2024-5591",
+        "label": "CONTRACT_ID",
+        "start": 95,
+        "end": 108
+      },
+      {
+        "text": "last Friday",
+        "label": "ISSUE_DATE",
+        "start": 131,
+        "end": 142
+      },
+      {
+        "text": "Mr. Thompson",
+        "label": "NAME",
+        "start": 202,
+        "end": 214
+      },
+      {
+        "text": "anna at example dot com",
+        "label": "EMAIL",
+        "start": 253,
+        "end": 276
+      }
+    ]
+  },
+  {
+    "text": "I'm calling again because I'm still having problems with that, uh, new Dyson V12 vacuum cleaner I bought, and honestly, this is the third time. The last technician, a Ms. Rodriguez, said she fixed it about two weeks ago, but the motor is still making that awful grinding noise. My reference number for that service was SUB-33018.",
+    "entities": [
+      {
+        "text": "Dyson V12 vacuum cleaner",
+        "label": "PRODUCT",
+        "start": 71,
+        "end": 95
+      },
+      {
+        "text": "Ms. Rodriguez",
+        "label": "NAME",
+        "start": 167,
+        "end": 180
+      },
+      {
+        "text": "about two weeks ago",
+        "label": "ISSUE_DATE",
+        "start": 200,
+        "end": 219
+      },
+      {
+        "text": "SUB-33018",
+        "label": "CONTRACT_ID",
+        "start": 319,
+        "end": 328
+      }
+    ]
+  },
+  {
+    "text": "I need to speak to someone higher up, this is just unacceptable. The iPhone 15 Pro Max I ordered was supposed to arrive on March 15th, and your system says it was delivered, but it wasn't. I've already talked to a Mr. Chen about this last Monday, and I sent all the details to support at acme dot com.",
+    "entities": [
+      {
+        "text": "iPhone 15 Pro Max",
+        "label": "PRODUCT",
+        "start": 69,
+        "end": 86
+      },
+      {
+        "text": "March 15th",
+        "label": "ISSUE_DATE",
+        "start": 123,
+        "end": 133
+      },
+      {
+        "text": "Mr. Chen",
+        "label": "NAME",
+        "start": 214,
+        "end": 222
+      },
+      {
+        "text": "last Monday",
+        "label": "ISSUE_DATE",
+        "start": 234,
+        "end": 245
+      },
+      {
+        "text": "support at acme dot com",
+        "label": "EMAIL",
+        "start": 277,
+        "end": 300
+      }
+    ]
+  },
+  {
+    "text": "Could you help me change the delivery address for an order? My wife Sarah, um, placed it on October 25th for a new Samsung Galaxy S24 Ultra, contract ID SUB-48291. It needs to go to our new place.",
+    "entities": [
+      {
+        "text": "Sarah",
+        "label": "NAME",
+        "start": 68,
+        "end": 73
+      },
+      {
+        "text": "October 25th",
+        "label": "ISSUE_DATE",
+        "start": 92,
+        "end": 104
+      },
+      {
+        "text": "Samsung Galaxy S24 Ultra",
+        "label": "PRODUCT",
+        "start": 115,
+        "end": 139
+      },
+      {
+        "text": "SUB-48291",
+        "label": "CONTRACT_ID",
+        "start": 153,
+        "end": 162
+      }
+    ]
+  },
+  {
+    "text": "I'm calling about an order that was actually made by my husband, David Miller. He purchased a Dyson V15 Detect around, like, three weeks ago, um, order number ORD-2024-9102. Can we upgrade the shipping speed on that?",
+    "entities": [
+      {
+        "text": "David Miller",
+        "label": "NAME",
+        "start": 65,
+        "end": 77
+      },
+      {
+        "text": "Dyson V15 Detect",
+        "label": "PRODUCT",
+        "start": 94,
+        "end": 110
+      },
+      {
+        "text": "three weeks ago",
+        "label": "ISSUE_DATE",
+        "start": 125,
+        "end": 140
+      },
+      {
+        "text": "ORD-2024-9102",
+        "label": "CONTRACT_ID",
+        "start": 159,
+        "end": 172
+      }
+    ]
+  },
+  {
+    "text": "Can you check on an existing reservation? This is for John Smith. He booked an Apple Watch Series 9 on May 1st, and the reference is REF-77123. He wants to see if we can change the pick-up location.",
+    "entities": [
+      {
+        "text": "John Smith",
+        "label": "NAME",
+        "start": 54,
+        "end": 64
+      },
+      {
+        "text": "Apple Watch Series 9",
+        "label": "PRODUCT",
+        "start": 79,
+        "end": 99
+      },
+      {
+        "text": "May 1st",
+        "label": "ISSUE_DATE",
+        "start": 103,
+        "end": 110
+      },
+      {
+        "text": "REF-77123",
+        "label": "CONTRACT_ID",
+        "start": 133,
+        "end": 142
+      }
+    ]
+  },
+  {
+    "text": "ORD-2024-5591, yeah, I'm calling about an order I placed for the new SmartVac 5000, but I was kind of expecting it to be more like the SmartVac 4000 in terms of power. Can you tell me if there's a significant difference for me, Sarah Miller?",
+    "entities": [
+      {
+        "text": "ORD-2024-5591",
+        "label": "CONTRACT_ID",
+        "start": 0,
+        "end": 13
+      },
+      {
+        "text": "SmartVac 5000",
+        "label": "PRODUCT",
+        "start": 69,
+        "end": 82
+      },
+      {
+        "text": "SmartVac 4000",
+        "label": "PRODUCT",
+        "start": 135,
+        "end": 148
+      },
+      {
+        "text": "Sarah Miller",
+        "label": "NAME",
+        "start": 228,
+        "end": 240
+      }
+    ]
+  },
+  {
+    "text": "SUB-33018, I'm trying to figure out the difference between the CloudVault Pro and the regular CloudVault service I have. I upgraded last week, I think it was around March 22nd, but I'm not seeing the features I expected. Could you look into it for my account, it's under david.lee@example.com?",
+    "entities": [
+      {
+        "text": "SUB-33018",
+        "label": "CONTRACT_ID",
+        "start": 0,
+        "end": 9
+      },
+      {
+        "text": "CloudVault Pro",
+        "label": "PRODUCT",
+        "start": 63,
+        "end": 77
+      },
+      {
+        "text": "CloudVault",
+        "label": "PRODUCT",
+        "start": 94,
+        "end": 104
+      },
+      {
+        "text": "March 22nd",
+        "label": "ISSUE_DATE",
+        "start": 165,
+        "end": 175
+      },
+      {
+        "text": "david.lee@example.com",
+        "label": "EMAIL",
+        "start": 271,
+        "end": 292
+      }
+    ]
+  },
+  {
+    "text": "REF-987654, so I got the new UltraStream headphones yesterday, but I'm comparing them to my old StreamFlow model and honestly, the sound quality on calls isn't quite what I hoped for. Is there something specific I should be looking at for improved microphone performance? My wife, Jessica, also mentioned she had similar issues.",
+    "entities": [
+      {
+        "text": "REF-987654",
+        "label": "CONTRACT_ID",
+        "start": 0,
+        "end": 10
+      },
+      {
+        "text": "UltraStream headphones",
+        "label": "PRODUCT",
+        "start": 29,
+        "end": 51
+      },
+      {
+        "text": "yesterday",
+        "label": "ISSUE_DATE",
+        "start": 52,
+        "end": 61
+      },
+      {
+        "text": "StreamFlow",
+        "label": "PRODUCT",
+        "start": 96,
+        "end": 106
+      },
+      {
+        "text": "Jessica",
+        "label": "NAME",
+        "start": 281,
+        "end": 288
+      }
+    ]
+  },
+  {
+    "text": "Uh huh, yeah, so I was expecting the new Apple Watch Series 9, but what actually arrived was an older Series 7. The tracking number on the box was, um, SUB-1002938 and my email for this account is jessica.chen at mymail dot com. Could you look into that for me, please?",
+    "entities": [
+      {
+        "text": "Apple Watch Series 9",
+        "label": "PRODUCT",
+        "start": 41,
+        "end": 61
+      },
+      {
+        "text": "Series 7",
+        "label": "PRODUCT",
+        "start": 102,
+        "end": 110
+      },
+      {
+        "text": "SUB-1002938",
+        "label": "CONTRACT_ID",
+        "start": 152,
+        "end": 163
+      },
+      {
+        "text": "jessica.chen at mymail dot com",
+        "label": "EMAIL",
+        "start": 197,
+        "end": 227
+      }
+    ]
+  },
+  {
+    "text": "Yes, that's right. I ordered the new Dyson V15 Detect Absolute, but what came in the mail yesterday, I think it was around May 1st, was actually the Dyson V11 Torque Drive. My name is Mark Davis, and you can confirm the details at m.davis@emailme.com please.",
+    "entities": [
+      {
+        "text": "Dyson V15 Detect Absolute",
+        "label": "PRODUCT",
+        "start": 37,
+        "end": 62
+      },
+      {
+        "text": "yesterday",
+        "label": "ISSUE_DATE",
+        "start": 90,
+        "end": 99
+      },
+      {
+        "text": "May 1st",
+        "label": "ISSUE_DATE",
+        "start": 123,
+        "end": 130
+      },
+      {
+        "text": "Dyson V11 Torque Drive",
+        "label": "PRODUCT",
+        "start": 149,
+        "end": 171
+      },
+      {
+        "text": "Mark Davis",
+        "label": "NAME",
+        "start": 184,
+        "end": 194
+      },
+      {
+        "text": "m.davis@emailme.com",
+        "label": "EMAIL",
+        "start": 231,
+        "end": 250
+      }
+    ]
+  },
+  {
+    "text": "Okay, yeah. So I had ordered a Google Pixel 8 Pro, you know, the one that just came out, but I received the older Pixel 7 instead. The order number for this mix-up is like ORD-5591-A3, and could you send the updated info to my email, which is always anna.kim@domain.co?",
+    "entities": [
+      {
+        "text": "Google Pixel 8 Pro",
+        "label": "PRODUCT",
+        "start": 31,
+        "end": 49
+      },
+      {
+        "text": "Pixel 7",
+        "label": "PRODUCT",
+        "start": 114,
+        "end": 121
+      },
+      {
+        "text": "ORD-5591-A3",
+        "label": "CONTRACT_ID",
+        "start": 172,
+        "end": 183
+      },
+      {
+        "text": "anna.kim@domain.co",
+        "label": "EMAIL",
+        "start": 250,
+        "end": 268
+      }
+    ]
+  },
+  {
+    "text": "Hey there, so, back in late June I picked up this Dell XPS 15 and I was wondering about the warranty, like what's covered for me, Mark Johnson, if something happens?",
+    "entities": [
+      {
+        "text": "late June",
+        "label": "ISSUE_DATE",
+        "start": 23,
+        "end": 32
+      },
+      {
+        "text": "Dell XPS 15",
+        "label": "PRODUCT",
+        "start": 50,
+        "end": 61
+      },
+      {
+        "text": "Mark Johnson",
+        "label": "NAME",
+        "start": 130,
+        "end": 142
+      }
+    ]
+  },
+  {
+    "text": "Uh, quick question, last Tuesday I bought a Galaxy Watch 6, order number SW-90210, and I just wanna confirm the warranty details. My email is sara.l.davis@email.com, if you need it.",
+    "entities": [
+      {
+        "text": "last Tuesday",
+        "label": "ISSUE_DATE",
+        "start": 20,
+        "end": 32
+      },
+      {
+        "text": "Galaxy Watch 6",
+        "label": "PRODUCT",
+        "start": 44,
+        "end": 58
+      },
+      {
+        "text": "SW-90210",
+        "label": "CONTRACT_ID",
+        "start": 73,
+        "end": 81
+      },
+      {
+        "text": "sara.l.davis@email.com",
+        "label": "EMAIL",
+        "start": 142,
+        "end": 164
+      }
+    ]
+  },
+  {
+    "text": "Just calling about, um, a vacuum cleaner. I think it was around November 5th that I got the Dyson V15 Detect. My name's Maria Rodriguez and I'm trying to figure out if this weird noise is covered.",
+    "entities": [
+      {
+        "text": "November 5th",
+        "label": "ISSUE_DATE",
+        "start": 64,
+        "end": 76
+      },
+      {
+        "text": "Dyson V15 Detect",
+        "label": "PRODUCT",
+        "start": 92,
+        "end": 108
+      },
+      {
+        "text": "Maria Rodriguez",
+        "label": "NAME",
+        "start": 120,
+        "end": 135
+      }
+    ]
+  },
+  {
+    "text": "I'm calling about a charge on my account for, uh, an Apple Watch Series 8 that I definitely returned back around December 20th. My name is Sarah Miller and I just wanna make sure that credit comes through.",
+    "entities": [
+      {
+        "text": "Apple Watch Series 8",
+        "label": "PRODUCT",
+        "start": 53,
+        "end": 73
+      },
+      {
+        "text": "December 20th",
+        "label": "ISSUE_DATE",
+        "start": 113,
+        "end": 126
+      },
+      {
+        "text": "Sarah Miller",
+        "label": "NAME",
+        "start": 139,
+        "end": 151
+      }
+    ]
+  },
+  {
+    "text": "Yeah, I'm seeing a charge for the Premium Streaming Package on my last statement, but I canceled that service like, back on March 1st. Can you check under the account for David Chen, reference number SUB-33018 please?",
+    "entities": [
+      {
+        "text": "Premium Streaming Package",
+        "label": "PRODUCT",
+        "start": 34,
+        "end": 59
+      },
+      {
+        "text": "March 1st",
+        "label": "ISSUE_DATE",
+        "start": 124,
+        "end": 133
+      },
+      {
+        "text": "David Chen",
+        "label": "NAME",
+        "start": 171,
+        "end": 181
+      },
+      {
+        "text": "SUB-33018",
+        "label": "CONTRACT_ID",
+        "start": 200,
+        "end": 209
+      }
+    ]
+  },
+  {
+    "text": "I was charged for a new Samsung Galaxy S24, but I returned it almost three weeks ago and the refund still hasn't processed. My shipping confirmation email was sent to mike.trout@example.com. Could you please look into this for Mike Trout?",
+    "entities": [
+      {
+        "text": "Samsung Galaxy S24",
+        "label": "PRODUCT",
+        "start": 24,
+        "end": 42
+      },
+      {
+        "text": "almost three weeks ago",
+        "label": "ISSUE_DATE",
+        "start": 62,
+        "end": 84
+      },
+      {
+        "text": "mike.trout@example.com",
+        "label": "EMAIL",
+        "start": 167,
+        "end": 189
+      },
+      {
+        "text": "Mike Trout",
+        "label": "NAME",
+        "start": 227,
+        "end": 237
+      }
+    ]
+  },
+  {
+    "text": "So, I'm following up on that issue from, uh, last Tuesday, where someone accessed my account and bought an Apple Watch Series 9. I spoke to someone, I think her name was Sarah, but I just want to make sure it's all resolved.",
+    "entities": [
+      {
+        "text": "last Tuesday",
+        "label": "ISSUE_DATE",
+        "start": 45,
+        "end": 57
+      },
+      {
+        "text": "Apple Watch Series 9",
+        "label": "PRODUCT",
+        "start": 107,
+        "end": 127
+      },
+      {
+        "text": "Sarah",
+        "label": "NAME",
+        "start": 170,
+        "end": 175
+      }
+    ]
+  },
+  {
+    "text": "Yeah, I'm calling about that weird order from uh, like, two days ago, reference number SUB-78901, that was placed using my account but sent to some random email, like, uh, bill at hotmail dot com. I'm really concerned because my name is David Chen, and this wasn't me.",
+    "entities": [
+      {
+        "text": "two days ago",
+        "label": "ISSUE_DATE",
+        "start": 56,
+        "end": 68
+      },
+      {
+        "text": "SUB-78901",
+        "label": "CONTRACT_ID",
+        "start": 87,
+        "end": 96
+      },
+      {
+        "text": "bill at hotmail dot com",
+        "label": "EMAIL",
+        "start": 172,
+        "end": 195
+      },
+      {
+        "text": "David Chen",
+        "label": "NAME",
+        "start": 237,
+        "end": 247
+      }
+    ]
+  },
+  {
+    "text": "Regarding the call from, uh, last month, I'm still seeing a charge for that, uh, new Samsung Galaxy S24 Ultra, even though I reported the unauthorized purchase under contract number ORD-2024-5591. I need to get this sorted out, my name is Maria Rodriguez.",
+    "entities": [
+      {
+        "text": "last month",
+        "label": "ISSUE_DATE",
+        "start": 29,
+        "end": 39
+      },
+      {
+        "text": "Samsung Galaxy S24 Ultra",
+        "label": "PRODUCT",
+        "start": 85,
+        "end": 109
+      },
+      {
+        "text": "ORD-2024-5591",
+        "label": "CONTRACT_ID",
+        "start": 182,
+        "end": 195
+      },
+      {
+        "text": "Maria Rodriguez",
+        "label": "NAME",
+        "start": 239,
+        "end": 254
+      }
+    ]
+  },
+  {
+    "text": "Yeah, I'm just calling about an issue with an order we placed for, like, fifty units of the Eco-Smart Power Hubs. I think it was back on, uh, February 28th, when Sarah Jenkins handled it. The contract ID was, I believe, BIZ-ORDER-7712.",
+    "entities": [
+      {
+        "text": "Eco-Smart Power Hubs",
+        "label": "PRODUCT",
+        "start": 92,
+        "end": 112
+      },
+      {
+        "text": "February 28th",
+        "label": "ISSUE_DATE",
+        "start": 142,
+        "end": 155
+      },
+      {
+        "text": "Sarah Jenkins",
+        "label": "NAME",
+        "start": 162,
+        "end": 175
+      },
+      {
+        "text": "BIZ-ORDER-7712",
+        "label": "CONTRACT_ID",
+        "start": 220,
+        "end": 234
+      }
+    ]
+  },
+  {
+    "text": "So we're having trouble getting the latest firmware update to install on all the Pro-Grade Video Cameras we just received. My colleague, who you can reach at accounting dot services at corptech dot com, said he remembered getting them around, like, three weeks ago, but the tracking shows delivery was actually March 10th.",
+    "entities": [
+      {
+        "text": "Pro-Grade Video Cameras",
+        "label": "PRODUCT",
+        "start": 81,
+        "end": 104
+      },
+      {
+        "text": "accounting dot services at corptech dot com",
+        "label": "EMAIL",
+        "start": 158,
+        "end": 201
+      },
+      {
+        "text": "March 10th",
+        "label": "ISSUE_DATE",
+        "start": 311,
+        "end": 321
+      }
+    ]
+  },
+  {
+    "text": "Uh, we need to add a few more units to our standing order for the Quantum Data Drives. I spoke with Michael Chen about this last week, and he gave me a reference number, which was like, REQ-5501-A.",
+    "entities": [
+      {
+        "text": "Quantum Data Drives",
+        "label": "PRODUCT",
+        "start": 66,
+        "end": 85
+      },
+      {
+        "text": "Michael Chen",
+        "label": "NAME",
+        "start": 100,
+        "end": 112
+      },
+      {
+        "text": "REQ-5501-A",
+        "label": "CONTRACT_ID",
+        "start": 186,
+        "end": 196
+      }
+    ]
+  }
+]

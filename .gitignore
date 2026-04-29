@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.egg-info/
+.env
+.venv/
+data/raw/
+diagrams/
+results/models/ablation/
+results/models/bert_small_onnx/model.onnx
+results/models/bert_small_onnx/model.onnx.data
+results/models/bert_small_onnx/model_quantized.onnx
+.DS_Store
+scripts/new_noisy_samples_v2.py
+.claude/
+.pytest_cache
+.ruff_cache
+ablation_v3.log

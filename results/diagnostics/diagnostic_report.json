@@ -1,0 +1,626 @@
+{
+  "data": {
+    "synthetic_train": {
+      "status": "OK",
+      "total": 600,
+      "valid": 600,
+      "invalid": 0,
+      "entities": 1802,
+      "entity_types": {
+        "NAME": 599,
+        "PRODUCT": 351,
+        "CONTRACT_ID": 338,
+        "ISSUE_DATE": 299,
+        "EMAIL": 215
+      }
+    },
+    "synthetic_val": {
+      "status": "OK",
+      "total": 120,
+      "valid": 120,
+      "invalid": 0,
+      "entities": 357,
+      "entity_types": {
+        "NAME": 120,
+        "PRODUCT": 58,
+        "CONTRACT_ID": 76,
+        "ISSUE_DATE": 50,
+        "EMAIL": 53
+      }
+    },
+    "oral_train": {
+      "status": "OK",
+      "total": 100,
+      "valid": 100,
+      "invalid": 0,
+      "entities": 292,
+      "entity_types": {
+        "NAME": 90,
+        "CONTRACT_ID": 66,
+        "EMAIL": 54,
+        "ISSUE_DATE": 48,
+        "PRODUCT": 34
+      }
+    },
+    "prepared_train": {
+      "status": "OK",
+      "total": 760,
+      "valid": 760,
+      "invalid": 0,
+      "entities": 2094,
+      "entity_types": {
+        "NAME": 689,
+        "PRODUCT": 385,
+        "CONTRACT_ID": 404,
+        "ISSUE_DATE": 347,
+        "EMAIL": 269
+      }
+    },
+    "prepared_val": {
+      "status": "OK",
+      "total": 132,
+      "valid": 132,
+      "invalid": 0,
+      "entities": 357,
+      "entity_types": {
+        "NAME": 120,
+        "PRODUCT": 58,
+        "CONTRACT_ID": 76,
+        "ISSUE_DATE": 50,
+        "EMAIL": 53
+      }
+    },
+    "noisy_train": {
+      "status": "OK",
+      "total": 3040,
+      "valid": 3040,
+      "invalid": 0,
+      "entities": 8376,
+      "entity_types": {
+        "NAME": 2756,
+        "PRODUCT": 1540,
+        "CONTRACT_ID": 1616,
+        "ISSUE_DATE": 1388,
+        "EMAIL": 1076
+      }
+    },
+    "noisy_val": {
+      "status": "OK",
+      "total": 528,
+      "valid": 528,
+      "invalid": 0,
+      "entities": 1428,
+      "entity_types": {
+        "NAME": 480,
+        "PRODUCT": 232,
+        "CONTRACT_ID": 304,
+        "ISSUE_DATE": 200,
+        "EMAIL": 212
+      }
+    },
+    "gold_test": {
+      "status": "OK",
+      "total": 54,
+      "valid": 54,
+      "invalid": 0,
+      "entities": 98,
+      "entity_types": {
+        "NAME": 21,
+        "CONTRACT_ID": 19,
+        "PRODUCT": 22,
+        "ISSUE_DATE": 20,
+        "EMAIL": 16
+      }
+    }
+  },
+  "tokenizer": {
+    "bert_tiny": {
+      "with_lower": {
+        "vocab_size": 30522,
+        "unk_rate": "0/8 texts have [UNK]",
+        "unk_examples": [],
+        "note": "This is the training configuration"
+      },
+      "without_lower": {
+        "vocab_size": 30522,
+        "unk_rate": "5/8 texts have [UNK]",
+        "unk_examples": [
+          {
+            "text": "my name is Jennifer Taylor",
+            "tokens": [
+              "my",
+              "name",
+              "is",
+              "[UNK]",
+              "[UNK]"
+            ]
+          },
+          {
+            "text": "order ORD-2024-5591",
+            "tokens": [
+              "order",
+              "[UNK]",
+              "-",
+              "202",
+              "##4",
+              "-",
+              "55",
+              "##9",
+              "##1"
+            ]
+          },
+          {
+            "text": "CT dash 55123",
+            "tokens": [
+              "[UNK]",
+              "dash",
+              "55",
+              "##12",
+              "##3"
+            ]
+          },
+          {
+            "text": "the Sony WH-1000XM5 headphones",
+            "tokens": [
+              "the",
+              "[UNK]",
+              "[UNK]",
+              "-",
+              "[UNK]",
+              "head",
+              "##phones"
+            ]
+          },
+          {
+            "text": "Priya Patel thats p r i y a",
+            "tokens": [
+              "[UNK]",
+              "[UNK]",
+              "that",
+              "##s",
+              "p",
+              "r",
+              "i",
+              "y",
+              "a"
+            ]
+          }
+        ],
+        "note": "Diagnostic baseline \u2014 shows UNK rate without the do_lower_case fix"
+      }
+    },
+    "bert_small": {
+      "with_lower": {
+        "vocab_size": 30522,
+        "unk_rate": "0/8 texts have [UNK]",
+        "unk_examples": [],
+        "note": "This is the training configuration"
+      },
+      "without_lower": {
+        "vocab_size": 30522,
+        "unk_rate": "5/8 texts have [UNK]",
+        "unk_examples": [
+          {
+            "text": "my name is Jennifer Taylor",
+            "tokens": [
+              "my",
+              "name",
+              "is",
+              "[UNK]",
+              "[UNK]"
+            ]
+          },
+          {
+            "text": "order ORD-2024-5591",
+            "tokens": [
+              "order",
+              "[UNK]",
+              "-",
+              "202",
+              "##4",
+              "-",
+              "55",
+              "##9",
+              "##1"
+            ]
+          },
+          {
+            "text": "CT dash 55123",
+            "tokens": [
+              "[UNK]",
+              "dash",
+              "55",
+              "##12",
+              "##3"
+            ]
+          },
+          {
+            "text": "the Sony WH-1000XM5 headphones",
+            "tokens": [
+              "the",
+              "[UNK]",
+              "[UNK]",
+              "-",
+              "[UNK]",
+              "head",
+              "##phones"
+            ]
+          },
+          {
+            "text": "Priya Patel thats p r i y a",
+            "tokens": [
+              "[UNK]",
+              "[UNK]",
+              "that",
+              "##s",
+              "p",
+              "r",
+              "i",
+              "y",
+              "a"
+            ]
+          }
+        ],
+        "note": "Diagnostic baseline \u2014 shows UNK rate without the do_lower_case fix"
+      }
+    }
+  },
+  "labels": {
+    "bert_tiny": {
+      "distribution": {
+        "O": {
+          "count": 7820,
+          "pct": "78.3%"
+        },
+        "I-EMAIL": {
+          "count": 502,
+          "pct": "5.0%"
+        },
+        "I-CONTRACT_ID": {
+          "count": 468,
+          "pct": "4.7%"
+        },
+        "I-PRODUCT": {
+          "count": 221,
+          "pct": "2.2%"
+        },
+        "I-NAME": {
+          "count": 216,
+          "pct": "2.2%"
+        },
+        "B-NAME": {
+          "count": 200,
+          "pct": "2.0%"
+        },
+        "I-ISSUE_DATE": {
+          "count": 181,
+          "pct": "1.8%"
+        },
+        "B-CONTRACT_ID": {
+          "count": 113,
+          "pct": "1.1%"
+        },
+        "B-PRODUCT": {
+          "count": 101,
+          "pct": "1.0%"
+        },
+        "B-ISSUE_DATE": {
+          "count": 91,
+          "pct": "0.9%"
+        },
+        "B-EMAIL": {
+          "count": 73,
+          "pct": "0.7%"
+        }
+      },
+      "b_total": 578,
+      "i_total": 1588,
+      "b_i_ratio": "578:1588",
+      "o_pct": "78.3%"
+    },
+    "bert_small": {
+      "distribution": {
+        "O": {
+          "count": 7820,
+          "pct": "78.3%"
+        },
+        "I-EMAIL": {
+          "count": 502,
+          "pct": "5.0%"
+        },
+        "I-CONTRACT_ID": {
+          "count": 468,
+          "pct": "4.7%"
+        },
+        "I-PRODUCT": {
+          "count": 221,
+          "pct": "2.2%"
+        },
+        "I-NAME": {
+          "count": 216,
+          "pct": "2.2%"
+        },
+        "B-NAME": {
+          "count": 200,
+          "pct": "2.0%"
+        },
+        "I-ISSUE_DATE": {
+          "count": 181,
+          "pct": "1.8%"
+        },
+        "B-CONTRACT_ID": {
+          "count": 113,
+          "pct": "1.1%"
+        },
+        "B-PRODUCT": {
+          "count": 101,
+          "pct": "1.0%"
+        },
+        "B-ISSUE_DATE": {
+          "count": 91,
+          "pct": "0.9%"
+        },
+        "B-EMAIL": {
+          "count": 73,
+          "pct": "0.7%"
+        }
+      },
+      "b_total": 578,
+      "i_total": 1588,
+      "b_i_ratio": "578:1588",
+      "o_pct": "78.3%"
+    }
+  },
+  "inference": {
+    "bert_tiny": {
+      "test_cases": [
+        {
+          "text": "my name is John Smith and my email is john.smith@gmail.com",
+          "expected": [
+            "NAME",
+            "EMAIL"
+          ],
+          "predicted_entities": [
+            "NAME",
+            "EMAIL"
+          ],
+          "raw_non_o_labels": [
+            "B-NAME",
+            "I-NAME",
+            "B-EMAIL",
+            "I-EMAIL",
+            "I-EMAIL",
+            "I-EMAIL",
+            "I-EMAIL",
+            "I-EMAIL",
+            "I-EMAIL",
+            "I-EMAIL"
+          ],
+          "match": true
+        },
+        {
+          "text": "order number ORD-2024-5591 from last tuesday",
+          "expected": [
+            "CONTRACT_ID",
+            "ISSUE_DATE"
+          ],
+          "predicted_entities": [
+            "CONTRACT_ID",
+            "ISSUE_DATE"
+          ],
+          "raw_non_o_labels": [
+            "B-CONTRACT_ID",
+            "I-CONTRACT_ID",
+            "I-CONTRACT_ID",
+            "I-CONTRACT_ID",
+            "I-CONTRACT_ID",
+            "I-CONTRACT_ID",
+            "I-CONTRACT_ID",
+            "I-CONTRACT_ID",
+            "I-CONTRACT_ID",
+            "I-ISSUE_DATE",
+            "I-ISSUE_DATE"
+          ],
+          "match": true
+        },
+        {
+          "text": "i bought the iPhone 15 Pro about a week ago",
+          "expected": [
+            "PRODUCT",
+            "ISSUE_DATE"
+          ],
+          "predicted_entities": [
+            "PRODUCT",
+            "ISSUE_DATE"
+          ],
+          "raw_non_o_labels": [
+            "B-PRODUCT",
+            "I-PRODUCT",
+            "I-PRODUCT",
+            "B-ISSUE_DATE",
+            "I-ISSUE_DATE",
+            "I-ISSUE_DATE",
+            "I-ISSUE_DATE"
+          ],
+          "match": true
+        },
+        {
+          "text": "hi uh my email is john at gmail dot com",
+          "expected": [
+            "EMAIL"
+          ],
+          "predicted_entities": [
+            "EMAIL"
+          ],
+          "raw_non_o_labels": [
+            "B-EMAIL",
+            "I-EMAIL",
+            "I-EMAIL",
+            "I-EMAIL",
+            "I-EMAIL",
+            "I-EMAIL"
+          ],
+          "match": true
+        },
+        {
+          "text": "please transfer me to someone else",
+          "expected": [],
+          "predicted_entities": [],
+          "raw_non_o_labels": [],
+          "match": true
+        }
+      ],
+      "pass_rate": "5/5"
+    },
+    "bert_small": {
+      "test_cases": [
+        {
+          "text": "my name is John Smith and my email is john.smith@gmail.com",
+          "expected": [
+            "NAME",
+            "EMAIL"
+          ],
+          "predicted_entities": [
+            "NAME",
+            "EMAIL"
+          ],
+          "raw_non_o_labels": [
+            "B-NAME",
+            "I-NAME",
+            "B-EMAIL",
+            "I-EMAIL",
+            "I-EMAIL",
+            "I-EMAIL",
+            "I-EMAIL",
+            "I-EMAIL",
+            "I-EMAIL",
+            "I-EMAIL"
+          ],
+          "match": true
+        },
+        {
+          "text": "order number ORD-2024-5591 from last tuesday",
+          "expected": [
+            "CONTRACT_ID",
+            "ISSUE_DATE"
+          ],
+          "predicted_entities": [
+            "CONTRACT_ID",
+            "ISSUE_DATE"
+          ],
+          "raw_non_o_labels": [
+            "B-CONTRACT_ID",
+            "I-CONTRACT_ID",
+            "I-CONTRACT_ID",
+            "I-CONTRACT_ID",
+            "I-CONTRACT_ID",
+            "I-CONTRACT_ID",
+            "I-CONTRACT_ID",
+            "I-CONTRACT_ID",
+            "I-CONTRACT_ID",
+            "B-ISSUE_DATE",
+            "I-ISSUE_DATE"
+          ],
+          "match": true
+        },
+        {
+          "text": "i bought the iPhone 15 Pro about a week ago",
+          "expected": [
+            "PRODUCT",
+            "ISSUE_DATE"
+          ],
+          "predicted_entities": [
+            "PRODUCT",
+            "ISSUE_DATE"
+          ],
+          "raw_non_o_labels": [
+            "B-PRODUCT",
+            "I-PRODUCT",
+            "I-PRODUCT",
+            "B-ISSUE_DATE",
+            "I-ISSUE_DATE",
+            "I-ISSUE_DATE",
+            "I-ISSUE_DATE"
+          ],
+          "match": true
+        },
+        {
+          "text": "hi uh my email is john at gmail dot com",
+          "expected": [
+            "EMAIL"
+          ],
+          "predicted_entities": [
+            "EMAIL"
+          ],
+          "raw_non_o_labels": [
+            "B-EMAIL",
+            "I-EMAIL",
+            "I-EMAIL",
+            "I-EMAIL",
+            "I-EMAIL",
+            "I-EMAIL"
+          ],
+          "match": true
+        },
+        {
+          "text": "please transfer me to someone else",
+          "expected": [],
+          "predicted_entities": [],
+          "raw_non_o_labels": [],
+          "match": true
+        }
+      ],
+      "pass_rate": "5/5"
+    },
+    "rules": {
+      "test_cases": [
+        {
+          "text": "my name is John Smith and my email is john.smith@gmail.com",
+          "expected": [
+            "NAME",
+            "EMAIL"
+          ],
+          "predicted": [
+            "NAME",
+            "EMAIL"
+          ]
+        },
+        {
+          "text": "order number ORD-2024-5591 from last tuesday",
+          "expected": [
+            "CONTRACT_ID",
+            "ISSUE_DATE"
+          ],
+          "predicted": [
+            "CONTRACT_ID",
+            "ISSUE_DATE"
+          ]
+        },
+        {
+          "text": "i bought the iPhone 15 Pro about a week ago",
+          "expected": [
+            "PRODUCT",
+            "ISSUE_DATE"
+          ],
+          "predicted": [
+            "ISSUE_DATE"
+          ]
+        },
+        {
+          "text": "hi uh my email is john at gmail dot com",
+          "expected": [
+            "EMAIL"
+          ],
+          "predicted": [
+            "EMAIL"
+          ]
+        },
+        {
+          "text": "please transfer me to someone else",
+          "expected": [],
+          "predicted": []
+        }
+      ]
+    }
+  }
+}

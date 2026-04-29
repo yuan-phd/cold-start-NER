@@ -1,0 +1,1904 @@
+[
+  {
+    "text": "Hello, um, my name is Patrick O'Malley and I'm calling about a charge I didn't expect on my account. The contract ID is VLD-50883. Can you help me understand why this charge is here?",
+    "entities": [
+      {
+        "text": "Patrick O'Malley",
+        "label": "NAME",
+        "start": 22,
+        "end": 38
+      },
+      {
+        "text": "VLD-50883",
+        "label": "CONTRACT_ID",
+        "start": 120,
+        "end": 129
+      }
+    ]
+  },
+  {
+    "text": "Hey, uh, I was wondering about the warranty coverage for my product. I think I bought it, um, last year? My email is tyler.w@msn.com for any details you might need.",
+    "entities": [
+      {
+        "text": "tyler.w@msn.com",
+        "label": "EMAIL",
+        "start": 117,
+        "end": 132
+      }
+    ]
+  },
+  {
+    "text": "Hi, uh, I\u2019m calling to check the status of my order placed on 11/15/2024. Can you help me with that? My email is h.sato@docomo.ne.jp.",
+    "entities": [
+      {
+        "text": "11/15/2024",
+        "label": "ISSUE_DATE",
+        "start": 62,
+        "end": 72
+      },
+      {
+        "text": "h.sato@docomo.ne.jp",
+        "label": "EMAIL",
+        "start": 113,
+        "end": 132
+      }
+    ]
+  },
+  {
+    "text": "Uh, hi, I have a question about the warranty on my Canon EOS R6 camera. Uh, I\u2019m a bit confused about what it covers, you know? My email is elena.v@yandex.com, just in case you need it for anything.",
+    "entities": [
+      {
+        "text": "elena.v@yandex.com",
+        "label": "EMAIL",
+        "start": 139,
+        "end": 157
+      },
+      {
+        "text": "Canon EOS R6 camera",
+        "label": "PRODUCT",
+        "start": 51,
+        "end": 70
+      }
+    ]
+  },
+  {
+    "text": "Hello, um, my name is Mei Lin and I'm calling about an issue I experienced with my device on June 30th. It's been acting up a lot lately.",
+    "entities": [
+      {
+        "text": "Mei Lin",
+        "label": "NAME",
+        "start": 22,
+        "end": 29
+      },
+      {
+        "text": "June 30th",
+        "label": "ISSUE_DATE",
+        "start": 93,
+        "end": 102
+      }
+    ]
+  },
+  {
+    "text": "Hey, uh, I\u2019m looking for the Ember travel mug. Is it, um, available right now? My name is Hiroshi Sato and my contract ID is PMT-85521.",
+    "entities": [
+      {
+        "text": "Hiroshi Sato",
+        "label": "NAME",
+        "start": 90,
+        "end": 102
+      },
+      {
+        "text": "PMT-85521",
+        "label": "CONTRACT_ID",
+        "start": 125,
+        "end": 134
+      },
+      {
+        "text": "Ember travel mug",
+        "label": "PRODUCT",
+        "start": 29,
+        "end": 45
+      }
+    ]
+  },
+  {
+    "text": "Hello, um, this is Mark Johnson, and I'm calling about a charge on my account related to the, uh, CONTRACT_ID: TEL-90032. I didn't expect to see a fee for the PRODUCT: DJI Mini 4 Pro drone.",
+    "entities": [
+      {
+        "text": "Mark Johnson",
+        "label": "NAME",
+        "start": 19,
+        "end": 31
+      },
+      {
+        "text": "TEL-90032",
+        "label": "CONTRACT_ID",
+        "start": 111,
+        "end": 120
+      },
+      {
+        "text": "DJI Mini 4 Pro drone",
+        "label": "PRODUCT",
+        "start": 168,
+        "end": 188
+      }
+    ]
+  },
+  {
+    "text": "Thank you for calling our customer service. This is Alex speaking. How may I assist you today? Uh, yes, I was wondering if you have the TP-Link Deco mesh router in stock. My name is Simone Beaumont, and you can reach me at oliver.b@tutanota.com if you need any more details.",
+    "entities": [
+      {
+        "text": "Simone Beaumont",
+        "label": "NAME",
+        "start": 182,
+        "end": 197
+      },
+      {
+        "text": "oliver.b@tutanota.com",
+        "label": "EMAIL",
+        "start": 223,
+        "end": 244
+      },
+      {
+        "text": "TP-Link Deco mesh router",
+        "label": "PRODUCT",
+        "start": 136,
+        "end": 160
+      }
+    ]
+  },
+  {
+    "text": "Hello, um, my name is Rafael Costa and I'm calling to request a refund for a damaged product I received. I can provide my email as well if needed, it's mei.lin@qq.com.",
+    "entities": [
+      {
+        "text": "Rafael Costa",
+        "label": "NAME",
+        "start": 22,
+        "end": 34
+      },
+      {
+        "text": "mei.lin@qq.com",
+        "label": "EMAIL",
+        "start": 152,
+        "end": 166
+      }
+    ]
+  },
+  {
+    "text": "Uh, hi, I need to schedule a repair appointment for my washing machine. Uh, the email is rafael.c@uol.com.br, and I, um, need it done ASAP. Can you help me with that?",
+    "entities": [
+      {
+        "text": "rafael.c@uol.com.br",
+        "label": "EMAIL",
+        "start": 89,
+        "end": 108
+      }
+    ]
+  },
+  {
+    "text": "Hi, uh, I need to update my contact information for my account. My CONTRACT_ID is PLN-2025-0089. Can you help me with that?",
+    "entities": [
+      {
+        "text": "PLN-2025-0089",
+        "label": "CONTRACT_ID",
+        "start": 82,
+        "end": 95
+      }
+    ]
+  },
+  {
+    "text": "Hi, uh, this is Elena Volkov. I'm calling because I noticed an unexpected charge for my Vitamix A3500 blender on my account, and I want to dispute it. The order ID is ORD-2025-3387.",
+    "entities": [
+      {
+        "text": "Elena Volkov",
+        "label": "NAME",
+        "start": 16,
+        "end": 28
+      },
+      {
+        "text": "ORD-2025-3387",
+        "label": "CONTRACT_ID",
+        "start": 167,
+        "end": 180
+      },
+      {
+        "text": "Vitamix A3500 blender",
+        "label": "PRODUCT",
+        "start": 88,
+        "end": 109
+      }
+    ]
+  },
+  {
+    "text": "Hello, um, my name is Devon Clarke and I'm calling about an issue with my Sonos Era 300 speaker. I noticed that it started malfunctioning on December 28th. It's been really frustrating, um, and I hope you can help me with this.",
+    "entities": [
+      {
+        "text": "Devon Clarke",
+        "label": "NAME",
+        "start": 22,
+        "end": 34
+      },
+      {
+        "text": "Sonos Era 300 speaker",
+        "label": "PRODUCT",
+        "start": 74,
+        "end": 95
+      },
+      {
+        "text": "December 28th",
+        "label": "ISSUE_DATE",
+        "start": 141,
+        "end": 154
+      }
+    ]
+  },
+  {
+    "text": "Hi, um, I\u2019d like to update my contact information for my account. My CONTRACT_ID is DSP-70442.",
+    "entities": [
+      {
+        "text": "DSP-70442",
+        "label": "CONTRACT_ID",
+        "start": 84,
+        "end": 93
+      }
+    ]
+  },
+  {
+    "text": "Uh, hi, um, I\u2019m trying to, uh, get a refund for a product I received, but it\u2019s, um, damaged. My name is, uh, Diego Martinez and, um, I think I need to, uh, provide my email too, right? It\u2019s emma.w@live.com. So, uh, can you help me with this?",
+    "entities": [
+      {
+        "text": "Diego Martinez",
+        "label": "NAME",
+        "start": 109,
+        "end": 123
+      },
+      {
+        "text": "emma.w@live.com",
+        "label": "EMAIL",
+        "start": 190,
+        "end": 205
+      }
+    ]
+  },
+  {
+    "text": "Hello, um, my name is Alex and I'm calling to schedule a repair for my device. I have the contract ID, um, it's UPG-2025-112. Can you help me with that?",
+    "entities": [
+      {
+        "text": "Alex",
+        "label": "NAME",
+        "start": 22,
+        "end": 26
+      },
+      {
+        "text": "UPG-2025-112",
+        "label": "CONTRACT_ID",
+        "start": 112,
+        "end": 124
+      }
+    ]
+  },
+  {
+    "text": "Uh, hi, I, um, I\u2019m trying to report a, uh, technical malfunction with my device. My name is Brendan Murphy, and, um, I think I, I need some help? I, uh, noticed the issue on 06/02/2025, and, um, my email is jrivera@mail.com if you need to, uh, reach out to me.",
+    "entities": [
+      {
+        "text": "Brendan Murphy",
+        "label": "NAME",
+        "start": 92,
+        "end": 106
+      },
+      {
+        "text": "jrivera@mail.com",
+        "label": "EMAIL",
+        "start": 207,
+        "end": 223
+      },
+      {
+        "text": "06/02/2025",
+        "label": "ISSUE_DATE",
+        "start": 174,
+        "end": 184
+      }
+    ]
+  },
+  {
+    "text": "Um, hi, I\u2019m trying to update my contact information? My name is, uh, Hannah Mueller, and I think I need to, like, confirm some details? I have an issue date from, uh, March 8th 2025 that I want to make sure is correct.",
+    "entities": [
+      {
+        "text": "Hannah Mueller",
+        "label": "NAME",
+        "start": 69,
+        "end": 83
+      },
+      {
+        "text": "March 8th 2025",
+        "label": "ISSUE_DATE",
+        "start": 167,
+        "end": 181
+      }
+    ]
+  },
+  {
+    "text": "Uh, hi, uh, my name is Tariq Hassan and I'm, um, having some issues with my Theragun Elite massager. It, uh, keeps shutting off unexpectedly and, um, I don't know why. I mean, I just got it a few weeks ago, and it should be working fine, right?",
+    "entities": [
+      {
+        "text": "Tariq Hassan",
+        "label": "NAME",
+        "start": 23,
+        "end": 35
+      },
+      {
+        "text": "Theragun Elite massager",
+        "label": "PRODUCT",
+        "start": 76,
+        "end": 99
+      }
+    ]
+  },
+  {
+    "text": "Uh, hi, um, I'm calling to check on the product availability? I ordered something at the beginning of this month, and, uh, I just want to know if it's in stock. My email is zara.h@mail.com, if you need that for reference.",
+    "entities": [
+      {
+        "text": "zara.h@mail.com",
+        "label": "EMAIL",
+        "start": 173,
+        "end": 188
+      },
+      {
+        "text": "the beginning of this month",
+        "label": "ISSUE_DATE",
+        "start": 85,
+        "end": 112
+      }
+    ]
+  },
+  {
+    "text": "Hello, um, my name is Chloe Bennett, and I, uh, need to schedule a repair appointment for my appliance. My contract ID is QRY-2025-0128.",
+    "entities": [
+      {
+        "text": "Chloe Bennett",
+        "label": "NAME",
+        "start": 22,
+        "end": 35
+      },
+      {
+        "text": "QRY-2025-0128",
+        "label": "CONTRACT_ID",
+        "start": 122,
+        "end": 135
+      }
+    ]
+  },
+  {
+    "text": "Uh, hi, um, is this customer service? I\u2019m Oliver Brown and I\u2019m calling about my warranty coverage. I, uh, had an issue the other day and I need to know if it\u2019s covered. Can you help me with that?",
+    "entities": [
+      {
+        "text": "Oliver Brown",
+        "label": "NAME",
+        "start": 42,
+        "end": 54
+      },
+      {
+        "text": "the other day",
+        "label": "ISSUE_DATE",
+        "start": 119,
+        "end": 132
+      }
+    ]
+  },
+  {
+    "text": "Hello, um, I need to schedule a repair appointment for my device. My CONTRACT_ID is ADJ-90134 and the issue started on ISSUE_DATE, August 19th 2024.",
+    "entities": [
+      {
+        "text": "ADJ-90134",
+        "label": "CONTRACT_ID",
+        "start": 84,
+        "end": 93
+      },
+      {
+        "text": "August 19th 2024",
+        "label": "ISSUE_DATE",
+        "start": 131,
+        "end": 147
+      }
+    ]
+  },
+  {
+    "text": "Um, hi, uh, I was checking on my order from, um, a while ago. I think it was placed on, uh, 2025-01-20, and I haven't received it yet. Can you, um, help me find out where it is?",
+    "entities": [
+      {
+        "text": "2025-01-20",
+        "label": "ISSUE_DATE",
+        "start": 92,
+        "end": 102
+      }
+    ]
+  },
+  {
+    "text": "Um, hi, I\u2019m, uh, Noah Fischer and I, um, I need help with a, uh, product I received. It\u2019s, um, damaged and I was, uh, hoping to get a refund for it. Can you, um, help me with that?",
+    "entities": [
+      {
+        "text": "Noah Fischer",
+        "label": "NAME",
+        "start": 17,
+        "end": 29
+      }
+    ]
+  },
+  {
+    "text": "Uh, hi, I\u2019m, um, Ethan Park, and I just saw this charge on my account that I, uh, wasn\u2019t expecting. It\u2019s really frustrating because, I mean, I didn\u2019t authorize it, and now I\u2019m just confused about what\u2019s going on.",
+    "entities": [
+      {
+        "text": "Ethan Park",
+        "label": "NAME",
+        "start": 17,
+        "end": 27
+      }
+    ]
+  },
+  {
+    "text": "Hello, um, I was wondering if you have the JBL Flip 6 speaker in stock? I, uh, called four days ago and wanted to check if it's available now.",
+    "entities": [
+      {
+        "text": "JBL Flip 6 speaker",
+        "label": "PRODUCT",
+        "start": 43,
+        "end": 61
+      },
+      {
+        "text": "four days ago",
+        "label": "ISSUE_DATE",
+        "start": 86,
+        "end": 99
+      }
+    ]
+  },
+  {
+    "text": "Uh, hi, this is Freya, um, I\u2019m calling about a problem with my device. The, uh, screen keeps freezing and, um, it\u2019s really frustrating. My contract ID is FLW-2024-221 and, uh, my email is freya.a@proton.me. Can you help me with this?",
+    "entities": [
+      {
+        "text": "Freya",
+        "label": "NAME",
+        "start": 16,
+        "end": 21
+      },
+      {
+        "text": "freya.a@proton.me",
+        "label": "EMAIL",
+        "start": 188,
+        "end": 205
+      },
+      {
+        "text": "FLW-2024-221",
+        "label": "CONTRACT_ID",
+        "start": 154,
+        "end": 166
+      }
+    ]
+  },
+  {
+    "text": "Hey, um, hi! This is Sam Okonkwo, and I, uh, wanted to report a problem with my device. It started acting up, like, uh, last Saturday. Can you help me with that? My email is s.okonkwo@mail.com.",
+    "entities": [
+      {
+        "text": "Sam Okonkwo",
+        "label": "NAME",
+        "start": 21,
+        "end": 32
+      },
+      {
+        "text": "s.okonkwo@mail.com",
+        "label": "EMAIL",
+        "start": 174,
+        "end": 192
+      },
+      {
+        "text": "last Saturday",
+        "label": "ISSUE_DATE",
+        "start": 120,
+        "end": 133
+      }
+    ]
+  },
+  {
+    "text": "Um, hi, I\u2019m trying to get a refund for a product I received damaged, uh, my name is Victor Reyes and I, I reported this issue last Wednesday. Can you help me with that? Oh, and my email is ingrid.l@telia.se.",
+    "entities": [
+      {
+        "text": "Victor Reyes",
+        "label": "NAME",
+        "start": 84,
+        "end": 96
+      },
+      {
+        "text": "ingrid.l@telia.se",
+        "label": "EMAIL",
+        "start": 189,
+        "end": 206
+      },
+      {
+        "text": "last Wednesday",
+        "label": "ISSUE_DATE",
+        "start": 126,
+        "end": 140
+      }
+    ]
+  },
+  {
+    "text": "Uh, hi, I need to update my contact info for my account. It's, um, Tyler Washington and my contract ID is CLN-99281. I just want to make sure everything is correct for my Samsung Frame TV 55 inch. Can you help me with this?",
+    "entities": [
+      {
+        "text": "Tyler Washington",
+        "label": "NAME",
+        "start": 67,
+        "end": 83
+      },
+      {
+        "text": "CLN-99281",
+        "label": "CONTRACT_ID",
+        "start": 106,
+        "end": 115
+      },
+      {
+        "text": "Samsung Frame TV 55 inch",
+        "label": "PRODUCT",
+        "start": 171,
+        "end": 195
+      }
+    ]
+  },
+  {
+    "text": "Hey there! I'm just calling to check if you guys have the Roomba j7 robot vacuum in stock. I really need it, um, like soon! I heard it was supposed to be available after September 22nd. Also, could you, um, send me an email at p.omalley@eircom.net if you have any updates?",
+    "entities": [
+      {
+        "text": "p.omalley@eircom.net",
+        "label": "EMAIL",
+        "start": 227,
+        "end": 247
+      },
+      {
+        "text": "Roomba j7 robot vacuum",
+        "label": "PRODUCT",
+        "start": 58,
+        "end": 80
+      },
+      {
+        "text": "September 22nd",
+        "label": "ISSUE_DATE",
+        "start": 170,
+        "end": 184
+      }
+    ]
+  },
+  {
+    "text": "Uh, hi, um, my name is Ethan and I, uh, I need to, like, request a refund for my, um, Lenovo ThinkPad X1 that, uh, arrived damaged. I, um, I don't know how to, like, start this process. Can you help me? My email is ethan.p@daum.net.",
+    "entities": [
+      {
+        "text": "Ethan",
+        "label": "NAME",
+        "start": 23,
+        "end": 28
+      },
+      {
+        "text": "ethan.p@daum.net",
+        "label": "EMAIL",
+        "start": 215,
+        "end": 231
+      },
+      {
+        "text": "Lenovo ThinkPad X1",
+        "label": "PRODUCT",
+        "start": 86,
+        "end": 104
+      }
+    ]
+  },
+  {
+    "text": "Um, hi, I, uh, bought this product a couple of days back and I'm really frustrated because I thought it had a warranty. Can you tell me what the coverage is?",
+    "entities": [
+      {
+        "text": "a couple of days back",
+        "label": "ISSUE_DATE",
+        "start": 35,
+        "end": 56
+      }
+    ]
+  },
+  {
+    "text": "Hello, um, is this customer service? My name is Sophie Chen, and I'm calling to check if the Weber Spirit grill is available in stock?",
+    "entities": [
+      {
+        "text": "Sophie Chen",
+        "label": "NAME",
+        "start": 48,
+        "end": 59
+      },
+      {
+        "text": "Weber Spirit grill",
+        "label": "PRODUCT",
+        "start": 93,
+        "end": 111
+      }
+    ]
+  },
+  {
+    "text": "Uh, hi, I, um, need to schedule a repair for my, uh, Herman Miller Aeron chair. I think my, um, contract ID is, uh, CAS-55109. Can you help me with that?",
+    "entities": [
+      {
+        "text": "Herman Miller Aeron chair",
+        "label": "PRODUCT",
+        "start": 53,
+        "end": 78
+      },
+      {
+        "text": "CAS-55109",
+        "label": "CONTRACT_ID",
+        "start": 116,
+        "end": 125
+      }
+    ]
+  },
+  {
+    "text": "Hi, um, this is Michael Johnson. I need to schedule a repair appointment for my washing machine. You can reach me at EMAIL, which is m.johnson@aol.com.",
+    "entities": [
+      {
+        "text": "Michael Johnson",
+        "label": "NAME",
+        "start": 16,
+        "end": 31
+      },
+      {
+        "text": "m.johnson@aol.com",
+        "label": "EMAIL",
+        "start": 133,
+        "end": 150
+      }
+    ]
+  },
+  {
+    "text": "Hello, uh, my name is Isabelle Dupont and I'm calling about a charge I saw on my account. It was unexpected and I'm really confused. My email is leila.a@mail.com if you need to reach me.",
+    "entities": [
+      {
+        "text": "Isabelle Dupont",
+        "label": "NAME",
+        "start": 22,
+        "end": 37
+      },
+      {
+        "text": "leila.a@mail.com",
+        "label": "EMAIL",
+        "start": 145,
+        "end": 161
+      }
+    ]
+  },
+  {
+    "text": "Hey, uh, I\u2019d like to update my contact info for my account. My CONTRACT_ID is EXT-40019, and I bought an Anker PowerCore battery pack, um, last month. Can you help me with that?",
+    "entities": [
+      {
+        "text": "EXT-40019",
+        "label": "CONTRACT_ID",
+        "start": 78,
+        "end": 87
+      },
+      {
+        "text": "Anker PowerCore battery pack",
+        "label": "PRODUCT",
+        "start": 105,
+        "end": 133
+      },
+      {
+        "text": "last month",
+        "label": "ISSUE_DATE",
+        "start": 139,
+        "end": 149
+      }
+    ]
+  },
+  {
+    "text": "Um, hi, I need to update my contact info for my account. The contract ID is, um, DLV-71123, and, uh, I have the Dyson Airwrap styler. Can you help me with that?",
+    "entities": [
+      {
+        "text": "DLV-71123",
+        "label": "CONTRACT_ID",
+        "start": 81,
+        "end": 90
+      },
+      {
+        "text": "Dyson Airwrap styler",
+        "label": "PRODUCT",
+        "start": 112,
+        "end": 132
+      }
+    ]
+  },
+  {
+    "text": "Hello, uh, my name is Andre and I'm having some issues with my device. Uh, I think it's malfunctioning. My email is andre.w@outlook.com. Can you help me with this?",
+    "entities": [
+      {
+        "text": "Andre",
+        "label": "NAME",
+        "start": 22,
+        "end": 27
+      },
+      {
+        "text": "andre.w@outlook.com",
+        "label": "EMAIL",
+        "start": 116,
+        "end": 135
+      }
+    ]
+  },
+  {
+    "text": "Hi, um, this is Alex Johnson. I'm calling about a charge that appeared on my account, um, it was unexpected and, uh, I noticed it was from, like, three weeks back. The contract ID is CMP-2025-0077. Can you help me with this?",
+    "entities": [
+      {
+        "text": "Alex Johnson",
+        "label": "NAME",
+        "start": 16,
+        "end": 28
+      },
+      {
+        "text": "CMP-2025-0077",
+        "label": "CONTRACT_ID",
+        "start": 183,
+        "end": 196
+      },
+      {
+        "text": "three weeks back",
+        "label": "ISSUE_DATE",
+        "start": 146,
+        "end": 162
+      }
+    ]
+  },
+  {
+    "text": "Um, hi, I was, uh, wondering if you have the, uh, Breville Barista Express in stock? I, um, called roughly a week ago and, um, I just want to check if it's available now.",
+    "entities": [
+      {
+        "text": "Breville Barista Express",
+        "label": "PRODUCT",
+        "start": 50,
+        "end": 74
+      },
+      {
+        "text": "roughly a week ago",
+        "label": "ISSUE_DATE",
+        "start": 99,
+        "end": 117
+      }
+    ]
+  },
+  {
+    "text": "Hey, uh, I\u2019m calling about a product I got, um, it arrived damaged. The contract ID is SVC-10293, and I noticed the issue yesterday morning. Can I get a refund for that?",
+    "entities": [
+      {
+        "text": "SVC-10293",
+        "label": "CONTRACT_ID",
+        "start": 87,
+        "end": 96
+      },
+      {
+        "text": "yesterday morning",
+        "label": "ISSUE_DATE",
+        "start": 122,
+        "end": 139
+      }
+    ]
+  },
+  {
+    "text": "Hello, um, I would like to schedule a repair appointment for my Oura Ring Gen 3, please. Could you help me with that? My email is diego.m@mail.com for confirmation.",
+    "entities": [
+      {
+        "text": "Oura Ring Gen 3",
+        "label": "PRODUCT",
+        "start": 64,
+        "end": 79
+      },
+      {
+        "text": "diego.m@mail.com",
+        "label": "EMAIL",
+        "start": 130,
+        "end": 146
+      }
+    ]
+  },
+  {
+    "text": "Uh, hi! This is Amara Okafor, uh, I have a quick question about the warranty for my Cricut Maker 3, um, I think my CONTRACT_ID is RSV-33019?",
+    "entities": [
+      {
+        "text": "Amara Okafor",
+        "label": "NAME",
+        "start": 16,
+        "end": 28
+      },
+      {
+        "text": "RSV-33019",
+        "label": "CONTRACT_ID",
+        "start": 130,
+        "end": 139
+      },
+      {
+        "text": "Cricut Maker 3",
+        "label": "PRODUCT",
+        "start": 84,
+        "end": 98
+      }
+    ]
+  },
+  {
+    "text": "Um, hi, I\u2019m trying to check on the availability of a product I ordered, uh, earlier today. My name is Leila Ahmadi, and I just want to know when it\u2019s going to be shipped because, like, I really need it soon.",
+    "entities": [
+      {
+        "text": "Leila Ahmadi",
+        "label": "NAME",
+        "start": 102,
+        "end": 114
+      },
+      {
+        "text": "earlier today",
+        "label": "ISSUE_DATE",
+        "start": 76,
+        "end": 89
+      }
+    ]
+  },
+  {
+    "text": "Hi, uh, I need to talk about a charge I didn't expect on my account. My CONTRACT_ID is RTN-2025-0041. I mean, this is really frustrating. I just saw it and, uh, I don't even know why it's there. Can you help me with this? My email, um, is i.dupont@orange.fr.",
+    "entities": [
+      {
+        "text": "RTN-2025-0041",
+        "label": "CONTRACT_ID",
+        "start": 87,
+        "end": 100
+      },
+      {
+        "text": "i.dupont@orange.fr",
+        "label": "EMAIL",
+        "start": 239,
+        "end": 257
+      }
+    ]
+  },
+  {
+    "text": "Uh, hi, I, um, I need to check my warranty coverage for, uh, contract RNW-2025-0056. Can you tell me, like, when it was issued? I think it was, um, around April 10th 2025.",
+    "entities": [
+      {
+        "text": "RNW-2025-0056",
+        "label": "CONTRACT_ID",
+        "start": 70,
+        "end": 83
+      },
+      {
+        "text": "April 10th 2025",
+        "label": "ISSUE_DATE",
+        "start": 155,
+        "end": 170
+      }
+    ]
+  },
+  {
+    "text": "Hello, uh, this is Amara speaking. I wanted to check if you have the Eco-Friendly Water Bottle in stock. My email is amara.o@mail.com, just in case you need to reach me.",
+    "entities": [
+      {
+        "text": "Amara",
+        "label": "NAME",
+        "start": 19,
+        "end": 24
+      },
+      {
+        "text": "amara.o@mail.com",
+        "label": "EMAIL",
+        "start": 117,
+        "end": 133
+      }
+    ]
+  },
+  {
+    "text": "Uh, hi, I, um, I\u2019m calling because my, uh, Apple Watch Ultra, it, um, started malfunctioning about two weeks ago and I\u2019m not really sure what to do.",
+    "entities": [
+      {
+        "text": "Apple Watch Ultra",
+        "label": "PRODUCT",
+        "start": 43,
+        "end": 60
+      },
+      {
+        "text": "about two weeks ago",
+        "label": "ISSUE_DATE",
+        "start": 93,
+        "end": 112
+      }
+    ]
+  },
+  {
+    "text": "Uh, hi, um, I'm calling about my, uh, Ninja Creami ice cream maker. There\u2019s a problem, and I need help. I noticed it malfunctioned on, um, January 31st, and my contract ID is SHP-60334.",
+    "entities": [
+      {
+        "text": "SHP-60334",
+        "label": "CONTRACT_ID",
+        "start": 175,
+        "end": 184
+      },
+      {
+        "text": "January 31st",
+        "label": "ISSUE_DATE",
+        "start": 139,
+        "end": 151
+      },
+      {
+        "text": "Ninja Creami ice cream maker",
+        "label": "PRODUCT",
+        "start": 38,
+        "end": 66
+      }
+    ]
+  },
+  {
+    "text": "Um, hi, I\u2019m Aisha Patel and I need to know about the warranty coverage for my Logitech MX Master mouse. I mean, it\u2019s really frustrating because it\u2019s not working properly and I thought it was supposed to be covered!",
+    "entities": [
+      {
+        "text": "Aisha Patel",
+        "label": "NAME",
+        "start": 12,
+        "end": 23
+      },
+      {
+        "text": "Logitech MX Master mouse",
+        "label": "PRODUCT",
+        "start": 78,
+        "end": 102
+      }
+    ]
+  },
+  {
+    "text": "Um, hi, I just got a quick question about the warranty for my Peloton Bike Plus. Can you tell me what it covers? Uh, I need to know because I think I might have an issue. My email is nadia.p@mail.ru if you need to reach me.",
+    "entities": [
+      {
+        "text": "Peloton Bike Plus",
+        "label": "PRODUCT",
+        "start": 62,
+        "end": 79
+      },
+      {
+        "text": "nadia.p@mail.ru",
+        "label": "EMAIL",
+        "start": 183,
+        "end": 198
+      }
+    ]
+  },
+  {
+    "text": "Hi, um, I'm calling to schedule a repair appointment. I reported my issue last Thursday evening and, um, I just need to get that sorted out. My email is chloe.b@icloud.com for confirmation.",
+    "entities": [
+      {
+        "text": "chloe.b@icloud.com",
+        "label": "EMAIL",
+        "start": 153,
+        "end": 171
+      },
+      {
+        "text": "last Thursday evening",
+        "label": "ISSUE_DATE",
+        "start": 74,
+        "end": 95
+      }
+    ]
+  },
+  {
+    "text": "Hey there, I was just checking on my order status. I placed it a few days ago and my contract ID is WRK-33802. Can you help me with that? Also, my email is noah.f@gmx.de if you need to reach me.",
+    "entities": [
+      {
+        "text": "noah.f@gmx.de",
+        "label": "EMAIL",
+        "start": 156,
+        "end": 169
+      },
+      {
+        "text": "a few days ago",
+        "label": "ISSUE_DATE",
+        "start": 63,
+        "end": 77
+      },
+      {
+        "text": "WRK-33802",
+        "label": "CONTRACT_ID",
+        "start": 100,
+        "end": 109
+      }
+    ]
+  },
+  {
+    "text": "Hello, uh, my name is Yuna Kim, and I have a question about the warranty coverage for my Google Pixel 9. I purchased it on July 4th, and I just wanted to know what it covers.",
+    "entities": [
+      {
+        "text": "Yuna Kim",
+        "label": "NAME",
+        "start": 22,
+        "end": 30
+      },
+      {
+        "text": "Google Pixel 9",
+        "label": "PRODUCT",
+        "start": 89,
+        "end": 103
+      },
+      {
+        "text": "July 4th",
+        "label": "ISSUE_DATE",
+        "start": 123,
+        "end": 131
+      }
+    ]
+  },
+  {
+    "text": "Hello, uh, my name is Luca Romano and I'm calling because I received a damaged product. I would like to request a refund for it. You can reach me at my email, which is yuna.kim@naver.com.",
+    "entities": [
+      {
+        "text": "Luca Romano",
+        "label": "NAME",
+        "start": 22,
+        "end": 33
+      },
+      {
+        "text": "yuna.kim@naver.com",
+        "label": "EMAIL",
+        "start": 168,
+        "end": 186
+      }
+    ]
+  },
+  {
+    "text": "Uh, hi, I\u2019m calling about a charge I didn\u2019t expect on my account. My name is Aisha, and my email is aisha.p@zoho.com. The charge is linked to contract BK-88712. Could you help me figure this out?",
+    "entities": [
+      {
+        "text": "Aisha",
+        "label": "NAME",
+        "start": 77,
+        "end": 82
+      },
+      {
+        "text": "aisha.p@zoho.com",
+        "label": "EMAIL",
+        "start": 100,
+        "end": 116
+      },
+      {
+        "text": "BK-88712",
+        "label": "CONTRACT_ID",
+        "start": 151,
+        "end": 159
+      }
+    ]
+  },
+  {
+    "text": "Uh, hi, I\u2019m looking for, um, James Rivera. I placed an order, uh, sometime last weekend, and I was wondering if the product is, you know, available yet?",
+    "entities": [
+      {
+        "text": "James Rivera",
+        "label": "NAME",
+        "start": 29,
+        "end": 41
+      },
+      {
+        "text": "sometime last weekend",
+        "label": "ISSUE_DATE",
+        "start": 66,
+        "end": 87
+      }
+    ]
+  },
+  {
+    "text": "Um, hi, this is Oscar. I, uh, I need to talk about my order. The product arrived damaged and, um, I just want a refund. My contract ID is TRF-2024-887 and you can reach me at my email, oscar.d@mail.com.",
+    "entities": [
+      {
+        "text": "Oscar",
+        "label": "NAME",
+        "start": 16,
+        "end": 21
+      },
+      {
+        "text": "oscar.d@mail.com",
+        "label": "EMAIL",
+        "start": 185,
+        "end": 201
+      },
+      {
+        "text": "TRF-2024-887",
+        "label": "CONTRACT_ID",
+        "start": 138,
+        "end": 150
+      }
+    ]
+  },
+  {
+    "text": "Um, hi, uh, my name is Marcus Johnson and I, um, I think I'm having a problem with, uh, my device. I, uh, sent an email to k.osei@afrimail.com about it, but, um, I haven't heard back yet.",
+    "entities": [
+      {
+        "text": "Marcus Johnson",
+        "label": "NAME",
+        "start": 23,
+        "end": 37
+      },
+      {
+        "text": "k.osei@afrimail.com",
+        "label": "EMAIL",
+        "start": 123,
+        "end": 142
+      }
+    ]
+  },
+  {
+    "text": "Hi, uh, my name is Sarah Johnson and I\u2019d like to update my contact information on my account. My contract ID is INS-44201. I need to change my email address to sarah.johnson@email.com. Can you help me with that?",
+    "entities": [
+      {
+        "text": "Sarah Johnson",
+        "label": "NAME",
+        "start": 19,
+        "end": 32
+      },
+      {
+        "text": "INS-44201",
+        "label": "CONTRACT_ID",
+        "start": 112,
+        "end": 121
+      },
+      {
+        "text": "sarah.johnson@email.com",
+        "label": "EMAIL",
+        "start": 160,
+        "end": 183
+      }
+    ]
+  },
+  {
+    "text": "Um, hi, I\u2019m Freya Andersen, and I need to know about my warranty coverage for a product I bought. Uh, can you help me with that? My email is emma.w@live.com.",
+    "entities": [
+      {
+        "text": "Freya Andersen",
+        "label": "NAME",
+        "start": 12,
+        "end": 26
+      },
+      {
+        "text": "emma.w@live.com",
+        "label": "EMAIL",
+        "start": 141,
+        "end": 156
+      }
+    ]
+  },
+  {
+    "text": "Um, hi, this is Juan Rivera, and I need to talk about this charge on my account. I, uh, I wasn't expecting it and it's really confusing. My email is jrivera@mail.com. Can you help me with this?",
+    "entities": [
+      {
+        "text": "Juan Rivera",
+        "label": "NAME",
+        "start": 16,
+        "end": 27
+      },
+      {
+        "text": "jrivera@mail.com",
+        "label": "EMAIL",
+        "start": 149,
+        "end": 165
+      }
+    ]
+  },
+  {
+    "text": "Uh, hi, I\u2019m checking the delivery status for my order. I ordered an Instant Pot Duo Plus on May 27th 2025. Can you help me with that? My email is aisha.p@zoho.com.",
+    "entities": [
+      {
+        "text": "aisha.p@zoho.com",
+        "label": "EMAIL",
+        "start": 146,
+        "end": 162
+      },
+      {
+        "text": "May 27th 2025",
+        "label": "ISSUE_DATE",
+        "start": 92,
+        "end": 105
+      },
+      {
+        "text": "Instant Pot Duo Plus",
+        "label": "PRODUCT",
+        "start": 68,
+        "end": 88
+      }
+    ]
+  },
+  {
+    "text": "Hey, um, this is Alex Johnson. I wanted to report an issue with my service, uh, regarding my contract RPR-2024-445. It's been acting up lately, and I really need some help with it.",
+    "entities": [
+      {
+        "text": "Alex Johnson",
+        "label": "NAME",
+        "start": 17,
+        "end": 29
+      },
+      {
+        "text": "RPR-2024-445",
+        "label": "CONTRACT_ID",
+        "start": 102,
+        "end": 114
+      }
+    ]
+  },
+  {
+    "text": "Hey, um, hi! This is Mark Johnson and I just noticed a charge on my account that I, uh, wasn\u2019t expecting from, um, February 14th. Can you help me with that?",
+    "entities": [
+      {
+        "text": "Mark Johnson",
+        "label": "NAME",
+        "start": 21,
+        "end": 33
+      },
+      {
+        "text": "February 14th",
+        "label": "ISSUE_DATE",
+        "start": 115,
+        "end": 128
+      }
+    ]
+  },
+  {
+    "text": "Um, hi, I\u2019m trying to schedule a repair appointment. My name is, uh, Emma Watson, and I have a, um, contract ID of CHG-2024-667. Can you help me with that?",
+    "entities": [
+      {
+        "text": "Emma Watson",
+        "label": "NAME",
+        "start": 69,
+        "end": 80
+      },
+      {
+        "text": "CHG-2024-667",
+        "label": "CONTRACT_ID",
+        "start": 115,
+        "end": 127
+      }
+    ]
+  },
+  {
+    "text": "Um, hi, this is Ayumi Nakamura. I'm, uh, calling because my device isn't working properly since, um, November 11th. I really need help with this, like, right away.",
+    "entities": [
+      {
+        "text": "Ayumi Nakamura",
+        "label": "NAME",
+        "start": 16,
+        "end": 30
+      },
+      {
+        "text": "November 11th",
+        "label": "ISSUE_DATE",
+        "start": 101,
+        "end": 114
+      }
+    ]
+  },
+  {
+    "text": "Hello, um, my name is Fatou Diallo, and I am calling regarding a product I received that was damaged. My contract ID is MNT-2024-771, and I would like to request a refund. You can reach me at my email, which is mei.lin@qq.com. Can you help me with that?",
+    "entities": [
+      {
+        "text": "Fatou Diallo",
+        "label": "NAME",
+        "start": 22,
+        "end": 34
+      },
+      {
+        "text": "mei.lin@qq.com",
+        "label": "EMAIL",
+        "start": 211,
+        "end": 225
+      },
+      {
+        "text": "MNT-2024-771",
+        "label": "CONTRACT_ID",
+        "start": 120,
+        "end": 132
+      }
+    ]
+  },
+  {
+    "text": "Uh, hi, I\u2019m Raj Krishnan. I, um, ordered some Bose QuietComfort headphones, and they arrived damaged. I need a refund, like, right away. Can you help me with that?",
+    "entities": [
+      {
+        "text": "Raj Krishnan",
+        "label": "NAME",
+        "start": 12,
+        "end": 24
+      },
+      {
+        "text": "Bose QuietComfort headphones",
+        "label": "PRODUCT",
+        "start": 46,
+        "end": 74
+      }
+    ]
+  },
+  {
+    "text": "Hi, uh, I'm calling to check on the delivery status of my order. I placed it, um, last Thursday evening and I was wondering when it might arrive. My email is oscar.d@mail.com.",
+    "entities": [
+      {
+        "text": "oscar.d@mail.com",
+        "label": "EMAIL",
+        "start": 158,
+        "end": 174
+      },
+      {
+        "text": "last Thursday evening",
+        "label": "ISSUE_DATE",
+        "start": 82,
+        "end": 103
+      }
+    ]
+  },
+  {
+    "text": "Hello, um, I would like to update my contact information on my account. My email is amara.o@mail.com. Can you help me with that?",
+    "entities": [
+      {
+        "text": "amara.o@mail.com",
+        "label": "EMAIL",
+        "start": 84,
+        "end": 100
+      }
+    ]
+  },
+  {
+    "text": "Um, hi, this is Ingrid Larsson. I'm really frustrated right now because, uh, I reported a technical malfunction a few days ago and nothing has been done. I sent an email to s.okonkwo@mail.com, but I haven't received any response. Can you please help me with this?",
+    "entities": [
+      {
+        "text": "Ingrid Larsson",
+        "label": "NAME",
+        "start": 16,
+        "end": 30
+      },
+      {
+        "text": "s.okonkwo@mail.com",
+        "label": "EMAIL",
+        "start": 173,
+        "end": 191
+      },
+      {
+        "text": "a few days ago",
+        "label": "ISSUE_DATE",
+        "start": 112,
+        "end": 126
+      }
+    ]
+  },
+  {
+    "text": "Hello, uh, my name is Julia Kowalski and I'm calling to check the status of my order. I placed it a few days ago and I'm a bit anxious about when it will arrive. Could you help me with that? My email is ethan.p@daum.net, just in case you need it for reference.",
+    "entities": [
+      {
+        "text": "Julia Kowalski",
+        "label": "NAME",
+        "start": 22,
+        "end": 36
+      },
+      {
+        "text": "ethan.p@daum.net",
+        "label": "EMAIL",
+        "start": 203,
+        "end": 219
+      }
+    ]
+  },
+  {
+    "text": "Hi, uh, this is Alex Thompson, I placed an order, um, sometime last weekend and I just need to check the delivery status for it. My contract ID is ACT-2024-303. Can you help me with that?",
+    "entities": [
+      {
+        "text": "Alex Thompson",
+        "label": "NAME",
+        "start": 16,
+        "end": 29
+      },
+      {
+        "text": "ACT-2024-303",
+        "label": "CONTRACT_ID",
+        "start": 147,
+        "end": 159
+      },
+      {
+        "text": "sometime last weekend",
+        "label": "ISSUE_DATE",
+        "start": 54,
+        "end": 75
+      }
+    ]
+  },
+  {
+    "text": "Hello, uh, my name is Oliver and I need to schedule a repair appointment for my device. My contract ID is DSP-70442 and you can reach me at my email, which is oliver.b@tutanota.com.",
+    "entities": [
+      {
+        "text": "Oliver",
+        "label": "NAME",
+        "start": 22,
+        "end": 28
+      },
+      {
+        "text": "oliver.b@tutanota.com",
+        "label": "EMAIL",
+        "start": 159,
+        "end": 180
+      },
+      {
+        "text": "DSP-70442",
+        "label": "CONTRACT_ID",
+        "start": 106,
+        "end": 115
+      }
+    ]
+  },
+  {
+    "text": "Thank you for calling customer support, this is Emily. How can I assist you today? \n\nHi Emily, um, my name is Kwame Osei and I have a question about my Steam Deck OLED. \n\nOf course, Kwame! What would you like to know about the warranty coverage for your Steam Deck OLED? \n\nWell, I was just wondering if it covers accidental damage or, um, just the manufacturer defects?",
+    "entities": [
+      {
+        "text": "Kwame Osei",
+        "label": "NAME",
+        "start": 110,
+        "end": 120
+      },
+      {
+        "text": "Steam Deck OLED",
+        "label": "PRODUCT",
+        "start": 152,
+        "end": 167
+      }
+    ]
+  },
+  {
+    "text": "Hello, this is Clara Hoffman. I'm calling to check the delivery status of my order. Um, I think the email associated with the order is rafael.c@uol.com.br.",
+    "entities": [
+      {
+        "text": "Clara Hoffman",
+        "label": "NAME",
+        "start": 15,
+        "end": 28
+      },
+      {
+        "text": "rafael.c@uol.com.br",
+        "label": "EMAIL",
+        "start": 135,
+        "end": 154
+      }
+    ]
+  },
+  {
+    "text": "Hi, um, I'm really frustrated right now. I bought a Philips Hue starter kit, and it just stopped working. I mean, I have the CONTRACT_ID, which is BK-88712, and I reported this issue on December 28th. Can you please help me?",
+    "entities": [
+      {
+        "text": "BK-88712",
+        "label": "CONTRACT_ID",
+        "start": 147,
+        "end": 155
+      },
+      {
+        "text": "Philips Hue starter kit",
+        "label": "PRODUCT",
+        "start": 52,
+        "end": 75
+      },
+      {
+        "text": "December 28th",
+        "label": "ISSUE_DATE",
+        "start": 186,
+        "end": 199
+      }
+    ]
+  },
+  {
+    "text": "Um, hi, uh, my name is Zara Hussein and I, um, I need to talk about a refund for my, uh, Roomba j7 robot vacuum that I, um, received last month. It's, uh, damaged and I, um, I'm not sure how to proceed with that.",
+    "entities": [
+      {
+        "text": "Zara Hussein",
+        "label": "NAME",
+        "start": 23,
+        "end": 35
+      },
+      {
+        "text": "Roomba j7 robot vacuum",
+        "label": "PRODUCT",
+        "start": 89,
+        "end": 111
+      },
+      {
+        "text": "last month",
+        "label": "ISSUE_DATE",
+        "start": 133,
+        "end": 143
+      }
+    ]
+  },
+  {
+    "text": "Uh, hi, my name is Nadia Petrov, and I\u2019m really frustrated right now. I received a product that was damaged, and I want to get a refund. I mean, I ordered it last week and it arrived like this. Can you help me with that? My email is i.dupont@orange.fr, just in case you need it.",
+    "entities": [
+      {
+        "text": "Nadia Petrov",
+        "label": "NAME",
+        "start": 19,
+        "end": 31
+      },
+      {
+        "text": "i.dupont@orange.fr",
+        "label": "EMAIL",
+        "start": 233,
+        "end": 251
+      }
+    ]
+  },
+  {
+    "text": "Hi, uh, this is Chloe Bennett. I need to update my contact info for my account. I bought a Canon EOS R6 camera, um, and I think I need to do this quickly. I also want to mention that the issue date was July 4th, so if you could help me with that, I\u2019d really appreciate it.",
+    "entities": [
+      {
+        "text": "Chloe Bennett",
+        "label": "NAME",
+        "start": 16,
+        "end": 29
+      },
+      {
+        "text": "Canon EOS R6 camera",
+        "label": "PRODUCT",
+        "start": 91,
+        "end": 110
+      },
+      {
+        "text": "July 4th",
+        "label": "ISSUE_DATE",
+        "start": 202,
+        "end": 210
+      }
+    ]
+  },
+  {
+    "text": "Hi, um, this is Noah calling. I wanted to check on the availability of the new product. My contract ID is SVC-10293 and you can reach me at noah.f@gmx.de.",
+    "entities": [
+      {
+        "text": "Noah",
+        "label": "NAME",
+        "start": 16,
+        "end": 20
+      },
+      {
+        "text": "noah.f@gmx.de",
+        "label": "EMAIL",
+        "start": 140,
+        "end": 153
+      },
+      {
+        "text": "SVC-10293",
+        "label": "CONTRACT_ID",
+        "start": 106,
+        "end": 115
+      }
+    ]
+  },
+  {
+    "text": "Hey, uh, I\u2019m just checking on the delivery status of my order for the Logitech MX Master mouse. This is Ingrid Larsson, by the way. I ordered it, um, a while ago and just wanted to make sure it\u2019s on the way.",
+    "entities": [
+      {
+        "text": "Ingrid Larsson",
+        "label": "NAME",
+        "start": 104,
+        "end": 118
+      },
+      {
+        "text": "Logitech MX Master mouse",
+        "label": "PRODUCT",
+        "start": 70,
+        "end": 94
+      }
+    ]
+  },
+  {
+    "text": "Hey, um, hi! This is Devon Clarke, and I just wanted to update my contact info for my account, you know, like for my Sonos Era 300 speaker.",
+    "entities": [
+      {
+        "text": "Devon Clarke",
+        "label": "NAME",
+        "start": 21,
+        "end": 33
+      },
+      {
+        "text": "Sonos Era 300 speaker",
+        "label": "PRODUCT",
+        "start": 117,
+        "end": 138
+      }
+    ]
+  },
+  {
+    "text": "Hello, um, I\u2019m calling about my order. I was told it would arrive by now, but it\u2019s still not here. The CONTRACT_ID is FLW-2024-221, and I really need to know what\u2019s going on.",
+    "entities": [
+      {
+        "text": "FLW-2024-221",
+        "label": "CONTRACT_ID",
+        "start": 118,
+        "end": 130
+      }
+    ]
+  },
+  {
+    "text": "Uh, hi, I\u2019m calling because my Cricut Maker 3 is just not working right. I mean, it's really frustrating! I bought it under CONTRACT_ID: CMP-2025-0077 on May 27th 2025, and now it keeps jamming. Can you help me with this?",
+    "entities": [
+      {
+        "text": "CMP-2025-0077",
+        "label": "CONTRACT_ID",
+        "start": 137,
+        "end": 150
+      },
+      {
+        "text": "Cricut Maker 3",
+        "label": "PRODUCT",
+        "start": 31,
+        "end": 45
+      },
+      {
+        "text": "May 27th 2025",
+        "label": "ISSUE_DATE",
+        "start": 154,
+        "end": 167
+      }
+    ]
+  },
+  {
+    "text": "Uh, hi, I\u2019m calling about my warranty coverage for, um, CONTRACT_ID: UPG-2025-112 which I got on ISSUE_DATE: 2025-01-20. Can you, like, tell me what\u2019s covered?",
+    "entities": [
+      {
+        "text": "UPG-2025-112",
+        "label": "CONTRACT_ID",
+        "start": 69,
+        "end": 81
+      },
+      {
+        "text": "2025-01-20",
+        "label": "ISSUE_DATE",
+        "start": 109,
+        "end": 119
+      }
+    ]
+  },
+  {
+    "text": "Uh, hi, is this customer service? My name is Andre Williams, and I need to update my email address. It's chloe.b@icloud.com. I've been trying to do this for like, um, forever! I just want to get my Herman Miller Aeron chair delivered, but I can't even do that without the right contact info!",
+    "entities": [
+      {
+        "text": "Andre Williams",
+        "label": "NAME",
+        "start": 45,
+        "end": 59
+      },
+      {
+        "text": "chloe.b@icloud.com",
+        "label": "EMAIL",
+        "start": 105,
+        "end": 123
+      },
+      {
+        "text": "Herman Miller Aeron chair",
+        "label": "PRODUCT",
+        "start": 198,
+        "end": 223
+      }
+    ]
+  },
+  {
+    "text": "Hi, um, this is Kofi Osei calling about my, uh, Kobo Libra Colour ereader. I think there\u2019s a problem with it. My contract ID is ORD-2025-3387 and you can reach me at my email, which is k.osei@afrimail.com.",
+    "entities": [
+      {
+        "text": "Kofi Osei",
+        "label": "NAME",
+        "start": 16,
+        "end": 25
+      },
+      {
+        "text": "k.osei@afrimail.com",
+        "label": "EMAIL",
+        "start": 185,
+        "end": 204
+      },
+      {
+        "text": "ORD-2025-3387",
+        "label": "CONTRACT_ID",
+        "start": 128,
+        "end": 141
+      },
+      {
+        "text": "Kobo Libra Colour ereader",
+        "label": "PRODUCT",
+        "start": 48,
+        "end": 73
+      }
+    ]
+  },
+  {
+    "text": "Um, hi, I\u2019m Julia Kowalski and, uh, I was wondering if you have the Theragun Elite massager in stock? I, um, checked online but I'm not sure about the availability. Can you help me with that? My email is m.johnson@aol.com if you need to, uh, send me any details.",
+    "entities": [
+      {
+        "text": "Julia Kowalski",
+        "label": "NAME",
+        "start": 12,
+        "end": 26
+      },
+      {
+        "text": "m.johnson@aol.com",
+        "label": "EMAIL",
+        "start": 204,
+        "end": 221
+      },
+      {
+        "text": "Theragun Elite massager",
+        "label": "PRODUCT",
+        "start": 68,
+        "end": 91
+      }
+    ]
+  },
+  {
+    "text": "Hello, um, I have a question about my warranty coverage for, uh, my product. My CONTRACT_ID is PLN-2025-0089 and, um, my email is andre.w@outlook.com. Can you help me with that?",
+    "entities": [
+      {
+        "text": "PLN-2025-0089",
+        "label": "CONTRACT_ID",
+        "start": 95,
+        "end": 108
+      },
+      {
+        "text": "andre.w@outlook.com",
+        "label": "EMAIL",
+        "start": 130,
+        "end": 149
+      }
+    ]
+  },
+  {
+    "text": "Hey, um, this is Tyler calling about a, uh, damaged product I received. I really need to get a refund for it. My email is tyler.w@msn.com.",
+    "entities": [
+      {
+        "text": "Tyler",
+        "label": "NAME",
+        "start": 17,
+        "end": 22
+      },
+      {
+        "text": "tyler.w@msn.com",
+        "label": "EMAIL",
+        "start": 122,
+        "end": 137
+      }
+    ]
+  },
+  {
+    "text": "Uh, hi, I, um, I need to schedule a repair appointment for my, um, washing machine. I think it broke, like, uh, on ISSUE_DATE, which is, um, January 31st. Can you help me with that?",
+    "entities": [
+      {
+        "text": "January 31st",
+        "label": "ISSUE_DATE",
+        "start": 141,
+        "end": 153
+      }
+    ]
+  },
+  {
+    "text": "Um, hi, I\u2019m really frustrated right now. I received my DJI Mini 4 Pro drone and it was, like, totally damaged when it arrived. I need a refund, like, ASAP. Can you help me with that? My email is nadia.p@mail.ru.",
+    "entities": [
+      {
+        "text": "nadia.p@mail.ru",
+        "label": "EMAIL",
+        "start": 195,
+        "end": 210
+      },
+      {
+        "text": "DJI Mini 4 Pro drone",
+        "label": "PRODUCT",
+        "start": 55,
+        "end": 75
+      }
+    ]
+  },
+  {
+    "text": "Hi, um, this is Karen Smith. I'm calling to request a refund for a product I received damaged, um, I believe it was, like, last Saturday. My contract ID is ADJ-90134.",
+    "entities": [
+      {
+        "text": "Karen Smith",
+        "label": "NAME",
+        "start": 16,
+        "end": 27
+      },
+      {
+        "text": "ADJ-90134",
+        "label": "CONTRACT_ID",
+        "start": 156,
+        "end": 165
+      },
+      {
+        "text": "last Saturday",
+        "label": "ISSUE_DATE",
+        "start": 123,
+        "end": 136
+      }
+    ]
+  },
+  {
+    "text": "Uh, hi, I need to update my contact info for my account, um, I think it's under the contract ID TST-2025-0199. Can you help me with that? I also want to make sure my email, um, is correct. It's p.omalley@eircom.net. And, uh, I just want to confirm that I'm still getting my Google Pixel 9, right?",
+    "entities": [
+      {
+        "text": "TST-2025-0199",
+        "label": "CONTRACT_ID",
+        "start": 96,
+        "end": 109
+      },
+      {
+        "text": "p.omalley@eircom.net",
+        "label": "EMAIL",
+        "start": 194,
+        "end": 214
+      },
+      {
+        "text": "Google Pixel 9",
+        "label": "PRODUCT",
+        "start": 274,
+        "end": 288
+      }
+    ]
+  },
+  {
+    "text": "Uh, hi, this is Victor Reyes. I, um, just noticed an unexpected charge on my account for an Instant Pot Duo Plus. I didn't order this, so I need help figuring it out. Can you, uh, check my order history? My email is sophie.chen@outlook.com.",
+    "entities": [
+      {
+        "text": "Victor Reyes",
+        "label": "NAME",
+        "start": 16,
+        "end": 28
+      },
+      {
+        "text": "sophie.chen@outlook.com",
+        "label": "EMAIL",
+        "start": 216,
+        "end": 239
+      },
+      {
+        "text": "Instant Pot Duo Plus",
+        "label": "PRODUCT",
+        "start": 92,
+        "end": 112
+      }
+    ]
+  },
+  {
+    "text": "Thank you for calling customer service, how can I assist you today? Please hold while I check that information for you.",
+    "entities": []
+  },
+  {
+    "text": "Thank you for calling customer service. Your call is important to us, please hold while we connect you to a representative.",
+    "entities": []
+  },
+  {
+    "text": "Thank you for calling customer service. Please hold for a moment while I connect you to a representative who can assist with your inquiry.",
+    "entities": []
+  },
+  {
+    "text": "Thank you for calling customer service, how can I assist you today?",
+    "entities": []
+  },
+  {
+    "text": "Thank you for calling customer service. Your call is important to us; please hold for the next available representative.",
+    "entities": []
+  },
+  {
+    "text": "Thank you for calling customer service. Please hold for a moment while I connect you to a representative who can assist you further.",
+    "entities": []
+  },
+  {
+    "text": "Thank you for calling customer service, how can I assist you today? I\u2019m sorry, can you please hold for a moment while I check that information for you?",
+    "entities": []
+  },
+  {
+    "text": "Thank you for calling customer service. How can I assist you today?",
+    "entities": []
+  },
+  {
+    "text": "Thank you for calling customer service. Your call is important to us, please hold while we connect you to a representative.",
+    "entities": []
+  },
+  {
+    "text": "Thank you for calling customer service. Your call is very important to us; please hold for a moment while I look up your account information.",
+    "entities": []
+  }
+]

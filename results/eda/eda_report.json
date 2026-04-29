@@ -1,0 +1,1479 @@
+{
+  "text": {
+    "a1_char_lengths": {
+      "min": 67,
+      "max": 1026,
+      "mean": 214.6,
+      "median": 188.0,
+      "stdev": 118.2
+    },
+    "a2_token_lengths": {
+      "min": 16,
+      "max": 247,
+      "mean": 62.0,
+      "median": 56.0,
+      "P90": 89.0,
+      "P95": 120.0,
+      "P99": 211.0
+    },
+    "a3_truncation": {
+      "max_128": {
+        "samples_truncated": 36,
+        "pct_truncated": "4.0%",
+        "entities_lost": 37,
+        "entity_types_lost": {
+          "EMAIL": 11,
+          "CONTRACT_ID": 14,
+          "NAME": 2,
+          "ISSUE_DATE": 8,
+          "PRODUCT": 2
+        }
+      },
+      "max_192": {
+        "samples_truncated": 14,
+        "pct_truncated": "1.6%",
+        "entities_lost": 5,
+        "entity_types_lost": {
+          "CONTRACT_ID": 2,
+          "EMAIL": 2,
+          "ISSUE_DATE": 1
+        }
+      },
+      "max_256": {
+        "samples_truncated": 0,
+        "pct_truncated": "0.0%",
+        "entities_lost": 0,
+        "entity_types_lost": {}
+      },
+      "max_512": {
+        "samples_truncated": 0,
+        "pct_truncated": "0.0%",
+        "entities_lost": 0,
+        "entity_types_lost": {}
+      }
+    },
+    "a4_vocab_coverage": {
+      "with_lower_case": {
+        "total_tokens": 53867,
+        "unk_tokens": 0,
+        "unk_rate": "0.000%"
+      },
+      "without_lower_case": {
+        "total_tokens": 52763,
+        "unk_tokens": 9044,
+        "unk_rate": "17.141%",
+        "top_unk_words": {
+          "I": 21581,
+          "My": 3955,
+          "ID": 3320,
+          "Can": 2963,
+          "A": 2125,
+          "Thank": 1724,
+          "CT": 1476,
+          "This": 1107,
+          "P": 1047,
+          "R": 1041,
+          "S": 836,
+          "It": 761,
+          "E": 760,
+          "Priya": 749,
+          "Sarah": 736,
+          "And": 717,
+          "The": 665,
+          "Y": 622,
+          "February": 580,
+          "T": 543
+        }
+      }
+    },
+    "a5_unk_in_entities": {
+      "NAME": {
+        "total_tokens": 1834,
+        "unk_tokens": 0,
+        "unk_rate": "0.00%"
+      },
+      "PRODUCT": {
+        "total_tokens": 2228,
+        "unk_tokens": 0,
+        "unk_rate": "0.00%"
+      },
+      "CONTRACT_ID": {
+        "total_tokens": 3119,
+        "unk_tokens": 0,
+        "unk_rate": "0.00%"
+      },
+      "ISSUE_DATE": {
+        "total_tokens": 1375,
+        "unk_tokens": 0,
+        "unk_rate": "0.00%"
+      },
+      "EMAIL": {
+        "total_tokens": 2503,
+        "unk_tokens": 0,
+        "unk_rate": "0.00%"
+      }
+    }
+  },
+  "entity": {
+    "b1_type_distribution": {
+      "NAME": 816,
+      "PRODUCT": 527,
+      "CONTRACT_ID": 500,
+      "ISSUE_DATE": 472,
+      "EMAIL": 322
+    },
+    "b2_entity_density": {
+      "distribution": {
+        "0": 60,
+        "1": 16,
+        "2": 212,
+        "3": 306,
+        "4": 247,
+        "5": 51,
+        "6": 6
+      },
+      "mean": 2.94,
+      "zero_entity_samples": 60,
+      "zero_entity_pct": "6.7%"
+    },
+    "b3_entity_char_lengths": {
+      "NAME": {
+        "min": 3,
+        "max": 34,
+        "mean": 12.0
+      },
+      "PRODUCT": {
+        "min": 4,
+        "max": 34,
+        "mean": 17.4
+      },
+      "CONTRACT_ID": {
+        "min": 6,
+        "max": 39,
+        "mean": 12.3
+      },
+      "ISSUE_DATE": {
+        "min": 6,
+        "max": 43,
+        "mean": 14.3
+      },
+      "EMAIL": {
+        "min": 17,
+        "max": 99,
+        "mean": 24.5
+      }
+    },
+    "b4_entity_token_lengths": {
+      "NAME": {
+        "min": 1,
+        "max": 13,
+        "mean": 2.2,
+        "note": "Avg B:I ratio would be 1:1.2"
+      },
+      "PRODUCT": {
+        "min": 1,
+        "max": 10,
+        "mean": 4.2,
+        "note": "Avg B:I ratio would be 1:3.2"
+      },
+      "CONTRACT_ID": {
+        "min": 4,
+        "max": 10,
+        "mean": 6.2,
+        "note": "Avg B:I ratio would be 1:5.2"
+      },
+      "ISSUE_DATE": {
+        "min": 1,
+        "max": 7,
+        "mean": 2.9,
+        "note": "Avg B:I ratio would be 1:1.9"
+      },
+      "EMAIL": {
+        "min": 5,
+        "max": 38,
+        "mean": 7.8,
+        "note": "Avg B:I ratio would be 1:6.8"
+      }
+    },
+    "b5_entity_positions": {
+      "NAME": {
+        "0-25%": 530,
+        "25-50%": 108,
+        "50-75%": 84,
+        "75-100%": 94
+      },
+      "PRODUCT": {
+        "0-25%": 103,
+        "25-50%": 336,
+        "50-75%": 70,
+        "75-100%": 18
+      },
+      "CONTRACT_ID": {
+        "0-25%": 19,
+        "25-50%": 45,
+        "50-75%": 177,
+        "75-100%": 259
+      },
+      "ISSUE_DATE": {
+        "0-25%": 37,
+        "25-50%": 148,
+        "50-75%": 203,
+        "75-100%": 84
+      },
+      "EMAIL": {
+        "0-25%": 7,
+        "25-50%": 33,
+        "50-75%": 108,
+        "75-100%": 174
+      }
+    },
+    "b6_boundary_entities": {
+      "at_start_lt_10_chars": 18,
+      "at_end_last_10_chars": 353
+    },
+    "b7_format_diversity": {
+      "email": {
+        "standard": 164,
+        "oral": 157
+      },
+      "contract_id": {
+        "standard": 396,
+        "oral": 66
+      },
+      "issue_date": {
+        "absolute": 227,
+        "relative": 245
+      },
+      "name_casing": {
+        "capitalized": 807,
+        "lowercase": 9,
+        "mixed": 0
+      }
+    },
+    "b8_uniqueness": {
+      "NAME": {
+        "total": 816,
+        "unique": 135,
+        "top_5": [
+          [
+            "Priya Patel",
+            40
+          ],
+          [
+            "Sarah Johnson",
+            30
+          ],
+          [
+            "Robert Wilson",
+            28
+          ],
+          [
+            "Yuki Tanaka",
+            26
+          ],
+          [
+            "John Smith",
+            26
+          ]
+        ]
+      },
+      "PRODUCT": {
+        "total": 527,
+        "unique": 138,
+        "top_5": [
+          [
+            "Dell XPS 15",
+            29
+          ],
+          [
+            "Annual maintenance contract",
+            28
+          ],
+          [
+            "Fitbit Charge 6",
+            24
+          ],
+          [
+            "MacBook Air M3",
+            23
+          ],
+          [
+            "Nintendo Switch OLED",
+            22
+          ]
+        ]
+      },
+      "CONTRACT_ID": {
+        "total": 500,
+        "unique": 113,
+        "top_5": [
+          [
+            "ORD-2024-5591",
+            39
+          ],
+          [
+            "SUB-33018",
+            38
+          ],
+          [
+            "2024-ABX-001",
+            24
+          ],
+          [
+            "X9Y8Z7",
+            23
+          ],
+          [
+            "WO-67893",
+            23
+          ]
+        ]
+      },
+      "ISSUE_DATE": {
+        "total": 472,
+        "unique": 115,
+        "top_5": [
+          [
+            "yesterday",
+            23
+          ],
+          [
+            "last Monday morning",
+            21
+          ],
+          [
+            "last month",
+            20
+          ],
+          [
+            "two weeks ago",
+            19
+          ],
+          [
+            "January 15th",
+            18
+          ]
+        ]
+      },
+      "EMAIL": {
+        "total": 322,
+        "unique": 129,
+        "top_5": [
+          [
+            "mbrown42@outlook.com",
+            15
+          ],
+          [
+            "w.jackson@email.com",
+            11
+          ],
+          [
+            "joe.lewis@outlook.com",
+            11
+          ],
+          [
+            "maria.garcia@outlook.com",
+            10
+          ],
+          [
+            "emily.davis@hotmail.com",
+            9
+          ]
+        ]
+      }
+    },
+    "b9_cooccurrence": {
+      "CONTRACT_ID+CONTRACT_ID": 500,
+      "CONTRACT_ID+NAME": 473,
+      "CONTRACT_ID+PRODUCT": 280,
+      "NAME+NAME": 799,
+      "NAME+PRODUCT": 487,
+      "PRODUCT+PRODUCT": 506,
+      "CONTRACT_ID+ISSUE_DATE": 275,
+      "ISSUE_DATE+ISSUE_DATE": 464,
+      "ISSUE_DATE+NAME": 444,
+      "CONTRACT_ID+EMAIL": 187,
+      "EMAIL+NAME": 294,
+      "EMAIL+EMAIL": 319,
+      "ISSUE_DATE+PRODUCT": 323,
+      "EMAIL+ISSUE_DATE": 156,
+      "EMAIL+PRODUCT": 122
+    },
+    "b10_adjacency": {
+      "total_adjacent_pairs": 1799,
+      "mean_distance": 47.1,
+      "min_distance": -5,
+      "pairs_within_5_chars": 17
+    }
+  },
+  "bio": {
+    "c1_label_distribution": {
+      "O": {
+        "count": 11872,
+        "pct": "76.31%"
+      },
+      "I-CONTRACT_ID": {
+        "count": 833,
+        "pct": "5.35%"
+      },
+      "I-EMAIL": {
+        "count": 753,
+        "pct": "4.84%"
+      },
+      "I-PRODUCT": {
+        "count": 577,
+        "pct": "3.71%"
+      },
+      "I-NAME": {
+        "count": 352,
+        "pct": "2.26%"
+      },
+      "B-NAME": {
+        "count": 300,
+        "pct": "1.93%"
+      },
+      "I-ISSUE_DATE": {
+        "count": 292,
+        "pct": "1.88%"
+      },
+      "B-CONTRACT_ID": {
+        "count": 163,
+        "pct": "1.05%"
+      },
+      "B-PRODUCT": {
+        "count": 160,
+        "pct": "1.03%"
+      },
+      "B-ISSUE_DATE": {
+        "count": 144,
+        "pct": "0.93%"
+      },
+      "B-EMAIL": {
+        "count": 112,
+        "pct": "0.72%"
+      }
+    },
+    "c2_bi_ratio": {
+      "NAME": {
+        "B": 300,
+        "I": 352,
+        "ratio": "1:1.2",
+        "avg_entity_tokens": 2.2
+      },
+      "EMAIL": {
+        "B": 112,
+        "I": 753,
+        "ratio": "1:6.7",
+        "avg_entity_tokens": 7.7
+      },
+      "CONTRACT_ID": {
+        "B": 163,
+        "I": 833,
+        "ratio": "1:5.1",
+        "avg_entity_tokens": 6.1
+      },
+      "PRODUCT": {
+        "B": 160,
+        "I": 577,
+        "ratio": "1:3.6",
+        "avg_entity_tokens": 4.6
+      },
+      "ISSUE_DATE": {
+        "B": 144,
+        "I": 292,
+        "ratio": "1:2.0",
+        "avg_entity_tokens": 3.0
+      }
+    },
+    "c3_imbalance": {
+      "O_pct": "76.3%",
+      "max_non_O": "I-CONTRACT_ID",
+      "min_non_O": "B-EMAIL",
+      "max_min_ratio": "7.4x"
+    },
+    "c4_spot_checks": [
+      {
+        "text_preview": "Uh, hi, this is William Jackson. I, um, need to reschedule my service appointmen...",
+        "entities": [
+          {
+            "text": "William Jackson",
+            "label": "NAME"
+          },
+          {
+            "text": "last Monday morning",
+            "label": "ISSUE_DATE"
+          }
+        ],
+        "token_label_alignment": [
+          {
+            "token": "william",
+            "label": "B-NAME",
+            "char_span": "[16:23]",
+            "source_text": "William"
+          },
+          {
+            "token": "jackson",
+            "label": "I-NAME",
+            "char_span": "[24:31]",
+            "source_text": "Jackson"
+          },
+          {
+            "token": "last",
+            "label": "B-ISSUE_DATE",
+            "char_span": "[104:108]",
+            "source_text": "last"
+          },
+          {
+            "token": "monday",
+            "label": "I-ISSUE_DATE",
+            "char_span": "[109:115]",
+            "source_text": "Monday"
+          },
+          {
+            "token": "morning",
+            "label": "I-ISSUE_DATE",
+            "char_span": "[116:123]",
+            "source_text": "morning"
+          }
+        ]
+      },
+      {
+        "text_preview": "Hi, uh, I need to update my account. It\u2019s, um, Susan Clark and my email is d.all...",
+        "entities": [
+          {
+            "text": "Susan Clark",
+            "label": "NAME"
+          },
+          {
+            "text": "d.allen@email.com",
+            "label": "EMAIL"
+          },
+          {
+            "text": "SUB-33018",
+            "label": "CONTRACT_ID"
+          }
+        ],
+        "token_label_alignment": [
+          {
+            "token": "susan",
+            "label": "B-NAME",
+            "char_span": "[47:52]",
+            "source_text": "Susan"
+          },
+          {
+            "token": "clark",
+            "label": "I-NAME",
+            "char_span": "[53:58]",
+            "source_text": "Clark"
+          },
+          {
+            "token": "d",
+            "label": "B-EMAIL",
+            "char_span": "[75:76]",
+            "source_text": "d"
+          },
+          {
+            "token": ".",
+            "label": "I-EMAIL",
+            "char_span": "[76:77]",
+            "source_text": "."
+          },
+          {
+            "token": "allen",
+            "label": "I-EMAIL",
+            "char_span": "[77:82]",
+            "source_text": "allen"
+          },
+          {
+            "token": "@",
+            "label": "I-EMAIL",
+            "char_span": "[82:83]",
+            "source_text": "@"
+          },
+          {
+            "token": "email",
+            "label": "I-EMAIL",
+            "char_span": "[83:88]",
+            "source_text": "email"
+          },
+          {
+            "token": ".",
+            "label": "I-EMAIL",
+            "char_span": "[88:89]",
+            "source_text": "."
+          },
+          {
+            "token": "com",
+            "label": "I-EMAIL",
+            "char_span": "[89:92]",
+            "source_text": "com"
+          },
+          {
+            "token": "sub",
+            "label": "B-CONTRACT_ID",
+            "char_span": "[112:115]",
+            "source_text": "SUB"
+          },
+          {
+            "token": "-",
+            "label": "I-CONTRACT_ID",
+            "char_span": "[115:116]",
+            "source_text": "-"
+          },
+          {
+            "token": "330",
+            "label": "I-CONTRACT_ID",
+            "char_span": "[116:119]",
+            "source_text": "330"
+          },
+          {
+            "token": "##18",
+            "label": "I-CONTRACT_ID",
+            "char_span": "[119:121]",
+            "source_text": "18"
+          }
+        ]
+      },
+      {
+        "text_preview": "Uh, hi, yeah, this is, um, Robert Wilson. I'm calling to check the status of my ...",
+        "entities": [
+          {
+            "text": "Robert Wilson",
+            "label": "NAME"
+          },
+          {
+            "text": "PRJ-10284",
+            "label": "CONTRACT_ID"
+          },
+          {
+            "text": "nhall@company.org",
+            "label": "EMAIL"
+          },
+          {
+            "text": "iPad Air",
+            "label": "PRODUCT"
+          }
+        ],
+        "token_label_alignment": [
+          {
+            "token": "robert",
+            "label": "B-NAME",
+            "char_span": "[27:33]",
+            "source_text": "Robert"
+          },
+          {
+            "token": "wilson",
+            "label": "I-NAME",
+            "char_span": "[34:40]",
+            "source_text": "Wilson"
+          },
+          {
+            "token": "ipad",
+            "label": "B-PRODUCT",
+            "char_span": "[98:102]",
+            "source_text": "iPad"
+          },
+          {
+            "token": "air",
+            "label": "I-PRODUCT",
+            "char_span": "[103:106]",
+            "source_text": "Air"
+          },
+          {
+            "token": "pr",
+            "label": "B-CONTRACT_ID",
+            "char_span": "[142:144]",
+            "source_text": "PR"
+          },
+          {
+            "token": "##j",
+            "label": "I-CONTRACT_ID",
+            "char_span": "[144:145]",
+            "source_text": "J"
+          },
+          {
+            "token": "-",
+            "label": "I-CONTRACT_ID",
+            "char_span": "[145:146]",
+            "source_text": "-"
+          },
+          {
+            "token": "102",
+            "label": "I-CONTRACT_ID",
+            "char_span": "[146:149]",
+            "source_text": "102"
+          },
+          {
+            "token": "##8",
+            "label": "I-CONTRACT_ID",
+            "char_span": "[149:150]",
+            "source_text": "8"
+          },
+          {
+            "token": "##4",
+            "label": "I-CONTRACT_ID",
+            "char_span": "[150:151]",
+            "source_text": "4"
+          },
+          {
+            "token": "nh",
+            "label": "B-EMAIL",
+            "char_span": "[199:201]",
+            "source_text": "nh"
+          },
+          {
+            "token": "##all",
+            "label": "I-EMAIL",
+            "char_span": "[201:204]",
+            "source_text": "all"
+          },
+          {
+            "token": "@",
+            "label": "I-EMAIL",
+            "char_span": "[204:205]",
+            "source_text": "@"
+          },
+          {
+            "token": "company",
+            "label": "I-EMAIL",
+            "char_span": "[205:212]",
+            "source_text": "company"
+          },
+          {
+            "token": ".",
+            "label": "I-EMAIL",
+            "char_span": "[212:213]",
+            "source_text": "."
+          },
+          {
+            "token": "org",
+            "label": "I-EMAIL",
+            "char_span": "[213:216]",
+            "source_text": "org"
+          }
+        ]
+      },
+      {
+        "text_preview": "Um, hi, this is James Thomas. I'm really frustrated with my iPhone 15 Pro, uh, i...",
+        "entities": [
+          {
+            "text": "James Thomas",
+            "label": "NAME"
+          },
+          {
+            "text": "iPhone 15 Pro",
+            "label": "PRODUCT"
+          }
+        ],
+        "token_label_alignment": [
+          {
+            "token": "james",
+            "label": "B-NAME",
+            "char_span": "[16:21]",
+            "source_text": "James"
+          },
+          {
+            "token": "thomas",
+            "label": "I-NAME",
+            "char_span": "[22:28]",
+            "source_text": "Thomas"
+          },
+          {
+            "token": "iphone",
+            "label": "B-PRODUCT",
+            "char_span": "[60:66]",
+            "source_text": "iPhone"
+          },
+          {
+            "token": "15",
+            "label": "I-PRODUCT",
+            "char_span": "[67:69]",
+            "source_text": "15"
+          },
+          {
+            "token": "pro",
+            "label": "I-PRODUCT",
+            "char_span": "[70:73]",
+            "source_text": "Pro"
+          }
+        ]
+      },
+      {
+        "text_preview": "Uh, hi, this is Charles Walker, and I, um, really need to talk about my Annual m...",
+        "entities": [
+          {
+            "text": "Charles Walker",
+            "label": "NAME"
+          },
+          {
+            "text": "Annual maintenance contract",
+            "label": "PRODUCT"
+          },
+          {
+            "text": "REF-44821",
+            "label": "CONTRACT_ID"
+          }
+        ],
+        "token_label_alignment": [
+          {
+            "token": "charles",
+            "label": "B-NAME",
+            "char_span": "[16:23]",
+            "source_text": "Charles"
+          },
+          {
+            "token": "walker",
+            "label": "I-NAME",
+            "char_span": "[24:30]",
+            "source_text": "Walker"
+          },
+          {
+            "token": "annual",
+            "label": "B-PRODUCT",
+            "char_span": "[72:78]",
+            "source_text": "Annual"
+          },
+          {
+            "token": "maintenance",
+            "label": "I-PRODUCT",
+            "char_span": "[79:90]",
+            "source_text": "maintenance"
+          },
+          {
+            "token": "contract",
+            "label": "I-PRODUCT",
+            "char_span": "[91:99]",
+            "source_text": "contract"
+          },
+          {
+            "token": "ref",
+            "label": "B-CONTRACT_ID",
+            "char_span": "[101:104]",
+            "source_text": "REF"
+          },
+          {
+            "token": "-",
+            "label": "I-CONTRACT_ID",
+            "char_span": "[104:105]",
+            "source_text": "-"
+          },
+          {
+            "token": "44",
+            "label": "I-CONTRACT_ID",
+            "char_span": "[105:107]",
+            "source_text": "44"
+          },
+          {
+            "token": "##8",
+            "label": "I-CONTRACT_ID",
+            "char_span": "[107:108]",
+            "source_text": "8"
+          },
+          {
+            "token": "##21",
+            "label": "I-CONTRACT_ID",
+            "char_span": "[108:110]",
+            "source_text": "21"
+          }
+        ]
+      },
+      {
+        "text_preview": "Uh, hi! My name is Richard Harris, and I was, um, wondering about the details of...",
+        "entities": [
+          {
+            "text": "Richard Harris",
+            "label": "NAME"
+          },
+          {
+            "text": "Annual maintenance contract",
+            "label": "PRODUCT"
+          }
+        ],
+        "token_label_alignment": [
+          {
+            "token": "richard",
+            "label": "B-NAME",
+            "char_span": "[19:26]",
+            "source_text": "Richard"
+          },
+          {
+            "token": "harris",
+            "label": "I-NAME",
+            "char_span": "[27:33]",
+            "source_text": "Harris"
+          },
+          {
+            "token": "annual",
+            "label": "B-PRODUCT",
+            "char_span": "[84:90]",
+            "source_text": "Annual"
+          },
+          {
+            "token": "maintenance",
+            "label": "I-PRODUCT",
+            "char_span": "[91:102]",
+            "source_text": "maintenance"
+          },
+          {
+            "token": "contract",
+            "label": "I-PRODUCT",
+            "char_span": "[103:111]",
+            "source_text": "contract"
+          }
+        ]
+      },
+      {
+        "text_preview": "Um, hi, I\u2019m, uh, Joseph Lewis, and I\u2019m really frustrated with my, um, LG OLED TV...",
+        "entities": [
+          {
+            "text": "Joseph Lewis",
+            "label": "NAME"
+          },
+          {
+            "text": "LG OLED TV 65 inch",
+            "label": "PRODUCT"
+          }
+        ],
+        "token_label_alignment": [
+          {
+            "token": "joseph",
+            "label": "B-NAME",
+            "char_span": "[17:23]",
+            "source_text": "Joseph"
+          },
+          {
+            "token": "lewis",
+            "label": "I-NAME",
+            "char_span": "[24:29]",
+            "source_text": "Lewis"
+          },
+          {
+            "token": "l",
+            "label": "B-PRODUCT",
+            "char_span": "[70:71]",
+            "source_text": "L"
+          },
+          {
+            "token": "##g",
+            "label": "I-PRODUCT",
+            "char_span": "[71:72]",
+            "source_text": "G"
+          },
+          {
+            "token": "ole",
+            "label": "I-PRODUCT",
+            "char_span": "[73:76]",
+            "source_text": "OLE"
+          },
+          {
+            "token": "##d",
+            "label": "I-PRODUCT",
+            "char_span": "[76:77]",
+            "source_text": "D"
+          },
+          {
+            "token": "tv",
+            "label": "I-PRODUCT",
+            "char_span": "[78:80]",
+            "source_text": "TV"
+          },
+          {
+            "token": "65",
+            "label": "I-PRODUCT",
+            "char_span": "[81:83]",
+            "source_text": "65"
+          },
+          {
+            "token": "inch",
+            "label": "I-PRODUCT",
+            "char_span": "[84:88]",
+            "source_text": "inch"
+          }
+        ]
+      },
+      {
+        "text_preview": "Uh, hi, my name is Charles Walker, and I need to update my email to, um, maria.g...",
+        "entities": [
+          {
+            "text": "Charles Walker",
+            "label": "NAME"
+          },
+          {
+            "text": "maria.garcia@outlook.com",
+            "label": "EMAIL"
+          },
+          {
+            "text": "PRJ-10284",
+            "label": "CONTRACT_ID"
+          }
+        ],
+        "token_label_alignment": [
+          {
+            "token": "charles",
+            "label": "B-NAME",
+            "char_span": "[19:26]",
+            "source_text": "Charles"
+          },
+          {
+            "token": "walker",
+            "label": "I-NAME",
+            "char_span": "[27:33]",
+            "source_text": "Walker"
+          },
+          {
+            "token": "maria",
+            "label": "B-EMAIL",
+            "char_span": "[73:78]",
+            "source_text": "maria"
+          },
+          {
+            "token": ".",
+            "label": "I-EMAIL",
+            "char_span": "[78:79]",
+            "source_text": "."
+          },
+          {
+            "token": "garcia",
+            "label": "I-EMAIL",
+            "char_span": "[79:85]",
+            "source_text": "garcia"
+          },
+          {
+            "token": "@",
+            "label": "I-EMAIL",
+            "char_span": "[85:86]",
+            "source_text": "@"
+          },
+          {
+            "token": "outlook",
+            "label": "I-EMAIL",
+            "char_span": "[86:93]",
+            "source_text": "outlook"
+          },
+          {
+            "token": ".",
+            "label": "I-EMAIL",
+            "char_span": "[93:94]",
+            "source_text": "."
+          },
+          {
+            "token": "com",
+            "label": "I-EMAIL",
+            "char_span": "[94:97]",
+            "source_text": "com"
+          },
+          {
+            "token": "pr",
+            "label": "B-CONTRACT_ID",
+            "char_span": "[115:117]",
+            "source_text": "PR"
+          },
+          {
+            "token": "##j",
+            "label": "I-CONTRACT_ID",
+            "char_span": "[117:118]",
+            "source_text": "J"
+          },
+          {
+            "token": "-",
+            "label": "I-CONTRACT_ID",
+            "char_span": "[118:119]",
+            "source_text": "-"
+          },
+          {
+            "token": "102",
+            "label": "I-CONTRACT_ID",
+            "char_span": "[119:122]",
+            "source_text": "102"
+          },
+          {
+            "token": "##8",
+            "label": "I-CONTRACT_ID",
+            "char_span": "[122:123]",
+            "source_text": "8"
+          },
+          {
+            "token": "##4",
+            "label": "I-CONTRACT_ID",
+            "char_span": "[123:124]",
+            "source_text": "4"
+          }
+        ]
+      },
+      {
+        "text_preview": "I can't believe this! I received a charge on my account for, um, an issue that s...",
+        "entities": [
+          {
+            "text": "Jessica Martinez",
+            "label": "NAME"
+          },
+          {
+            "text": "REF-44821",
+            "label": "CONTRACT_ID"
+          },
+          {
+            "text": "last Tuesday",
+            "label": "ISSUE_DATE"
+          }
+        ],
+        "token_label_alignment": [
+          {
+            "token": "jessica",
+            "label": "B-NAME",
+            "char_span": "[142:149]",
+            "source_text": "Jessica"
+          },
+          {
+            "token": "martinez",
+            "label": "I-NAME",
+            "char_span": "[150:158]",
+            "source_text": "Martinez"
+          },
+          {
+            "token": "ref",
+            "label": "B-CONTRACT_ID",
+            "char_span": "[182:185]",
+            "source_text": "REF"
+          },
+          {
+            "token": "-",
+            "label": "I-CONTRACT_ID",
+            "char_span": "[185:186]",
+            "source_text": "-"
+          },
+          {
+            "token": "44",
+            "label": "I-CONTRACT_ID",
+            "char_span": "[186:188]",
+            "source_text": "44"
+          },
+          {
+            "token": "##8",
+            "label": "I-CONTRACT_ID",
+            "char_span": "[188:189]",
+            "source_text": "8"
+          },
+          {
+            "token": "##21",
+            "label": "I-CONTRACT_ID",
+            "char_span": "[189:191]",
+            "source_text": "21"
+          },
+          {
+            "token": "last",
+            "label": "B-ISSUE_DATE",
+            "char_span": "[208:212]",
+            "source_text": "last"
+          },
+          {
+            "token": "tuesday",
+            "label": "I-ISSUE_DATE",
+            "char_span": "[213:220]",
+            "source_text": "Tuesday"
+          }
+        ]
+      },
+      {
+        "text_preview": "I can't believe I\u2019m having this issue with my, um, Sony WH-1000XM5 headphones! I...",
+        "entities": [
+          {
+            "text": "Emily Davis",
+            "label": "NAME"
+          },
+          {
+            "text": "Sony WH-1000XM5 headphones",
+            "label": "PRODUCT"
+          },
+          {
+            "text": "sometime last week",
+            "label": "ISSUE_DATE"
+          }
+        ],
+        "token_label_alignment": [
+          {
+            "token": "sony",
+            "label": "B-PRODUCT",
+            "char_span": "[51:55]",
+            "source_text": "Sony"
+          },
+          {
+            "token": "w",
+            "label": "I-PRODUCT",
+            "char_span": "[56:57]",
+            "source_text": "W"
+          },
+          {
+            "token": "##h",
+            "label": "I-PRODUCT",
+            "char_span": "[57:58]",
+            "source_text": "H"
+          },
+          {
+            "token": "-",
+            "label": "I-PRODUCT",
+            "char_span": "[58:59]",
+            "source_text": "-"
+          },
+          {
+            "token": "1000",
+            "label": "I-PRODUCT",
+            "char_span": "[59:63]",
+            "source_text": "1000"
+          },
+          {
+            "token": "##x",
+            "label": "I-PRODUCT",
+            "char_span": "[63:64]",
+            "source_text": "X"
+          },
+          {
+            "token": "##m",
+            "label": "I-PRODUCT",
+            "char_span": "[64:65]",
+            "source_text": "M"
+          },
+          {
+            "token": "##5",
+            "label": "I-PRODUCT",
+            "char_span": "[65:66]",
+            "source_text": "5"
+          },
+          {
+            "token": "head",
+            "label": "I-PRODUCT",
+            "char_span": "[67:71]",
+            "source_text": "head"
+          },
+          {
+            "token": "##phones",
+            "label": "I-PRODUCT",
+            "char_span": "[71:77]",
+            "source_text": "phones"
+          },
+          {
+            "token": "sometime",
+            "label": "B-ISSUE_DATE",
+            "char_span": "[98:106]",
+            "source_text": "sometime"
+          },
+          {
+            "token": "last",
+            "label": "I-ISSUE_DATE",
+            "char_span": "[107:111]",
+            "source_text": "last"
+          },
+          {
+            "token": "week",
+            "label": "I-ISSUE_DATE",
+            "char_span": "[112:116]",
+            "source_text": "week"
+          },
+          {
+            "token": "emily",
+            "label": "B-NAME",
+            "char_span": "[183:188]",
+            "source_text": "Emily"
+          },
+          {
+            "token": "davis",
+            "label": "I-NAME",
+            "char_span": "[189:194]",
+            "source_text": "Davis"
+          }
+        ]
+      }
+    ]
+  },
+  "noise": {
+    "d1_length_change": {
+      "clean": {
+        "mean_length": 214.6,
+        "change_from_prepared": "+0.0%"
+      },
+      "mild": {
+        "mean_length": 232.9,
+        "change_from_prepared": "+8.5%"
+      },
+      "moderate": {
+        "mean_length": 242.2,
+        "change_from_prepared": "+12.8%"
+      },
+      "severe": {
+        "mean_length": 250.4,
+        "change_from_prepared": "+16.7%"
+      }
+    },
+    "d2_partial_entities": {
+      "clean": {
+        "NAME": {
+          "total": 816,
+          "partial": 0,
+          "partial_rate": "0.0%"
+        },
+        "EMAIL": {
+          "total": 322,
+          "partial": 0,
+          "partial_rate": "0.0%"
+        },
+        "CONTRACT_ID": {
+          "total": 500,
+          "partial": 0,
+          "partial_rate": "0.0%"
+        },
+        "PRODUCT": {
+          "total": 527,
+          "partial": 0,
+          "partial_rate": "0.0%"
+        },
+        "ISSUE_DATE": {
+          "total": 472,
+          "partial": 0,
+          "partial_rate": "0.0%"
+        }
+      },
+      "mild": {
+        "NAME": {
+          "total": 816,
+          "partial": 369,
+          "partial_rate": "45.2%"
+        },
+        "EMAIL": {
+          "total": 322,
+          "partial": 210,
+          "partial_rate": "65.2%"
+        },
+        "CONTRACT_ID": {
+          "total": 500,
+          "partial": 339,
+          "partial_rate": "67.8%"
+        },
+        "PRODUCT": {
+          "total": 527,
+          "partial": 287,
+          "partial_rate": "54.5%"
+        },
+        "ISSUE_DATE": {
+          "total": 472,
+          "partial": 307,
+          "partial_rate": "65.0%"
+        }
+      },
+      "moderate": {
+        "NAME": {
+          "total": 816,
+          "partial": 490,
+          "partial_rate": "60.0%"
+        },
+        "EMAIL": {
+          "total": 322,
+          "partial": 263,
+          "partial_rate": "81.7%"
+        },
+        "CONTRACT_ID": {
+          "total": 500,
+          "partial": 403,
+          "partial_rate": "80.6%"
+        },
+        "PRODUCT": {
+          "total": 527,
+          "partial": 364,
+          "partial_rate": "69.1%"
+        },
+        "ISSUE_DATE": {
+          "total": 472,
+          "partial": 365,
+          "partial_rate": "77.3%"
+        }
+      },
+      "severe": {
+        "NAME": {
+          "total": 816,
+          "partial": 630,
+          "partial_rate": "77.2%"
+        },
+        "EMAIL": {
+          "total": 322,
+          "partial": 287,
+          "partial_rate": "89.1%"
+        },
+        "CONTRACT_ID": {
+          "total": 500,
+          "partial": 452,
+          "partial_rate": "90.4%"
+        },
+        "PRODUCT": {
+          "total": 527,
+          "partial": 419,
+          "partial_rate": "79.5%"
+        },
+        "ISSUE_DATE": {
+          "total": 472,
+          "partial": 422,
+          "partial_rate": "89.4%"
+        }
+      }
+    },
+    "d3_unk_by_noise": {
+      "clean": {
+        "total_tokens": 10258,
+        "unk_tokens": 0,
+        "unk_rate": "0.000%"
+      },
+      "mild": {
+        "total_tokens": 11487,
+        "unk_tokens": 0,
+        "unk_rate": "0.000%"
+      },
+      "moderate": {
+        "total_tokens": 12297,
+        "unk_tokens": 0,
+        "unk_rate": "0.000%"
+      },
+      "severe": {
+        "total_tokens": 13084,
+        "unk_tokens": 0,
+        "unk_rate": "0.000%"
+      }
+    }
+  },
+  "metadata": {
+    "e1_scenarios": {
+      "return_request": 115,
+      "product_complaint": 107,
+      "account_update": 103,
+      "billing_dispute": 99,
+      "order_status_inquiry": 94,
+      "technical_support": 73,
+      "negative": 60,
+      "appointment_scheduling": 56,
+      "general_inquiry": 53
+    },
+    "e2_styles": {
+      "neutral": 188,
+      "polite": 152,
+      "frustrated": 76,
+      "angry": 68,
+      "confused": 52,
+      "rushed": 51,
+      "disappointed": 33,
+      "assertive": 32,
+      "casual": 31,
+      "impatient": 28,
+      "calm": 27,
+      "patient": 22
+    },
+    "e3_industries": {
+      "subscription services": 89,
+      "retail": 82,
+      "healthcare": 82,
+      "insurance": 74,
+      "telecommunications": 68,
+      "e-commerce": 67,
+      "banking": 67,
+      "home appliances": 61,
+      "any": 60,
+      "utilities": 59,
+      "electronics": 51
+    }
+  }
+}

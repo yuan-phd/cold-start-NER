@@ -1,0 +1,114 @@
+{
+  "clean": {
+    "rules": {
+      "strict": {
+        "mean": 0.6452268,
+        "std": 0.04294975811061105,
+        "ci_lower": 0.5599850000000001,
+        "ci_upper": 0.725905,
+        "median": 0.6466,
+        "n_bootstrap": 1000
+      },
+      "partial": {
+        "mean": 0.7670910000000001,
+        "std": 0.038432456843142365,
+        "ci_lower": 0.6837875,
+        "ci_upper": 0.835625,
+        "median": 0.76815,
+        "n_bootstrap": 1000
+      }
+    },
+    "bert-small": {
+      "strict": {
+        "mean": 0.7955172,
+        "std": 0.047985920270012535,
+        "ci_lower": 0.6967325,
+        "ci_upper": 0.887205,
+        "median": 0.7975,
+        "n_bootstrap": 1000
+      },
+      "partial": {
+        "mean": 0.9438692,
+        "std": 0.017845323515139757,
+        "ci_lower": 0.9077975,
+        "ci_upper": 0.975,
+        "median": 0.9448,
+        "n_bootstrap": 1000
+      }
+    },
+    "ensemble": {
+      "strict": {
+        "mean": 0.8817017,
+        "std": 0.04077036162594097,
+        "ci_lower": 0.794665,
+        "ci_upper": 0.9554,
+        "median": 0.88405,
+        "n_bootstrap": 1000
+      },
+      "partial": {
+        "mean": 0.9559738,
+        "std": 0.0169830584277391,
+        "ci_lower": 0.9196799999999999,
+        "ci_upper": 0.9851,
+        "median": 0.9576,
+        "n_bootstrap": 1000
+      }
+    }
+  },
+  "noisy": {
+    "rules": {
+      "strict": {
+        "mean": 0.4363028,
+        "std": 0.04162376715483595,
+        "ci_lower": 0.35639,
+        "ci_upper": 0.5189,
+        "median": 0.4367,
+        "n_bootstrap": 1000
+      },
+      "partial": {
+        "mean": 0.5988532,
+        "std": 0.038610006860398255,
+        "ci_lower": 0.5213825,
+        "ci_upper": 0.6774175,
+        "median": 0.6,
+        "n_bootstrap": 1000
+      }
+    },
+    "bert-small": {
+      "strict": {
+        "mean": 0.538064,
+        "std": 0.04023643652213749,
+        "ci_lower": 0.4584925,
+        "ci_upper": 0.6159325,
+        "median": 0.53915,
+        "n_bootstrap": 1000
+      },
+      "partial": {
+        "mean": 0.8047822,
+        "std": 0.027455760108946174,
+        "ci_lower": 0.75,
+        "ci_upper": 0.8551249999999999,
+        "median": 0.80505,
+        "n_bootstrap": 1000
+      }
+    },
+    "ensemble": {
+      "strict": {
+        "mean": 0.7141684,
+        "std": 0.03876108075686229,
+        "ci_lower": 0.6355,
+        "ci_upper": 0.786505,
+        "median": 0.7149,
+        "n_bootstrap": 1000
+      },
+      "partial": {
+        "mean": 0.8679908,
+        "std": 0.025077985871277624,
+        "ci_lower": 0.8169949999999999,
+        "ci_upper": 0.9134025,
+        "median": 0.8693,
+        "n_bootstrap": 1000
+      }
+    }
+  }
+}

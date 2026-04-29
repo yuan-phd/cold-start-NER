@@ -1,0 +1,542 @@
+[
+  {
+    "text": "Thank you for calling customer support. How can I assist you today?",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling customer service. How may I assist you today?",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling customer service. Your call is important to us, please hold for the next available representative.",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling customer service. Your call is important to us, please hold while we connect you to the next available representative.",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling customer service. Your call is very important to us, so please hold for a moment while we connect you to a representative.",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling customer service. All of our representatives are currently assisting other customers. Your call is important to us, and it will be answered in the order it was received.",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling customer service, how can I assist you today?",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling customer service. How can I assist you today?",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling customer service. Your call is important to us, please hold while we connect you to a representative.",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling customer service. Your call is important to us, and we will be with you shortly. Please hold for the next available representative.",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling customer service. Your call is very important to us. Please hold for a moment while we connect you to a representative.",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling customer service. Please hold for just a moment while I check that information for you.",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling customer service. Your call is very important to us, and we appreciate your patience while we connect you to an agent.",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling customer service. How can I assist you today?",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling customer service. Please hold for a moment while I pull up your account information.",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling customer service. How can I assist you today?",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling customer service. Your call is important to us, and we will be with you shortly. Please hold for the next available representative.",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling customer service. How may I assist you today?",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling customer service. Your call is very important to us, please hold for the next available representative.",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling customer support. Your call is very important to us, so please hold while we connect you to the next available representative.",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling our customer service. Please hold for a moment while I check that information for you.",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling customer service. Your call is very important to us, so please hold for a moment while we connect you to a representative.",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling customer service. Please hold for a moment while I check your account information.",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling customer service. How can I assist you today?",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling customer service. Your call is very important to us, and we appreciate your patience while we connect you to the next available representative.",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling customer service. Your call is important to us, and we appreciate your patience. Please hold while I connect you to a representative.",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling customer service. Your call is important to us, please hold while we connect you to a representative.",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling customer service, how can I assist you today?",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling customer service. Your call is important to us, and we appreciate your patience. Please hold for a moment while I assist the next representative.",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling customer service. How may I assist you today?",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling customer service. How can I assist you today?",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling customer service. Your call is very important to us. Please hold for a moment while I connect you to an available representative.",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling customer service. Please hold for a moment while I transfer you to a representative who can assist you further.",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling customer service. How can I assist you today?",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling customer service. Please hold for a moment while I check on that for you.",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling customer service. Your call is important to us, and a representative will be with you shortly. Please hold for the next available agent.",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling customer service. How can I assist you today?",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling customer service! How can I assist you today?",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling customer service! Your call is very important to us. Please hold while we connect you to a representative.",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling customer support. Your call is very important to us. Please hold while we connect you to the next available agent.",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling customer service. Please hold for a moment while I look up your information. I'll be happy to assist you shortly.",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling customer service. How can I assist you today?",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling customer service. Your call is very important to us, and we appreciate your patience. Please hold for a moment while I transfer you to the right department.",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling customer service. How can I assist you today?",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling customer service. Your call is very important to us, and we appreciate your patience while we connect you with a representative.",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling customer service. How can I assist you today?",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling customer service. Your call is very important to us, please hold for the next available representative.",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling customer service. Your call is important to us, and a representative will be with you shortly. Please hold for the next available agent.",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling customer service. Your call is very important to us, and we appreciate your patience. Please hold for a moment while I transfer you to a representative who can assist you further.",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling customer service. Your call is important to us, and we will be with you shortly. If you\u2019d like to avoid the wait, you can visit our website for quick assistance.",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling customer service. How can I assist you today?",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling customer support. Your call is important to us, and we appreciate your patience while we connect you to a representative.",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling customer service! How can I assist you today?",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling customer service. Your call is important to us, please hold for a moment while we connect you to a representative.",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling customer service. How can I assist you today?",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling customer service. Your call is important to us, and you are currently in the queue. Please hold for the next available representative.",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling customer service. Your call is important to us; please hold for a moment while I connect you to a representative.",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling customer service. Your call is important to us, please hold while we connect you to a representative.",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling customer support. Please hold for a moment while I transfer you to the next available representative.",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling customer support. Your call is important to us; please hold for just a moment while I connect you to the next available representative.",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  }
+]

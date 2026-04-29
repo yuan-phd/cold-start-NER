@@ -1,0 +1,110 @@
+[
+  {
+    "text": "Thank you for calling customer service. Your call is important to us, and we appreciate your patience. Please hold for a moment while I connect you to a representative.",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling customer service. Your call is very important to us, and we appreciate your patience while we connect you to an available representative.",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling customer service. Your call is important to us, and we will be with you shortly. Please hold the line while I transfer you to a representative.",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling customer service. All our representatives are currently assisting other customers. Please hold, and your call will be answered in the order it was received.",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling customer service. Your call is very important to us, and we appreciate your patience. Please hold while I transfer you to a representative who can assist you further.",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling customer service. Your call is very important to us, and we are currently experiencing higher than usual call volumes. Please hold for a moment while we connect you to a representative.",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling our customer service line. Your call is important to us, and we appreciate your patience. Please hold while I connect you to a representative.",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling customer service. All of our representatives are currently assisting other customers. Please hold for the next available agent.",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling customer service. Your call is important to us, please hold for the next available representative.",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling our customer service line. Please hold for a moment while I transfer you to a representative who can assist you further.",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling customer service. How can I assist you today?",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  },
+  {
+    "text": "Thank you for calling customer service. Your call is important to us, please hold while we connect you to the next available representative.",
+    "entities": [],
+    "metadata": {
+      "scenario": "negative",
+      "style": "neutral",
+      "industry": "any"
+    }
+  }
+]

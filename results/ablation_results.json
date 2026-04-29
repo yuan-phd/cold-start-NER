@@ -1,0 +1,978 @@
+{
+  "A_no_noise": {
+    "strict": {
+      "mode": "strict",
+      "iou_threshold": null,
+      "overall": {
+        "precision": 0.8659,
+        "recall": 0.9342,
+        "f1": 0.8987,
+        "tp": 71,
+        "fp": 11,
+        "fn": 5,
+        "support": 76
+      },
+      "per_entity_type": {
+        "CONTRACT_ID": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "tp": 15,
+          "fp": 0,
+          "fn": 0,
+          "support": 15
+        },
+        "EMAIL": {
+          "precision": 0.8333,
+          "recall": 0.9091,
+          "f1": 0.8696,
+          "tp": 10,
+          "fp": 2,
+          "fn": 1,
+          "support": 11
+        },
+        "ISSUE_DATE": {
+          "precision": 1.0,
+          "recall": 0.9375,
+          "f1": 0.9677,
+          "tp": 15,
+          "fp": 0,
+          "fn": 1,
+          "support": 16
+        },
+        "NAME": {
+          "precision": 0.7,
+          "recall": 0.875,
+          "f1": 0.7778,
+          "tp": 14,
+          "fp": 6,
+          "fn": 2,
+          "support": 16
+        },
+        "PRODUCT": {
+          "precision": 0.85,
+          "recall": 0.9444,
+          "f1": 0.8947,
+          "tp": 17,
+          "fp": 3,
+          "fn": 1,
+          "support": 18
+        }
+      }
+    },
+    "partial": {
+      "mode": "partial",
+      "iou_threshold": 0.5,
+      "overall": {
+        "precision": 0.9024,
+        "recall": 0.9737,
+        "f1": 0.9367,
+        "tp": 74,
+        "fp": 8,
+        "fn": 2,
+        "support": 76
+      },
+      "per_entity_type": {
+        "CONTRACT_ID": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "tp": 15,
+          "fp": 0,
+          "fn": 0,
+          "support": 15
+        },
+        "EMAIL": {
+          "precision": 0.9167,
+          "recall": 1.0,
+          "f1": 0.9565,
+          "tp": 11,
+          "fp": 1,
+          "fn": 0,
+          "support": 11
+        },
+        "ISSUE_DATE": {
+          "precision": 1.0,
+          "recall": 0.9375,
+          "f1": 0.9677,
+          "tp": 15,
+          "fp": 0,
+          "fn": 1,
+          "support": 16
+        },
+        "NAME": {
+          "precision": 0.75,
+          "recall": 0.9375,
+          "f1": 0.8333,
+          "tp": 15,
+          "fp": 5,
+          "fn": 1,
+          "support": 16
+        },
+        "PRODUCT": {
+          "precision": 0.9,
+          "recall": 1.0,
+          "f1": 0.9474,
+          "tp": 18,
+          "fp": 2,
+          "fn": 0,
+          "support": 18
+        }
+      }
+    }
+  },
+  "A_no_noise_noisy": {
+    "strict": {
+      "mode": "strict",
+      "iou_threshold": null,
+      "overall": {
+        "precision": 0.4439,
+        "recall": 0.6905,
+        "f1": 0.5404,
+        "tp": 87,
+        "fp": 109,
+        "fn": 39,
+        "support": 126
+      },
+      "per_entity_type": {
+        "CONTRACT_ID": {
+          "precision": 0.2703,
+          "recall": 0.4348,
+          "f1": 0.3333,
+          "tp": 10,
+          "fp": 27,
+          "fn": 13,
+          "support": 23
+        },
+        "EMAIL": {
+          "precision": 0.5143,
+          "recall": 0.7826,
+          "f1": 0.6207,
+          "tp": 18,
+          "fp": 17,
+          "fn": 5,
+          "support": 23
+        },
+        "ISSUE_DATE": {
+          "precision": 0.5926,
+          "recall": 0.5926,
+          "f1": 0.5926,
+          "tp": 16,
+          "fp": 11,
+          "fn": 11,
+          "support": 27
+        },
+        "NAME": {
+          "precision": 0.5455,
+          "recall": 0.7742,
+          "f1": 0.64,
+          "tp": 24,
+          "fp": 20,
+          "fn": 7,
+          "support": 31
+        },
+        "PRODUCT": {
+          "precision": 0.3585,
+          "recall": 0.8636,
+          "f1": 0.5067,
+          "tp": 19,
+          "fp": 34,
+          "fn": 3,
+          "support": 22
+        }
+      }
+    },
+    "partial": {
+      "mode": "partial",
+      "iou_threshold": 0.5,
+      "overall": {
+        "precision": 0.5714,
+        "recall": 0.8889,
+        "f1": 0.6957,
+        "tp": 112,
+        "fp": 84,
+        "fn": 14,
+        "support": 126
+      },
+      "per_entity_type": {
+        "CONTRACT_ID": {
+          "precision": 0.4865,
+          "recall": 0.7826,
+          "f1": 0.6,
+          "tp": 18,
+          "fp": 19,
+          "fn": 5,
+          "support": 23
+        },
+        "EMAIL": {
+          "precision": 0.6571,
+          "recall": 1.0,
+          "f1": 0.7931,
+          "tp": 23,
+          "fp": 12,
+          "fn": 0,
+          "support": 23
+        },
+        "ISSUE_DATE": {
+          "precision": 0.8148,
+          "recall": 0.8148,
+          "f1": 0.8148,
+          "tp": 22,
+          "fp": 5,
+          "fn": 5,
+          "support": 27
+        },
+        "NAME": {
+          "precision": 0.6136,
+          "recall": 0.871,
+          "f1": 0.72,
+          "tp": 27,
+          "fp": 17,
+          "fn": 4,
+          "support": 31
+        },
+        "PRODUCT": {
+          "precision": 0.4151,
+          "recall": 1.0,
+          "f1": 0.5867,
+          "tp": 22,
+          "fp": 31,
+          "fn": 0,
+          "support": 22
+        }
+      }
+    }
+  },
+  "B_no_oral": {
+    "strict": {
+      "mode": "strict",
+      "iou_threshold": null,
+      "overall": {
+        "precision": 0.7229,
+        "recall": 0.7895,
+        "f1": 0.7547,
+        "tp": 60,
+        "fp": 23,
+        "fn": 16,
+        "support": 76
+      },
+      "per_entity_type": {
+        "CONTRACT_ID": {
+          "precision": 0.5,
+          "recall": 0.5333,
+          "f1": 0.5161,
+          "tp": 8,
+          "fp": 8,
+          "fn": 7,
+          "support": 15
+        },
+        "EMAIL": {
+          "precision": 0.6364,
+          "recall": 0.6364,
+          "f1": 0.6364,
+          "tp": 7,
+          "fp": 4,
+          "fn": 4,
+          "support": 11
+        },
+        "ISSUE_DATE": {
+          "precision": 0.8333,
+          "recall": 0.9375,
+          "f1": 0.8824,
+          "tp": 15,
+          "fp": 3,
+          "fn": 1,
+          "support": 16
+        },
+        "NAME": {
+          "precision": 0.75,
+          "recall": 0.9375,
+          "f1": 0.8333,
+          "tp": 15,
+          "fp": 5,
+          "fn": 1,
+          "support": 16
+        },
+        "PRODUCT": {
+          "precision": 0.8333,
+          "recall": 0.8333,
+          "f1": 0.8333,
+          "tp": 15,
+          "fp": 3,
+          "fn": 3,
+          "support": 18
+        }
+      }
+    },
+    "partial": {
+      "mode": "partial",
+      "iou_threshold": 0.5,
+      "overall": {
+        "precision": 0.9036,
+        "recall": 0.9868,
+        "f1": 0.9434,
+        "tp": 75,
+        "fp": 8,
+        "fn": 1,
+        "support": 76
+      },
+      "per_entity_type": {
+        "CONTRACT_ID": {
+          "precision": 0.9375,
+          "recall": 1.0,
+          "f1": 0.9677,
+          "tp": 15,
+          "fp": 1,
+          "fn": 0,
+          "support": 15
+        },
+        "EMAIL": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "tp": 11,
+          "fp": 0,
+          "fn": 0,
+          "support": 11
+        },
+        "ISSUE_DATE": {
+          "precision": 0.8889,
+          "recall": 1.0,
+          "f1": 0.9412,
+          "tp": 16,
+          "fp": 2,
+          "fn": 0,
+          "support": 16
+        },
+        "NAME": {
+          "precision": 0.75,
+          "recall": 0.9375,
+          "f1": 0.8333,
+          "tp": 15,
+          "fp": 5,
+          "fn": 1,
+          "support": 16
+        },
+        "PRODUCT": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "tp": 18,
+          "fp": 0,
+          "fn": 0,
+          "support": 18
+        }
+      }
+    }
+  },
+  "B_no_oral_noisy": {
+    "strict": {
+      "mode": "strict",
+      "iou_threshold": null,
+      "overall": {
+        "precision": 0.4304,
+        "recall": 0.5397,
+        "f1": 0.4789,
+        "tp": 68,
+        "fp": 90,
+        "fn": 58,
+        "support": 126
+      },
+      "per_entity_type": {
+        "CONTRACT_ID": {
+          "precision": 0.1562,
+          "recall": 0.2174,
+          "f1": 0.1818,
+          "tp": 5,
+          "fp": 27,
+          "fn": 18,
+          "support": 23
+        },
+        "EMAIL": {
+          "precision": 0.4286,
+          "recall": 0.5217,
+          "f1": 0.4706,
+          "tp": 12,
+          "fp": 16,
+          "fn": 11,
+          "support": 23
+        },
+        "ISSUE_DATE": {
+          "precision": 0.6207,
+          "recall": 0.6667,
+          "f1": 0.6429,
+          "tp": 18,
+          "fp": 11,
+          "fn": 9,
+          "support": 27
+        },
+        "NAME": {
+          "precision": 0.5,
+          "recall": 0.6774,
+          "f1": 0.5753,
+          "tp": 21,
+          "fp": 21,
+          "fn": 10,
+          "support": 31
+        },
+        "PRODUCT": {
+          "precision": 0.4444,
+          "recall": 0.5455,
+          "f1": 0.4898,
+          "tp": 12,
+          "fp": 15,
+          "fn": 10,
+          "support": 22
+        }
+      }
+    },
+    "partial": {
+      "mode": "partial",
+      "iou_threshold": 0.5,
+      "overall": {
+        "precision": 0.7089,
+        "recall": 0.8889,
+        "f1": 0.7887,
+        "tp": 112,
+        "fp": 46,
+        "fn": 14,
+        "support": 126
+      },
+      "per_entity_type": {
+        "CONTRACT_ID": {
+          "precision": 0.6875,
+          "recall": 0.9565,
+          "f1": 0.8,
+          "tp": 22,
+          "fp": 10,
+          "fn": 1,
+          "support": 23
+        },
+        "EMAIL": {
+          "precision": 0.75,
+          "recall": 0.913,
+          "f1": 0.8235,
+          "tp": 21,
+          "fp": 7,
+          "fn": 2,
+          "support": 23
+        },
+        "ISSUE_DATE": {
+          "precision": 0.7931,
+          "recall": 0.8519,
+          "f1": 0.8214,
+          "tp": 23,
+          "fp": 6,
+          "fn": 4,
+          "support": 27
+        },
+        "NAME": {
+          "precision": 0.6667,
+          "recall": 0.9032,
+          "f1": 0.7671,
+          "tp": 28,
+          "fp": 14,
+          "fn": 3,
+          "support": 31
+        },
+        "PRODUCT": {
+          "precision": 0.6667,
+          "recall": 0.8182,
+          "f1": 0.7347,
+          "tp": 18,
+          "fp": 9,
+          "fn": 4,
+          "support": 22
+        }
+      }
+    }
+  },
+  "C_no_partial": {
+    "strict": {
+      "mode": "strict",
+      "iou_threshold": null,
+      "overall": {
+        "precision": 0.5385,
+        "recall": 0.3684,
+        "f1": 0.4375,
+        "tp": 28,
+        "fp": 24,
+        "fn": 48,
+        "support": 76
+      },
+      "per_entity_type": {
+        "CONTRACT_ID": {
+          "precision": 0.5556,
+          "recall": 0.3333,
+          "f1": 0.4167,
+          "tp": 5,
+          "fp": 4,
+          "fn": 10,
+          "support": 15
+        },
+        "EMAIL": {
+          "precision": 0.4545,
+          "recall": 0.4545,
+          "f1": 0.4545,
+          "tp": 5,
+          "fp": 6,
+          "fn": 6,
+          "support": 11
+        },
+        "ISSUE_DATE": {
+          "precision": 0.6667,
+          "recall": 0.375,
+          "f1": 0.48,
+          "tp": 6,
+          "fp": 3,
+          "fn": 10,
+          "support": 16
+        },
+        "NAME": {
+          "precision": 0.6364,
+          "recall": 0.4375,
+          "f1": 0.5185,
+          "tp": 7,
+          "fp": 4,
+          "fn": 9,
+          "support": 16
+        },
+        "PRODUCT": {
+          "precision": 0.4167,
+          "recall": 0.2778,
+          "f1": 0.3333,
+          "tp": 5,
+          "fp": 7,
+          "fn": 13,
+          "support": 18
+        }
+      }
+    },
+    "partial": {
+      "mode": "partial",
+      "iou_threshold": 0.5,
+      "overall": {
+        "precision": 0.7115,
+        "recall": 0.4868,
+        "f1": 0.5781,
+        "tp": 37,
+        "fp": 15,
+        "fn": 39,
+        "support": 76
+      },
+      "per_entity_type": {
+        "CONTRACT_ID": {
+          "precision": 0.8889,
+          "recall": 0.5333,
+          "f1": 0.6667,
+          "tp": 8,
+          "fp": 1,
+          "fn": 7,
+          "support": 15
+        },
+        "EMAIL": {
+          "precision": 0.5455,
+          "recall": 0.5455,
+          "f1": 0.5455,
+          "tp": 6,
+          "fp": 5,
+          "fn": 5,
+          "support": 11
+        },
+        "ISSUE_DATE": {
+          "precision": 0.7778,
+          "recall": 0.4375,
+          "f1": 0.56,
+          "tp": 7,
+          "fp": 2,
+          "fn": 9,
+          "support": 16
+        },
+        "NAME": {
+          "precision": 0.6364,
+          "recall": 0.4375,
+          "f1": 0.5185,
+          "tp": 7,
+          "fp": 4,
+          "fn": 9,
+          "support": 16
+        },
+        "PRODUCT": {
+          "precision": 0.75,
+          "recall": 0.5,
+          "f1": 0.6,
+          "tp": 9,
+          "fp": 3,
+          "fn": 9,
+          "support": 18
+        }
+      }
+    }
+  },
+  "C_no_partial_noisy": {
+    "strict": {
+      "mode": "strict",
+      "iou_threshold": null,
+      "overall": {
+        "precision": 0.3182,
+        "recall": 0.0556,
+        "f1": 0.0946,
+        "tp": 7,
+        "fp": 15,
+        "fn": 119,
+        "support": 126
+      },
+      "per_entity_type": {
+        "CONTRACT_ID": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 2,
+          "fn": 23,
+          "support": 23
+        },
+        "EMAIL": {
+          "precision": 0.1429,
+          "recall": 0.0435,
+          "f1": 0.0667,
+          "tp": 1,
+          "fp": 6,
+          "fn": 22,
+          "support": 23
+        },
+        "ISSUE_DATE": {
+          "precision": 1.0,
+          "recall": 0.037,
+          "f1": 0.0714,
+          "tp": 1,
+          "fp": 0,
+          "fn": 26,
+          "support": 27
+        },
+        "NAME": {
+          "precision": 0.5714,
+          "recall": 0.129,
+          "f1": 0.2105,
+          "tp": 4,
+          "fp": 3,
+          "fn": 27,
+          "support": 31
+        },
+        "PRODUCT": {
+          "precision": 0.2,
+          "recall": 0.0455,
+          "f1": 0.0741,
+          "tp": 1,
+          "fp": 4,
+          "fn": 21,
+          "support": 22
+        }
+      }
+    },
+    "partial": {
+      "mode": "partial",
+      "iou_threshold": 0.5,
+      "overall": {
+        "precision": 0.6364,
+        "recall": 0.1111,
+        "f1": 0.1892,
+        "tp": 14,
+        "fp": 8,
+        "fn": 112,
+        "support": 126
+      },
+      "per_entity_type": {
+        "CONTRACT_ID": {
+          "precision": 0.5,
+          "recall": 0.0435,
+          "f1": 0.08,
+          "tp": 1,
+          "fp": 1,
+          "fn": 22,
+          "support": 23
+        },
+        "EMAIL": {
+          "precision": 0.8571,
+          "recall": 0.2609,
+          "f1": 0.4,
+          "tp": 6,
+          "fp": 1,
+          "fn": 17,
+          "support": 23
+        },
+        "ISSUE_DATE": {
+          "precision": 1.0,
+          "recall": 0.037,
+          "f1": 0.0714,
+          "tp": 1,
+          "fp": 0,
+          "fn": 26,
+          "support": 27
+        },
+        "NAME": {
+          "precision": 0.7143,
+          "recall": 0.1613,
+          "f1": 0.2632,
+          "tp": 5,
+          "fp": 2,
+          "fn": 26,
+          "support": 31
+        },
+        "PRODUCT": {
+          "precision": 0.2,
+          "recall": 0.0455,
+          "f1": 0.0741,
+          "tp": 1,
+          "fp": 4,
+          "fn": 21,
+          "support": 22
+        }
+      }
+    }
+  },
+  "main": {
+    "strict": {
+      "mode": "strict",
+      "iou_threshold": null,
+      "overall": {
+        "precision": 0.759,
+        "recall": 0.8289,
+        "f1": 0.7925,
+        "tp": 63,
+        "fp": 20,
+        "fn": 13,
+        "support": 76
+      },
+      "per_entity_type": {
+        "CONTRACT_ID": {
+          "precision": 0.5625,
+          "recall": 0.6,
+          "f1": 0.5806,
+          "tp": 9,
+          "fp": 7,
+          "fn": 6,
+          "support": 15
+        },
+        "EMAIL": {
+          "precision": 0.8182,
+          "recall": 0.8182,
+          "f1": 0.8182,
+          "tp": 9,
+          "fp": 2,
+          "fn": 2,
+          "support": 11
+        },
+        "ISSUE_DATE": {
+          "precision": 0.7778,
+          "recall": 0.875,
+          "f1": 0.8235,
+          "tp": 14,
+          "fp": 4,
+          "fn": 2,
+          "support": 16
+        },
+        "NAME": {
+          "precision": 0.8,
+          "recall": 1.0,
+          "f1": 0.8889,
+          "tp": 16,
+          "fp": 4,
+          "fn": 0,
+          "support": 16
+        },
+        "PRODUCT": {
+          "precision": 0.8333,
+          "recall": 0.8333,
+          "f1": 0.8333,
+          "tp": 15,
+          "fp": 3,
+          "fn": 3,
+          "support": 18
+        }
+      }
+    },
+    "partial": {
+      "mode": "partial",
+      "iou_threshold": 0.5,
+      "overall": {
+        "precision": 0.9036,
+        "recall": 0.9868,
+        "f1": 0.9434,
+        "tp": 75,
+        "fp": 8,
+        "fn": 1,
+        "support": 76
+      },
+      "per_entity_type": {
+        "CONTRACT_ID": {
+          "precision": 0.9375,
+          "recall": 1.0,
+          "f1": 0.9677,
+          "tp": 15,
+          "fp": 1,
+          "fn": 0,
+          "support": 15
+        },
+        "EMAIL": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "tp": 11,
+          "fp": 0,
+          "fn": 0,
+          "support": 11
+        },
+        "ISSUE_DATE": {
+          "precision": 0.8333,
+          "recall": 0.9375,
+          "f1": 0.8824,
+          "tp": 15,
+          "fp": 3,
+          "fn": 1,
+          "support": 16
+        },
+        "NAME": {
+          "precision": 0.8,
+          "recall": 1.0,
+          "f1": 0.8889,
+          "tp": 16,
+          "fp": 4,
+          "fn": 0,
+          "support": 16
+        },
+        "PRODUCT": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "tp": 18,
+          "fp": 0,
+          "fn": 0,
+          "support": 18
+        }
+      }
+    }
+  },
+  "main_noisy": {
+    "strict": {
+      "mode": "strict",
+      "iou_threshold": null,
+      "overall": {
+        "precision": 0.4934,
+        "recall": 0.5952,
+        "f1": 0.5396,
+        "tp": 75,
+        "fp": 77,
+        "fn": 51,
+        "support": 126
+      },
+      "per_entity_type": {
+        "CONTRACT_ID": {
+          "precision": 0.0833,
+          "recall": 0.1304,
+          "f1": 0.1017,
+          "tp": 3,
+          "fp": 33,
+          "fn": 20,
+          "support": 23
+        },
+        "EMAIL": {
+          "precision": 0.6071,
+          "recall": 0.7391,
+          "f1": 0.6667,
+          "tp": 17,
+          "fp": 11,
+          "fn": 6,
+          "support": 23
+        },
+        "ISSUE_DATE": {
+          "precision": 0.6296,
+          "recall": 0.6296,
+          "f1": 0.6296,
+          "tp": 17,
+          "fp": 10,
+          "fn": 10,
+          "support": 27
+        },
+        "NAME": {
+          "precision": 0.6571,
+          "recall": 0.7419,
+          "f1": 0.697,
+          "tp": 23,
+          "fp": 12,
+          "fn": 8,
+          "support": 31
+        },
+        "PRODUCT": {
+          "precision": 0.5769,
+          "recall": 0.6818,
+          "f1": 0.625,
+          "tp": 15,
+          "fp": 11,
+          "fn": 7,
+          "support": 22
+        }
+      }
+    },
+    "partial": {
+      "mode": "partial",
+      "iou_threshold": 0.5,
+      "overall": {
+        "precision": 0.7368,
+        "recall": 0.8889,
+        "f1": 0.8058,
+        "tp": 112,
+        "fp": 40,
+        "fn": 14,
+        "support": 126
+      },
+      "per_entity_type": {
+        "CONTRACT_ID": {
+          "precision": 0.6111,
+          "recall": 0.9565,
+          "f1": 0.7458,
+          "tp": 22,
+          "fp": 14,
+          "fn": 1,
+          "support": 23
+        },
+        "EMAIL": {
+          "precision": 0.7857,
+          "recall": 0.9565,
+          "f1": 0.8627,
+          "tp": 22,
+          "fp": 6,
+          "fn": 1,
+          "support": 23
+        },
+        "ISSUE_DATE": {
+          "precision": 0.7778,
+          "recall": 0.7778,
+          "f1": 0.7778,
+          "tp": 21,
+          "fp": 6,
+          "fn": 6,
+          "support": 27
+        },
+        "NAME": {
+          "precision": 0.8,
+          "recall": 0.9032,
+          "f1": 0.8485,
+          "tp": 28,
+          "fp": 7,
+          "fn": 3,
+          "support": 31
+        },
+        "PRODUCT": {
+          "precision": 0.7308,
+          "recall": 0.8636,
+          "f1": 0.7917,
+          "tp": 19,
+          "fp": 7,
+          "fn": 3,
+          "support": 22
+        }
+      }
+    }
+  }
+}

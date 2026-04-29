@@ -1,0 +1,44 @@
+{
+  "total_predictions": 83,
+  "buckets": {
+    "0.0-0.5": {
+      "count": 3,
+      "reliable": false,
+      "mean_confidence": 0.4584,
+      "strict_precision": 0.0,
+      "partial_precision": 0.0,
+      "note": "n=3, below threshold of 5 \u2014 interpret with caution"
+    },
+    "0.5-0.7": {
+      "count": 4,
+      "reliable": false,
+      "mean_confidence": 0.6149,
+      "strict_precision": 0.5,
+      "partial_precision": 0.5,
+      "note": "n=4, below threshold of 5 \u2014 interpret with caution"
+    },
+    "0.7-0.8": {
+      "count": 2,
+      "reliable": false,
+      "mean_confidence": 0.7747,
+      "strict_precision": 0.5,
+      "partial_precision": 1.0,
+      "note": "n=2, below threshold of 5 \u2014 interpret with caution"
+    },
+    "0.8-0.9": {
+      "count": 18,
+      "reliable": true,
+      "mean_confidence": 0.8607,
+      "strict_precision": 0.6111,
+      "partial_precision": 0.8333
+    },
+    "0.9-1.0": {
+      "count": 56,
+      "reliable": true,
+      "mean_confidence": 0.9542,
+      "strict_precision": 0.875,
+      "partial_precision": 1.0
+    }
+  },
+  "expected_calibration_error": 0.1076
+}

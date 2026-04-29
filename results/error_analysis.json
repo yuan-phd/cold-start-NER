@@ -1,0 +1,243 @@
+{
+  "total_errors": 12,
+  "error_type_counts": {
+    "FALSE_ALARM": 3,
+    "BOUNDARY": 8,
+    "TYPE_CONFUSION": 1
+  },
+  "error_by_entity_type": {
+    "NAME": {
+      "FALSE_ALARM": 2
+    },
+    "PRODUCT": {
+      "BOUNDARY": 3
+    },
+    "ISSUE_DATE": {
+      "BOUNDARY": 3,
+      "FALSE_ALARM": 1
+    },
+    "EMAIL": {
+      "BOUNDARY": 2,
+      "TYPE_CONFUSION": 1
+    }
+  },
+  "error_by_noise_level": {
+    "unknown": {
+      "FALSE_ALARM": 3,
+      "BOUNDARY": 8,
+      "TYPE_CONFUSION": 1
+    }
+  },
+  "sample_errors": [
+    {
+      "type": "FALSE_ALARM",
+      "predicted": {
+        "text": "patel",
+        "label": "NAME",
+        "start": 31,
+        "end": 36,
+        "confidence": 0.5451,
+        "partial": false
+      },
+      "gold": null,
+      "detail": "No matching gold entity for 'patel' (NAME)"
+    },
+    {
+      "type": "BOUNDARY",
+      "predicted": {
+        "text": "iphone 15 pro screen",
+        "label": "PRODUCT",
+        "start": 22,
+        "end": 42,
+        "confidence": 0.8851,
+        "partial": false
+      },
+      "gold": {
+        "text": "iphone 15 pro",
+        "label": "PRODUCT",
+        "start": 22,
+        "end": 35
+      },
+      "iou": 0.65,
+      "detail": "Pred [22:42] vs Gold [22:35]"
+    },
+    {
+      "type": "BOUNDARY",
+      "predicted": {
+        "text": "the",
+        "label": "ISSUE_DATE",
+        "start": 51,
+        "end": 54,
+        "confidence": 0.6788,
+        "partial": false
+      },
+      "gold": {
+        "text": "the day before yesterday",
+        "label": "ISSUE_DATE",
+        "start": 51,
+        "end": 75
+      },
+      "iou": 0.125,
+      "detail": "Pred [51:54] vs Gold [51:75]"
+    },
+    {
+      "type": "BOUNDARY",
+      "predicted": {
+        "text": "day before yesterday",
+        "label": "ISSUE_DATE",
+        "start": 55,
+        "end": 75,
+        "confidence": 0.7653,
+        "partial": false
+      },
+      "gold": {
+        "text": "the day before yesterday",
+        "label": "ISSUE_DATE",
+        "start": 51,
+        "end": 75
+      },
+      "iou": 0.833,
+      "detail": "Pred [55:75] vs Gold [51:75]"
+    },
+    {
+      "type": "BOUNDARY",
+      "predicted": {
+        "text": "nya.sharma at gmail dot com",
+        "label": "EMAIL",
+        "start": 79,
+        "end": 106,
+        "confidence": 0.9651,
+        "partial": false
+      },
+      "gold": {
+        "text": "ananya.sharma at gmail dot com",
+        "label": "EMAIL",
+        "start": 76,
+        "end": 106
+      },
+      "iou": 0.9,
+      "detail": "Pred [79:106] vs Gold [76:106]"
+    },
+    {
+      "type": "FALSE_ALARM",
+      "predicted": {
+        "text": "ana",
+        "label": "NAME",
+        "start": 76,
+        "end": 79,
+        "confidence": 0.8166,
+        "partial": false
+      },
+      "gold": null,
+      "detail": "No matching gold entity for 'ana' (NAME)"
+    },
+    {
+      "type": "BOUNDARY",
+      "predicted": {
+        "text": "fitbit charge",
+        "label": "PRODUCT",
+        "start": 4,
+        "end": 17,
+        "confidence": 0.8509,
+        "partial": false
+      },
+      "gold": {
+        "text": "fitbit charge 6",
+        "label": "PRODUCT",
+        "start": 4,
+        "end": 19
+      },
+      "iou": 0.867,
+      "detail": "Pred [4:17] vs Gold [4:19]"
+    },
+    {
+      "type": "FALSE_ALARM",
+      "predicted": {
+        "text": "first",
+        "label": "ISSUE_DATE",
+        "start": 116,
+        "end": 121,
+        "confidence": 0.4747,
+        "partial": false
+      },
+      "gold": null,
+      "detail": "No matching gold entity for 'first' (ISSUE_DATE)"
+    },
+    {
+      "type": "BOUNDARY",
+      "predicted": {
+        "text": "nintendo switch ole",
+        "label": "PRODUCT",
+        "start": 38,
+        "end": 57,
+        "confidence": 0.9324,
+        "partial": false
+      },
+      "gold": {
+        "text": "nintendo switch oled",
+        "label": "PRODUCT",
+        "start": 38,
+        "end": 58
+      },
+      "iou": 0.95,
+      "detail": "Pred [38:57] vs Gold [38:58]"
+    },
+    {
+      "type": "BOUNDARY",
+      "predicted": {
+        "text": "march",
+        "label": "ISSUE_DATE",
+        "start": 51,
+        "end": 56,
+        "confidence": 0.8021,
+        "partial": false
+      },
+      "gold": {
+        "text": "the sixteenth of march",
+        "label": "ISSUE_DATE",
+        "start": 34,
+        "end": 56
+      },
+      "iou": 0.227,
+      "detail": "Pred [51:56] vs Gold [34:56]"
+    },
+    {
+      "type": "TYPE_CONFUSION",
+      "predicted": {
+        "text": "richard",
+        "label": "NAME",
+        "start": 20,
+        "end": 27,
+        "confidence": 0.8093,
+        "partial": false
+      },
+      "gold": {
+        "text": "richard dot harris at protonmail dot com",
+        "label": "EMAIL",
+        "start": 20,
+        "end": 60
+      },
+      "iou": 0.175,
+      "detail": "Predicted NAME, actual EMAIL"
+    },
+    {
+      "type": "BOUNDARY",
+      "predicted": {
+        "text": "dot harris at protonmail dot com",
+        "label": "EMAIL",
+        "start": 28,
+        "end": 60,
+        "confidence": 0.9597,
+        "partial": false
+      },
+      "gold": {
+        "text": "richard dot harris at protonmail dot com",
+        "label": "EMAIL",
+        "start": 20,
+        "end": 60
+      },
+      "iou": 0.8,
+      "detail": "Pred [28:60] vs Gold [20:60]"
+    }
+  ]
+}

@@ -1,0 +1,1855 @@
+[
+  {
+    "text": "yeah hi uh my name is bob martinez and i got this order number CT-55123 but the thing arrived broken",
+    "entities": [
+      {
+        "text": "bob martinez",
+        "label": "NAME",
+        "start": 22,
+        "end": 34
+      },
+      {
+        "text": "CT-55123",
+        "label": "CONTRACT_ID",
+        "start": 63,
+        "end": 71
+      }
+    ]
+  },
+  {
+    "text": "um so i bought the Samsung Galaxy S24 like three days ago and its already not working",
+    "entities": [
+      {
+        "text": "Samsung Galaxy S24",
+        "label": "PRODUCT",
+        "start": 19,
+        "end": 37
+      },
+      {
+        "text": "three days ago",
+        "label": "ISSUE_DATE",
+        "start": 43,
+        "end": 57
+      }
+    ]
+  },
+  {
+    "text": "hi this is sarah johnson calling about my account my email is sarah dot j at yahoo dot com",
+    "entities": [
+      {
+        "text": "sarah johnson",
+        "label": "NAME",
+        "start": 11,
+        "end": 24
+      },
+      {
+        "text": "sarah dot j at yahoo dot com",
+        "label": "EMAIL",
+        "start": 62,
+        "end": 90
+      }
+    ]
+  },
+  {
+    "text": "can you transfer me to someone else please i've been waiting for twenty minutes",
+    "entities": []
+  },
+  {
+    "text": "ok so the order is ORD-2024-8891 and i need to return the Dyson V15 vacuum it was delivered on February 3rd",
+    "entities": [
+      {
+        "text": "ORD-2024-8891",
+        "label": "CONTRACT_ID",
+        "start": 19,
+        "end": 32
+      },
+      {
+        "text": "Dyson V15 vacuum",
+        "label": "PRODUCT",
+        "start": 58,
+        "end": 74
+      },
+      {
+        "text": "February 3rd",
+        "label": "ISSUE_DATE",
+        "start": 95,
+        "end": 107
+      }
+    ]
+  },
+  {
+    "text": "my name is uh david no wait daniel allen and my contract id is HD-2025-03312",
+    "entities": [
+      {
+        "text": "daniel allen",
+        "label": "NAME",
+        "start": 28,
+        "end": 40
+      },
+      {
+        "text": "HD-2025-03312",
+        "label": "CONTRACT_ID",
+        "start": 63,
+        "end": 76
+      }
+    ]
+  },
+  {
+    "text": "i ordered a playstation 5 last tuesday and it still hasnt shipped yet my reference number is REF-44821",
+    "entities": [
+      {
+        "text": "playstation 5",
+        "label": "PRODUCT",
+        "start": 12,
+        "end": 25
+      },
+      {
+        "text": "last tuesday",
+        "label": "ISSUE_DATE",
+        "start": 26,
+        "end": 38
+      },
+      {
+        "text": "REF-44821",
+        "label": "CONTRACT_ID",
+        "start": 93,
+        "end": 102
+      }
+    ]
+  },
+  {
+    "text": "yeah its priya patel p r i y a patel and you can reach me at priya.patel@outlook.com",
+    "entities": [
+      {
+        "text": "priya patel",
+        "label": "NAME",
+        "start": 9,
+        "end": 20
+      },
+      {
+        "text": "priya.patel@outlook.com",
+        "label": "EMAIL",
+        "start": 61,
+        "end": 84
+      }
+    ]
+  },
+  {
+    "text": "hold on let me find it um the the number is uh A1B2C3 i think thats right",
+    "entities": [
+      {
+        "text": "A1B2C3",
+        "label": "CONTRACT_ID",
+        "start": 47,
+        "end": 53
+      }
+    ]
+  },
+  {
+    "text": "we bought the premium subscription plan about a week ago and want to cancel",
+    "entities": [
+      {
+        "text": "premium subscription plan",
+        "label": "PRODUCT",
+        "start": 14,
+        "end": 39
+      },
+      {
+        "text": "about a week ago",
+        "label": "ISSUE_DATE",
+        "start": 40,
+        "end": 56
+      }
+    ]
+  },
+  {
+    "text": "im calling because my iphone 15 pro screen cracked the day before yesterday",
+    "entities": [
+      {
+        "text": "iphone 15 pro",
+        "label": "PRODUCT",
+        "start": 22,
+        "end": 35
+      },
+      {
+        "text": "the day before yesterday",
+        "label": "ISSUE_DATE",
+        "start": 51,
+        "end": 75
+      }
+    ]
+  },
+  {
+    "text": "no i dont have the order number but my name is mohammed al rashid and my email is m.alrashid at gmail dot com",
+    "entities": [
+      {
+        "text": "mohammed al rashid",
+        "label": "NAME",
+        "start": 47,
+        "end": 65
+      },
+      {
+        "text": "m.alrashid at gmail dot com",
+        "label": "EMAIL",
+        "start": 82,
+        "end": 109
+      }
+    ]
+  },
+  {
+    "text": "yeah thank you for holding i appreciate your patience",
+    "entities": []
+  },
+  {
+    "text": "the fiber optic 500 mbps plan has been having issues since end of last month and my account is SUB-33018",
+    "entities": [
+      {
+        "text": "fiber optic 500 mbps plan",
+        "label": "PRODUCT",
+        "start": 4,
+        "end": 29
+      },
+      {
+        "text": "end of last month",
+        "label": "ISSUE_DATE",
+        "start": 59,
+        "end": 76
+      },
+      {
+        "text": "SUB-33018",
+        "label": "CONTRACT_ID",
+        "start": 95,
+        "end": 104
+      }
+    ]
+  },
+  {
+    "text": "hi um im liam obrien thats l i a m obrien and i need help with order TKT-90274 for the ring doorbell i got on 2024-09-15",
+    "entities": [
+      {
+        "text": "liam obrien",
+        "label": "NAME",
+        "start": 9,
+        "end": 20
+      },
+      {
+        "text": "TKT-90274",
+        "label": "CONTRACT_ID",
+        "start": 69,
+        "end": 78
+      },
+      {
+        "text": "ring doorbell",
+        "label": "PRODUCT",
+        "start": 87,
+        "end": 100
+      },
+      {
+        "text": "2024-09-15",
+        "label": "ISSUE_DATE",
+        "start": 110,
+        "end": 120
+      }
+    ]
+  },
+  {
+    "text": "its for the extended warranty package the one i got earlier this week",
+    "entities": [
+      {
+        "text": "extended warranty package",
+        "label": "PRODUCT",
+        "start": 12,
+        "end": 37
+      },
+      {
+        "text": "earlier this week",
+        "label": "ISSUE_DATE",
+        "start": 52,
+        "end": 69
+      }
+    ]
+  },
+  {
+    "text": "you can email me at carlos dot rivera at protonmail dot com my name is carlos rivera",
+    "entities": [
+      {
+        "text": "carlos dot rivera at protonmail dot com",
+        "label": "EMAIL",
+        "start": 20,
+        "end": 59
+      },
+      {
+        "text": "carlos rivera",
+        "label": "NAME",
+        "start": 71,
+        "end": 84
+      }
+    ]
+  },
+  {
+    "text": "i dont remember exactly when maybe sometime last week but the macbook air m3 just stopped turning on",
+    "entities": [
+      {
+        "text": "sometime last week",
+        "label": "ISSUE_DATE",
+        "start": 35,
+        "end": 53
+      },
+      {
+        "text": "macbook air m3",
+        "label": "PRODUCT",
+        "start": 62,
+        "end": 76
+      }
+    ]
+  },
+  {
+    "text": "please just transfer me already this is the third time ive called",
+    "entities": []
+  },
+  {
+    "text": "my wifes name is ananya sharma and she placed the order its under her email ananya.sharma at gmail dot com for the nespresso vertuo on january 15th with order id CUS-88710",
+    "entities": [
+      {
+        "text": "ananya sharma",
+        "label": "NAME",
+        "start": 17,
+        "end": 30
+      },
+      {
+        "text": "ananya.sharma at gmail dot com",
+        "label": "EMAIL",
+        "start": 76,
+        "end": 106
+      },
+      {
+        "text": "nespresso vertuo",
+        "label": "PRODUCT",
+        "start": 115,
+        "end": 131
+      },
+      {
+        "text": "january 15th",
+        "label": "ISSUE_DATE",
+        "start": 135,
+        "end": 147
+      },
+      {
+        "text": "CUS-88710",
+        "label": "CONTRACT_ID",
+        "start": 162,
+        "end": 171
+      }
+    ]
+  },
+  {
+    "text": "john smith here i need help with my order",
+    "entities": [
+      {
+        "text": "john smith",
+        "label": "NAME",
+        "start": 0,
+        "end": 10
+      }
+    ]
+  },
+  {
+    "text": "ORD-2024-7721 thats my order number and i want to know the status",
+    "entities": [
+      {
+        "text": "ORD-2024-7721",
+        "label": "CONTRACT_ID",
+        "start": 0,
+        "end": 13
+      }
+    ]
+  },
+  {
+    "text": "samsung galaxy s24 thats what i ordered and it hasnt arrived",
+    "entities": [
+      {
+        "text": "samsung galaxy s24",
+        "label": "PRODUCT",
+        "start": 0,
+        "end": 18
+      }
+    ]
+  },
+  {
+    "text": "can you look up the account the name on it is maria garcia",
+    "entities": [
+      {
+        "text": "maria garcia",
+        "label": "NAME",
+        "start": 46,
+        "end": 58
+      }
+    ]
+  },
+  {
+    "text": "the order was placed by my husband his name is william jackson",
+    "entities": [
+      {
+        "text": "william jackson",
+        "label": "NAME",
+        "start": 47,
+        "end": 62
+      }
+    ]
+  },
+  {
+    "text": "TKT-90274 is the ticket number i was given when i called last time about the ipad air",
+    "entities": [
+      {
+        "text": "TKT-90274",
+        "label": "CONTRACT_ID",
+        "start": 0,
+        "end": 9
+      },
+      {
+        "text": "ipad air",
+        "label": "PRODUCT",
+        "start": 77,
+        "end": 85
+      }
+    ]
+  },
+  {
+    "text": "hi yeah its alice chen calling about my subscription",
+    "entities": [
+      {
+        "text": "alice chen",
+        "label": "NAME",
+        "start": 12,
+        "end": 22
+      }
+    ]
+  },
+  {
+    "text": "this is carlos rivera and i need to update my email to carlos dot rivera at protonmail dot com",
+    "entities": [
+      {
+        "text": "carlos rivera",
+        "label": "NAME",
+        "start": 8,
+        "end": 21
+      },
+      {
+        "text": "carlos dot rivera at protonmail dot com",
+        "label": "EMAIL",
+        "start": 55,
+        "end": 94
+      }
+    ]
+  },
+  {
+    "text": "my name is linda white email linda.w@yahoo.com about order WO-67893",
+    "entities": [
+      {
+        "text": "linda white",
+        "label": "NAME",
+        "start": 11,
+        "end": 22
+      },
+      {
+        "text": "linda.w@yahoo.com",
+        "label": "EMAIL",
+        "start": 29,
+        "end": 46
+      },
+      {
+        "text": "WO-67893",
+        "label": "CONTRACT_ID",
+        "start": 59,
+        "end": 67
+      }
+    ]
+  },
+  {
+    "text": "the fitbit charge 6 order REF-44821 from last friday",
+    "entities": [
+      {
+        "text": "fitbit charge 6",
+        "label": "PRODUCT",
+        "start": 4,
+        "end": 19
+      },
+      {
+        "text": "REF-44821",
+        "label": "CONTRACT_ID",
+        "start": 26,
+        "end": 35
+      },
+      {
+        "text": "last friday",
+        "label": "ISSUE_DATE",
+        "start": 41,
+        "end": 52
+      }
+    ]
+  },
+  {
+    "text": "ok so let me explain what happened i bought the dell xps 15 laptop about three weeks ago and it was working fine at first but then last monday morning the screen started flickering and now it wont turn on at all and i really need it for work so i need to either get a replacement or a refund my order number is PRJ-10284",
+    "entities": [
+      {
+        "text": "dell xps 15",
+        "label": "PRODUCT",
+        "start": 48,
+        "end": 59
+      },
+      {
+        "text": "about three weeks ago",
+        "label": "ISSUE_DATE",
+        "start": 67,
+        "end": 88
+      },
+      {
+        "text": "last monday morning",
+        "label": "ISSUE_DATE",
+        "start": 131,
+        "end": 150
+      },
+      {
+        "text": "PRJ-10284",
+        "label": "CONTRACT_ID",
+        "start": 311,
+        "end": 320
+      }
+    ]
+  },
+  {
+    "text": "i signed up for the cloud storage 2tb plan on february 3rd and my account number is LIC-55901",
+    "entities": [
+      {
+        "text": "cloud storage 2tb plan",
+        "label": "PRODUCT",
+        "start": 20,
+        "end": 42
+      },
+      {
+        "text": "february 3rd",
+        "label": "ISSUE_DATE",
+        "start": 46,
+        "end": 58
+      },
+      {
+        "text": "LIC-55901",
+        "label": "CONTRACT_ID",
+        "start": 84,
+        "end": 93
+      }
+    ]
+  },
+  {
+    "text": "yeah my email is d.allen@email.com and i want to cancel the annual maintenance contract",
+    "entities": [
+      {
+        "text": "d.allen@email.com",
+        "label": "EMAIL",
+        "start": 17,
+        "end": 34
+      },
+      {
+        "text": "annual maintenance contract",
+        "label": "PRODUCT",
+        "start": 60,
+        "end": 87
+      }
+    ]
+  },
+  {
+    "text": "i placed an order two weeks ago for a nintendo switch oled under the name fatima osei",
+    "entities": [
+      {
+        "text": "two weeks ago",
+        "label": "ISSUE_DATE",
+        "start": 18,
+        "end": 31
+      },
+      {
+        "text": "nintendo switch oled",
+        "label": "PRODUCT",
+        "start": 38,
+        "end": 58
+      },
+      {
+        "text": "fatima osei",
+        "label": "NAME",
+        "start": 74,
+        "end": 85
+      }
+    ]
+  },
+  {
+    "text": "yeah im still here just waiting can you check again please",
+    "entities": []
+  },
+  {
+    "text": "ok thanks for letting me know is there anything else i should do",
+    "entities": []
+  },
+  {
+    "text": "the product is called ring doorbell and my name is also ring wei can you believe that",
+    "entities": [
+      {
+        "text": "ring doorbell",
+        "label": "PRODUCT",
+        "start": 22,
+        "end": 35
+      },
+      {
+        "text": "ring wei",
+        "label": "NAME",
+        "start": 56,
+        "end": 64
+      }
+    ]
+  },
+  {
+    "text": "i got it on the fifteenth no wait the sixteenth of march",
+    "entities": [
+      {
+        "text": "the sixteenth of march",
+        "label": "ISSUE_DATE",
+        "start": 34,
+        "end": 56
+      }
+    ]
+  },
+  {
+    "text": "you can reach me at karen.robinson@gmail.com if there are any updates on the delivery",
+    "entities": [
+      {
+        "text": "karen.robinson@gmail.com",
+        "label": "EMAIL",
+        "start": 20,
+        "end": 44
+      }
+    ]
+  },
+  {
+    "text": "my email address is richard dot harris at protonmail dot com and the order is INV-2023-887",
+    "entities": [
+      {
+        "text": "richard dot harris at protonmail dot com",
+        "label": "EMAIL",
+        "start": 20,
+        "end": 60
+      },
+      {
+        "text": "INV-2023-887",
+        "label": "CONTRACT_ID",
+        "start": 78,
+        "end": 90
+      }
+    ]
+  },
+  {
+    "text": "w.jackson@email.com thats my email can someone get back to me about my refund",
+    "entities": [
+      {
+        "text": "w.jackson@email.com",
+        "label": "EMAIL",
+        "start": 0,
+        "end": 19
+      }
+    ]
+  },
+  {
+    "text": "um yeah so my emale is like jess dot m at gmial dot com i always mess it up",
+    "entities": [
+      {
+        "text": "jess dot m at gmial dot com",
+        "label": "EMAIL",
+        "start": 28,
+        "end": 55
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "send the confirmation to to nhall at companey dot org thats n h a l l",
+    "entities": [
+      {
+        "text": "nhall at companey dot org",
+        "label": "EMAIL",
+        "start": 28,
+        "end": 53
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "hi my naem is jennifer taylr and i need help with my ordr",
+    "entities": [
+      {
+        "text": "jennifer taylr",
+        "label": "NAME",
+        "start": 14,
+        "end": 28
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "the ordor numbr is O R D dash 2024 dash 5591 i thnk",
+    "entities": [
+      {
+        "text": "O R D dash 2024 dash 5591",
+        "label": "CONTRACT_ID",
+        "start": 19,
+        "end": 44
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "my emial is sarahj at yaho dot com",
+    "entities": [
+      {
+        "text": "sarahj at yaho dot com",
+        "label": "EMAIL",
+        "start": 12,
+        "end": 34
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "um yeah so like my name is uh robert wilson and um i bought the uh sony wh one thousand xm five headphones",
+    "entities": [
+      {
+        "text": "robert wilson",
+        "label": "NAME",
+        "start": 30,
+        "end": 43
+      },
+      {
+        "text": "sony wh one thousand xm five headphones",
+        "label": "PRODUCT",
+        "start": 67,
+        "end": 106
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "so basically i think it was uh like about a week ago maybe uh ten days ago i dont really remember",
+    "entities": [
+      {
+        "text": "about a week ago",
+        "label": "ISSUE_DATE",
+        "start": 36,
+        "end": 52
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "myname is is david anderson and myemail is david dot a at company dot com",
+    "entities": [
+      {
+        "text": "david anderson",
+        "label": "NAME",
+        "start": 13,
+        "end": 27
+      },
+      {
+        "text": "david dot a at company dot com",
+        "label": "EMAIL",
+        "start": 43,
+        "end": 73
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "the the contract number is is SUB dash three three zero one eight",
+    "entities": [
+      {
+        "text": "SUB dash three three zero one eight",
+        "label": "CONTRACT_ID",
+        "start": 30,
+        "end": 65
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "hi um its uh prya patel thats p r i y a and i orderd the the kindle paperwite like um three days ago",
+    "entities": [
+      {
+        "text": "prya patel",
+        "label": "NAME",
+        "start": 13,
+        "end": 23
+      },
+      {
+        "text": "kindle paperwite",
+        "label": "PRODUCT",
+        "start": 61,
+        "end": 77
+      },
+      {
+        "text": "three days ago",
+        "label": "ISSUE_DATE",
+        "start": 86,
+        "end": 100
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "yeah so my email is um mbrown fourty two at outlok dot com and the refrence number is ref dash four four eight two one",
+    "entities": [
+      {
+        "text": "mbrown fourty two at outlok dot com",
+        "label": "EMAIL",
+        "start": 23,
+        "end": 58
+      },
+      {
+        "text": "ref dash four four eight two one",
+        "label": "CONTRACT_ID",
+        "start": 86,
+        "end": 118
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "i wanna return the the lg oled tv sixtyfive inch i got it on on uh novmber thirtieth",
+    "entities": [
+      {
+        "text": "lg oled tv sixtyfive inch",
+        "label": "PRODUCT",
+        "start": 23,
+        "end": 48
+      },
+      {
+        "text": "novmber thirtieth",
+        "label": "ISSUE_DATE",
+        "start": 67,
+        "end": 84
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "yeah so um this is betty young and i neeed to return the uh airpods pro i got them on like jan fifteenth my order is ACC-00192",
+    "entities": [
+      {
+        "text": "betty young",
+        "label": "NAME",
+        "start": 19,
+        "end": 30
+      },
+      {
+        "text": "airpods pro",
+        "label": "PRODUCT",
+        "start": 60,
+        "end": 71
+      },
+      {
+        "text": "jan fifteenth",
+        "label": "ISSUE_DATE",
+        "start": 91,
+        "end": 104
+      },
+      {
+        "text": "ACC-00192",
+        "label": "CONTRACT_ID",
+        "start": 117,
+        "end": 126
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "my name is uh david no wait daniel allen and my contract is ORD-2024-7712",
+    "entities": [
+      {
+        "text": "daniel allen",
+        "label": "NAME",
+        "start": 28,
+        "end": 40
+      },
+      {
+        "text": "ORD-2024-7712",
+        "label": "CONTRACT_ID",
+        "start": 60,
+        "end": 73
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "my email is james at gmail no sorry james dot r at gmail dot com",
+    "entities": [
+      {
+        "text": "james dot r at gmail dot com",
+        "label": "EMAIL",
+        "start": 36,
+        "end": 64
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "the order number is ORD dash 2024 dash um no wait its ORD dash 2025 dash 0091",
+    "entities": [
+      {
+        "text": "ORD dash 2025 dash 0091",
+        "label": "CONTRACT_ID",
+        "start": 54,
+        "end": 77
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "i bought the um samsung galaxy no actually it was the iphone fifteen pro max",
+    "entities": [
+      {
+        "text": "iphone fifteen pro max",
+        "label": "PRODUCT",
+        "start": 54,
+        "end": 76
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "it was on monday i think no wait it was tuesday the eighteenth",
+    "entities": [
+      {
+        "text": "tuesday the eighteenth",
+        "label": "ISSUE_DATE",
+        "start": 40,
+        "end": 62
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "its sarah no i mean lisa thompsen and i need help with my order",
+    "entities": [
+      {
+        "text": "lisa thompsen",
+        "label": "NAME",
+        "start": 20,
+        "end": 33
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "yeah so um send it to like mjones at hotmal dot com no actually mjones at gmail dot com",
+    "entities": [
+      {
+        "text": "mjones at gmail dot com",
+        "label": "EMAIL",
+        "start": 64,
+        "end": 87
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "i ordered a dyson v fifteen no sorry a dyson v twelve detect about two weeks ago",
+    "entities": [
+      {
+        "text": "dyson v twelve detect",
+        "label": "PRODUCT",
+        "start": 39,
+        "end": 60
+      },
+      {
+        "text": "two weeks ago",
+        "label": "ISSUE_DATE",
+        "start": 67,
+        "end": 80
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "my name is john no wait james no sorry jason park and my email is jpark at yahoo dot com",
+    "entities": [
+      {
+        "text": "jason park",
+        "label": "NAME",
+        "start": 39,
+        "end": 49
+      },
+      {
+        "text": "jpark at yahoo dot com",
+        "label": "EMAIL",
+        "start": 66,
+        "end": 88
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "the reference is SUB dash 44012 i mean SUB dash 44021 yeah thats right",
+    "entities": [
+      {
+        "text": "SUB dash 44021",
+        "label": "CONTRACT_ID",
+        "start": 39,
+        "end": 53
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "hi my name is micahel chen and i neeed to cancl my subscrption",
+    "entities": [
+      {
+        "text": "micahel chen",
+        "label": "NAME",
+        "start": 14,
+        "end": 26
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "the prodct i orderd was the nintendo swtich oled bundel",
+    "entities": [
+      {
+        "text": "nintendo swtich oled bundel",
+        "label": "PRODUCT",
+        "start": 28,
+        "end": 55
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "my emial adress is k dot wong at outllok dot com can you chek that",
+    "entities": [
+      {
+        "text": "k dot wong at outllok dot com",
+        "label": "EMAIL",
+        "start": 19,
+        "end": 48
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "i placeed the ordr on febuary twentyith i think",
+    "entities": [
+      {
+        "text": "febuary twentyith",
+        "label": "ISSUE_DATE",
+        "start": 22,
+        "end": 39
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "the refrence numbr is TKT dash nine oh two seven fohr",
+    "entities": [
+      {
+        "text": "TKT dash nine oh two seven fohr",
+        "label": "CONTRACT_ID",
+        "start": 22,
+        "end": 53
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "yeah its amanada garcia and i bougth a bose quietcomfrt headphnes",
+    "entities": [
+      {
+        "text": "amanada garcia",
+        "label": "NAME",
+        "start": 9,
+        "end": 23
+      },
+      {
+        "text": "bose quietcomfrt headphnes",
+        "label": "PRODUCT",
+        "start": 39,
+        "end": 65
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "so like um i was like wondering if you could like check on my order you know the um premium wireless charger",
+    "entities": [
+      {
+        "text": "premium wireless charger",
+        "label": "PRODUCT",
+        "start": 84,
+        "end": 108
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "um so basically uh my name is like uh tom brady you know and uh i need to uh return something",
+    "entities": [
+      {
+        "text": "tom brady",
+        "label": "NAME",
+        "start": 38,
+        "end": 47
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "uh yeah so um the email is uh rjohnson at uh proton mail dot com you know",
+    "entities": [
+      {
+        "text": "rjohnson at uh proton mail dot com",
+        "label": "EMAIL",
+        "start": 30,
+        "end": 64
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "mhm yeah so like it was um about uh three weeks ago i think yeah mhm",
+    "entities": [
+      {
+        "text": "about uh three weeks ago",
+        "label": "ISSUE_DATE",
+        "start": 27,
+        "end": 51
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "so um like the contract thing is um REQ dash uh 2025 dash like 1147 right",
+    "entities": [
+      {
+        "text": "REQ dash uh 2025 dash like 1147",
+        "label": "CONTRACT_ID",
+        "start": 36,
+        "end": 67
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "well um so like i got the uh apple watch ultra right and um it was like delivered on um march third i think",
+    "entities": [
+      {
+        "text": "apple watch ultra",
+        "label": "PRODUCT",
+        "start": 29,
+        "end": 46
+      },
+      {
+        "text": "march third",
+        "label": "ISSUE_DATE",
+        "start": 88,
+        "end": 99
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "myname is is rachel kim and myorder is is overdue",
+    "entities": [
+      {
+        "text": "rachel kim",
+        "label": "NAME",
+        "start": 13,
+        "end": 23
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "the the product was a a logitech mx master three mouse and it it broke",
+    "entities": [
+      {
+        "text": "logitech mx master three mouse",
+        "label": "PRODUCT",
+        "start": 24,
+        "end": 54
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "itslike the email is is jlee at at fastmail dot com",
+    "entities": [
+      {
+        "text": "jlee at at fastmail dot com",
+        "label": "EMAIL",
+        "start": 24,
+        "end": 51
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "i i ordered it on on the the fifteenth of of january",
+    "entities": [
+      {
+        "text": "fifteenth of of january",
+        "label": "ISSUE_DATE",
+        "start": 29,
+        "end": 52
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "the the order number number is RET dash 2025 dash dash 0087",
+    "entities": [
+      {
+        "text": "RET dash 2025 dash dash 0087",
+        "label": "CONTRACT_ID",
+        "start": 31,
+        "end": 59
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "my name is nguyen thats n g u y e n and first name is thi t h i",
+    "entities": [
+      {
+        "text": "nguyen",
+        "label": "NAME",
+        "start": 11,
+        "end": 17
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "the email is asmith thats a s m i t h at gmail dot com",
+    "entities": [
+      {
+        "text": "asmith thats a s m i t h at gmail dot com",
+        "label": "EMAIL",
+        "start": 13,
+        "end": 54
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "order number is charlie tango dash 5 5 1 2 3 thats CT dash 55123",
+    "entities": [
+      {
+        "text": "CT dash 55123",
+        "label": "CONTRACT_ID",
+        "start": 51,
+        "end": 64
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "yeah its maria m a r i a santos s a n t o s calling about my order",
+    "entities": [
+      {
+        "text": "maria m a r i a santos s a n t o s",
+        "label": "NAME",
+        "start": 9,
+        "end": 43
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "my email is p dot chen thats p as in peter dot c h e n at outlook dot com",
+    "entities": [
+      {
+        "text": "p dot chen thats p as in peter dot c h e n at outlook dot com",
+        "label": "EMAIL",
+        "start": 12,
+        "end": 73
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "hi this is kevin martinez and i need to check on order ord-2024-6634",
+    "entities": [
+      {
+        "text": "kevin martinez",
+        "label": "NAME",
+        "start": 11,
+        "end": 25
+      },
+      {
+        "text": "ord-2024-6634",
+        "label": "CONTRACT_ID",
+        "start": 55,
+        "end": 68
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "my email is slee at company dot org and i bought the playstation five digital edition",
+    "entities": [
+      {
+        "text": "slee at company dot org",
+        "label": "EMAIL",
+        "start": 12,
+        "end": 35
+      },
+      {
+        "text": "playstation five digital edition",
+        "label": "PRODUCT",
+        "start": 53,
+        "end": 85
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "um yeah so its carlos ruiz and the order was placed on december tenth",
+    "entities": [
+      {
+        "text": "carlos ruiz",
+        "label": "NAME",
+        "start": 15,
+        "end": 26
+      },
+      {
+        "text": "december tenth",
+        "label": "ISSUE_DATE",
+        "start": 55,
+        "end": 69
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "the contract number is sub dash 99281 and the product is a samsung galaxy tab s9",
+    "entities": [
+      {
+        "text": "sub dash 99281",
+        "label": "CONTRACT_ID",
+        "start": 23,
+        "end": 37
+      },
+      {
+        "text": "samsung galaxy tab s9",
+        "label": "PRODUCT",
+        "start": 59,
+        "end": 80
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "i need to return the item my name is wei zhang email is wzhang at mail dot com order ref dash 10042",
+    "entities": [
+      {
+        "text": "wei zhang",
+        "label": "NAME",
+        "start": 37,
+        "end": 46
+      },
+      {
+        "text": "wzhang at mail dot com",
+        "label": "EMAIL",
+        "start": 56,
+        "end": 78
+      },
+      {
+        "text": "ref dash 10042",
+        "label": "CONTRACT_ID",
+        "start": 85,
+        "end": 99
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "i bought it on like last monday morning and it stopped working by wednesday",
+    "entities": [
+      {
+        "text": "last monday morning",
+        "label": "ISSUE_DATE",
+        "start": 20,
+        "end": 39
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "it was delivered um maybe two or three weeks ago im not totally sure",
+    "entities": [
+      {
+        "text": "two or three weeks ago",
+        "label": "ISSUE_DATE",
+        "start": 26,
+        "end": 48
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "the purchase was on the twenty first of feb this year",
+    "entities": [
+      {
+        "text": "twenty first of feb",
+        "label": "ISSUE_DATE",
+        "start": 24,
+        "end": 43
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "uh i think it was like around christmas time maybe december twenty third or twenty fourth",
+    "entities": [
+      {
+        "text": "december twenty third or twenty fourth",
+        "label": "ISSUE_DATE",
+        "start": 51,
+        "end": 89
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "so i orderd it like the day before yesterday and its already broken can you believe that",
+    "entities": [
+      {
+        "text": "the day before yesterday",
+        "label": "ISSUE_DATE",
+        "start": 20,
+        "end": 44
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "it was sometime in early january like maybe the second or third i dont remember exactly",
+    "entities": [
+      {
+        "text": "early january",
+        "label": "ISSUE_DATE",
+        "start": 19,
+        "end": 32
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "um this is anna lee alee at inbox dot com order TKT-2025-0003",
+    "entities": [
+      {
+        "text": "anna lee",
+        "label": "NAME",
+        "start": 11,
+        "end": 19
+      },
+      {
+        "text": "alee at inbox dot com",
+        "label": "EMAIL",
+        "start": 20,
+        "end": 41
+      },
+      {
+        "text": "TKT-2025-0003",
+        "label": "CONTRACT_ID",
+        "start": 48,
+        "end": 61
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "hi im omar hassan email ohassan at gmail dot com i bought the sony xm5 earbuds on feb third",
+    "entities": [
+      {
+        "text": "omar hassan",
+        "label": "NAME",
+        "start": 6,
+        "end": 17
+      },
+      {
+        "text": "ohassan at gmail dot com",
+        "label": "EMAIL",
+        "start": 24,
+        "end": 48
+      },
+      {
+        "text": "sony xm5 earbuds",
+        "label": "PRODUCT",
+        "start": 62,
+        "end": 78
+      },
+      {
+        "text": "feb third",
+        "label": "ISSUE_DATE",
+        "start": 82,
+        "end": 91
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "james wu jameswu at tech dot org REQ-2024-8891 iphone sixteen pro march twelfth",
+    "entities": [
+      {
+        "text": "james wu",
+        "label": "NAME",
+        "start": 0,
+        "end": 8
+      },
+      {
+        "text": "jameswu at tech dot org",
+        "label": "EMAIL",
+        "start": 9,
+        "end": 32
+      },
+      {
+        "text": "REQ-2024-8891",
+        "label": "CONTRACT_ID",
+        "start": 33,
+        "end": 46
+      },
+      {
+        "text": "iphone sixteen pro",
+        "label": "PRODUCT",
+        "start": 47,
+        "end": 65
+      },
+      {
+        "text": "march twelfth",
+        "label": "ISSUE_DATE",
+        "start": 66,
+        "end": 79
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "yeah its uh nina patel nina dot p at yahoo dot com and the order is ORD dash 2025 dash 0412",
+    "entities": [
+      {
+        "text": "nina patel",
+        "label": "NAME",
+        "start": 12,
+        "end": 22
+      },
+      {
+        "text": "nina dot p at yahoo dot com",
+        "label": "EMAIL",
+        "start": 23,
+        "end": 50
+      },
+      {
+        "text": "ORD dash 2025 dash 0412",
+        "label": "CONTRACT_ID",
+        "start": 68,
+        "end": 91
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "so the prodct is a dell xps fifteen laptop order number RMA dash 70219 purchsed on jan ninth",
+    "entities": [
+      {
+        "text": "dell xps fifteen laptop",
+        "label": "PRODUCT",
+        "start": 19,
+        "end": 42
+      },
+      {
+        "text": "RMA dash 70219",
+        "label": "CONTRACT_ID",
+        "start": 56,
+        "end": 70
+      },
+      {
+        "text": "jan ninth",
+        "label": "ISSUE_DATE",
+        "start": 83,
+        "end": 92
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "ok so um like hi my name is uh stephanie chen and like i bought this um samsung galaxy s24 ultra from your store like about two weeks ago and um the screen like started flickering and now it wont turn on and like i tried everything and my email is steph dot chen at gmail dot com and the order was um ORD dash 2025 dash 1234 i think",
+    "entities": [
+      {
+        "text": "stephanie chen",
+        "label": "NAME",
+        "start": 31,
+        "end": 45
+      },
+      {
+        "text": "samsung galaxy s24 ultra",
+        "label": "PRODUCT",
+        "start": 72,
+        "end": 96
+      },
+      {
+        "text": "about two weeks ago",
+        "label": "ISSUE_DATE",
+        "start": 118,
+        "end": 137
+      },
+      {
+        "text": "steph dot chen at gmail dot com",
+        "label": "EMAIL",
+        "start": 248,
+        "end": 279
+      },
+      {
+        "text": "ORD dash 2025 dash 1234",
+        "label": "CONTRACT_ID",
+        "start": 301,
+        "end": 324
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "yeah so basically um i called yesterday and nobody helped me right so my name is like marcus johnson and uh i ordered a dyson airwrap complete on um january fifteenth and the the order number is SUB dash 2025 dash 0088 and my email is mjohnson at protonmail dot com and i want a refund because it stopped working after like two days",
+    "entities": [
+      {
+        "text": "marcus johnson",
+        "label": "NAME",
+        "start": 86,
+        "end": 100
+      },
+      {
+        "text": "dyson airwrap complete",
+        "label": "PRODUCT",
+        "start": 120,
+        "end": 142
+      },
+      {
+        "text": "january fifteenth",
+        "label": "ISSUE_DATE",
+        "start": 149,
+        "end": 166
+      },
+      {
+        "text": "SUB dash 2025 dash 0088",
+        "label": "CONTRACT_ID",
+        "start": 195,
+        "end": 218
+      },
+      {
+        "text": "mjohnson at protonmail dot com",
+        "label": "EMAIL",
+        "start": 235,
+        "end": 265
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "hi um so uh this is really frustrating but um my name is aisha khan thats a i s h a and um i need to return the the bose quietcomfort ultra headphones i got on like march first from your website the order ref is TKT dash 2025 dash 0771 and my email is akhan at company dot co dot uk",
+    "entities": [
+      {
+        "text": "aisha khan",
+        "label": "NAME",
+        "start": 57,
+        "end": 67
+      },
+      {
+        "text": "bose quietcomfort ultra headphones",
+        "label": "PRODUCT",
+        "start": 116,
+        "end": 150
+      },
+      {
+        "text": "march first",
+        "label": "ISSUE_DATE",
+        "start": 165,
+        "end": 176
+      },
+      {
+        "text": "TKT dash 2025 dash 0771",
+        "label": "CONTRACT_ID",
+        "start": 212,
+        "end": 235
+      },
+      {
+        "text": "akhan at company dot co dot uk",
+        "label": "EMAIL",
+        "start": 252,
+        "end": 282
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "so like um ok i know this is complicated but bear with me right so i orderd two things a logitech mx keys keyboard and a logitech mx master mouse on uh feb twenty second and only the keyboard arrived and my name is pat rivera and email is privera at outlook dot com order is ORD dash 2025 dash 4421",
+    "entities": [
+      {
+        "text": "pat rivera",
+        "label": "NAME",
+        "start": 215,
+        "end": 225
+      },
+      {
+        "text": "logitech mx keys keyboard",
+        "label": "PRODUCT",
+        "start": 89,
+        "end": 114
+      },
+      {
+        "text": "feb twenty second",
+        "label": "ISSUE_DATE",
+        "start": 152,
+        "end": 169
+      },
+      {
+        "text": "privera at outlook dot com",
+        "label": "EMAIL",
+        "start": 239,
+        "end": 265
+      },
+      {
+        "text": "ORD dash 2025 dash 4421",
+        "label": "CONTRACT_ID",
+        "start": 275,
+        "end": 298
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "um yeah so like i was just wondering if you guys have like any sales going on right now you know",
+    "entities": [],
+    "noisy": true
+  },
+  {
+    "text": "hi uh can you tell me what your return policy is i just wanna know before i buy anything",
+    "entities": [],
+    "noisy": true
+  },
+  {
+    "text": "so like basically i just wanted to say that the customer service last time was really great you know mhm yeah thanks",
+    "entities": [],
+    "noisy": true
+  },
+  {
+    "text": "yeah so uh my colleague sarah chen she placed the order last week",
+    "entities": [
+      {
+        "text": "sarah chen",
+        "label": "NAME",
+        "start": 24,
+        "end": 34
+      },
+      {
+        "text": "last week",
+        "label": "ISSUE_DATE",
+        "start": 56,
+        "end": 65
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "the account holder michael rivera called yesterday about the refund",
+    "entities": [
+      {
+        "text": "michael rivera",
+        "label": "NAME",
+        "start": 19,
+        "end": 33
+      },
+      {
+        "text": "yesterday",
+        "label": "ISSUE_DATE",
+        "start": 41,
+        "end": 50
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "um could you look up the order for diana ross she needs to return the airpods max",
+    "entities": [
+      {
+        "text": "diana ross",
+        "label": "NAME",
+        "start": 35,
+        "end": 45
+      },
+      {
+        "text": "airpods max",
+        "label": "PRODUCT",
+        "start": 70,
+        "end": 81
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "talking to you from the account of nina patel order REF dash 2025 dash 0093",
+    "entities": [
+      {
+        "text": "nina patel",
+        "label": "NAME",
+        "start": 35,
+        "end": 45
+      },
+      {
+        "text": "REF dash 2025 dash 0093",
+        "label": "CONTRACT_ID",
+        "start": 52,
+        "end": 75
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "so the person who orderd it was um kwame osei and it was a sony wh one thousand xm five",
+    "entities": [
+      {
+        "text": "kwame osei",
+        "label": "NAME",
+        "start": 35,
+        "end": 45
+      },
+      {
+        "text": "sony wh one thousand xm five",
+        "label": "PRODUCT",
+        "start": 59,
+        "end": 87
+      }
+    ],
+    "noisy": true
+  },
+  {
+    "text": "kwesi mensah here um i need to check on a return i started about three days ago",
+    "entities": [
+      {
+        "text": "kwesi mensah",
+        "label": "NAME",
+        "start": 0,
+        "end": 12
+      },
+      {
+        "text": "about three days ago",
+        "label": "ISSUE_DATE",
+        "start": 59,
+        "end": 79
+      }
+    ],
+    "noisy": true
+  }
+]
